@@ -1,5 +1,5 @@
 import React from 'react'
-import img from "../images/magnafull.webp"
+import img from "../images/mainirestoranarka.jpg"
 import Link from 'next/link'
 
 const MainRestaurantSection = () => {

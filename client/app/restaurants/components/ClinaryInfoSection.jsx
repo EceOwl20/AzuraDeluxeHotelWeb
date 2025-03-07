@@ -1,13 +1,11 @@
 "use client";
 import React, { useEffect, useState, useRef } from "react";
-import defaultImg1 from "../images/art1.webp";
-import defaultImg2 from "../images/art2.webp";
 import Image from "next/image";
 
 const ClinaryInfoSection = ({
   // Dışarıdan farklı görseller gelmezse varsayılan olarak import edilenler kullanılacak
-  img1 = defaultImg1,
-  img2 = defaultImg2,
+  img1 ,
+  img2 ,
   span,
   header,
   texts = [],
@@ -81,6 +79,7 @@ const ClinaryInfoSection = ({
         {/* Görsel Alanı */}
         <div className="flex w-[65%] sm:w-[50%] min-w-[310px] md:w-[48.8%] items-center md:items-center lg:items-start  lg:mt-[67px] md:mt-0 justify-start relative md:h-[555px] h-auto mb-[60px]">
           <Image
+           style={{ objectFit: "cover" }}
             src={img2}
             alt="art"
             width={img2.width}
@@ -90,6 +89,7 @@ const ClinaryInfoSection = ({
             }`}
           />
           <Image
+           style={{ objectFit: "cover" }}
             src={img1}
             alt="art"
             width={img1.width}

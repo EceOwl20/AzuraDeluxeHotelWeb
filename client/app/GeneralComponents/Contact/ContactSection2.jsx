@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect, useRef } from "react";
 import Image from 'next/image'
-import minigallery from "./images/azuragallery.png"
+import minigallery from "./images/azuragallery.webp"
 import Link from 'next/link'
 import { PiInstagramLogoLight, PiMetaLogoLight, PiFacebookLogoLight, PiYoutubeLogoLight } from "react-icons/pi";
 

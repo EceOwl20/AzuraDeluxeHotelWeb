@@ -8,27 +8,27 @@ import Image from "next/image";
 // Varsayılan slaytlar
 const DEFAULT_SLIDES = [
   {
-    src: require("./Images/Accommodation.webp"),
+    src: require("./Images/accommodation.jpg"),
     title: "Accommodation",
     span: "/rooms",
   },
   {
-    src: require("./Images/BeachAndPool2.webp"),
+    src: require("./Images/Beachandpool.jpg"),
     title: "Beach & Pools",
     span: "/beachpools",
   },
   {
-    src: require("./Images/Entertainment.webp"),
+    src: require("./Images/Entertainment.jpg"),
     title: "Experiences",
     span: "/entertainment",
   },
   {
-    src: require("./Images/Flavours2.webp"),
+    src: require("./Images/Flavours.jpg"),
     title: "Flavours",
     span: "/restaurants",
   },
   {
-    src: require("./Images/Kids.webp"),
+    src: require("./Images/kids.jpg"),
     title: "Kids",
     span: "/kidsclub",
   },

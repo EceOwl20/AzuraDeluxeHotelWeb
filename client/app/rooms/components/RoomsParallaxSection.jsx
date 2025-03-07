@@ -1,5 +1,5 @@
 import React from "react";
-import oda from "../images/oda.png";
+import oda from "../images/parallax.jpg";
 import MinibarSvg from "./svg/MinibarSvg";
 import FoundationSvg from "./svg/FoundationSvg";
 import WatchSvg from "./svg/WatchSvg";

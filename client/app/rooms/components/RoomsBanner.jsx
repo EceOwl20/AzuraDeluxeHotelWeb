@@ -1,5 +1,5 @@
 import React from 'react'
-import roomsBanner from "../images/roomsBanner.png"
+import roomsBanner from "../images/banner.webp"
 import Link from 'next/link'
 
 const RoomsBanner = () => {

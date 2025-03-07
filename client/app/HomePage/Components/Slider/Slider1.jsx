@@ -8,27 +8,27 @@ import Image from "next/image";
 // Varsayılan slaytlar
 const DEFAULT_SLIDES = [
   {
-    src: require("./Images/Accommodation.webp"),
+    src: require("./Images/accommodation.jpg"),
     title: "Accommodation",
     link: "/rooms",
   },
   {
-    src: require("./Images/BeachAndPool2.webp"),
+    src: require("./Images/Flavours.jpg"),
+    title: "Restaurants",
+    link: "/restaurants",
+  },
+  {
+    src: require("./Images/Beachandpool.jpg"),
     title: "Beach & Pools",
     link: "/beachpools",
   },
   {
-    src: require("./Images/Entertainment.webp"),
+    src: require("./Images/Entertainment.jpg"),
     title: "Experiences",
     link: "/entertainment",
   },
   {
-    src: require("./Images/Flavours2.webp"),
-    title: "Flavours",
-    link: "/restaurants",
-  },
-  {
-    src: require("./Images/Kids.webp"),
+    src: require("./Images/kids.jpg"),
     title: "Kids",
     link: "/kidsclub",
   },
@@ -62,13 +62,13 @@ function Slide({ slide, marginClass }) {
         height={540}
         className="lg:w-full lg:h-full md:w-[270px] md:h-[405px] h-[266px] w-[177.3px] object-cover"
       />
-      
+      <div className="absolute inset-0 bg-lagoBlack/40 z-[1]"></div>
         <a
           href={slide.link}
           className=" absolute inset-0 flex items-center justify-center pb-4
             text-white
             text-[20px] md:text-[30px] lg:text-[40px] leading-[9.852px] -tracking-[0.44px] font-normal md:leading-[15px] lg:leading-[20px] md:-tracking-[0.66px] lg:-tracking-[0.88px]
-            font-marcellus transition
+            font-marcellus transition z-[20]
           "
         >
           {slide.title}

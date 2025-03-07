@@ -1,8 +1,8 @@
 "use client";
 import React, { useEffect, useState, useRef } from "react";
 import Image from "next/image";
-import img1 from "./Images/solimg.jpg";
-import img2 from "./Images/sagimg.jpg";
+import img1 from "./Images/blok2.jpg";
+import img2 from "./Images/blok1.jpg";
 import Link from "next/link";
 
 const TwoAnimationImage = ({ span, header, text1, text2 }) => {
@@ -64,6 +64,7 @@ const TwoAnimationImage = ({ span, header, text1, text2 }) => {
 
         <div className="flex w-[65%] min-w-[310px] md:w-[50%] h-[327px] md:h-full lg:w-[48.8%] items-end justify-end relative  mt-[67px] md:mt-0">
           <Image
+            lazy="loading"
             src={img2}
             alt="art"
             width={300}

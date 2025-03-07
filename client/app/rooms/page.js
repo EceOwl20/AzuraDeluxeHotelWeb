@@ -5,22 +5,14 @@ import RoomsSection from "./components/RoomsSection";
 import RoomsSectionReverse from "./components/RoomsSectionReverse";
 import RoomsParallaxSection from "./components/RoomsParallaxSection";
 
-import imgFamily from "./images/odalar2-1.webp";
-import imgFamily2 from "./images/oda2-2.webp";
-import imgSuperior from "./images/superiorRooms.png";
-import imgSuperior2 from "./images/oda1-2.webp";
+import imgFamily from "./images/fam1.png";
+import imgFamily2 from "./images/fam2.png";
+import imgdeluxe from "./images/deluxe2.png";
+import imgdeluxe2 from "./images/deluxe.png";
 
-import imgSwim from "./images/oda3-1.webp";
-import imgSwim2 from "./images/oda3-2.webp";
+import imgFantasy from "./images/fantasy1.png";
+import imgFantasy2 from "./images/fantasy2.png";
 
-import imgFamilySwim from "./images/oda4-1.webp";
-import imgFamilySwim2 from "./images/oda4-2.webp";
-
-import imgTinyvilla from "./images/oda5-1.webp";
-import imgTinyvilla2 from "./images/oda5-2.webp";
-
-import imgDuplex from "./images/oda6-1.webp";
-import imgDuplex2 from "./images/odalar6-2.webp";
 import ContactSection2 from "../GeneralComponents/Contact/ContactSection2";
 
 const page = () => {
@@ -30,8 +22,8 @@ const page = () => {
       <RoomsInfoSection />
       <RoomsSection
       id="superiorroom"
-        img={imgSuperior}
-        img2={imgSuperior2}
+        img={imgdeluxe}
+        img2={imgdeluxe2}
         header=" Deluxe Room"
         text=" Deluxe rooms (30-32 m²) are located from the first to the seventh floor in the main building, 4 of which are handicapped rooms on the ground floor with all necessary equipment."
         span="30-32 m2"
@@ -50,8 +42,8 @@ const page = () => {
       />
 
       <RoomsSection
-        img={imgFamilySwim}
-        img2={imgFamilySwim2}
+        img={imgFantasy}
+        img2={imgFantasy2}
         header="Fantasy Room"
         text="  All specially designed rooms with sea views have a Jacuzzi on the terrace.
 1 Bedroom (1 double bed), 1, 25 m2 terrace, sunbed on the terrace.
@@ -60,8 +52,6 @@ Only 2 people (couples) can stay in Fantasy Sea View Rooms."
         span2="Sea View"
         link="/rooms/fantasyroom" 
       />
-
-
 
       <RoomsParallaxSection />
       <ContactSection2/>

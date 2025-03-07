@@ -2,9 +2,9 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import FamilySwimUpRoom from "./Images/FamilySwim.jpg";
-import Swimup from "./Images/Swimup.jpg";
-import SuperiorRoom from "./Images/Superior.webp";
+import Family from "./Images/ODASOL.png";
+import Fantasy from "./Images/ODAORTA.png";
+import Deluxe from "./Images/ODASAG.png";
 import Area from "./Icons/Area";
 import Tree from "./Icons/Tree";
 import Sea from "./Icons/Sea";
@@ -12,8 +12,8 @@ import Sea from "./Icons/Sea";
 export default function HomePage3() {
   const images = [
     {
-      src: FamilySwimUpRoom,
-      title: "Family Swim-up Room",
+      src: Family,
+      title: "Family Room",
       desc: `This room type with sea or forest view is 50 - 55 m2 and is located in the main building. 
       It consists of 2 separate bedrooms (with interconnecting door): a double bed (for two adults) and a luxury sofa that can be opened for two adults,
        including a bathroom and a sitting area. `,
@@ -22,16 +22,16 @@ export default function HomePage3() {
              link:"/"
     },
     {
-      src: Swimup,
-      title: "Swim Up Room",
+      src: Fantasy,
+      title: "Fantasy Room",
       desc: "This room type with sea or forest view is 40 - 43 m2 and is located in the main building. This room type has 1 double bed and 1 single bed. Sea view and Wald  view rooms have an additional sofa or seating area and feature a pool and terrace. Swimup room with sea view, offers a private pool.",
       area:"40-43 m2",
              span:"Land / Sea View",
              link:"/"
     },
     {
-      src: SuperiorRoom,
-      title: "Superior Room",
+      src: Deluxe,
+      title: "Deluxe Room",
       desc: "This room type is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Services for all rooms (wristband with chip key system, daily replenishment of the minibar, cosmetics in the bathroom, tea and coffee making set)",
       area:" 30-32 m2",
       span:"Land / Sea View",

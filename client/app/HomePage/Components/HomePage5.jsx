@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react"
-import GreenAndBlueFull from "./Images/GreenAndBlueFull2.webp"
+import GreenAndBlueFull from "./Images/greenandblue.png"
 import Link from "next/link"
 
 export default function HomePage5() {
@@ -37,7 +37,7 @@ export default function HomePage5() {
       </div>
 
       <div
-      className="relative w-full h-[246.39px] md:h-[335px] lg:h-[530px] 2xl:h-[50vh] bg-cover bg-start items-center justify-center"
+      className="relative w-full h-[246.39px] md:h-[335px] lg:h-[530px] 2xl:h-[68vh] bg-cover bg-start items-center justify-center"
       style={{
         backgroundImage: `url(${GreenAndBlueFull.src})`
       }}

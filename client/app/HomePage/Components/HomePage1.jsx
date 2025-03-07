@@ -1,9 +1,6 @@
 import React from 'react'
-import EmblaCarousel from "./Slider/Slider1"
-
 
 export default function HomePage1() {
-  
 
   return (
     <div className='flex flex-col w-full items-center justify-center my-[50px]'>
