@@ -5,7 +5,8 @@ import Autoplay from "embla-carousel-autoplay";
 import Image from 'next/image';
 
 const MassageCarousel = ({ span, header, text, headers = [], images = [] }) => {
-  const imagesCombined = [...images, ...images]; // Loop için ikiye katlıyoruz
+  const imagesOriginal= images || DEFAULT_SLIDES;
+  const imagesCombined = [...imagesOriginal, ...imagesOriginal,...imagesOriginal,...imagesOriginal,...imagesOriginal]; // Loop için ikiye katlıyoruz
   const [emblaRef, emblaApi] = useEmblaCarousel(
     {
       align: "start",
@@ -26,7 +27,6 @@ const MassageCarousel = ({ span, header, text, headers = [], images = [] }) => {
 
   const [selectedIndex, setSelectedIndex] = useState(0);
 
-  // Sol ve sağ oklar için scroll fonksiyonları
   const scrollPrev = useCallback(() => {
     if (emblaApi) emblaApi.scrollPrev();
   }, [emblaApi]);
@@ -35,23 +35,13 @@ const MassageCarousel = ({ span, header, text, headers = [], images = [] }) => {
     if (emblaApi) emblaApi.scrollNext();
   }, [emblaApi]);
 
-  // Scroll Indicator'ı güncelleyen fonksiyon
   useEffect(() => {
-    if (!emblaApi) return;
-
-    const onSelect = () => {
-      setSelectedIndex(emblaApi.selectedScrollSnap() % images.length);
-    };
-
-    emblaApi.on("select", onSelect);
-    onSelect(); // Başlangıçta çağır
-    return () => emblaApi.off("select", onSelect);
-  }, [emblaApi, images.length]);
-
-  // Düzeltme: `handleJump` fonksiyonu eksikti, ekledik
-  const handleJump = (index) => {
-    if (emblaApi) emblaApi.scrollTo(index);
-  };
+    if (emblaApi) {
+      emblaApi.on("select", () => {
+        setSelectedIndex(emblaApi.selectedScrollSnap() % imagesOriginal.length); // Index düzeltildi
+      });
+    }
+  }, [emblaApi]);
 
   return (
     <div className="flex flex-col w-screen items-center justify-center gap-[30px] lg:gap-[50px]">
@@ -107,13 +97,13 @@ const MassageCarousel = ({ span, header, text, headers = [], images = [] }) => {
 
         {/* Scroll Indicator */}
         <div className="flex items-start justify-start  w-[93.89%] ml-[6.1%] md:w-[95.7%] md:ml-[4.3%] lg:w-[88.6%] lg:ml-[11.6%] mt-[20px] lg:mt-[50px] relative">
-          {images.map((_, i) => (
+          {imagesOriginal.map((_, i) => (
             <div
               key={i}
-              className={`transition-all mt-[20px] lg:mt-[30px] w-[25%] h-[2px] bg-[#24292C] rounded-full ${
+              className={`transition-all mt-[20px] lg:mt-[30px] ${imagesOriginal.length==4 ? "w-[25%]" : "w-[20%]"} h-[2px] bg-[#24292C] rounded-full ${
                 selectedIndex === i ? "p-[2px]" : "bg-[#848383]"
               }`}
-              onClick={() => handleJump(i)}
+             onClick={() => emblaApi && emblaApi.scrollTo(i)}
             />
           ))}
         </div>

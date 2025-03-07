@@ -23,6 +23,7 @@ import img4 from "./images/blok21.jpg"
 import ContactSection2 from '../GeneralComponents/Contact/ContactSection2'
 
 import mainBanner from "./images/Banner.jpg"
+import BannerDark from '../GeneralComponents/BannerDark'
 
 const cuisines = [
     {
@@ -58,7 +59,7 @@ const cuisines = [
       title: "Patisserie",
       description: "DESSRETS & HOT DRINKS",
       text:"Lorem ipsum dolor sit amet consectetur. Sit velit etiam ultricies facilisi eu amet iaculis leo semper. Mi at ac tellus pretium ornare porttitor scelerisque maecenas. Tellus suspendisse auctor diam dictumst eget elit eu quam.",
-      link:"/restaurants/wasabi"
+      link:"/restaurants/patisserie"
     },
     {
       id: 2,
@@ -66,7 +67,7 @@ const cuisines = [
       title: "Mazurka",
       description: "A LA CARTE SNACKS",
        text:"In our Teppanyaki A’la Carte Restaurant, where dishes of Japanese cuisine prepared in iron pans are presented, you can experience the distinctive flavors of the Far East through the original interpretation of our master chefs. ",
-       link:"/restaurants/fuego"
+       link:"/restaurants/mazurka"
     },
     {
       id: 3,
@@ -74,7 +75,7 @@ const cuisines = [
       title: "Lyric Beach",
       description: "BEACH SNACKS",
        text:"Just next to sunbathing guests on the beach and the pier there’s a bar overlooking the sea, where you could find salads, pizza, fruit, kebap, waffel, snacks and variety of pasta. ",
-       link:"/restaurants/tapazrestaurant"
+       link:"/restaurants/lyric"
     }
   ];
 
@@ -84,7 +85,7 @@ const textsClinary=["LAGO, you will enjoy your vacation with international cuisi
 const page = () => {
   return (
     <div className='overflow-hidden items-center justify-center flex flex-col gap-[60px]  md:gap-[80px] lg:gap-[100px] bg-[#fbfbfb]'>
-      <RestaurantMainBanner img={mainBanner} span="Curated Culinary Experiences" header="Restaurants" text="Enjoy a various amount of dining options from around the world."/>
+      <BannerDark img={mainBanner} span="Curated Culinary Experiences" header="Restaurants" text="Enjoy a various amount of dining options from around the world."/>
       <ClinaryInfoSection img1={img3} img2={img4} span="Perfect Fine Dine Experiences" header=" Culinary Art" texts={textsClinary} />
       <MainRestaurantSection/>
       <CuisinesCarousel span="Perfect Fine Dine Experiences" header="A la Carte Restaurants" text="In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!" cuisines={cuisines}/>
@@ -92,7 +93,7 @@ const page = () => {
      <div className='flex flex-col relative'>
      <CuisinesCarousel span="Perfect Fine Dine Experiences" header="Cafés & Snacks" text="As the Lago family, we are making your dreams come true on the shore where the sand and the sea meet, looking at the horizon, accompanied by the deep blue waters of the Mediterranean. We choose the freshest and best quality fish of our country, surrounded by seas on 3 sides, and add our love to it." cuisines={cuisines2}/>
      </div>
-      <DiscoverBackground span="A UNIQUE FEAST OF TASTE" header="Discover our Bars and Cafes" text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus" link="/restaurant" img={backgroundImg}/>
+      <DiscoverBackground span="A UNIQUE FEAST OF TASTE" header="Discover our Bars" text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus" link="/restaurant" img={backgroundImg}/>
       <ContactSection2/>
     </div>
   )

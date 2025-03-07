@@ -24,7 +24,7 @@ const otherOptions = [
         title: "Orchestra",
         description: "CUISINE: International ",
         text:"Let’s experience the pleasure of retaining the distinctive flavors and culinary traditions of Turkish food on the plate. LAGO has the honor of fusing your dreams with the unique taste of the Mediterranean.",
-        link:"/"
+        link:"/restaurants/orchestrarestaurant"
       },
     {
         id: 2,
@@ -32,7 +32,7 @@ const otherOptions = [
         title: "Bella Azura",
         description: "CUISINE: Teppanyaki (Japanese)",
         text:"Let’s experience the pleasure of retaining the distinctive flavors and culinary traditions of Turkish food on the plate. LAGO has the honor of fusing your dreams with the unique taste of the Mediterranean.",
-        link:"/"
+        link:"/restaurants/bellaazura"
       },
       {
         id: 3,
@@ -40,7 +40,7 @@ const otherOptions = [
         title: "Ottoman",
         description: "CUISINE: Seafood and Fish ", 
          text:"Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the ",
-         link:"/"
+         link:"/restaurants/ottomanrestaurant"
       }
   ];
 
@@ -51,7 +51,7 @@ const page = () => {
       <ClinaryReverseInfo img1={img1} img2={img2} span="Perfect Fine Dine Experiences" header="Exquisite Italian Flavours" text1="Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine.  Lectus proin ac elit sed porttitor habitasse adipiscing id neque." text2="Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."/>
       <KidsMomentCarousel images={images} header="" showheader={false}/>
       <CuisinesCarousel span="Perfect Fine Dine Experiences" header="Other options" text="In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!" cuisines={otherOptions}/>
-      <DiscoverBackground  span="A UNIQUE FEAST OF TASTE" header="Discover our Bars and Cafes" text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus" link="/restaurant" img={backgroundImg}/>
+      <DiscoverBackground  span="A UNIQUE FEAST OF TASTE" header="Discover our Bars" text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus" link="/restaurant" img={backgroundImg}/>
       <ContactSection2/>
     </div>
   )

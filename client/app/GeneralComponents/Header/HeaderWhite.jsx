@@ -246,10 +246,10 @@ export default function HeaderWhite() {
                     All Rooms
                   </Link>
                   <Link
-                    href="/rooms/superiorroom"
+                   href="/rooms/deluxeroom"
                     className="block text-[14px]  leading-[29.639px] uppercase"
                   >
-                    Superior Room
+                    Deluxe Room
                   </Link>
                   <Link
                     href="/rooms/familyroom"
@@ -258,39 +258,28 @@ export default function HeaderWhite() {
                     Family Room
                   </Link>
                   <Link
-                    href="/rooms/swimuproom"
+                    href="/rooms/fantasyroom"
                     className="block text-[14px]  leading-[29.639px] uppercase"
                   >
-                    Swim-up Room
+                    Fantasy Room
                   </Link>
-                  <Link
-                    href="/rooms/familyswimup"
-                    className="block text-[14px] leading-[29.639px] uppercase"
-                  >
-                    Family Swim-up Room
-                  </Link>
-                  <Link
-                    href="/rooms/duplexfamilyroom"
-                    className="block text-[14px] leading-[29.639px] uppercase"
-                  >
-                    Duplex Family Room
-                  </Link>
+                 
                 </div>
               </div>
             </div>
-          <Link href="/beachpools" className="block  font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
+          <Link href="/" className="block  font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
             BEACH & POOL
           </Link>
           <Link href="/restaurants" className="block font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
-            RESTAURANTS
+            RESTAURANTS AND CAFÉS
           </Link>
           <Link href="/barcafes" className="block font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
-            BARS AND CAFÉS
+            BARS 
           </Link>
-          <Link href="/entertainment" className="block font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
+          <Link href="/" className="block font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
             EXPERIENCES
           </Link>
-          <Link href="/kidsclub" className="font-normal leading-[26.667px] items-center gap-[6px] flex w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
+          <Link href="/" className="font-normal leading-[26.667px] items-center gap-[6px] flex w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
             KIDS CLUB
           
           
@@ -299,18 +288,18 @@ export default function HeaderWhite() {
             SPA & WELLNESS
           </Link>
           <Link
-              href="/special"
+              href="/"
               className="block text-lagoBlack  font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none"
             >
               SPECIAL
             </Link>
-          <Link href="/gallery" className="block text-lagoBlack  font-normal leading-normal w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
+          <Link href="/" className="block text-lagoBlack  font-normal leading-normal w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
             GALLERY
           </Link>
-          <Link href="/about" className="block text-lagoBlack font-normal leading-normal w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
+          <Link href="/" className="block text-lagoBlack font-normal leading-normal w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
             OUR HOTEL
           </Link>
-          <Link href="/connect" className="block text-lagoBlack font-normal leading-normal w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
+          <Link href="/" className="block text-lagoBlack font-normal leading-normal w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
             CONTACT
           </Link>
         </nav>
