@@ -2,15 +2,15 @@
 import React, { useCallback, useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Image from 'next/image'
-import fitness from "../images/sportfitness.webp"
-import kids from "../images/kids.webp"
-import water from "../images/yellow-ball.webp"
-import beachvoley from "../images/beachvoley.webp"
-import tennis from "../images/tennis.webp"
-import cinema from "../images/cinema.webp"
-import sunset from "../images/summer-music.webp"
-import stage from "../images/stageshow.webp"
-import themed from "../images/themed.webp"
+import fitness from "../images/FITNESSCENTER.jpg"
+import kids from "../images/kids3.jpg"
+import water from "../images/5042.jpg"
+import beachvoley from "../images/2150407949.jpg"
+import tennis from "../images/kids4.jpg"
+import cinema from "../images/kids1.jpg"
+import sunset from "../images/500.jpg"
+import stage from "../images/kids2.jpg"
+import themed from "../images/kids5.jpg"
 import Link from 'next/link'
 
 const activities = [

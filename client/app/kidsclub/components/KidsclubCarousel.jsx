@@ -1,21 +1,15 @@
 "use client";
 import React, { useState, useEffect, useCallback } from "react";
 import useCarousel from "embla-carousel-react";
-import PandaSvg from './PandaSvg'
-import img1 from "../images/Flavours.webp"
-import img2 from "../images/childactivite.webp"
-import img3 from "../images/babyroom.webp"
-import img5 from "../images/amphitheater.webp"
-import img7 from "../images/childactivite-1.webp"
-import img4 from "../images/ballpool.webp"
-import img6 from "../images/Trambolin.webp"
-import img8 from "../images/kids3.webp"
-import img9 from "../images/gamerooms.webp"
-import panda from "../images/Panda.png"
+import img1 from "../images/submenu/childactivite.jpg"
+import img2 from "../images/submenu/ballpool.jpg"
+import img3 from "../images/submenu/babyroom.jpg"
+import img4 from "../images/submenu/gamerooms.jpg"
+import img5 from "../images/submenu/childactivite-1.jpg"
 import Image from "next/image";
 
-const images=[img1,img2,img3,img4,img5,img6,img7,img8,img9] 
-const headers=["Lego Rooms","Children's Activities","Baby Rooms","Ball Pool","Children's Amphitheater","Trampoline","Playground","Playstation Rooms","Game Rooms"]
+const images=[img1,img2,img3,img4,img5] 
+const headers=["Children's Activities","Mini Disco ","Little Cinema","Game Rooms","Playground"]
 
 const KidsclubCarousel = () => {
     const [emblaRef, emblaApi] = useCarousel({
@@ -47,11 +41,10 @@ const KidsclubCarousel = () => {
     <div className='flex flex-col w-screen items-center justify-center gap-[30px] lg:gap-[50px] pb-[30px] '>
       <div className='flex flex-col w-[87.79%] md:w-[91.4%] lg:w-[76.8%] items-center justify-center max-w-[1106px] '>
         <div className='flex flex-col gap-[17px] items-center justify-center font-jost text-black'>
-            <PandaSvg className="flex" width={99} height={54}/>
            <div className='flex flex-col gap-[15px] md:gap-[25px] lg:gap-[35px] items-center justify-center text-center w-full'>
-           <span className='text-[14px] lg:text-[18px] font-medium uppercase leading-[26px] tracking-[0.72px]'>Welcome to LAGO Kids Club</span>
+           <span className='text-[14px] lg:text-[18px] font-medium uppercase leading-[26px] tracking-[0.72px]'>Welcome to Kids Club</span>
             <h2  className='text-[28px] md:text-[32px] lg:text-[48px] font-normal leading-[120%] lg:leading-[26px] font-marcellus lg:capsizedText2'>Where Fun and Education Meet</h2>
-            <p className='text-[14px] lg:text-[16px] font-normal leading-[18px] lg:leading-[26px]'>LAGO Kids Club, her yaş grubundan çocuğa hitap eden eğitici ve eğlenceli aktiviteler sunar. <br></br> Çocuğunuzun yaratıcılığını geliştirecek ve hayallerini gerçekleştirecek bir ortam hazırladık.</p>
+            <p className='text-[14px] lg:text-[16px] font-normal leading-[18px] lg:leading-[26px]'>Kids Club, her yaş grubundan çocuğa hitap eden eğitici ve eğlenceli aktiviteler sunar. <br></br> Çocuğunuzun yaratıcılığını geliştirecek ve hayallerini gerçekleştirecek bir ortam hazırladık.</p>
            </div>
         </div>
       </div>
@@ -87,24 +80,13 @@ const KidsclubCarousel = () => {
   {images.map((_, i) => (
     <div
       key={i}
-      className={`transition-all w-[11.11%] h-[2px] bg-[#24292C] rounded-full ${
+      className={`transition-all  w-full h-[2px] bg-[#24292C] rounded-full ${
         selectedIndex === i ? "p-[2px]" : "bg-[#848383] "
       }`}
       onClick={() => handleJump(i)}
     />
   ))}
 
-  {/* Panda'nın index değiştikçe hareket etmesi */}
-  <Image
-    src={panda}
-    alt="bamboo"
-    width={81}
-    height={110}
-    className="absolute -bottom-4 transition-all duration-900"
-    style={{
-      left: `calc(${selectedIndex * 11}% + 0%)`, // Aktif index'e göre sola kaydır
-    }}
-  />
 </div>
         </div>
     </div>

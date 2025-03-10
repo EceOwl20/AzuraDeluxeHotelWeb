@@ -66,13 +66,13 @@ export default function Header() {
               src={gradient4}
               width={gradient4.width}
               height={gradient4.header}
-              className="w-full h-[77px] "
+              className="w-full h-[140px] "
               alt="header"
             />
           </div>
 
           {!isMenuOpen && (
-            <div className="flex flex-row-reverse md:flex-row items-center mb-[2%] md:mb-[0.5%] lg:mb-[0.5%] h-full justify-center ml-[73%] sm:ml-[80%] md:ml-[4%] ">
+            <div className="flex flex-row-reverse md:flex-row items-center mb-[2%] md:mb-[0.5%] lg:mb-[0.5%] h-full justify-center ml-[76%] sm:ml-[82%] md:ml-[4%] ">
               <button className="flex z-20 h-full items-center justify-center" onClick={toggleMenu}>
                 <Hamburger
                   width={30}
@@ -98,12 +98,12 @@ export default function Header() {
           {/* EN bar */}
 
           {/* Ortadaki Logo */}
-          <div className="absolute left-[16%] sm:left-[13%] md:left-1/2 top-1/2 -translate-x-1/2 -translate-y-[65%] md:-translate-y-1/2">
+          <div className="absolute left-[24%] sm:left-[17%] md:left-1/2 top-1/2 -translate-x-1/2 -translate-y-[65%] md:-translate-y-1/2">
             <Link className="w-full items-center justify-center flex" href="/">
               <Image
                 src={logosvg}
                 alt="Logo"
-                className="object-contain w-[62px] h-[46px] lg:w-[90%] lg:max-w-[300px] lg:h-auto items-center justify-center"
+                className="object-contain w-[75%] lg:w-[90%] lg:max-w-[300px] lg:h-auto items-center justify-center"
               />
             </Link>
           </div>
@@ -132,7 +132,7 @@ export default function Header() {
               Contact
             </Link>
             <Link
-            href="https://lagohotel.orsmod.com/"
+            href="https://azuradeluxehotel.orsmod.com/"
               rel="norefferer nofollower"
                   target="_blank"
               className="
@@ -270,7 +270,7 @@ export default function Header() {
               </div>
             </div>
             <Link
-              href="/"
+              href="/beachpools"
               className="block  font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
               BEACH & POOL
@@ -288,13 +288,13 @@ export default function Header() {
               BARS 
             </Link>
             <Link
-              href="/"
+              href="entertainment"
               className="block font-normal leading-[26.667px] w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
               EXPERIENCES
             </Link>
             <Link
-              href="/"
+              href="/kidsclub"
               className="font-normal leading-[26.667px] items-center gap-[6px] flex w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
               KIDS CLUB
@@ -313,19 +313,19 @@ export default function Header() {
               SPECIAL
             </Link>
             <Link
-              href="/"
+              href="/gallery"
               className="block text-white  font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
               GALLERY
             </Link>
             <Link
-              href="/"
+              href="/about"
               className="block text-white font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
               OUR HOTEL
             </Link>
             <Link
-              href="/"
+              href="/connect"
               className="block text-white font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
               CONTACT
@@ -370,7 +370,7 @@ export default function Header() {
             {/* Sosyal İkonlar */}
             <div className="flex items-center justify-center gap-4 mt-[18.79px]">
               <Link
-                href="https://www.tripadvisor.com.tr/Hotel_Review-g1192102-d545626-Reviews-Lago_Hotel-Sorgun_Manavgat_Turkish_Mediterranean_Coast.html"
+                href="https://www.tripadvisor.com.tr/Hotel_Review-g609052-d7391617-Reviews-Azura_Deluxe_Resort_Spa-Avsallar_Alanya_Turkish_Mediterranean_Coast.html"
                 target="_blank"
                  rel="norefferer nofollower"
                 className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
@@ -378,7 +378,7 @@ export default function Header() {
                 <TripAdvisor className="flex" width={34} height={34} />
               </Link>
               <Link
-                href="https://maps.app.goo.gl/6Bdt7s5LWH1xxAXX6"
+                href="https://maps.app.goo.gl/usJ9fRr3Po35C3bw8"
                 target="_blank"
                  rel="norefferer nofollower"
                 className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
@@ -386,7 +386,7 @@ export default function Header() {
                 <Google className="flex" width={70} height={70} />
               </Link>
               <Link
-                href="https://www.facebook.com/lagohotels"
+                href="https://www.facebook.com/AzuraDeluxeResort/"
                 target="_blank"
                  rel="norefferer nofollower"
                 className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
@@ -394,14 +394,14 @@ export default function Header() {
                 <FaFacebookF className="w-6 h-6" color="#505050" />
               </Link>
               <Link
-                href="https://www.youtube.com/channel/UCjbL19l36uYQEdy2EEw1nLQ"
+                href="https://www.youtube.com/channel/UC3Z23WuWOhmpFnbw9fLI1-g"
                 target="_blank" rel="norefferer nofollower"
                 className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
               >
                 <FaYoutube className="w-6 h-6" color="#505050" />
               </Link>
               <Link
-                href="https://www.instagram.com/lagohotels/"
+                href="https://www.instagram.com/azuradeluxeresort/"
                 target="_blank"  rel="norefferer nofollower"
                 className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
               >

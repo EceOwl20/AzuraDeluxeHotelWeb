@@ -45,23 +45,70 @@ const ContactSection = () => {
            <div className='flex flex-col md:w-[79%] items-center text-center md:text-start md:items-start justify-center gap-[15px] md:gap-[23.19px] lg:gap-[30px]'>
            <span className=' text-[12px] font-medium leading-[14px] uppercase tracking-[0.48px] mt-[10%] md:mt-0'>Follow us for more</span>
             <h2 className='font-marcellus font-normal text-[28px] md:text-[28px] lg:text-[28px] xl:text-[36px] 2xl:text-[44px] leading-[150%] lg:leading-[57.6px] capsizedText3 lg:capsizedText2'>@AzuraDeluxeResort</h2>
-            <p className='text-[14px] lg:text-[16px] font-normal leading-[24px] '>
-            Lorem ipsum dolor sit amet consectetur. Id urna rhoncus volutpat fames velit. Odio nisl condimentum pharetra in. Massa eu tristique adipiscing ut risus etiam justo platea volutpat. Sit eget.
-            {/* Titreyengol, Sorgun / Manavgat/ Antalya / TR <br></br>
-            Phone: <Link href="/" className='underline '>+90 242 756 99 00 </Link> <br></br>
-            Call Center: <Link href="/" className='underline '>+90 242 524 57 87</Link> <br></br>
-            Email: <Link href="/" className='underline '>sales@lagohotel.com</Link> <br></br> */}
-            </p>
+           
+            <p className="font-jost text-[14px] md:text-[16px] leading-[24px] underline-offset-2 flex flex-col gap-2 ">
+          {/* Mobil görünüm (lg'den küçük) */}
+          <span className="capsizedText4 lg:hidden">
+          Avsallar Mah. İncekum Cad. No:76 Alanya / Turkey
+          </span>
+          <span className="capsizedText4 lg:hidden">
+            Phone: <Link href="" className="underline">+90 242 517 12 34</Link>
+          </span>
+          <span className="capsizedText4 lg:hidden">
+            Call Center: <Link href="" className="underline">+90 242 277 11 43</Link>
+          </span>
+          <span className="capsizedText4 lg:hidden">
+            Email: <Link href="" className="underline">info@azuradeluxe.com</Link>
+          </span>
+
+          {/* Desktop görünüm (lg ve üstü) */}
+          <span className="hidden lg:block">
+          Avsallar Mah. İncekum Cad. No:76 Alanya / Turkey
+          </span>
+          <span className="hidden lg:block">
+          Phone: <Link href="" className="underline">+90 242 517 12 34</Link>
+          </span>
+          <span className="hidden lg:block">
+          Call Center: <Link href="" className="underline">+90 242 277 11 43</Link>
+          </span>
+          <span className="hidden lg:block">
+          Email: <Link href="" className="underline">info@azuradeluxe.com</Link>
+          </span>
+        </p>
+            
             <div className='flex w-full items-center justify-center md:justify-start gap-[20px] '>
                 <div className='flex items-center justify-center gap-[18px]'>
-                <PiInstagramLogoLight size={28} />
-                {/* <PiMetaLogoLight size={30} /> */}
-                 <PiFacebookLogoLight size={28} />
-                 <PiYoutubeLogoLight size={28} />
+                <Link
+              href="https://www.instagram.com/azuradeluxeresort/"
+              target="_blank"
+              rel="norefferer nofollower"
+            >
+              {" "}
+              <PiInstagramLogoLight size={28} />
+            </Link>
+            {/* <PiMetaLogoLight size={30} /> */}
+            <Link
+              href="https://www.facebook.com/AzuraDeluxeResort/"
+              target="_blank"
+              rel="norefferer nofollower"
+            >
+              {" "}
+              <PiFacebookLogoLight size={28} />
+            </Link>
+            <Link
+              href="https://www.youtube.com/channel/UC3Z23WuWOhmpFnbw9fLI1-g"
+              target="_blank"
+              rel="norefferer nofollower"
+            >
+              {" "}
+              <PiYoutubeLogoLight size={28} />
+            </Link>
                 </div>
                 <div className='flex bg-black h-[20px] w-[1px]'></div>
-                <span className="text-lagoBrown font-marcellus underline underline-offset-[6px] text-[16px] font-normal hidden lg:flex leading-[30px] uppercase">Stay updated</span>
-                <span className="text-lagoBrown font-marcellus underline underline-offset-[6px] text-[14px] font-normal md:leading-[19.88px] flex lg:hidden uppercase">BOOK NOW</span>
+                <Link href="https://azuradeluxehotel.orsmod.com/"  target="_blank"
+              rel="norefferer nofollower" className="text-lagoBrown font-marcellus underline underline-offset-[6px] text-[16px] font-normal hidden lg:flex leading-[30px] uppercase">BOOK NOW</Link>
+                <Link href="https://azuradeluxehotel.orsmod.com/"  target="_blank"
+              rel="norefferer nofollower" className="text-lagoBrown font-marcellus underline underline-offset-[6px] text-[14px] font-normal md:leading-[19.88px] flex lg:hidden uppercase">BOOK NOW</Link>
             </div>
            </div>
         </div>

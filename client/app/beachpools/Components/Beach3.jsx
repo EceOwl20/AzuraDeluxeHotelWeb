@@ -1,14 +1,15 @@
 import React from 'react'
 import Slider from "../../HomePage/Components/Slider/Slider2"
-import Slide1 from '../Images/Slide/swim.png'
-import Slide2 from '../Images/Slide/beachbar.png'
-import Slide3 from '../Images/Slide/watersport.png'
-import Slide4 from '../Images/Slide/celebration.png'
+import Slide1 from '../Images/Slide/Group427319247.jpg'
+import Slide2 from '../Images/Slide/Group427319248.jpg'
+import Slide3 from '../Images/Slide/Group427319249.jpg'
+import Slide4 from '../Images/Slide/Group427319250.jpg'
 
 const Beach3 = () => {
     const slides = [
-        { src: Slide1, title: "Swimming & Lounging", span:"all day round" },
-        { src: Slide2, title: "Refresh at the Beach Bar", span:"Cocktaıls & snacks" },
+      { src: Slide2, title: "Swimming & Lounging", span:"Cocktaıls & snacks" },
+        { src: Slide1, title: "Refresh at the Beach Bar", span:"all day round" },
+      
         { src: Slide3, title: "Water Sports", span:"all day round" },
         { src: Slide4, title: "Celebrate  at the Beach", span:"DURATION: 60 MIN" },
       ]

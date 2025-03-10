@@ -1,65 +1,110 @@
-"use client"
+"use client";
 import React, { useEffect, useRef } from "react";
-import Image from 'next/image'
-import minigallery from "./images/azuragallery.webp"
-import Link from 'next/link'
-import { PiInstagramLogoLight, PiMetaLogoLight, PiFacebookLogoLight, PiYoutubeLogoLight } from "react-icons/pi";
+import Image from "next/image";
+import minigallery from "./images/azuragallery.webp";
+import Link from "next/link";
+import {
+  PiInstagramLogoLight,
+  PiMetaLogoLight,
+  PiFacebookLogoLight,
+  PiYoutubeLogoLight,
+} from "react-icons/pi";
 
 const ContactDetails = () => {
   return (
     <div className="flex flex-col justify-center items-center w-full md:w-[40%] md:pl-0">
-      <div className="flex flex-col w-full max-w-[313px] items-center md:items-start justify-center gap-[20px] md:gap-[30px]">
+      <div className="flex flex-col w-full max-w-[350px] items-center md:items-start justify-center gap-[20px] md:gap-[30px]">
         <span className="font-jost text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
           CONTACT US FOR MORE
         </span>
-        <h2 className="font-marcellus text-[28px] md:text-[32px] lg:text-[48px] leading-[36px] md:leading-[57.6px] lg:capsizedText2">
+        <h2 className="font-marcellus font-normal text-[28px] md:text-[28px] lg:text-[28px] xl:text-[36px] 2xl:text-[44px] leading-[150%] lg:leading-[57.6px] capsizedText3 lg:capsizedText2">
           @AzuraDeluxeResort
         </h2>
         <p className="font-jost text-[14px] md:text-[16px] leading-[24px] underline-offset-2 flex flex-col gap-2 ">
           {/* Mobil görünüm (lg'den küçük) */}
           <span className="capsizedText4 lg:hidden">
-            Titreyengol, Sorgun / Manavgat/ Antalya / TR
+            Avsallar Mah. İncekum Cad. No:76 Alanya / Turkey
           </span>
           <span className="capsizedText4 lg:hidden">
-            Phone: <Link href="" className="underline">+90 242 756 99 00</Link>
+            Phone:{" "}
+            <Link href="" className="underline">
+              +90 242 517 12 34
+            </Link>
           </span>
           <span className="capsizedText4 lg:hidden">
-            Call Center: <Link href="" className="underline">+90 242 524 57 87</Link>
+            Call Center:{" "}
+            <Link href="" className="underline">
+              +90 242 277 11 43
+            </Link>
           </span>
           <span className="capsizedText4 lg:hidden">
-            Email: <Link href="" className="underline">sales@lagohotel.com</Link>
+            Email:{" "}
+            <Link href="" className="underline">
+              info@azuradeluxe.com
+            </Link>
           </span>
 
           {/* Desktop görünüm (lg ve üstü) */}
           <span className="hidden lg:block">
-            Titreyengol, Sorgun / Manavgat/ Antalya / TR
+            Avsallar Mah. İncekum Cad. No:76 Alanya / Turkey
           </span>
           <span className="hidden lg:block">
-            Phone: <Link href="" className="underline">+90 242 756 99 00</Link>
+            Phone:{" "}
+            <Link href="" className="underline">
+              +90 242 517 12 34
+            </Link>
           </span>
           <span className="hidden lg:block">
-            Call Center: <Link href="" className="underline">+90 242 524 57 87</Link>
+            Call Center:{" "}
+            <Link href="" className="underline">
+              +90 242 277 11 43
+            </Link>
           </span>
           <span className="hidden lg:block">
-            Email: <Link href="" className="underline">sales@lagohotel.com</Link>
+            Email:{" "}
+            <Link href="" className="underline">
+              info@azuradeluxe.com
+            </Link>
           </span>
         </p>
         <div className="flex gap-[20px] whitespace-nowrap">
           <div className="flex items-center justify-center gap-[18px]">
-            <PiInstagramLogoLight size={28} />
+            <Link
+              href="https://www.instagram.com/azuradeluxeresort/"
+              target="_blank"
+              rel="norefferer nofollower"
+            >
+              {" "}
+              <PiInstagramLogoLight size={28} />
+            </Link>
             {/* <PiMetaLogoLight size={30} /> */}
-            <PiFacebookLogoLight size={28} />
-            <PiYoutubeLogoLight size={28} />
+            <Link
+              href="https://www.facebook.com/AzuraDeluxeResort/"
+              target="_blank"
+              rel="norefferer nofollower"
+            >
+              {" "}
+              <PiFacebookLogoLight size={28} />
+            </Link>
+            <Link
+              href="https://www.youtube.com/channel/UC3Z23WuWOhmpFnbw9fLI1-g"
+              target="_blank"
+              rel="norefferer nofollower"
+            >
+              {" "}
+              <PiYoutubeLogoLight size={28} />
+            </Link>
           </div>
           <div className="flex bg-black h-[20px] w-[1px] self-center"></div>
-          <span className="text-lagoBrown font-marcellus underline underline-offset-[6px] text-[16px] font-normal leading-[30px] uppercase">
+          <Link href="https://azuradeluxehotel.orsmod.com/"  target="_blank"
+              rel="norefferer nofollower" className="text-lagoBrown font-marcellus underline underline-offset-[6px] text-[16px] font-normal leading-[30px] uppercase">
             BOOK NOW
-          </span>
+          </Link>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 const GallerySection = () => {
   const scrollRef = useRef(null);
@@ -74,7 +119,10 @@ const GallerySection = () => {
     const startScrolling = () => {
       scrollInterval = setInterval(() => {
         scrollContainer.scrollTop += scrollSpeed;
-        if (scrollContainer.scrollTop + scrollContainer.clientHeight >= scrollContainer.scrollHeight) {
+        if (
+          scrollContainer.scrollTop + scrollContainer.clientHeight >=
+          scrollContainer.scrollHeight
+        ) {
           setTimeout(() => {
             scrollContainer.scrollTop = 0;
           }, 500);
@@ -111,8 +159,8 @@ const GallerySection = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 const ContactSection2 = () => {
   return (
@@ -130,7 +178,7 @@ const ContactSection2 = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ContactSection2
+export default ContactSection2;

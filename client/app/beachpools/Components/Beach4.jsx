@@ -1,6 +1,4 @@
 import React from 'react'
-import Image from "next/image"
-import Swimm from "../Images/Swimming.png"
 
 const Beach4 = () => {
   return (
@@ -17,10 +15,12 @@ const Beach4 = () => {
                 muted
                 playsInline
                 className="absolute top-0 left-0 w-full h-full object-cover object-center"
+                loading="lazy"
             >
                 <source 
-                src="https://s3-figma-videos-production-sig.figma.com/video/TEAM/1188089547498931215/cb805ea008b01e5fb54de3eb7657cf110c9121fe?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=UrYo-ibhrFlazh3SaGFb1Qq7vCxJhx-PQFwcu1epAMRu~JF5CjGLcqiE01s~Hgng6dhcBoUPrshqgznOFDmh9QKG2zOp64aQQfdiq0jwK9MK822kQJvlw-zudo63C2QrAtNqt8vgyqW5NacbEm65owWXfKpTmaWowfWrqM2YzLyYcGP6~8OnFSLIN7xCL-RqADM~2tnONXy8XpC5K6GVzv1OLreN6PvvVuTcYNrmUeSNJrtZIExtMJzbGpinRnDkpvN9nykzNeTslnKNc44qyXETNdr7qj7lTMAtUGqEN~-hId7xTXi6ZDeXfaAfWtyeKM3OM7B~4ya-AlC9lG1zlQ__"
+                 src="/videos/azuramob2.mp4"
                 type="video/mp4"
+               
                 />
                 Tarayıcınız bu videoyu desteklemiyor.
             </video>

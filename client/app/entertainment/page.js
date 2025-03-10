@@ -1,6 +1,6 @@
 import React from 'react'
 import MainBannerSection from './components/MainBannerSection'
-import mainImg from "./images/eglence.webp"
+import mainImg from "./images/ent_ban.jpg"
 import ActivitiesSection from './components/ActivitiesSection'
 import EntertainmentTypesSection from './components/EntertainmentTypesSection'
 import ActivityBackgroundSection from './components/ActivityBackgroundSection'
@@ -12,7 +12,6 @@ const page = () => {
       <MainBannerSection img={mainImg}/>
       <ActivitiesSection/>
       <EntertainmentTypesSection/>
-      <ActivityBackgroundSection/>
       <ContactSection2/>
     </div>
   )

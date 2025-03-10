@@ -1,8 +1,8 @@
 "use client";
 import React, { useCallback, useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
-import options1 from "../images/option1.webp";
-import options2 from "../images/option2.webp";
+import options1 from "../../deluxeroom/images/deluxe4.jpg";
+import options2 from "../../fantasyroom/images/fantasy4.jpg";
 import options3 from "../images/option3.webp";
 import user from "../images/user1.png";
 import Image from "next/image";
@@ -26,23 +26,14 @@ const rooms = [
   {
     id: 2,
     img: options2,
-    title: "Swim-up Room",
+    title: "Fantasy Room",
     description: "FRESHEN UP WITHOUT LEAVING YOUR ROOM",
     size: "40-43 m2",
     capacity: "2 adults + 1 child",
     text: "Lorem ipsum dolor sit amet consectetur. Vel vitae adipiscing pellentesque sed mauris nisl velit in. Imperdiet orci purus nunc nisi. Pretium malesuada sed nibh varius. Scelerisque iaculis fringilla commodo hac. Aenean nulla.",
     link: "/",
   },
-  {
-    id: 3,
-    img: options3,
-    title: "Superior Room",
-    description: "COMFORT FOR A GOOD PRICE",
-    size: "30-32 m2",
-    capacity: "2 adults + 1 child",
-    text: "Lorem ipsum dolor sit amet consectetur. Vel vitae adipiscing pellentesque sed mauris nisl velit in. Imperdiet orci purus nunc nisi. Pretium malesuada sed nibh varius. Scelerisque iaculis fringilla commodo hac. Aenean nulla.",
-    link: "/",
-  },
+
 ];
 
 const OtherOptions = () => {
@@ -87,7 +78,7 @@ const OtherOptions = () => {
             {rooms.map((room) => (
               <div
                 key={room.id}
-                className="flex-[0_0_85%] sm:flex-[0_0_75%] md:max-h-auto md:flex-[0_0_50%] lg:flex-[0_0_31%] xl:flex-[0_0_31.5%] min-w-0 mr-[2.5%]"
+                className="flex-[0_0_85%] sm:flex-[0_0_75%] md:max-h-auto md:flex-[0_0_50%] min-w-0 mr-[2.5%]"
               >
                 <div className="flex flex-col w-full items-start text-start justify-center gap-[15px] lg:gap-[20px] font-jost text-black ">
                   <Image
