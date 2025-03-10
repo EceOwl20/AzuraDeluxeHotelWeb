@@ -3,7 +3,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import DropdownCookieArrow from "./Contact/icons/DropdownCookieArrow";
-import logosvg from "./Header/Icons/Asset2.svg";
+import logosvg from "./Header/Icons/azuralogo.svg";
 import Image from "next/image";
 import { RxCross2 } from "react-icons/rx";
 
@@ -964,11 +964,11 @@ const CookiePopup = () => {
             {isModalOpen && (
               <ModalPortal onClose={handleModalToggle}>
                 <div className="flex flex-col items-center justify-center gap-[15px] lg:gap-[39px]">
-                  <div className="flex w-[90%] items-start justify-between lg:mt-[27px] lg:gap-[23px] mt-[10%] md:mt-[83px] lg:h-[39px] h-[52px]">
+                  <div className="flex w-[95%] items-start justify-between lg:mt-[27px] lg:gap-[23px] mt-[10%] md:mt-[83px] lg:h-[39px] h-[52px]">
                     <Image
                       src={logosvg}
                       alt="Logo"
-                      className="object-contain w-[62px] h-[46px] lg:h-[39px] lg:w-[52px] items-center justify-center"
+                      className="object-contain w-[120px] h-[92px] lg:h-[60px] lg:w-[77px] items-center justify-center"
                     />
                     <div className="hidden lg:flex flex-row w-[98%] md:w-[90%] lg:w-auto text-center items-center text-[16px] font-bold ml-[11%] lg:ml-0 gap-[23px] h-[29px]">
                       {[

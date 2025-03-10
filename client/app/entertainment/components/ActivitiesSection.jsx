@@ -1,11 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
-import daytime from "../images/Daytime_fin.jpg"
-import nighttime from "../images/Nighttme_fin.jpg"
-import LSvg from './LSvg'
-import ASvg from './ASvg'
-import GSvg from './GSvg'
-import OSvg from './OSvg'
+import daytime from "../images/1.jpg"
+import nighttime from "../images/2.jpg"
 
 const ActivitiesSection = () => {
   return (
@@ -24,7 +20,7 @@ const ActivitiesSection = () => {
            <Image src={daytime} alt="daytime" width={daytime.width} height={daytime.height} className='w-full'/>
            <div className='flex flex-col absolute bottom-[38px] left-[35px] items-start justify-center text-start gap-[25px] pb-[10px] text-white '>
             <span className='text-[12px] font-normal uppercase  font-jost leading-normal tracking-[0.48px]'>experiences</span>
-            <h4 className='font-marcellus text-[30px] font-normal capsizedText3 leading-[40px]' >Daytime Activities</h4>
+            <h4 className='font-marcellus text-[30px] font-normal capsizedText3 leading-[40px]' >Day-time Activities</h4>
            </div>
            </div>
            
@@ -32,17 +28,11 @@ const ActivitiesSection = () => {
             <Image src={nighttime} alt="nighttime" width={nighttime.width} height={nighttime.height} className='w-full'/>
            <div className='flex flex-col absolute bottom-[38px] left-[35px] items-start justify-center text-start gap-[15px] md:gap-[25px] pb-[10px] text-white '>
             <span className='text-[12px] font-normal uppercase  font-jost leading-normal tracking-[0.48px]'>experiences</span>
-            <h4 className='font-marcellus text-[30px] font-normal leading-[120%] lg:capsizedText3 '>Daytime Activities</h4>
+            <h4 className='font-marcellus text-[30px] font-normal leading-[120%] lg:capsizedText3 '>Night-time Activities</h4>
            </div>
            </div>
            </div>
 
-            <div className='absolute inset-0 items-center justify-between flex w-full'>
-                <LSvg className="flex w-[15.5%] h-auto" />
-                <ASvg className="flex w-[23.3%]  h-auto" />
-                <GSvg className="flex w-[21.6%]  h-auto" />
-                <OSvg className="flex w-[21.5%]  h-auto" />
-            </div>
         </div>
        
       </div>

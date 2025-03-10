@@ -1,6 +1,5 @@
 "use client";
 import { useState, useEffect } from "react";
-import logosvg from "./Header/Icons/Asset2.svg";
 import Image from "next/image";
 
 export default function Form({ isOpen, onClose }) {
@@ -47,11 +46,7 @@ export default function Form({ isOpen, onClose }) {
           &times;
         </button>
       <div className="flex w-[96%] px-[34px] items-center justify-between ">
-        <Image
-          src={logosvg}
-          alt="Logo"
-          className="object-contain w-[62px] h-[46px] items-center justify-center"
-        />
+       
         <button
         onClick={onClose}
           className="flex lg:hidden text-[40px] text-stoneLight text-white"

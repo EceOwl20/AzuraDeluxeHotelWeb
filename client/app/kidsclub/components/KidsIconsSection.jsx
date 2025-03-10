@@ -6,8 +6,8 @@ import StaffSvg from './StaffSvg'
 
 const KidsIconsSection = () => {
   return (
-    <div className='flex w-screen items-center justify-center max-w-[1444px]'>
-      <div className='w-[87.79%] md:w-[91.4%] lg:w-[76.8%] grid grid-cols-2 lg:flex lg:flex-row lg:justify-between items-center gap-[20px] md:gap-[35px]'>
+    <div className='flex w-screen items-center justify-center bg-[#9fc5d3]/10 py-[40px]'>
+      <div className='w-[87.79%] md:w-[91.4%] lg:w-[76.8%] grid grid-cols-2 lg:flex lg:flex-row lg:justify-between items-center gap-[20px] md:gap-[35px] max-w-[1106px]'>
         <div className='flex flex-col gap-[18px] items-center justify-center'>
             <div className='flex bg-[#84C9EA] rounded-full p-[28px] md:p-[32px]'>
                 <EnvironmentSvg className="flex" width={57} height={56}/>
@@ -23,7 +23,7 @@ const KidsIconsSection = () => {
                 <ActiviteSvg className="flex" width={57} height={56}/>
             </div>
             <div className='flex flex-col items-center justify-center gap-[8px]'>
-                <span className='text-[#121212] font-marcellus font-normal leading-[26px] text-[16px] md:text-[18px]'>Secure Environment</span>
+                <span className='text-[#121212] font-marcellus font-normal leading-[26px] text-[16px] md:text-[18px]'>Age-Appropriate Activities</span>
                 <div className='bg-[#84C9EA] h-[6px] w-[50px]'></div>
             </div>
         </div>
@@ -33,7 +33,7 @@ const KidsIconsSection = () => {
                 <SocialSvg className="flex" width={57} height={56}/>
             </div>
             <div className='flex flex-col items-center justify-center gap-[8px]'>
-                <span className='text-[#121212] font-marcellus font-normal leading-[26px] text-[16px] md:text-[18px]'>Secure Environment</span>
+                <span className='text-[#121212] font-marcellus font-normal leading-[26px] text-[16px] md:text-[18px]'>Social Interaction</span>
                 <div className='bg-[#84C9EA] h-[6px] w-[50px]'></div>
             </div>
         </div>
@@ -43,7 +43,7 @@ const KidsIconsSection = () => {
                 <StaffSvg className="flex" width={57} height={56}/>
             </div>
             <div className='flex flex-col items-center justify-center gap-[8px]'>
-                <span className='text-[#121212] font-marcellus font-normal leading-[26px] text-[16px] md:text-[18px]'>Secure Environment</span>
+                <span className='text-[#121212] font-marcellus font-normal leading-[26px] text-[16px] md:text-[18px]'>Professional Staff</span>
                 <div className='bg-[#84C9EA] h-[6px] w-[50px]'></div>
             </div>
         </div>

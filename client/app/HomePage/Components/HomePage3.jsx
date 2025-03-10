@@ -13,7 +13,7 @@ export default function HomePage3() {
   const images = [
     {
       src: Family,
-      title: "Family Room",
+      title: "Deluxe Room",
       desc: `This room type with sea or forest view is 50 - 55 m2 and is located in the main building. 
       It consists of 2 separate bedrooms (with interconnecting door): a double bed (for two adults) and a luxury sofa that can be opened for two adults,
        including a bathroom and a sitting area. `,
@@ -31,7 +31,7 @@ export default function HomePage3() {
     },
     {
       src: Deluxe,
-      title: "Deluxe Room",
+      title: "Family Room",
       desc: "This room type is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Services for all rooms (wristband with chip key system, daily replenishment of the minibar, cosmetics in the bathroom, tea and coffee making set)",
       area:" 30-32 m2",
       span:"Land / Sea View",

@@ -1,5 +1,5 @@
 import React from "react";
-import foto from "../Images/beachfull.webp";
+import foto from "../Images/pool_banner.jpg";
 import BirthDay from "../Images/Icons/BirthDay";
 import Baloon from "../Images/Icons/Baloon";
 
@@ -13,7 +13,7 @@ const Beach2 = () => {
       style={{ backgroundImage }}
     >
       {/* Yarı saydam siyah blok (arka plan) */}
-      <div className="absolute inset-0 z-[1] bg-[#2D2D26]/50"> </div>
+      <div className="absolute inset-0 w-[45%] z-[1] bg-[#2D2D26]/50"> </div>
         <div className="flex flex-col h-full md:w-[46%] lg:gap-[35px] z-20 lg:min-w-[480px] max-w-[840px] text-start items-start justify-center  text-white w-[89.79%] ml-[6.10%] gap-[20px]">
         <p className="font-jost text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase ">
           Cabana and Pavilion Rentals
@@ -37,11 +37,11 @@ const Beach2 = () => {
         <div className="flex flex-row w-[88%] gap-[15px] sm:gap-[2%] p-2 text-white justify-start items-start">
           <div className="flex items-center w-[49%] max-w-[233px] gap-[30px] bg-[#EBEBEB]/15 h-[60px]">
             <BirthDay width={35} height={35} className="flex p-[13px] bg-[#EBEBEB]/15"/>
-            <span className="text-[14px] lg:text-[16px] font-marcellus leading-normal lg:leading-[30px] font-normal">Icon Two Text</span>
+            <span className="text-[14px] lg:text-[16px] font-marcellus leading-normal lg:leading-[30px] font-normal">Birthday Party</span>
           </div>
           <div className="flex items-center w-[49%] max-w-[233px] gap-[30px] bg-[#EBEBEB]/15 h-[60px]">
             <Baloon width={35} height={35} className="flex p-[13px] bg-[#EBEBEB]/15"/>
-            <span className="text-[14px] lg:text-[16px] font-marcellus leading-normal lg:leading-[30px] font-normal">Icon Two Text</span>
+            <span className="text-[14px] lg:text-[16px] font-marcellus leading-normal lg:leading-[30px] font-normal">Decorations</span>
           </div>
         </div>
         </div>

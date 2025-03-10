@@ -19,7 +19,7 @@ const MissionColumn = ({
       width={img.width}
       height={img.height}
       alt="hotel"
-      className="flex w-full"
+      className="flex w-full max-h-[320px] object-cover"
     />
     <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
       {spanText}

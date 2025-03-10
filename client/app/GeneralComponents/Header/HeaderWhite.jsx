@@ -140,7 +140,7 @@ export default function HeaderWhite() {
               Contact
             </Link>
             <Link
-             href="https://lagohotel.orsmod.com/"
+             href="https://azuradeluxehotel.orsmod.com/"
                rel="norefferer nofollower"
                   target="_blank"
               className="
@@ -267,7 +267,7 @@ export default function HeaderWhite() {
                 </div>
               </div>
             </div>
-          <Link href="/" className="block  font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
+          <Link href="/beachpools" className="block  font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
             BEACH & POOL
           </Link>
           <Link href="/restaurants" className="block font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
@@ -276,10 +276,10 @@ export default function HeaderWhite() {
           <Link href="/barcafes" className="block font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
             BARS 
           </Link>
-          <Link href="/" className="block font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
+          <Link href="/entertainment" className="block font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
             EXPERIENCES
           </Link>
-          <Link href="/" className="font-normal leading-[26.667px] items-center gap-[6px] flex w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
+          <Link href="/kidsclub" className="font-normal leading-[26.667px] items-center gap-[6px] flex w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
             KIDS CLUB
           
           
@@ -293,13 +293,13 @@ export default function HeaderWhite() {
             >
               SPECIAL
             </Link>
-          <Link href="/" className="block text-lagoBlack  font-normal leading-normal w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
+          <Link href="/gallery" className="block text-lagoBlack  font-normal leading-normal w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
             GALLERY
           </Link>
-          <Link href="/" className="block text-lagoBlack font-normal leading-normal w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
+          <Link href="/about" className="block text-lagoBlack font-normal leading-normal w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
             OUR HOTEL
           </Link>
-          <Link href="/" className="block text-lagoBlack font-normal leading-normal w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
+          <Link href="/connect" className="block text-lagoBlack font-normal leading-normal w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
             CONTACT
           </Link>
         </nav>
@@ -338,7 +338,7 @@ export default function HeaderWhite() {
           {/* Sosyal İkonlar */}
           <div className="flex items-center justify-center gap-4 mt-[18.79px]">
             <Link
-               href="https://www.tripadvisor.com.tr/Hotel_Review-g1192102-d545626-Reviews-Lago_Hotel-Sorgun_Manavgat_Turkish_Mediterranean_Coast.html"
+               href="https://www.tripadvisor.com.tr/Hotel_Review-g609052-d7391617-Reviews-Azura_Deluxe_Resort_Spa-Avsallar_Alanya_Turkish_Mediterranean_Coast.html"
                target="_blank"
                 rel="norefferer nofollower"
               className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
@@ -346,7 +346,7 @@ export default function HeaderWhite() {
               <TripAdvisor className="flex" width={34} height={34} />
             </Link>
             <Link
-              href="https://maps.app.goo.gl/6Bdt7s5LWH1xxAXX6"
+              href="https://maps.app.goo.gl/usJ9fRr3Po35C3bw8"
               target="_blank"
                rel="norefferer nofollower"
               className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
@@ -354,7 +354,7 @@ export default function HeaderWhite() {
               <Google className="flex" width={70} height={70} />
             </Link>
             <Link
-              href="https://www.facebook.com/lagohotels"
+              href="https://www.facebook.com/AzuraDeluxeResort/"
               target="_blank"
                rel="norefferer nofollower"
               className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
@@ -362,14 +362,14 @@ export default function HeaderWhite() {
               <FaFacebookF className="w-6 h-6" color='#505050'/>
             </Link>
             <Link
-             href="https://www.youtube.com/channel/UCjbL19l36uYQEdy2EEw1nLQ"
+             href="https://www.youtube.com/channel/UC3Z23WuWOhmpFnbw9fLI1-g"
                 target="_blank" rel="norefferer nofollower"
               className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
             >
               <FaYoutube className="w-6 h-6" color='#505050'/>
             </Link>
             <Link
-              href="https://www.instagram.com/lagohotels/"
+              href="https://www.instagram.com/azuradeluxeresort/"
                 target="_blank"  rel="norefferer nofollower"
               className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
             >

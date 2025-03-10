@@ -1,8 +1,9 @@
 import React from 'react'
 import Image from "next/image"
-import image1 from "../Image/HeaderPage.webp"
+import image1 from "../Image/contact2.jpg"
 import { CiLocationOn } from "react-icons/ci";
 import { FiPhone } from "react-icons/fi";
+import Link from 'next/link';
 
 // Divider bileşeni: md ve üzeri ekranlarda görünür, responsive negatif margin ile sola kayar.
 const Divider = () => (
@@ -36,9 +37,10 @@ const Page = () => {
           className='w-full h-full object-cover' 
           alt="Header Image" 
         />
-        <div className='absolute inset-0 flex flex-col justify-center items-center text-center gap-[30px] lg:gap-[50px]'>
+        <div className='absolute inset-0 bg-black/40 z-[1]'></div>
+        <div className='absolute inset-0 flex flex-col justify-center items-center text-center gap-[30px] lg:gap-[50px] z-[20]'>
           <h1 className="font-jost text-[12px] md:text-[16px] font-medium leading-[14px] tracking-[0.6px] uppercase text-white">
-            LAGO HOTEL CONTACT
+            AZURA HOTEL CONTACT
           </h1>
           <p className="font-jost text-[40px] lg:text-[56px] md:text-[80px] font-medium leading-[48px] md:leading-[64px] tracking-[-1.6px] text-white">
             Connect with Us
@@ -50,21 +52,22 @@ const Page = () => {
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1fr_auto_1fr_auto_1fr] justify-start items-start w-[87.79%] md:w-[91.4%] lg:w-[76.8%] lg:min-w-[976px] xl:w-[1106px] gap-[30px] md:gap-[50px] xl:gap-[79px] mt-[100px]'>
         
         <ContactColumn icon={<CiLocationOn size={28} color='#1D1D1B'/>} title="Our Address:">
-       <span className='text-[16px] lg:text-[18px] font-normal leading-normal lg:leading-[26px] tracking-[0.72px] text-[#4B4E4F] whitespace-nowrap'>Sorgun, Titreyengöl Mevkii <br /> 07600 Manavgat/Antalya</span>
+       <Link href="https://maps.app.goo.gl/usJ9fRr3Po35C3bw8" className='text-[16px] lg:text-[18px] font-normal leading-normal lg:leading-[26px] tracking-[0.72px] text-[#4B4E4F] whitespace-nowrap'   rel="norefferer nofollower"
+                  target="_blank">Avsallar Mah. İncekum Cad. <br/>No:76 Alanya / Turkey</Link>
         </ContactColumn>
         
         <Divider />
         
         <ContactColumn icon={<FiPhone size={22} className='mt-1' color='#1D1D1B'/>} title="Phone Number:">
          <span className='text-[16px] lg:text-[18px] font-normal leading-normal lg:leading-[26px] tracking-[0.72px] text-[#4B4E4F]'>
-         +90 242 756 99 00<br />+90 242 524 57 87
+         +90 242 517 12 34<br />+90 242 277 11 43
          </span>
         </ContactColumn>
         
         <Divider />
         
         <ContactColumn icon={<CiLocationOn size={28} color='#1D1D1B'/>} title="Email Address:">
-         <span className='text-[16px] lg:text-[18px] font-normal leading-normal lg:leading-[26px] tracking-[0.72px] text-[#4B4E4F]'> sales@lagohotel.com<br />info@lagohotel.com</span>
+         <span className='text-[16px] lg:text-[18px] font-normal leading-normal lg:leading-[26px] tracking-[0.72px] text-[#4B4E4F]'> onburo@azuradeluxe.com<br />info@azuradeluxe.com</span>
         </ContactColumn>
       </div>
     </div>

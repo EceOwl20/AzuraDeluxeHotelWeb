@@ -4,7 +4,7 @@ import React from "react"
 import Beach from "./Icons/Beach"
 import Dining from "./Icons/Dining"
 import Fireworks from "./Icons/Fireworks"
-import Panda from "./Icons/Panda"
+import Kids from "./Icons/Kids"
 import Pool from "./Icons/Pool"
 import Spa from "./Icons/Spa"
 
@@ -32,7 +32,7 @@ export default function HomePage4() {
     // 4. sırada Fun for Kids
     {
       title: "Fun for Kids",
-      Icon: Panda,
+      Icon: Kids,
       description:
         "The Mini Club (ages 4-12) offers playgrounds, game rooms, mini discos, and a kids’ buffet in the restaurant."
     },

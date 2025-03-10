@@ -3,7 +3,6 @@ import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import {
   FaInstagram,
-  FaLinkedinIn,
   FaFacebook,
   FaTwitter,
   FaYoutube,
@@ -94,17 +93,17 @@ export default function Footer() {
               </h4>
               <div className="flex flex-col gap-[24px]">
                 <p className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] ">
-                  Phone: <span className="underline">+90 242 756 99 00</span>
+                  Phone: <span className="underline">+90 242 517 12 34</span>
                 </p>
                 <p className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px]">
-                  Email: info@lagohotels.com
+                  Email: info@azuradeluxe.com
                 </p>
                 <p className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] ">
-                  Address: Titreyengöl
+                  Address:   Avsallar Mah.  
                   <br />
-                  Mevkii Sorgun Manavgat/
+                  İncekum Cad. No:76
                   <br />
-                  Antalya / TR
+                  Alanya / Turkey
                 </p>
               </div>
             </div>
@@ -125,10 +124,31 @@ export default function Footer() {
 
           {/* Sosyal ikonlar */}
           <div className="grid grid-cols-2 lg:flex items-center gap-[32px]">
-            <FaInstagram className="w-[30px] h-[32px]" />
-            <FaLinkedinIn className="w-[30px] h-[32px]" />
-            <FaFacebook className="w-[30px] h-[32px]" />
-            <FaTwitter className="w-[30px] h-[32px]" />
+            <Link
+              href="https://www.instagram.com/azuradeluxeresort/"
+              target="_blank"
+              rel="norefferer nofollower"
+            >
+              {" "}
+              <FaInstagram className="w-[30px] h-[32px]" />
+            </Link>
+            <Link
+              href="https://www.facebook.com/AzuraDeluxeResort/"
+              target="_blank"
+              rel="norefferer nofollower"
+            >
+              {" "}
+              <FaFacebook className="w-[30px] h-[32px]" />
+            </Link>
+           
+            <Link
+              href="https://www.youtube.com/channel/UC3Z23WuWOhmpFnbw9fLI1-g"
+              target="_blank"
+              rel="norefferer nofollower"
+            >
+              {" "}
+              <FaYoutube className="w-[30px] h-[32px]" />
+            </Link>
           </div>
 
           {/* Alt linkler */}
@@ -281,10 +301,32 @@ export default function Footer() {
         <div className="flex w-[92%] items-center justify-center gap-[80px] py-[15px]">
           {/* Sosyal ikonlar */}
           <div className="flex items-center gap-[32px]">
-            <FaInstagram className="w-[30px] h-[32px]" />
-            <FaLinkedinIn className="w-[30px] h-[32px]" />
-            <FaFacebook className="w-[30px] h-[32px]" />
-            <FaTwitter className="w-[30px] h-[32px]" />
+          <Link
+              href="https://www.instagram.com/azuradeluxeresort/"
+              target="_blank"
+              rel="norefferer nofollower"
+            >
+              {" "}
+              <FaInstagram className="w-[30px] h-[32px]" />
+            </Link>
+            <Link
+              href="https://www.facebook.com/AzuraDeluxeResort/"
+              target="_blank"
+              rel="norefferer nofollower"
+            >
+              {" "}
+              <FaFacebook className="w-[30px] h-[32px]" />
+            </Link>
+           
+            <Link
+              href="https://www.youtube.com/channel/UC3Z23WuWOhmpFnbw9fLI1-g"
+              target="_blank"
+              rel="norefferer nofollower"
+            >
+              {" "}
+              <FaYoutube className="w-[30px] h-[32px]" />
+            </Link>
+           
           </div>
 
           {/* Alt linkler */}
@@ -475,13 +517,68 @@ export default function Footer() {
               </div>
             </div>
           </div>
-
+          <Link
+              href="https://www.instagram.com/azuradeluxeresort/"
+              target="_blank"
+              rel="norefferer nofollower"
+              className="hidden md:flex"
+            >
+              {" "}
+              <FaInstagram className="w-[30px] hidden md:flex h-[32px]" />
+            </Link>
+            <Link
+            className="hidden md:flex"
+              href="https://www.facebook.com/AzuraDeluxeResort/"
+              target="_blank"
+              rel="norefferer nofollower"
+            >
+              {" "}
+              <FaFacebook className="hidden md:flex w-[30px] h-[32px]" />
+            </Link>
+           
+            <Link
+            className="hidden md:flex"
+              href="https://www.youtube.com/channel/UC3Z23WuWOhmpFnbw9fLI1-g"
+              target="_blank"
+              rel="norefferer nofollower"
+            >
+              {" "}
+              <FaYoutube className="w-[30px] hidden md:flex h-[32px] " color="#A7ABAD" />
+            </Link>
           <div className="flex w-full items-center justify-center gap-[10px]">
-            <div className="flex bg-white rounded-[4px] shadow-divCustom w-[42.412px] h-[42.412px] items-center justify-center ]"><FaTripadvisor className="w-6 h-6" color="#A7ABAD"/></div>
-            <div className="flex bg-white rounded-[4px] shadow-divCustom w-[42.412px] h-[42.412px] items-center justify-center ]"> <BSvg className="flex" width={70} height={63}/></div>
-            <div className="flex bg-white rounded-[4px] shadow-divCustom w-[42.412px] h-[42.412px] items-center justify-center ]"> <FaFacebook className="w-6 h-6" color='#A7ABAD'/></div>
-            <div className="flex bg-white rounded-[4px] shadow-divCustom w-[42.412px] h-[42.412px] items-center justify-center "> <FaYoutube className="w-6 h-6" color='#A7ABAD'/></div>
-            <div className="flex bg-white rounded-[4px] shadow-divCustom w-[42.412px] h-[42.412px] items-center justify-center"><FaInstagram className="w-6 h-6" color='#A7ABAD'/></div>
+            <div className="flex bg-white rounded-[4px] shadow-divCustom w-[42.412px] h-[42.412px] items-center justify-center "><Link
+              href="https://www.tripadvisor.com.tr/Hotel_Review-g609052-d7391617-Reviews-Azura_Deluxe_Resort_Spa-Avsallar_Alanya_Turkish_Mediterranean_Coast.html"
+              target="_blank"
+              rel="norefferer nofollower"
+            >
+              {" "}
+              <FaTripadvisor className="w-[30px] h-[32px]" />
+            </Link></div>
+            <div className="flex bg-white rounded-[4px] shadow-divCustom w-[42.412px] h-[42.412px] items-center justify-center "> <BSvg className="flex" width={70} height={63}/></div>
+            <div className="flex bg-white rounded-[4px] shadow-divCustom w-[42.412px] h-[42.412px] items-center justify-center "><Link
+              href="https://www.facebook.com/AzuraDeluxeResort/"
+              target="_blank"
+              rel="norefferer nofollower"
+            >
+              {" "}
+              <FaFacebook className="w-[30px] h-[32px]" />
+            </Link></div>
+            <div className="flex bg-white rounded-[4px] shadow-divCustom w-[42.412px] h-[42.412px] items-center justify-center "> <Link
+              href="https://www.youtube.com/channel/UC3Z23WuWOhmpFnbw9fLI1-g"
+              target="_blank"
+              rel="norefferer nofollower"
+            >
+              {" "}
+              <FaYoutube className="w-[30px] h-[32px]" />
+            </Link></div>
+            <div className="flex bg-white rounded-[4px] shadow-divCustom w-[42.412px] h-[42.412px] items-center justify-center"><Link
+              href="https://www.instagram.com/azuradeluxeresort/"
+              target="_blank"
+              rel="norefferer nofollower"
+            >
+              {" "}
+              <FaInstagram className="w-[30px] h-[32px]" />
+            </Link></div>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import image from '../Image/SRF_7996-min.webp'
+import image from '../Image/contact1.jpg'
 
 const Connect2 = () => {
   return (
@@ -20,7 +20,7 @@ const Connect2 = () => {
       
       {/* Form overlay */}
       <div className="absolute min-w-[350px] w-[78vw] max-w-[480px] min-h-[30vh] md:min-h-[40vh] lg:w-[480px] lg:h-[684px] top-1/2  -translate-y-1/2 lg:-translate-y-0 lg:translate-x-0  lg:top-[4%] xl:left-[55%] bg-white shadow-lg p-[18px] lg:p-[30px] z-10 text-center ">
-        <h2 className="lg:text-[48px] md:text-[32px] text-[26px] font-normal text-center font-marcellus text-lagoBlack leading-normal lg:leading-[56px] lg:mt-2 w-full capsizedText2 whitespace-nowrap mb-[15px] lg:mb-[25px]">
+        <h2 className="lg:text-[42px] md:text-[32px] text-[26px] font-normal text-center font-marcellus text-lagoBlack leading-normal lg:leading-[50px] lg:mt-2 w-full capsizedText2 whitespace-nowrap mb-[15px] lg:mb-[25px]">
           Feel Free to <br /> Drop Us a Message
         </h2>
         <p className="text-lagoGray text-[14px] lg:text-[16px] font-normal font-jost leading-[18px] lg:leading-[26px] w-[100%] lg:w-[95%] capsizedText4 mb-[15px] md:mb-[25px]">
@@ -37,7 +37,7 @@ const Connect2 = () => {
               id="fullName"
               type="text"
               placeholder="Your Full Name"
-              className="block w-full border border-gray-300 px-3 py-2 lg:px-[24px] lg:py-[18px] placeholder:text-[14px] placeholder:lg:text-[16px]"
+              className="block w-full border border-gray-300 px-3 py-2 lg:px-[24px] lg:py-[18px] placeholder:text-[14px] placeholder:lg:text-[16px] placeholder:font-jost"
             />
           </div>
           {/* Email Address */}
@@ -46,7 +46,7 @@ const Connect2 = () => {
               id="email"
               type="email"
               placeholder="Your Email Address"
-              className="block w-full border border-gray-300 px-3 py-2 lg:px-[24px] lg:py-[18px] placeholder:text-[14px] placeholder:lg:text-[16px]"
+              className="block w-full border border-gray-300 px-3 py-2 lg:px-[24px] lg:py-[18px] placeholder:text-[14px] placeholder:lg:text-[16px] placeholder:font-jost"
             />
           </div>
           {/* Your Message */}
@@ -55,7 +55,7 @@ const Connect2 = () => {
               id="message"
               rows="4"
               placeholder="Your Message"
-              className="block w-full border border-gray-300  px-3 py-2 lg:px-[24px] lg:py-[18px] placeholder:text-[14px] placeholder:lg:text-[16px] max-h-[137px]"
+              className="block w-full border border-gray-300  px-3 py-2 lg:px-[24px] lg:py-[18px] placeholder:text-[14px] placeholder:lg:text-[16px] max-h-[137px] placeholder:font-jost"
             ></textarea>
           </div>
           {/* Checkbox */}
@@ -65,7 +65,7 @@ const Connect2 = () => {
               type="checkbox"
               className="h-4 w-4 border border-gray-300 rounded mr-2 mt-4"
             />
-            <label htmlFor="saveInfo" className="text-[12px] lg:text-[14px] text-gray-600 mt-[18px] lg:mt-[24px]">
+            <label htmlFor="saveInfo" className="text-[12px] lg:text-[14px] text-gray-600 mt-[18px] lg:mt-[24px] font-jost">
               Save my name, email, and website in this browser for the next time I comment.
             </label>
           </div>
