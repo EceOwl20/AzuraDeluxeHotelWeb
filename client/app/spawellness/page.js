@@ -1,5 +1,3 @@
-
-import MainBannerSection from '../GeneralComponents/MainBannerSection'
 import mainImg from "./images/spaBanner.webp"
 import SpaInfoSection from './components/SpaInfoSection'
 import SpaHeaderSection from './components/SpaHeaderSection'
@@ -18,13 +16,36 @@ import oriental from "./images/oriental.webp"
 import clasmassage from "./images/clasmassage.webp"
 import facial from "./images/masagefaci.webp"
 import ContactSection2 from '../GeneralComponents/Contact/ContactSection2'
-import RestaurantMainBanner from '../restaurants/components/RestaurantMainBanner'
 import BannerDark from '../GeneralComponents/BannerDark'
 
-const galleryImages=[gallery1,gallery2,gallery3]
+const galleryImages=[gallery1,gallery2,gallery3,img1,img2]
 
 const massageImages=[aromatic, oriental, clasmassage, facial,]
 const massageHeaders=["Aromatherapy Massage","Oriental Massage","Classic Massage","FacialSpecai Massage"]
+
+const sliderMassage = [
+  {
+    src: aromatic,
+    title: "Aromatherapy Massage",
+
+  },
+  {
+    src: oriental,
+    title: "Oriental Massage",
+
+  },
+  {
+    src: clasmassage,
+    title: "Classic Massage",
+
+  },
+  {
+    src: facial,
+    title: "FacialSpecai Massage",
+   
+  },
+ 
+];
 
 const page = () => {
   const spaTextsInfo1=[" Perfect Fine Dine Experiences","  Wellness at LAGO Hotel","  For those looking to stay in shape while on vacation, you canunwind your body and soul by receiving a massage from a competent masseuse in our SPA after engaging in your daily sporting activities in our Fitness room, which we have equipped with professional equipment, or you can step back in time in the traditional Turkish Bath and relax in the Finnish Sauna."]
@@ -38,7 +59,7 @@ const page = () => {
       <SpaHeaderSection span="Perfect Fine Dine Experiences" header=" Lorem ipsum dolor sit amet" text=" Lorem ipsum dolor sit amet consectetur. Sed sit venenatis nisi enim id
           aenean natoque aliquet et. Et aliquam viverra enim sapien. Dignissim
           arcu volutpat enim nisl condimentum." images={galleryImages}/>
-      <MassageCarousel span="RELAX AND FORGET" header="Massage Options" text="Lorem ipsum dolor sit amet consectetur. Consectetur lorem nibh ultrices quis sit. Ac amet mollis erat enim. Velit venenatis lectus orci viverra dis turpis. Tempor vehicula risus massa sed vestibulum dui nulla vulputate." headers={massageHeaders} images={massageImages}/>
+      <MassageCarousel span="RELAX AND FORGET" header="Massage Options" text="Lorem ipsum dolor sit amet consectetur. Consectetur lorem nibh ultrices quis sit. Ac amet mollis erat enim. Velit venenatis lectus orci viverra dis turpis. Tempor vehicula risus massa sed vestibulum dui nulla vulputate." headers={massageHeaders} images={sliderMassage}/>
       <div className='flex flex-col gap-[40px] lg:gap-[50px]'>
       <SpaTypesInfoSection isImageLeft={true} showLink={false} span="Workıng Hours: 9:00 - 20:00" header="Indoor Pool" text=" Lorem ipsum dolor sit amet consectetur. Vitae maecenas facilisis leo ultrices neque massa. Accumsan urna risus in porttitor velit suspendisse purus orci volutpat. Nulla scelerisque id convallis lacus blandit et sed. Elementum vel dolor senectus in morbi. Risus est praesent ultrices vestibulum velit feugiat fusce. Nibh bibendum." img={indoorImg}/>
       <SpaReverseInfo isImageLeft={false} showLink={false} span="Experience traditional culture" header="Turkish Hammam" text="Lorem ipsum dolor sit amet consectetur. Et blandit et maecenas in diam tristique pellentesque duis. Proin a volutpat lacinia posuere eu interdum aliquam egestas. Eget dui arcu arcu quam. Sed nulla pellentesque suspendisse viverra sodales quisque commodo. Arcu cursus sit neque amet eget ipsum. Auctor ipsum volutpat " img={hamam2}/>

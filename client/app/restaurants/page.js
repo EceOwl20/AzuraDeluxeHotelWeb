@@ -40,7 +40,7 @@ const cuisines = [
       title: "Bella Azura",
       description: "CUISINE: Italian ",
        text:"The most popular from Southern Italian cuisine carpaccio, risotto, pasta and salads are crowded with aroma of red wine in our Italian Restaurant. Magically served delicious dishes invite you to a journey around the Mediterranean.",
-       link:"/restaurants/orchestrarestaurant"
+       link:"/restaurants/bellaazura"
     },
     {
       id: 3,
@@ -48,7 +48,7 @@ const cuisines = [
       title: "Ottoman A La Carte",
       description: "CUISINE: TURKISH ",
        text:"The unique menu of dishes prepared on rare recipes of Ottoman Palace cuisine complements gentle classical Turkish music. Ideal for those who want to experience the grandeur of the palace with its taste. ",
-       link:"/restaurants/despinarestaurant"
+       link:"/restaurants/ottomanrestaurant"
     }
   ];
 
