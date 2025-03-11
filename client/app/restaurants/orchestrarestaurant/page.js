@@ -13,6 +13,7 @@ import ContactSection2 from '@/app/GeneralComponents/Contact/ContactSection2'
 import backgroundImg from "../images/discoverbarsparallax.jpg"
 import RestaurantMainBanner from '../components/RestaurantMainBanner'
 import KidsMomentCarousel from '@/app/kidsclub/components/KidsMomentCarousel'
+import BannerDark from '@/app/GeneralComponents/BannerDark'
 
 const images =[imgBanner,img1,img2]
 
@@ -46,7 +47,7 @@ const otherOptions = [
 const page = () => {
   return (
     <div className='flex flex-col items-center justify-center gap-[60px] md:gap-[80px] lg:gap-[100px] bg-[#fbfbfb] overflow-x-hidden'>
-      <RestaurantMainBanner img={imgBanner} span="ITALIAN CUISINE AT ITS FINEST" header="Orchestra Restaurant" text="Enjoy a various amount of dining options from around the world."/>
+      <BannerDark img={imgBanner} span="ITALIAN CUISINE AT ITS FINEST" header="Orchestra Restaurant" text="Enjoy a various amount of dining options from around the world."/>
       <ClinaryReverseInfo img1={img1} img2={img2} span="Perfect Fine Dine Experiences" header="Exquisite Italian Flavours" text1="Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine.  Lectus proin ac elit sed porttitor habitasse adipiscing id neque." text2="Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."/>
      <KidsMomentCarousel images={images} header="" showheader={false}/>
       <CuisinesCarousel span="Perfect Fine Dine Experiences" header="Other options" text="In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!" cuisines={otherOptions}/>

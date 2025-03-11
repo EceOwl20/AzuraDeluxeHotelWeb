@@ -85,7 +85,7 @@ const page = () => {
     <div className='flex flex-col items-center justify-center gap-[100px] bg-[#fbfbfb]'>
      <MainBanner2 img={mainImg} span="Discover Your Perfect Getaway" header="Latest News"/> 
      <MissionVisionSection leftImg={leftImg} rightImg={rightImg} texts={texts} texts2={texts2} texts3={texts3} showLink={true} link1="/" link2="/"/>
-     <Beach5 span="" header="" text="" poolItems={newsItems} showLink={true} links={newsLinks}/>
+ 
      <ContactSection2/>
     </div>
   )

@@ -2,11 +2,11 @@
 import React, { useState, useEffect, useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-import Image from 'next/image';
+import Image from "next/image";
 
 const MassageCarousel = ({ span, header, text, headers = [], images = [] }) => {
-  const imagesOriginal= images || DEFAULT_SLIDES;
-  const imagesCombined = [...imagesOriginal, ...imagesOriginal,...imagesOriginal,...imagesOriginal,...imagesOriginal]; // Loop için ikiye katlıyoruz
+  const imagesOriginal = images || DEFAULT_SLIDES;
+  const imagesCombined = [...imagesOriginal, ...imagesOriginal];
   const [emblaRef, emblaApi] = useEmblaCarousel(
     {
       align: "start",
@@ -38,7 +38,7 @@ const MassageCarousel = ({ span, header, text, headers = [], images = [] }) => {
   useEffect(() => {
     if (emblaApi) {
       emblaApi.on("select", () => {
-        setSelectedIndex(emblaApi.selectedScrollSnap() % imagesOriginal.length); // Index düzeltildi
+        setSelectedIndex(emblaApi.selectedScrollSnap() % imagesOriginal.length);
       });
     }
   }, [emblaApi]);
@@ -60,24 +60,25 @@ const MassageCarousel = ({ span, header, text, headers = [], images = [] }) => {
       <div className="flex flex-col w-[100%] justify-start items-start">
         {/* Carousel */}
         <div
-          className="flex overflow-hidden relative w-[93.89%] ml-[6.1%] md:w-[95.7%] md:ml-[4.3%] lg:w-[88.6%] lg:ml-[11.6%] h-full flex-col justify-start items-start"
           ref={emblaRef}
+          className="overflow-hidden w-full ml-[6.10%] md:ml-[4.3%] lg:ml-[11.6%]"
         >
           <div className="flex grid-flow-col lg:h-[540px] w-auto">
             {imagesCombined.map((image, index) => (
               <div
                 key={index}
-                className="relative shrink-0 flex justify-center items-center mr-4 flex-[0_0_auto] w-[270px] h-[405px]
-          lg:min-h-[540px] lg:w-[360px]"
+                className="relative shrink-0 flex justify-center items-center mr-4  flex-[0_0_auto]
+         lg:min-h-[540px]
+         lg:w-[360px]
+         md:w-[270px] md:h-[405px]
+         h-[266px] w-[177.3px]"
               >
                 <Image
                   src={image.src}
-                  layout="responsive"
                   width={360}
                   height={540}
                   alt={`Slide ${index + 1}`}
-                  objectPosition="center"
-                  className="flex h-[353px] md:h-auto lg:h-[540px] xl:h-auto w-full"
+                  className="lg:w-full lg:h-full md:w-[270px] md:h-[405px] h-[266px] w-[177.3px] object-cover"
                 />
                 <div className="absolute inset-0 text-center top-[9%] w-full items-center justify-center">
                   <div className="w-[100%] flex flex-col items-center justify-center text-center">
@@ -100,10 +101,12 @@ const MassageCarousel = ({ span, header, text, headers = [], images = [] }) => {
           {imagesOriginal.map((_, i) => (
             <div
               key={i}
-              className={`transition-all mt-[20px] lg:mt-[30px] ${imagesOriginal.length==4 ? "w-[25%]" : "w-[20%]"} h-[2px] bg-[#24292C] rounded-full ${
+              className={`transition-all mt-[20px] lg:mt-[30px] ${
+                imagesOriginal.length == 4 ? "w-[25%]" : "w-[20%]"
+              } h-[2px] bg-[#24292C] rounded-full ${
                 selectedIndex === i ? "p-[2px]" : "bg-[#848383]"
               }`}
-             onClick={() => emblaApi && emblaApi.scrollTo(i)}
+              onClick={() => emblaApi && emblaApi.scrollTo(i)}
             />
           ))}
         </div>
