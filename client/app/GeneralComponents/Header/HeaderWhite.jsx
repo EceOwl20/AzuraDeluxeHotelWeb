@@ -104,13 +104,13 @@ export default function HeaderWhite() {
           </div>
 
           {/* Ortadaki Logo */}
-          <div className="absolute left-[16%] sm:left-[13%] md:left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
-           <Link className='w-full items-center justify-center flex' href="/">
+          <div className="absolute left-[24%] sm:left-[17%] h-full md:left-1/2 top-1/2 -translate-x-1/2 -translate-y-[30%] md:-translate-y-1/3">
+          <Link className='w-full items-center justify-center flex' href="/">
            <Image 
               src={logosvg}
               alt="Logo"
 
-              className="object-contain w-[167px] h-[66px] lg:w-[100%] lg:max-w-[300px] lg:h-auto items-center justify-center"
+              className="object-contain w-[70%] lg:w-[90%] lg:max-w-[300px] lg:h-auto"
 
             /></Link>
           </div>

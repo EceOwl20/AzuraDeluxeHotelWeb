@@ -39,11 +39,11 @@ const ContactSection = () => {
   return (
     <div className='flex w-screen h-screen md:h-[497px] lg:h-[750px] 2xl:h-[850px] items-center md:justify-start bg-cover bg-center relative  max-w-[1920px] overflow-hidden justify-center' style={{ backgroundImage: `url(${imgBackground.src})` }}>
       <LeafSvg className="absolute top-6 -left-24" width={498} height={652}/>
-      <div className='flex flex-col md:flex-row w-[95%]  md:w-[88%] lg:w-[80%] items-center justify-start bg-white h-[85%] lg:h-[88%] max-w-[1440px] gap-[20px]'>
+      <div className='flex flex-col md:flex-row w-[95%]  md:w-[88%] lg:w-[80%] items-center justify-start bg-white h-[90%] lg:h-[88%] max-w-[1440px] gap-[20px]'>
 
         <div className='flex h-[25%] md:h-auto w-[90%] md:w-[45%] lg:w-[39%] font-jost text-black items-center md:items-start justify-center '>
            <div className='flex flex-col md:w-[79%] items-center text-center md:text-start md:items-start justify-center gap-[15px] md:gap-[23.19px] lg:gap-[30px]'>
-           <span className=' text-[12px] font-medium leading-[14px] uppercase tracking-[0.48px] mt-[10%] md:mt-0'>Follow us for more</span>
+           <span className=' text-[12px] font-medium leading-[14px] uppercase tracking-[0.48px] mt-[14%] md:mt-0'>Follow us for more</span>
             <h2 className='font-marcellus font-normal text-[28px] md:text-[28px] lg:text-[28px] xl:text-[36px] 2xl:text-[44px] leading-[150%] lg:leading-[57.6px] capsizedText3 lg:capsizedText2'>@AzuraDeluxeResort</h2>
            
             <p className="font-jost text-[14px] md:text-[16px] leading-[24px] underline-offset-2 flex flex-col gap-2 ">
@@ -113,7 +113,7 @@ const ContactSection = () => {
            </div>
         </div>
 
-        <div className='flex w-[90%] md:w-[55%] lg:w-[60%] h-[75%] md:h-[95%] '>
+        <div className='flex w-[90%] md:w-[55%] lg:w-[60%] h-[70%] md:h-[95%] items-end'>
         <div style={{ scrollBehavior: "smooth" }} ref={scrollRef} className="w-full h-[96%] md:h-full min-h-[322px] max-w-[99%] overflow-hidden custom-scroll scroll-smooth ">
       <div className="flex flex-col">
           {[...Array(8)].flatMap((_, loopIndex) =>
