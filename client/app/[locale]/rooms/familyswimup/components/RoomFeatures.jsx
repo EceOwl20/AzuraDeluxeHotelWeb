@@ -19,6 +19,7 @@ import HandsoapSvg from "./HandsoapSvg";
 import TeaCoffeeSvg from "./TeaCoffeeSvg";
 import LedTvSvg from "./LedTvSvg";
 import BalconySvg from "./BalconySvg";
+import Link from "next/link"
 
 const items = [
   { text: "Private Pool", icon: PoolSvg2 },
@@ -360,7 +361,7 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts})
        
         </div>
             
-            <button onClick={() => console.log("Final Guest Information:", guestInfo)} type="button" className="flex p-5 text-white items-center justify-center text-center bg-lagoBlack border h-[47px] border-lagoBlack lg:w-[175px] shadow-buttonCustom text-[16px] uppercase font-semibold font-jost leading-[120%] hover:bg-white hover:underline hover:text-lagoBlack">BOOK NOW</button>
+            <Link href="/https://azuradeluxehotel.orsmod.com/"  type="button" className="flex p-5 text-white items-center justify-center text-center bg-lagoBlack border h-[47px] border-lagoBlack lg:w-[175px] shadow-buttonCustom text-[16px] uppercase font-semibold font-jost leading-[120%] hover:bg-white hover:underline hover:text-lagoBlack">BOOK NOW</Link>
         </div>
         <div className="flex flex-col items-center justify-center w-full gap-[17px] bg-white py-[15px] shadow-divCustom">
           <h4 className="text-[28px] font-marcellus font-normal text-lagoBlack leading-[120%] -tracking-[0.56px] leading-trim-both">Contact us now</h4>

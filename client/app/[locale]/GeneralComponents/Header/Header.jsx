@@ -285,7 +285,7 @@ export default function Header() {
               RESTAURANTS AND CAFÉS
             </Link>
             <Link
-              href="/barcafes"
+              href="/bars"
               className="block font-normal leading-[26.667px] w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
               BARS 

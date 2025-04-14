@@ -1,5 +1,7 @@
 "use client"
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
+import {useTranslations} from 'next-intl';
+import { MdArrowBackIosNew, MdArrowForwardIos } from "react-icons/md";
 import Image from "next/image"
 import img1 from "../images/Image-1.jpg"
 import img2 from "../images/Image-2.jpg"
@@ -48,9 +50,48 @@ const imageCategories = {
 const categories = Object.keys(imageCategories)
 
 const GalleryScrollSection = () => {
+  const [modalIndex, setModalIndex] = useState(null);
   // Seçili kategori (başlangıçta "GENERAL VIEW")
   const [selectedCategory, setSelectedCategory] = useState("GENERAL")
   const [modalImage, setModalImage] = useState(null) // Seçilen resmi tutacak state
+
+  const openModal = (img, index) => {
+    setModalImage(img);
+    setModalIndex(index);
+  };
+
+  const scrollPrev = () => {
+    const images = imageCategories[selectedCategory];
+    const newIndex = modalIndex === 0 ? images.length - 1 : modalIndex - 1;
+    setModalIndex(newIndex);
+    setModalImage(images[newIndex]);
+  };
+
+  // Sağ ok: index'i artır, wrap-around uygulayarak ilk elemana geçsin
+  const scrollNext = () => {
+    const images = imageCategories[selectedCategory];
+    const newIndex = modalIndex === images.length - 1 ? 0 : modalIndex + 1;
+    setModalIndex(newIndex);
+    setModalImage(images[newIndex]);
+  };
+
+  useEffect(() => {
+    if (!modalImage) return; // Modal kapalıysa listener ekleme
+    
+    const handleKeyDown = (e) => {
+      if (e.key === "ArrowLeft") {
+        scrollPrev();
+      } else if (e.key === "ArrowRight") {
+        scrollNext();
+      } else if (e.key === "Escape") {
+        setModalImage(null);
+      }
+    };
+  
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, [modalImage, scrollPrev, scrollNext]);
+
 
   return (
     <div className="flex w-screen items-center justify-center mt-[50px] max-w-[1440px]">
@@ -79,7 +120,7 @@ const GalleryScrollSection = () => {
                 <div
                   className="mb-[19.16px] transition-all duration-[350ms] ease-in-out cursor-pointer"
                   key={index}
-                  onClick={() => setModalImage(imgSrc)} // Resme tıklandığında modal açılır
+                  onClick={() => openModal(imgSrc,index)} // Resme tıklandığında modal açılır
                 >
                   <Image src={imgSrc} alt="gallery" className="lg:w-[322px] h-full" />
                 </div>
@@ -94,15 +135,30 @@ const GalleryScrollSection = () => {
             className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70"
             onClick={() => setModalImage(null)} // Modal dışına tıklandığında kapanır
           >
-            <div className="relative w-[80%] max-w-4xl" onClick={(e) => e.stopPropagation()}>
-              <Image src={modalImage} alt="Enlarged gallery" className="w-full h-auto object-contain" />
+            <div className="relative w-[35%] " onClick={(e) => e.stopPropagation()}>
+              <Image src={modalImage} alt="Enlarged gallery" className="w-full h-auto object-contain max-h-[720px]" />
               <button
-                className="absolute top-4 right-4 text-white text-2xl"
+                className="absolute left-0 top-1/2 -translate-y-1/2 p-2 bg-gray-700 bg-opacity-50 hover:bg-opacity-75 text-white"
+                onClick={scrollPrev}
+                aria-label="Previous"
+              >
+                <MdArrowBackIosNew size={32} />
+              </button>
+              {/* Sağ Ok */}
+              <button
+                className="absolute right-0 top-1/2 -translate-y-1/2 p-2 bg-gray-700 bg-opacity-50 hover:bg-opacity-75 text-white"
+                onClick={scrollNext}
+                aria-label="Next"
+              >
+                <MdArrowForwardIos size={32} />
+              </button> 
+            </div>
+            <button
+                className="absolute top-6 right-4 text-white text-4xl"
                 onClick={() => setModalImage(null)}
               >
                 &times;
               </button>
-            </div>
           </div>
         )}
 

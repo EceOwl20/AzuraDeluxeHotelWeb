@@ -93,7 +93,7 @@ const page = () => {
      <div className='flex flex-col relative'>
      <CuisinesCarousel span="Perfect Fine Dine Experiences" header="Cafés & Snacks" text="As the Lago family, we are making your dreams come true on the shore where the sand and the sea meet, looking at the horizon, accompanied by the deep blue waters of the Mediterranean. We choose the freshest and best quality fish of our country, surrounded by seas on 3 sides, and add our love to it." cuisines={cuisines2}/>
      </div>
-      <DiscoverBackground span="A UNIQUE FEAST OF TASTE" header="Discover our Bars" text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus" link="/restaurant" img={backgroundImg}/>
+      <DiscoverBackground span="A UNIQUE FEAST OF TASTE" header="Discover our Bars" text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus" link="/bars" img={backgroundImg}/>
       <ContactSection2/>
     </div>
   )

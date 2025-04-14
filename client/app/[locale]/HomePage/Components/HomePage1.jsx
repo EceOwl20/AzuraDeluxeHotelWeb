@@ -1,5 +1,6 @@
 import React from 'react'
 import {useTranslations} from 'next-intl';
+import Link from 'next/link';
 
 export default function HomePage1() {
   const t = useTranslations('Homepage');
@@ -16,9 +17,9 @@ export default function HomePage1() {
       <p className=' text-center text-[14px] md:text-[16px] font-normal leading-[20.8px] lg:leading-[24px] md:max-w-[490px] lg:max-w-[736px]'>
       The complex is located 98 km from Antalya (airport), 69 km from Gazipaşa airport and 22 km from Alanya. Between the Mediterranean Sea and the Taurus Mountains is beautifully situated our grounds with a total surface of 12,000 m2 directly on the sea. Our beach has a length of 70 meters and has a jetty for lying and staying.
       </p>
-      <button className='hidden lg:flex underline underline-offset-[6px] text-lagoBrown text-[16px] font-normal uppercase leading-[30px] font-marcellus'>
+      <Link href="/about" className='hidden lg:flex underline underline-offset-[6px] text-lagoBrown text-[16px] font-normal uppercase leading-[30px] font-marcellus'>
         DISCOVER MORE
-      </button>
+      </Link>
 
       </div>
       

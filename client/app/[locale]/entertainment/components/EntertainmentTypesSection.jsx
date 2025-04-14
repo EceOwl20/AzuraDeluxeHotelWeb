@@ -33,7 +33,7 @@ const activities = [
     category: "DAYTIME ACTIVITIES",
     description: "Lorem ipsum dolor sit amet consectetur. Varius tortor nec sed sed sed et dolor. Sapien in turpis et in. Elementum amet sagittis et id scelerisque convallis.",
     image: water,
-    link:"/spor"
+    link:"/beachpools"
   },
   {
     title: "Beach Activıties",

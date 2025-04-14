@@ -21,14 +21,14 @@ const page = () => {
       <RoomsBanner />
       <RoomsInfoSection />
       <RoomsSection
-      id="superiorroom"
+      id="deluxeroom"
         img={imgdeluxe}
         img2={imgdeluxe2}
         header=" Deluxe Room"
         text=" Deluxe rooms (30-32 m²) are located from the first to the seventh floor in the main building, 4 of which are handicapped rooms on the ground floor with all necessary equipment."
         span="30-32 m2"
         span2="Land/Sea View"
-        link="/rooms/deluxestandardroom" 
+        link="/rooms/deluxeroom" 
       />
       <RoomsSectionReverse
       id="familyroom"
@@ -42,6 +42,7 @@ const page = () => {
       />
 
       <RoomsSection
+       id="fantasyroom"
         img={imgFantasy}
         img2={imgFantasy2}
         header="Fantasy Room"

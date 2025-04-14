@@ -7,6 +7,7 @@ import Fireworks from "./Icons/Fireworks"
 import Kids from "./Icons/Kids"
 import Pool from "./Icons/Pool"
 import Spa from "./Icons/Spa"
+import Link from "next/link"
 
 export default function HomePage4() {
   const services = [
@@ -14,39 +15,45 @@ export default function HomePage4() {
       title: "Private Beach & Pier",
       Icon: Beach,
       description:
-        "Relax on our 70m private beach or enjoy the exclusive 200m pier with private lodges, sunbathing areas, and comfortable loungers."
+        "Relax on our 70m private beach or enjoy the exclusive 200m pier with private lodges, sunbathing areas, and comfortable loungers.",
+        link:"/beach-pool"
     },
     {
       title: "Pools for Every Mood",
       Icon: Pool,
       description:
-        "Enjoy our outdoor & heated indoor pools, plus an Aqua Park with 4 slides and kids’ pools with slides."
+        "Enjoy our outdoor & heated indoor pools, plus an Aqua Park with 4 slides and kids’ pools with slides.",
+        link:"/beach-pool"
     },
     // 3. sırada World-Class Dining
     {
       title: "World-Class Dining",
       Icon: Dining,
       description:
-        "Enjoy ultra all-inclusive buffets and A la Carte restaurants with Turkish, Mediterranean, and international cuisine."
+        "Enjoy ultra all-inclusive buffets and A la Carte restaurants with Turkish, Mediterranean, and international cuisine.",
+        link:"/restaurants"
     },
     // 4. sırada Fun for Kids
     {
       title: "Fun for Kids",
       Icon: Kids,
       description:
-        "The Mini Club (ages 4-12) offers playgrounds, game rooms, mini discos, and a kids’ buffet in the restaurant."
+        "The Mini Club (ages 4-12) offers playgrounds, game rooms, mini discos, and a kids’ buffet in the restaurant.",
+        link:"/kidsclub"
     },
     {
       title: "Entertainment & Activities",
       Icon: Fireworks,
       description:
-        "From live shows and sports to pool games and beach fun, there's something for everyone. Try table tennis and volleyball."
+        "From live shows and sports to pool games and beach fun, there's something for everyone. Try table tennis and volleyball.",
+        link:"/entertainment"
     },
     {
       title: "Spa & Wellness",
       Icon: Spa,
       description:
-        "Unwind at the Symphony Spa with a hammam, sauna, steam room, and massages. A fitness center is also available."
+        "Unwind at the Symphony Spa with a hammam, sauna, steam room, and massages. A fitness center is also available.",
+        link:"spawellness"
     }
   ]
 
@@ -72,9 +79,9 @@ export default function HomePage4() {
             className="flex gap-[15px] md:gap-[10px] lg:gap-[17px] items-center justify-center md:w-[92%] lg:w-[100%] xl:w-[98%]"
           >
             {/* İkon */}
-            <div className="shrink-0 items-center justify-center">
-              <service.Icon width={50} height={50} />
-            </div>
+            <Link href={service.link} className="shrink-0 items-center justify-center">
+            <service.Icon width={50} height={50} />
+            </Link>
             {/* Başlık + açıklama */}
             <div className="flex flex-col gap-[4px] md:gap-[10px] lg:gap-[17px]">
               <h3 className="font-jost text-[16px] leading-normal lg:text-[18px] font-normal md:leading-[30px]">
@@ -90,9 +97,9 @@ export default function HomePage4() {
 
       {/* Alt kısım: Discover More link/button */}
       <div className="hidden lg:flex ">
-        <button className="flex border-b font-marcellus border-lagoBlack text-lagoBlack uppercase text-[16px] font-normal leading-[30px] transition cursor-pointer">
+        <Link href="/about" className="flex border-b font-marcellus border-lagoBlack text-lagoBlack uppercase text-[16px] font-normal leading-[30px] transition cursor-pointer">
           Discover More
-        </button>
+        </Link>
       </div>
       </div>
     </section>
