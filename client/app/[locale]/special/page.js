@@ -5,7 +5,6 @@ import SpecialGridSection from './components/SpecialGridSection'
 import SpecialInfoSection from './components/SpecialInfoSection'
 import SpecialCarousel from './components/SpecialCarousel'
 import ContactSection2 from '../GeneralComponents/Contact/ContactSection2'
-import RestaurantMainBanner from '../restaurants/components/RestaurantMainBanner'
 import BannerDark from '../GeneralComponents/BannerDark'
 
 const page = () => {

@@ -24,9 +24,9 @@ const otherOptions = [
       id: 1,
       img: piano,
       title: "Lobby Piano Bar",
-      description: "HOURS: 10:00 - 19:00 ",
+      description: "HOURS: 10:00 - 19:00",
       text:"Let’s experience the pleasure of retaining the distinctive flavors and culinary traditions of Turkish food on the plate. LAGO has the honor of fusing your dreams with the unique taste of the Mediterranean.",
-      link:"/"
+      link:"/bars/lobby-piano-bar"
     },
   {
       id: 2,
@@ -34,7 +34,7 @@ const otherOptions = [
       title: "Cha Cha Pool Bar",
       description: "HOURS: 08:00 - 23:00",
       text:"Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine. Lorem Ipsum the distinctive flavors of ",
-      link:"/barcafes/joiebar"
+      link:"/bars/lobby-piano-bar"
     },
     {
       id: 3,
@@ -42,7 +42,7 @@ const otherOptions = [
       title: "Pier Bar",
       description: "HOURS: 09:00 - 18:00",
        text:"Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the ",
-       link:"/"
+       link:"/bars/"
     },
     {
       id: 4,
@@ -50,7 +50,7 @@ const otherOptions = [
       title: "Disco Bar Ciks",
       description: "HOURS: 24 hours ",
        text:"Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the ",
-       link:"/"
+       link:"/bars/"
     }
 ];
 
@@ -64,7 +64,7 @@ const page = () => {
       <BackgroundSection span="A UNIQUE FEAST OF TASTE" header="Cool Down and Relax" texts={backgroundTexts} link="/" img={backgroundImg2}/>
       <OtherOptions4 span="Perfect Fine Dine Experiences" header="Bars" text="In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!" images={otherOptions}/>
      
-      <DiscoverBackground span="A UNIQUE FEAST OF TASTE" header="Discover our Fınest Restaurants" text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus" link="/barcafes" img={backgroundImg}/>
+      <DiscoverBackground span="A UNIQUE FEAST OF TASTE" header="Discover our Fınest Restaurants" text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus" link="/bars" img={backgroundImg}/>
       <ContactSection2/>
     </div>
   )

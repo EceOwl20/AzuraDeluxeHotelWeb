@@ -73,7 +73,7 @@ const newsItems = [
   },
 ]
 
-const newsLinks=["/barcafes", "/spawellness","/kidsclub", "/special","/spor", "/special","/restaurants", "/restaurants","/restaurants"]
+const newsLinks=["/bars", "/spawellness","/kidsclub", "/special","/spor", "/special","/restaurants", "/restaurants","/restaurants"]
 
 const texts=["Perfect Fine Dine Experiences","Lago Hotel News","A world of unparalleled experiences where luxury meets comfort and every detail is crafted for your delight. From serene spa retreats and exquisite dining options to fun-filled activities and unforgettable celebrations, our hotel offers something special for everyone."]
 const texts2=["Eco-Friendly Practices","Sustainable luxury","Step into the epitome of comfort and elegance with our luxurious rooms and suites. Each room is meticulously designed to cater to your every need, featuring modern amenities, stylish furnishings, and breathtaking views. Whether you choose a cozy standard room, a spacious family suite, or an opulent executive suite, you’ll find a sanctuary that feels like ."]

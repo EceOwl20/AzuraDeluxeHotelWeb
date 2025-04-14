@@ -126,7 +126,7 @@ const CookiePopup = () => {
             />
           </div>
 
-          <h4 className="text-[16px] font-medium leading-[26.667px] w-[73%] sm:w-[84%] md:w-[71vw] lg:w-[498px]">
+          <h4 className="text-[16px] font-medium leading-[26.667px] ">
             Performance
           </h4>
         </div>
@@ -174,7 +174,7 @@ const CookiePopup = () => {
             />
           </div>
 
-          <h4 className="text-[16px] font-medium leading-[26.667px] w-[73%] sm:w-[84%] md:w-[71vw] lg:w-[498px]">
+          <h4 className="text-[16px] font-medium leading-[26.667px]">
             Functional
           </h4>
         </div>
@@ -222,7 +222,7 @@ const CookiePopup = () => {
             />
           </div>
 
-          <h4 className="text-[16px] font-medium leading-[26.667px] w-[73%] sm:w-[84%] md:w-[71vw] lg:w-[498px]">
+          <h4 className="text-[16px] font-medium leading-[26.667px] ">
             Targeting
           </h4>
         </div>
@@ -355,7 +355,8 @@ const CookiePopup = () => {
         amacıyla zorunlu veri işleme gerekliliği olduğunda bu çerezler
         kullanılmaktadır. Web sitemizde kullanılan zorunlu çerezlerin
         sağlayıcıları ve kullanım amaçları aşağıda belirtilmiştir:
-        <table class="w-[90%] border-collapse my-[15px] text-[12px] overflow-x-scroll">
+        </p>
+        <table className="w-[90%] border-collapse my-[15px] text-[12px] overflow-x-scroll">
           <thead>
             <tr className="color-[#233038] border-[#fff]">
               <th className="border p-[2px] text-left leading-normal">
@@ -596,7 +597,7 @@ const CookiePopup = () => {
         gerekirse, bu bilgilerin korunması ve gizliliği önemlidir. Web sitemizde
         kullanılan pazarlama çerezlerinin sağlayıcıları ve kullanım amaçları
         aşağıda belirtilmiştir:
-        <table class="w-[90%] border-collapse my-[15px] text-[12px] overflow-x-scroll">
+        <table className="w-[90%] border-collapse my-[15px] text-[12px] overflow-x-scroll">
           <thead>
             <tr className="color-[#233038] border-[#fff]">
               <th className="border p-[2px] text-left leading-normal">
@@ -660,7 +661,7 @@ const CookiePopup = () => {
         veriler yurt dışındaki çerez sağlayıcılarıyla paylaşılabilir. Web
         sitemizde kullanılan analitik çerezler, sağlayıcıları ve kullanım
         amaçları aşağıda belirtilmiştir:
-        <table class="w-[90%] border-collapse my-[15px] text-[12px] overflow-x-scroll">
+        <table className="w-[90%] border-collapse my-[15px] text-[12px] overflow-x-scroll">
           <thead>
             <tr className="color-[#233038] border-[#fff]">
               <th className="border p-[2px] text-left leading-normal">
@@ -887,7 +888,7 @@ const CookiePopup = () => {
             </ol>
           </li>
         </ul>
-      </p>
+    
     </div>,
 
     // second text

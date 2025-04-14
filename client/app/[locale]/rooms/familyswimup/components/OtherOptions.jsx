@@ -21,7 +21,7 @@ const rooms = [
     size: "38-41 m2",
     capacity: "2 adults + 1 child",
     text: "Lorem ipsum dolor sit amet consectetur. Vel vitae adipiscing pellentesque sed mauris nisl velit in. Imperdiet orci purus nunc nisi. Pretium malesuada sed nibh varius. Scelerisque iaculis fringilla commodo hac. Aenean nulla.",
-    link: "/",
+    link: "/rooms/familyroom",
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ const rooms = [
     size: "40-43 m2",
     capacity: "2 adults + 1 child",
     text: "Lorem ipsum dolor sit amet consectetur. Vel vitae adipiscing pellentesque sed mauris nisl velit in. Imperdiet orci purus nunc nisi. Pretium malesuada sed nibh varius. Scelerisque iaculis fringilla commodo hac. Aenean nulla.",
-    link: "/",
+    link: "/rooms/fantasyroom",
   },
 
 ];

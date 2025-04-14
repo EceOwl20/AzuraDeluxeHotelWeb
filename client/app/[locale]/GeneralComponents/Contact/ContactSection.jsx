@@ -38,7 +38,7 @@ const ContactSection = () => {
 
   return (
     <div className='flex w-screen h-screen md:h-[497px] lg:h-[750px] 2xl:h-[850px] items-center md:justify-start bg-cover bg-center relative  max-w-[1920px] overflow-hidden justify-center' style={{ backgroundImage: `url(${imgBackground.src})` }}>
-      <LeafSvg className="absolute top-6 -left-24" width={498} height={652}/>
+      <LeafSvg className="absolute top-6 -left-24 z-[1]" width={498} height={652}/>
       <div className='flex flex-col md:flex-row w-[95%]  md:w-[88%] lg:w-[80%] items-center justify-start bg-white h-[90%] lg:h-[88%] max-w-[1440px] gap-[20px]'>
 
         <div className='flex h-[25%] md:h-auto w-[90%] md:w-[45%] lg:w-[39%] font-jost text-black items-center md:items-start justify-center '>
@@ -78,16 +78,17 @@ const ContactSection = () => {
             
             <div className='flex w-full items-center justify-center md:justify-start gap-[20px] '>
                 <div className='flex items-center justify-center gap-[18px]'>
-                <Link
+                <Link className="flex z-20"
               href="https://www.instagram.com/azuradeluxeresort/"
               target="_blank"
               rel="norefferer nofollower"
             >
-              {" "}
+              
               <PiInstagramLogoLight size={28} />
             </Link>
-            {/* <PiMetaLogoLight size={30} /> */}
+            
             <Link
+            className="flex z-20"
               href="https://www.facebook.com/AzuraDeluxeResort/"
               target="_blank"
               rel="norefferer nofollower"
@@ -96,6 +97,7 @@ const ContactSection = () => {
               <PiFacebookLogoLight size={28} />
             </Link>
             <Link
+            className="flex z-20"
               href="https://www.youtube.com/channel/UC3Z23WuWOhmpFnbw9fLI1-g"
               target="_blank"
               rel="norefferer nofollower"
@@ -108,7 +110,7 @@ const ContactSection = () => {
                 <Link href="https://azuradeluxehotel.orsmod.com/"  target="_blank"
               rel="norefferer nofollower" className="text-lagoBrown font-marcellus underline underline-offset-[6px] text-[16px] font-normal hidden lg:flex leading-[30px] uppercase">BOOK NOW</Link>
                 <Link href="https://azuradeluxehotel.orsmod.com/"  target="_blank"
-              rel="norefferer nofollower" className="text-lagoBrown font-marcellus underline underline-offset-[6px] text-[14px] font-normal md:leading-[19.88px] flex lg:hidden uppercase">BOOK NOW</Link>
+              rel="norefferer nofollower" className="text-lagoBrown font-marcellus underline underline-offset-[6px] text-[14px] font-normal md:leading-[19.88px] flex lg:hidden uppercase z-20">BOOK NOW</Link>
             </div>
            </div>
         </div>
