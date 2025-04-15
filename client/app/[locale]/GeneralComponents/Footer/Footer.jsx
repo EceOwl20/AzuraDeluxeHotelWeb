@@ -29,60 +29,58 @@ export default function Footer() {
           <div className="w-full grid grid-cols-2 lg:grid-cols-4 gap-8">
             {/* QUICK MENU */}
             <div className="flex flex-col items-start justify-start text-start gap-[40px]">
-              <h4 className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
-                QUICK MENU
-              </h4>
+              <Link href="/rooms" className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
+              Accomodation
+              </Link>
               <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
-                <li className="hover:text-white cursor-pointer">Home</li>
-                <li className="hover:text-white cursor-pointer">Service</li>
-                <li className="hover:text-white cursor-pointer">Portfolio</li>
-                <li className="hover:text-white cursor-pointer">Product</li>
-                <li className="hover:text-white cursor-pointer">
-                  <Link href="/news">Blog</Link>
-                </li>
+              <li>  <Link href="/rooms/deluxeroom" className="hover:text-white cursor-pointer">Deluxe Room</Link></li>
+                <li><Link href="/rooms/familyroom" className="hover:text-white cursor-pointer">Family Room</Link></li>
+                <li><Link href="/rooms/fantasyroom" className="hover:text-white cursor-pointer">Fantasy Room</Link></li>
+           
                 <li className="hover:text-white cursor-pointer">FAQ</li>
               </ul>
             </div>
 
             {/* TERM & CONDITIONS */}
             <div className="flex flex-col items-start justify-start text-start gap-[40px]">
-              <h4 className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
-                TERM & CONDITIONS
-              </h4>
+              <Link href="/restaurants" className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
+              Cuisine
+
+              </Link>
               <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
+                <Link href="/restaurants" className="hover:text-white cursor-pointer">
+                  Main Restaurant
+                </Link>
                 <li className="hover:text-white cursor-pointer">
-                  Privacy Policy
+                Orchestra
                 </li>
                 <li className="hover:text-white cursor-pointer">
-                  Bookings & Cancellations
+                Bella Azura
                 </li>
-                <li className="hover:text-white cursor-pointer">
-                  Website Terms
-                </li>
-                <li className="hover:text-white cursor-pointer">Product</li>
+                <li className="hover:text-white cursor-pointer">Ottoman A'la Carte</li>
                 <li className="hover:text-white cursor-pointer">
                   <Link href="/news">Blog</Link>
                 </li>
-                <li className="hover:text-white cursor-pointer">FAQ</li>
+        
               </ul>
             </div>
 
             {/* COMPANY */}
             <div className="flex flex-col items-start justify-start text-start gap-[40px]">
               <h4 className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
-                COMPANY
+              Activities
               </h4>
               <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
                 <li className="hover:text-white cursor-pointer">
-                  About Company
+                Spor
                 </li>
                 <li className="hover:text-white cursor-pointer">
-                  <Link href="/connect">Contact</Link>
+                  <Link href="/kidsclub">Kids</Link>
                 </li>
                 <li className="hover:text-white cursor-pointer">
-                  Terms & Condition
+                  Spa
                 </li>
-                <li className="hover:text-white cursor-pointer">Help Center</li>
+                <li className="hover:text-white cursor-pointer">Bars</li>
               </ul>
             </div>
 
@@ -162,6 +160,9 @@ export default function Footer() {
             <a href="#" className="hover:underline">
               Sustainability
             </a>
+            <li className="hover:text-white cursor-pointer">
+                  <Link href="/news">Blog</Link>
+                </li>
           </div>
         </div>
       </div>
@@ -245,38 +246,32 @@ export default function Footer() {
         <div className="flex gap-[30px] items-start justify-center w-[90%] ml-[10%]">
           <div className="flex flex-col items-start justify-start text-start gap-[40px] w-[33%]">
             <h4 className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
-              QUICK MENU
+            Accomodation
             </h4>
             <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
-              <li className="hover:text-white cursor-pointer">Home</li>
-              <li className="hover:text-white cursor-pointer">Service</li>
-              <li className="hover:text-white cursor-pointer">Portfolio</li>
-              <li className="hover:text-white cursor-pointer">Product</li>
-              <li className="hover:text-white cursor-pointer">
-                <Link href="/news">Blog</Link>
-              </li>
-              <li className="hover:text-white cursor-pointer">FAQ</li>
+              <li className="hover:text-white cursor-pointer">Deluxe Room</li>
+              <li className="hover:text-white cursor-pointer">Family Room              </li>
+              <li className="hover:text-white cursor-pointer">Fantasy Room</li>
+            
             </ul>
           </div>
 
           {/* TERM & CONDITIONS */}
           <div className="flex flex-col items-start justify-start text-start gap-[40px] w-[33%]">
             <h4 className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
-              TERM & CONDITIONS
+            Cuisine
             </h4>
             <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
               <li className="hover:text-white cursor-pointer">
-                Privacy Policy
+              Main Restaurant
               </li>
               <li className="hover:text-white cursor-pointer">
-                Bookings & Cancellations
+              Orchestra
               </li>
-              <li className="hover:text-white cursor-pointer">Website Terms</li>
-              <li className="hover:text-white cursor-pointer">Product</li>
-              <li className="hover:text-white cursor-pointer">
-                <Link href="/news">Blog</Link>
+              <li className="hover:text-white cursor-pointer">Bella Azura              </li>
+              <li className="hover:text-white cursor-pointer">Ottoman A'la Carte
               </li>
-              <li className="hover:text-white cursor-pointer">FAQ</li>
+              
             </ul>
           </div>
 
@@ -294,6 +289,9 @@ export default function Footer() {
                 Terms & Condition
               </li>
               <li className="hover:text-white cursor-pointer">Help Center</li>
+              <li className="hover:text-white cursor-pointer">
+                <Link href="/news">Blog</Link>
+              </li>
             </ul>
           </div>
         </div>
@@ -340,6 +338,9 @@ export default function Footer() {
             <a href="#" className="hover:underline">
               Sustainability
             </a>
+            <li className="hover:text-white cursor-pointer">
+                  <Link href="/news">Blog</Link>
+                </li>
           </div>
         </div>
       </div>
