@@ -34,7 +34,7 @@ const otherOptions = [
       title: "Cha Cha Pool Bar",
       description: "HOURS: 08:00 - 23:00",
       text:"Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine. Lorem Ipsum the distinctive flavors of ",
-      link:"/bars/lobby-piano-bar"
+      link:"/bars/chacha-pool-bar"
     },
     {
       id: 3,
@@ -42,7 +42,7 @@ const otherOptions = [
       title: "Pier Bar",
       description: "HOURS: 09:00 - 18:00",
        text:"Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the ",
-       link:"/bars/"
+       link:"/bars/pier-bar"
     },
     {
       id: 4,
@@ -50,7 +50,7 @@ const otherOptions = [
       title: "Disco Bar Ciks",
       description: "HOURS: 24 hours ",
        text:"Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the ",
-       link:"/bars/"
+       link:"/bars/disco-bar"
     }
 ];
 

@@ -95,9 +95,9 @@ export default function Footer() {
                 <p className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] ">
                   Phone: <span className="underline">+90 242 517 12 34</span>
                 </p>
-                <p className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px]">
-                  Email: info@azuradeluxe.com
-                </p>
+                <a href="mailto:info@azuradeluxe.com" className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px]">
+                  info@azuradeluxe.com
+                </a>
                 <p className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] ">
                   Address:   Avsallar Mah.  
                   <br />
@@ -235,7 +235,7 @@ export default function Footer() {
                 </span>
                 <div className="flex h-[1px] w-full bg-[#D9D9D9]/50"></div>
                 <p className="text-[#FBFBFB] leading-[32.53px] capsizedText6 tracking-[0.3px]">
-                  info@lagohotel.com
+                info@azuradeluxe.com
                 </p>
               </div>
             </div>
@@ -412,7 +412,7 @@ export default function Footer() {
                 </span>
                 <div className="flex h-[1px] w-full bg-[#D9D9D9]/50"></div>
                 <p className="text-[#FBFBFB] leading-[32.53px] capsizedText6 tracking-[0.3px]">
-                  info@lagohotel.com
+                info@azuradeluxe.com
                 </p>
               </div>
             </div>

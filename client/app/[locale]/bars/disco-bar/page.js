@@ -58,7 +58,7 @@ const otherOptions = [
 const page = () => {
   return (
     <div className='flex flex-col items-center justify-center gap-[100px] bg-[#fbfbfb]'>
-      <RestaurantMainBanner img={mainImg} span="Fresh drınks and musıc" header="Lobby Piano Bar" text="Enjoy a various amount of dining options from around the world."/>
+      <RestaurantMainBanner img={mainImg} span="Fresh drınks and musıc" header="Disco Bar" text="Enjoy a various amount of dining options from around the world."/>
       <ClinaryReverseInfo img1={img1} img2={img2} span="Perfect Fine Dine Experiences" header="Fresh Drinks at the Pool" text1="Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine.  Lectus proin ac elit sed porttitor habitasse adipiscing id neque." text2="Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."/>
       <KidsMomentCarousel images={galleryImages} header="" showheader={false}/>
       <RoomTour span="Perfect Fine Dine Experiences" header="Have a look around" text="Lorem ipsum dolor sit amet consectetur. Ipsum nulla sem placerat enim tortor vitae sapien lorem sem. In sapien a pharetra mollis lectus scelerisque lacus eu. Proin pellentesque netus a amet nisl cursus massa."/>

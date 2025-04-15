@@ -275,7 +275,7 @@ export default function HeaderWhite() {
           <Link href="/restaurants" className="block font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
             RESTAURANTS AND CAFÉS
           </Link>
-          <Link href="/barcafes" className="block font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
+          <Link href="/bars" className="block font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
             BARS 
           </Link>
           <Link href="/entertainment" className="block font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">

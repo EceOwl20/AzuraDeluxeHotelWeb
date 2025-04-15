@@ -52,13 +52,13 @@ const ContactSection = () => {
           Avsallar Mah. İncekum Cad. No:76 Alanya / Turkey
           </span>
           <span className="capsizedText4 lg:hidden">
-            Phone: <Link href="" className="underline">+90 242 517 12 34</Link>
+            Phone: <Link href="tel:+902425171234" className="underline">+90 242 517 12 34</Link>
           </span>
           <span className="capsizedText4 lg:hidden">
-            Call Center: <Link href="" className="underline">+90 242 277 11 43</Link>
+            Call Center: <Link href="tel:+902422771143" className="underline">+90 242 277 11 43</Link>
           </span>
           <span className="capsizedText4 lg:hidden">
-            Email: <Link href="" className="underline">info@azuradeluxe.com</Link>
+            Email: <Link  href="mailto:info@azuradeluxe.com" className="underline z-20">info@azuradeluxe.com</Link>
           </span>
 
           {/* Desktop görünüm (lg ve üstü) */}
@@ -66,13 +66,13 @@ const ContactSection = () => {
           Avsallar Mah. İncekum Cad. No:76 Alanya / Turkey
           </span>
           <span className="hidden lg:block">
-          Phone: <Link href="" className="underline">+90 242 517 12 34</Link>
+          Phone: <Link href="tel:+902425171234" className="underline">+90 242 517 12 34</Link>
           </span>
           <span className="hidden lg:block">
-          Call Center: <Link href="" className="underline">+90 242 277 11 43</Link>
+          Call Center: <Link href="tel:+902422771143" className="underline">+90 242 277 11 43</Link>
           </span>
           <span className="hidden lg:block">
-          Email: <Link href="" className="underline">info@azuradeluxe.com</Link>
+          Email: <Link  href="mailto:info@azuradeluxe.com" className="underline z-20">info@azuradeluxe.com</Link>
           </span>
         </p>
             
