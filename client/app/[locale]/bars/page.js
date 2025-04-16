@@ -4,7 +4,7 @@ import cafebar1 from "./images/blok2.png"
 import cafebar2 from "./images/blok22.png"
 import DiscoverBackground from '../restaurants/components/DiscoverBackground'
 import backgroundImg from "../restaurants/orchestrarestaurant/images/orchestra3.jpg"
-import BackgroundSection from '../rooms/familyswimup/components/BackgroundSection'
+import BackgroundSection from '../rooms/subroomComponent/components/BackgroundSection'
 import backgroundImg2 from "./images/POOL.png"
 import OtherOptions4 from './components/OtherOptions4'
 import piano from "./images/PIANOBAR.png"

@@ -1,11 +1,13 @@
 import React from 'react'
-import SubRoomBanner from '../familyswimup/components/SubRoomBanner'
-import SubroomCarousel from '../familyswimup/components/SubroomCarousel'
-import RoomFeatures from '../familyswimup/components/RoomFeatures'
-import BackgroundSection from '../familyswimup/components/BackgroundSection'
-import OtherOptions from '../familyswimup/components/OtherOptions'
-import backgroundImg from "../familyswimup/images/odafull.webp"
+import SubRoomBanner from '../subroomComponent/components/SubRoomBanner'
+import SubroomCarousel from '../subroomComponent/components/SubroomCarousel'
+import RoomFeatures from '../subroomComponent/components/RoomFeatures'
+import BackgroundSection from '../subroomComponent/components/BackgroundSection'
+import OtherOptions from '../subroomComponent/components/OtherOptions'
+import backgroundImg from "../subroomComponent/images/odafull.webp"
 import ContactSection2 from '@/app/[locale]/GeneralComponents/Contact/ContactSection2'
+import options1 from "../deluxeroom/images/deluxe4.jpg";
+import options2 from "../fantasyroom/images/fantasy4.jpg";
 
 import img1 from "./images/family1.webp";
 import img2 from "./images/family2.jpg";
@@ -20,16 +22,36 @@ import img10 from "./images/family10.webp";
 import img11 from "./images/family11.jpg";
 import img12 from "./images/family12.jpg";
 
-import RoomsParallaxSection from '../components/RoomsParallaxSection'
-
 const subroomBannerText=["Forest / Sea View","1-4 Adult + 1-3 Children","2 Bedrooms / 4 Beds"]
 const backgroundTexts=["Guests staying in Swim-Up rooms are welcomed with a VIP setup, including a carefully prepared fruit tray and delicate macarons upon check-in.","A’la Carte Dining: One complimentary visit for stays of 7+ nights.","Pavilion Discount: Enjoy 15% off exclusive pavilion services."]
 
-const iconTexts=["  Independent Pool"," 2 Single Beds"," Extra Baby Crib"];
-
+const iconTexts=["Independent Pool"," 2 Single Beds"," Extra Baby Crib"];
 
 const page = () => {
   const carouselImages = [img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12];
+  const rooms = [
+    {
+      id: 1,
+      img: options1,
+      title: "Deluxe Room",
+      description: "Room for all the family members",
+      size: "38-41 m2",
+      capacity: "2 adults + 1 child",
+      text: "Lorem ipsum dolor sit amet consectetur. Vel vitae adipiscing pellentesque sed mauris nisl velit in. Imperdiet orci purus nunc nisi. Pretium malesuada sed nibh varius. Scelerisque iaculis fringilla commodo hac. Aenean nulla.",
+      link: "/rooms/deluxeroom",
+    },
+    {
+      id: 2,
+      img: options2,
+      title: "Fantasy Room",
+      description: "FRESHEN UP WITHOUT LEAVING YOUR ROOM",
+      size: "40-43 m2",
+      capacity: "2 adults + 1 child",
+      text: "Lorem ipsum dolor sit amet consectetur. Vel vitae adipiscing pellentesque sed mauris nisl velit in. Imperdiet orci purus nunc nisi. Pretium malesuada sed nibh varius. Scelerisque iaculis fringilla commodo hac. Aenean nulla.",
+      link: "/rooms/fantasyroom",
+    },
+  
+  ];
 
   return (
     <div className=' overflow-hidden flex flex-col items-center justify-center gap-[60px] md:gap-[80px] lg:gap-[100px] bg-[#fbfbfb]'>
@@ -52,7 +74,7 @@ const page = () => {
               Extra folding bed is used in rooms without Sofa Bed.
               THE POOLS IN THE SWIMUP ROOMS ARE NOT HEATED." iconsTexts={iconTexts}  />
      <BackgroundSection span="EXCLUSIVE PRIVILEGES" header="Family Room VIP Benefits" texts={backgroundTexts} link="/" img={img3}/>
-      <OtherOptions/>
+      <OtherOptions rooms={rooms}/>
       <ContactSection2/>
     </div>
   )

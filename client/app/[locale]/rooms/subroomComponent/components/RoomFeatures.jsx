@@ -1,5 +1,5 @@
 "use client"
-import React, { useState, useEffect } from "react"
+import React, { useState, useEffect,useRef } from "react"
 import ArrawDown from "@/app/[locale]/HomePage/Components/Icons/ArrawDown"
 import DatePicker from "react-datepicker"
 import "react-datepicker/dist/react-datepicker.css"
@@ -43,6 +43,27 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts})
   const [adults, setAdults] = useState(0)
   const [children, setChildren] = useState(0)
   const [guestInfo, setGuestInfo] = useState({})
+
+  const dropdownRef = useRef(null);
+
+    // Dışarıya tıklamayı yakalayıp dropdown'u kapatan effect
+    useEffect(() => {
+      const handleClickOutside = (event) => {
+        if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+          setShowGuests(false);
+        }
+      };
+  
+      if (showGuests) {
+        document.addEventListener("mousedown", handleClickOutside);
+      } else {
+        document.removeEventListener("mousedown", handleClickOutside);
+      }
+  
+      return () => {
+        document.removeEventListener("mousedown", handleClickOutside);
+      };
+    }, [showGuests]);
 
   useEffect(() => {
     setGuestInfo({ checkInDate, checkOutDate, adults, children })
@@ -199,7 +220,7 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts})
         </div>
 
         {/* guest */}
-        <div className="relative flex items-center justify-center w-auto">
+        <div className="relative flex items-center justify-center w-auto" ref={dropdownRef}>
           <label htmlFor="guests-button" className="sr-only">
             Select number of guests
           </label>
@@ -215,12 +236,11 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts})
               leading-[140%]
               placeholder:font-normal
               font-jost text-lagoGray"
-              
-              
             aria-haspopup="dialog"
             aria-expanded={showGuests}
             type="button">
-            Adults / Kids
+              <span> {adults === 0 ? "Adult" : `${adults} Adult"`}</span>{" "}/{" "}
+              <span> {children === 0 ? "Kid" : `${children} Kid`}</span>
            
           </button>
           {showGuests && (
@@ -361,7 +381,7 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts})
        
         </div>
             
-            <Link href="/https://azuradeluxehotel.orsmod.com/"  type="button" className="flex p-5 text-white items-center justify-center text-center bg-lagoBlack border h-[47px] border-lagoBlack lg:w-[175px] shadow-buttonCustom text-[16px] uppercase font-semibold font-jost leading-[120%] hover:bg-white hover:underline hover:text-lagoBlack">BOOK NOW</Link>
+            <Link href="https://azuradeluxehotel.orsmod.com/"  type="button" className="flex p-5 text-white items-center justify-center text-center bg-lagoBlack border h-[47px] border-lagoBlack lg:w-[175px] shadow-buttonCustom text-[16px] uppercase font-semibold font-jost leading-[120%] hover:bg-white hover:underline hover:text-lagoBlack">BOOK NOW</Link>
         </div>
         <div className="flex flex-col items-center justify-center w-full gap-[17px] bg-white py-[15px] shadow-divCustom">
           <h4 className="text-[28px] font-marcellus font-normal text-lagoBlack leading-[120%] -tracking-[0.56px] leading-trim-both">Contact us now</h4>

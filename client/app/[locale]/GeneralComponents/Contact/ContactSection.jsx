@@ -108,7 +108,7 @@ const ContactSection = () => {
                 </div>
                 <div className='flex bg-black h-[20px] w-[1px]'></div>
                 <Link href="https://azuradeluxehotel.orsmod.com/"  target="_blank"
-              rel="norefferer nofollower" className="text-lagoBrown font-marcellus underline underline-offset-[6px] text-[16px] font-normal hidden lg:flex leading-[30px] uppercase">BOOK NOW</Link>
+              rel="norefferer nofollower" className="text-lagoBrown font-marcellus underline underline-offset-[6px] text-[16px] font-normal hidden lg:flex leading-[30px] uppercase z-20">BOOK NOW</Link>
                 <Link href="https://azuradeluxehotel.orsmod.com/"  target="_blank"
               rel="norefferer nofollower" className="text-lagoBrown font-marcellus underline underline-offset-[6px] text-[14px] font-normal md:leading-[19.88px] flex lg:hidden uppercase z-20">BOOK NOW</Link>
             </div>

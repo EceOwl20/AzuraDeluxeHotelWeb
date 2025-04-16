@@ -2,7 +2,7 @@ import React from 'react'
 import mainImg from "../lobby-piano-bar/images/main.webp"
 import img1 from "../lobby-piano-bar/images/fresh1.webp"
 import img2 from "../lobby-piano-bar/images/fresh2.webp"
-import RoomTour from '@/app/[locale]/rooms/familyswimup/components/RoomTour'
+import RoomTour from '@/app/[locale]/rooms/subroomComponent/components/RoomTour'
 import KidsMomentCarousel from '@/app/[locale]/kidsclub/components/KidsMomentCarousel'
 import gallery2 from "../lobby-piano-bar/images/gallery1.webp"
 import gallery1 from "../lobby-piano-bar/images/gallery2.webp"

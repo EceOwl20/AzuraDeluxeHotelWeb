@@ -3,7 +3,6 @@ import React, { useCallback, useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import options1 from "../../deluxeroom/images/deluxe4.jpg";
 import options2 from "../../fantasyroom/images/fantasy4.jpg";
-import options3 from "../images/option3.webp";
 import user from "../images/user1.png";
 import Image from "next/image";
 import Link from "next/link";
@@ -11,32 +10,7 @@ import AreaSvg2 from "../../components/svg/AreaSvg2";
 import UserSvg from "../../components/svg/UserSvg";
 import { BiArea, BiGroup } from "react-icons/bi";
 
-
-const rooms = [
-  {
-    id: 1,
-    img: options1,
-    title: "Family Room",
-    description: "Room for all the family members",
-    size: "38-41 m2",
-    capacity: "2 adults + 1 child",
-    text: "Lorem ipsum dolor sit amet consectetur. Vel vitae adipiscing pellentesque sed mauris nisl velit in. Imperdiet orci purus nunc nisi. Pretium malesuada sed nibh varius. Scelerisque iaculis fringilla commodo hac. Aenean nulla.",
-    link: "/rooms/familyroom",
-  },
-  {
-    id: 2,
-    img: options2,
-    title: "Fantasy Room",
-    description: "FRESHEN UP WITHOUT LEAVING YOUR ROOM",
-    size: "40-43 m2",
-    capacity: "2 adults + 1 child",
-    text: "Lorem ipsum dolor sit amet consectetur. Vel vitae adipiscing pellentesque sed mauris nisl velit in. Imperdiet orci purus nunc nisi. Pretium malesuada sed nibh varius. Scelerisque iaculis fringilla commodo hac. Aenean nulla.",
-    link: "/rooms/fantasyroom",
-  },
-
-];
-
-const OtherOptions = () => {
+const OtherOptions = ({rooms}) => {
   const [emblaRef, emblaApi] = useEmblaCarousel({  loop: true,
     align: "start",
     startIndex: 0, });
