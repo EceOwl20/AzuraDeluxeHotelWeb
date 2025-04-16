@@ -245,9 +245,9 @@ export default function Footer() {
 
         <div className="flex gap-[30px] items-start justify-center w-[90%] ml-[10%]">
           <div className="flex flex-col items-start justify-start text-start gap-[40px] w-[33%]">
-            <h4 className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
+            <Link href="/rooms" className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
             Accomodation
-            </h4>
+            </Link>
             <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
               <li className="hover:text-white cursor-pointer">Deluxe Room</li>
               <li className="hover:text-white cursor-pointer">Family Room              </li>
