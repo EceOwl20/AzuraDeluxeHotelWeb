@@ -5,6 +5,111 @@
     },
 
     "Homepage":{
-      "title":"Welcome to Azura Deluxe Resort de"
+    "subtitle":"Willkommen im Azura Deluxe Resort & Spa – Wo Träume auf Komfort treffen!",
+    "title":"Luxus, Komfort, Qualität und tadelloser Service",
+    "text":"Zwischen dem Mittelmeer und den atemberaubenden Taurusbergen gelegen, erstreckt sich das Azura Deluxe Resort & Spa über ein 12.000 m² großes, malerisches Gelände direkt am Meer. Dank der günstigen Lage in der Nähe der Flughäfen Antalya und Gazipaşa erwartet Sie unser 70 Meter langer Privatstrand mit einladendem Steg.",
+    "buttonText":"DISCOVER MORE",
+
+    "TwoImageSection":{
+      "subtitle":"  ENTDECKEN SIE MEHRE",
+      "title":" UNVERGESSLICHE MOMENTE IM AZURA DELUXE",
+      "text1":"  Inmitten einer malerischen 12.000 m² großen Landschaft zwischen dem türkisfarbenen Mittelmeer und den majestätischen Taurusbergen gelegen, empfängt Sie das Azura Deluxe Resort & Spa mit einem 70 Meter langen Privatstrand und einem einladenden Steg – für vollkommene Entspannung.",
+      "text2":"Tauchen Sie ein in die Ruhe unserer vielfältigen Poollandschaft: Freiluftpool, beheizte Innenpools und aufregende Wasserrutschen sorgen für Spaß und Erholung bei Gästen jeden Alters. Ihre luxuriöse und komfortable Auszeit erwartet Sie im Azura Deluxe – wo jeder Moment zu einer wertvollen Erinnerung wird.",
+      "buttonText":"Zur Galerie gehen"
+    },
+
+    "Accomodation":{
+      "subtitle":"Wählen Sie Ihre perfekte Unterkunft",
+      "title":" Genießen Sie ein luxuriöses Aufenthaltserlebnis",
+      "roomTitle1":" Deluxe-Zimmer",
+      "roomText1":" Dieses stilvolle Zimmer mit einer Größe von 30–32 m² befindet sich im Hauptgebäude und bietet einen charmanten Ausblick auf das Meer, das Land oder einen teilweisen Meerblick. Es verfügt über ein Doppelbett und ein Einzelbett und bietet bequem Platz für bis zu 3 Erwachsene und 1 Kind. Zur Ausstattung gehören ein modernes Badezimmer sowie ein gemütlicher Sitzbereich für Ihr Wohlbefinden.",
+      "area1":" 30-32 m²",
+      "view1":"Land / Sea View",
+      "roomTitle2":"   Fantasie-Zimmer",
+      "roomText2":"  Unsere exklusiv gestalteten Fantasie-Zimmer bieten großzügige 58 m² Wohnfläche mit atemberaubendem Meerblick. Jedes Zimmer verfügt über ein elegantes Schlafzimmer mit einem komfortablen Doppelbett sowie eine 25 m² große private Terrasse mit Whirlpool und Sonnenliegen – ideal für Paare, die romantische Entspannung und Privatsphäre suchen.",
+      "area2":"  58 m²",
+      "view2":"Meerblick",
+      "roomTitle3":"  Familienzimmer",
+      "roomText3":"   Unsere großzügigen Familienzimmer im Hauptgebäude bieten auf 50 m² Komfort und verfügen über zwei durch eine Tür verbundene, separate Schlafzimmer – ideal für Privatsphäre und Bequemlichkeit. Jedes Familienzimmer ist mit einem Doppelbett und zwei Einzelbetten ausgestattet und eignet sich hervorragend für Familien oder Gruppen. Mit wahlweise Meer- oder Landblick bieten diese Zimmer Platz für bis zu 4 Erwachsene und 1 Kind oder 3 Erwachsene und 1 Kind – für einen rundum gelungenen Familienaufenthalt.",
+      "area3":"  50 m²",
+      "view3":" Land- / Meerblick"
+    },
+
+    "Essentials":{
+      "subtitle": "Entdecken Sie unsere außergewöhnlichen Services",
+      "title": "Alles für ultimativen Komfort",
+      "title1":"  Privatstrand und Steg",
+      "text1":" Entspannen Sie sich an unserem 70 Meter langen Privatstrand, ausgestattet mit bequemen Liegen, Sonnenschirmen und einem luxuriösen Steg – perfekt für erholsame Stunden unter der Sonne.",
+      "title2":"  Pools für jede Stimmung",
+      "text2":" Erfrischen Sie sich in unserem großzügigen Außenpool, genießen Sie unsere beheizten Innenpools oder erleben Sie Nervenkitzel im Aqua Park mit vier aufregenden Rutschen. Auch unsere kleinen Gäste freuen sich über separate Kinderbecken.",
+      "title3":" Kulinarischer Hochgenuss auf Weltklasse-Niveau",
+      "text3":"Verwöhnen Sie Ihren Gaumen mit unserem Ultra-All-Inclusive-Konzept, das opulente Buffets und elegante À-la-carte-Restaurants mit türkischen, mediterranen und internationalen Köstlichkeiten bietet.",
+      "title4":" Spaß für Kinder",
+      "text4":" Unser Mini-Club (für Kinder von 4 bis 12 Jahren) bietet grenzenlosen Spaß mit Spielplätzen, betreuten Spielräumen, täglichen Mini-Discos und speziellen Kinderbuffets – alles, um unsere kleinen Gäste glücklich und beschäftigt zu halten.",
+      "title5":" Unterhaltung & Aktivitäten",
+      "text5":" Gestalten Sie Ihre Tage mit spannender Unterhaltung und abwechslungsreichen Aktivitäten für jedes Alter – darunter Live-Shows, Wasserspiele, Fitnesskurse, Tischtennis, Darts, Boccia und vieles mehr.",
+      "title6":"Spa & Wellness",
+      "text6":" Entspannen, regenerieren und erfrischen Sie sich im Symphony Spa & Wellness Center mit traditionellem türkischem Bad, Sauna, Dampfbad sowie einer Vielzahl wohltuender Massagen und Anwendungen. Für Ihr Wohlbefinden steht Ihnen auch ein voll ausgestattetes Fitnesscenter zur Verfügung.",
+      "buttonText":"  Folgen Sie uns für mehr"
+    },
+
+    "BackgroundSection":{
+      "subtitle":" Erleben Sie die Harmonie von Luxus und Natur im Azura Deluxe",
+      "title":" Wo Luxus auf die Schönheit der Natur trifft",
+      "text":"  Das Azura Deluxe Resort & Spa liegt eingebettet zwischen dem atemberaubenden Mittelmeer und den majestätischen Taurusgebirgen und bietet Ihnen einen außergewöhnlichen Rückzugsort voller Komfort. Mit privatem Strand, stilvollen Unterkünften, kulinarischen Highlights und einem erstklassigen Spa-Erlebnis bietet Azura Deluxe alles für einen unvergesslichen Urlaub voller Entspannung und Genuss. Erleben Sie die Harmonie von Luxus und Natur im Azura Deluxe.",
+      "buttonText":"  Mehr entdecken"
     }
+  },
+
+  "Rooms":{
+    "header":"Luxury, comfort, quality, and impeccable service",
+    "buttonText1":"Deluxe Room",
+    "buttonText2":"Family Room",
+    "buttonText3":" Fantasy Room",
+
+    "subtitle":" COMFORTABLE STAY FOR YOU AND YOUR FAMILY",
+    "title":"Feel Right at Home in Our Luxurious Rooms",
+    "text":"Enjoy the comfort and elegance of Azura Deluxe Resort & Spa's beautifully appointed rooms, each thoughtfully designed to offer relaxation, convenience, and luxury. Whether you choose a Deluxe Room with stunning views, a spacious Family Room ideal for families, or a romantic Fantasy Room with exclusive amenities, you'll find the perfect sanctuary to unwind and recharge. All our rooms feature modern comforts including daily refreshed minibars, premium bath amenities, tea and coffee-making facilities, and high-speed Wi-Fi, ensuring your stay is both memorable and convenient.",
+    "checkin":"CHECK-IN: 14:00",
+    "checkout":"CHECK-OUT: 12:00",
+
+    "Room1":{
+      "title":"Deluxe Room",
+      "text1":"Enjoy the elegance and comfort of our Deluxe Rooms, beautifully appointed spaces spanning 30-32 m². Located between the first and seventh floors of our main building, these stylish rooms offer delightful views of the sea or lush landscapes. Each Deluxe Room includes one double bed and one single bed, ensuring a cozy and restful stay. Specially designed accessible rooms are also available on the ground floor, fully equipped to accommodate every guest’s comfort.",
+      "area":"30-32 m²",
+      "view":"Sea, Land, or Partial Sea View",
+      "buttonText":"EXPLORE"
+    },
+
+    "Room2":{
+      "title":"Family Room",
+      "text1":"Ideal for families and groups, our spacious Family Rooms offer 50 m² of comfort with two beautifully decorated bedrooms connected by a convenient door. Each Family Room includes one double bed and two single beds, providing flexibility and space to comfortably accommodate up to 2 adults and 2 children, 3 adults and 1 child, or 4 adults and 1 child. Choose from enchanting sea or scenic land views to enhance your perfect stay.",
+      "area":" 50 m²",
+      "view":"Land or Sea View",
+      "buttonText":"EXPLORE"
+    },
+
+    "Room3":{
+      "title":" Fantasy Room",
+      "text1":"Our Fantasy Rooms offer an exclusive and romantic getaway for couples. Each elegantly designed room spans 58 m², featuring breathtaking sea views and a private 25 m² terrace. Indulge yourselves with the luxurious jacuzzi and relax comfortably on the terrace sunbeds. With one stylish bedroom equipped with a spacious double bed, Fantasy Rooms provide the perfect romantic ambiance for two.",
+      "area":" 58 m²",
+      "view":" Sea View",
+      "buttonText":"EXPLORE"
+    },
+
+    "Parallax":{
+      "subtitle":"The Essential In-Room Amenities",
+      "title":"Everything You Need, Right in Your Room",
+      "text":"Enjoy a seamless stay with all the essential amenities at your fingertips. From daily minibar replenishments to premium bath essentials, secure room access, and uninterrupted entertainment with LED TV and 24-hour WiFi, we ensure your comfort at every moment.",
+      "span1":"Mini Bar",
+      "text1":"Daily replenishments include bottled water, soft drinks (Coca Cola, Fanta, Sprite), fruit juices, and soda.",
+      "span2":"Cosmetics",
+      "text2":" Bathroom essentials include shampoo, conditioner, shower gel, soap, body lotion, loofah, toothbrush & toothpaste, shower cap, razor, makeup remover cotton, and a hairdryer.",
+      "span3":"Room Access",
+      "text3":" All doors are securely operated using a convenient electronic key card system for easy access",
+      "span4":"Wifi & LedTV ",
+      "text4":"LED TV with international and national satellite channels, radio, and 24-hour WiFi access."
+    }
+
+  }
 }
