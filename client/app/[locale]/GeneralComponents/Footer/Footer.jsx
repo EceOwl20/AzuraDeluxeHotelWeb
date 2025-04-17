@@ -105,7 +105,7 @@ export default function Footer() {
 
         <div className="w-[30%] flex flex-col items-start border-l border-gray-400 pl-16 gap-[40px]">
           {/* Logo */}
-          <div className="mb-10">
+          <div className="mb-1">
           <Image
             src={logosvg}
             alt="Logo"
@@ -152,12 +152,17 @@ export default function Footer() {
             <a href="#" className="hover:underline">
               Privacy Notice
             </a>
-            <a href="#" className="hover:underline">
+            <a href="/kvkk" className="hover:underline">
+              KVKK
+            </a>
+            <a href="/covid-19" className="hover:underline">
+              COVID-19
+            </a>
+            <a href="/documents/Azura Hotel Sürdürülebilirlik Raporu 2023-2024.pdf" target="_blank"  rel="noopener noreferrer" className="hover:underline">
               Sustainability
             </a>
-            <li className="hover:text-white cursor-pointer">
-                  <Link href="/news">Blog</Link>
-                </li>
+            <Link className="hover:underline" href="/news">Blog</Link>
+                
           </div>
         </div>
       </div>
@@ -170,9 +175,7 @@ export default function Footer() {
             alt="Logo"
             width={223}
             height={88}
-            className="object-contain items-center justify-center"
-          />
-
+            className="object-contain items-center justify-center"/>
           <div className="grid grid-cols-2 gap-[25px] items-start justify-start font-jost text-[12px] font-normal leading-[24px] w-[66%] ml-[2%]">
             <div className="flex gap-[15px] items-center justify-center">
               <Phone className="flex" width={25} height={25} color="#A6A6A6" />
@@ -324,7 +327,7 @@ export default function Footer() {
             <a href="#" className="hover:underline">
               Privacy Notice
             </a>
-            <a href="#" className="hover:underline">
+            <a href="/documents/Azura Hotel Sürdürülebilirlik Raporu 2023-2024.pdf" target="_blank"  rel="noopener noreferrer" className="hover:underline">
               Sustainability
             </a>
             <li className="hover:text-white cursor-pointer">
