@@ -8,51 +8,54 @@ import Kids from "./Icons/Kids"
 import Pool from "./Icons/Pool"
 import Spa from "./Icons/Spa"
 import Link from "next/link"
+import {useTranslations} from 'next-intl';
 
 export default function HomePage4() {
+  const t = useTranslations('Homepage.Essentials');
+  
   const services = [
     {
-      title: "Private Beach & Pier",
+      title: t("title1"),
       Icon: Beach,
       description:
-        "Relax on our 70m private beach or enjoy the exclusive 200m pier with private lodges, sunbathing areas, and comfortable loungers.",
+      t("text1"),
         link:"/beach-pool"
     },
     {
-      title: "Pools for Every Mood",
+      title: t("title2"),
       Icon: Pool,
       description:
-        "Enjoy our outdoor & heated indoor pools, plus an Aqua Park with 4 slides and kids’ pools with slides.",
+      t("text2"),
         link:"/beach-pool"
     },
     // 3. sırada World-Class Dining
     {
-      title: "World-Class Dining",
+      title: t("title3"),
       Icon: Dining,
       description:
-        "Enjoy ultra all-inclusive buffets and A la Carte restaurants with Turkish, Mediterranean, and international cuisine.",
+      t("text3"),
         link:"/restaurants"
     },
     // 4. sırada Fun for Kids
     {
-      title: "Fun for Kids",
+      title: t("title4"),
       Icon: Kids,
       description:
-        "The Mini Club (ages 4-12) offers playgrounds, game rooms, mini discos, and a kids’ buffet in the restaurant.",
+      t("text4"),
         link:"/kidsclub"
     },
     {
-      title: "Entertainment & Activities",
+      title: t("title5"),
       Icon: Fireworks,
       description:
-        "From live shows and sports to pool games and beach fun, there's something for everyone. Try table tennis and volleyball.",
+      t("text5"),
         link:"/entertainment"
     },
     {
-      title: "Spa & Wellness",
+      title: t("title6"),
       Icon: Spa,
       description:
-        "Unwind at the Symphony Spa with a hammam, sauna, steam room, and massages. A fitness center is also available.",
+      t("text6"),
         link:"spawellness"
     }
   ]
@@ -62,13 +65,12 @@ export default function HomePage4() {
       {/* Üst küçük başlık */}
       <div className="flex flex-col 2xl:w-[1106px] w-[87.79%] md:w-[91.4%] xl:w-[76.8%] items-start ml-[6.1%] md:ml-[4.3%] xl:ml-[11.6%] justify-center gap-[15px] md:gap-[25px] lg:gap-[35px] text-lagoBlack">
       <p className="text-[12px] leading-[14px] tracking-[0.48px] uppercase font-medium font-jost">
-        Discover the services we offer
+       {t("subtitle")}
       </p>
 
       {/* Büyük başlık */}
       <h2 className="text-[28px] md:text-[32px] lg:text-[48px] font-marcellus font-normal lg:leading-[57.6px] lg:capsizedText2 lg:w-[60%]">
-        All the Essentials for a
-        Comfortable Stay
+      {t("title")}
       </h2>
 
       {/* İkon + metin grid (2 satır x 3 sütun) */}
@@ -87,7 +89,7 @@ export default function HomePage4() {
               <h3 className="font-jost text-[16px] leading-normal lg:text-[18px] font-normal md:leading-[30px]">
                 {service.title}
               </h3>
-              <p className="font-jost text-[12px] lg:text-[14px] font-normal leading-normal">
+              <p className="font-jost text-[12px] lg:text-[14px] font-normal leading-normal line-clamp-3">
                 {service.description}
               </p>
             </div>
@@ -98,7 +100,7 @@ export default function HomePage4() {
       {/* Alt kısım: Discover More link/button */}
       <div className="hidden lg:flex ">
         <Link href="/about" className="flex border-b font-marcellus border-lagoBlack text-lagoBlack uppercase text-[16px] font-normal leading-[30px] transition cursor-pointer">
-          Discover More
+        {t("buttonText")}
         </Link>
       </div>
       </div>

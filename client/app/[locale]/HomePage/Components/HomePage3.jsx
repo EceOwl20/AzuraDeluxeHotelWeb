@@ -9,33 +9,34 @@ import Area from "./Icons/Area";
 import Tree from "./Icons/Tree";
 import Sea from "./Icons/Sea";
 import Link from "next/link";
+import {useTranslations} from 'next-intl';
 
 export default function HomePage3() {
+  const t = useTranslations('Homepage.Accomodation');
+
   const images = [
     {
       src: Family,
-      title: "Deluxe Room",
-      desc: `This room type with sea or forest view is 50 - 55 m2 and is located in the main building. 
-      It consists of 2 separate bedrooms (with interconnecting door): a double bed (for two adults) and a luxury sofa that can be opened for two adults,
-       including a bathroom and a sitting area. `,
-             area:"50-55 m2",
-             span:"Land / Sea View",
-             link:"/rooms/deluxeroom"
+      title: t("roomTitle1"),
+      desc: t("roomText1"),
+             area:t("area1"),
+             span:t("view1"),
+             link:"/rooms/familyroom"
     },
     {
       src: Fantasy,
-      title: "Fantasy Room",
-      desc: "This room type with sea or forest view is 40 - 43 m2 and is located in the main building. This room type has 1 double bed and 1 single bed. Sea view and Wald  view rooms have an additional sofa or seating area and feature a pool and terrace. Swimup room with sea view, offers a private pool.",
-      area:"40-43 m2",
-             span:"Land / Sea View",
+      title: t("roomTitle2"),
+      desc: t("roomText3"),
+             area:t("area2"),
+             span:t("view2"),
              link:"/rooms/fantasyroom"
     },
     {
       src: Deluxe,
-      title: "Family Room",
-      desc: "This room type is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Services for all rooms (wristband with chip key system, daily replenishment of the minibar, cosmetics in the bathroom, tea and coffee making set)",
-      area:" 30-32 m2",
-      span:"Land / Sea View",
+      title: t("roomTitle3"),
+      desc: t("roomText3"),
+             area:t("area3"),
+             span:t("view3"),
              link:"/rooms/familyroom"
     },
   ];
@@ -45,8 +46,8 @@ export default function HomePage3() {
   return (
  <div className="flex flex-col w-screen gap-[30px] lg:gap-[64px] items-center justify-center">
   <div className="flex flex-col w-[87.79%] md:w-[91.4%] lg:w-[76.8%] gap-[17px] md:gap-[25px] lg:gap-[30px] items-center justify-center text-center">
-    <span className="text-[12px] leading-[14px] uppercase tracking-[0.48px] font-medium font-jost">Choose your accommodation type</span>
-    <h3 className="text-[28px] md:text-[32px] md:leading-[57.6px] lg:text-[48px] capsizedText2 font-marcellus font-normal leading-normal">Luxury Stay Experience</h3>
+    <span className="text-[12px] leading-[14px] uppercase tracking-[0.48px] font-medium font-jost">  {t("subtitle")}</span>
+    <h3 className="text-[28px] md:text-[32px] md:leading-[57.6px] lg:text-[48px] capsizedText2 font-marcellus font-normal leading-normal">  {t("title")}</h3>
   </div>
 
      <div className="flex flex-col md:flex-row w-full md:h-[49vh] md:min-h-[354px] lg:h-[498px]">
