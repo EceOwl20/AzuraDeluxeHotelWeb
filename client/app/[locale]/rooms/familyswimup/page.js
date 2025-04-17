@@ -1,10 +1,10 @@
 import React from 'react'
-import SubRoomBanner from './components/SubRoomBanner'
-import SubroomCarousel from './components/SubroomCarousel'
-import RoomFeatures from './components/RoomFeatures'
-import BackgroundSection from './components/BackgroundSection'
-import RoomTour from './components/RoomTour'
-import OtherOptions from './components/OtherOptions'
+import SubRoomBanner from '../subroomComponent/components/SubRoomBanner'
+import SubroomCarousel from '../subroomComponent/components/SubroomCarousel'
+import RoomFeatures from '../subroomComponent/components/RoomFeatures'
+import BackgroundSection from '../subroomComponent/components/BackgroundSection'
+import RoomTour from '../subroomComponent/components/RoomTour'
+import OtherOptions from '../subroomComponent/components/OtherOptions'
 import backgroundImg from "./images/odafull.webp"
 import ContactSection2 from '@/app/[locale]/GeneralComponents/Contact/ContactSection2'
 

@@ -36,8 +36,6 @@ export default function Footer() {
               <li>  <Link href="/rooms/deluxeroom" className="hover:text-white cursor-pointer">Deluxe Room</Link></li>
                 <li><Link href="/rooms/familyroom" className="hover:text-white cursor-pointer">Family Room</Link></li>
                 <li><Link href="/rooms/fantasyroom" className="hover:text-white cursor-pointer">Fantasy Room</Link></li>
-           
-                <li className="hover:text-white cursor-pointer">FAQ</li>
               </ul>
             </div>
 
@@ -52,15 +50,13 @@ export default function Footer() {
                   Main Restaurant
                 </Link>
                 <li className="hover:text-white cursor-pointer">
-                Orchestra
+              <Link href="/restaurants/orchestrarestaurant">  Orchestra</Link>
                 </li>
                 <li className="hover:text-white cursor-pointer">
-                Bella Azura
+               <Link href="/restaurants/bellaazura"> Bella Azura</Link>
                 </li>
-                <li className="hover:text-white cursor-pointer">Ottoman A'la Carte</li>
-                <li className="hover:text-white cursor-pointer">
-                  <Link href="/news">Blog</Link>
-                </li>
+                <li className="hover:text-white cursor-pointer"><Link href="/restaurants/ottomanrestaurant">Ottoman A'la Carte</Link></li>
+               
         
               </ul>
             </div>
@@ -72,15 +68,14 @@ export default function Footer() {
               </h4>
               <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
                 <li className="hover:text-white cursor-pointer">
-                Spor
+                <Link href="/spor">Spor</Link>
                 </li>
                 <li className="hover:text-white cursor-pointer">
                   <Link href="/kidsclub">Kids</Link>
                 </li>
                 <li className="hover:text-white cursor-pointer">
-                  Spa
+                  <Link href="/spawellness">Spa</Link>
                 </li>
-                <li className="hover:text-white cursor-pointer">Bars</li>
               </ul>
             </div>
 
@@ -150,7 +145,7 @@ export default function Footer() {
           </div>
 
           {/* Alt linkler */}
-          <div className="flex flex-col xl:flex-row items-center gap-6 whitespace-nowrap text-lagoGray2">
+          <div className="grid grid-cols-2 items-center gap-6 whitespace-nowrap text-lagoGray2">
             <a href="#" className="hover:underline">
               Terms of Use
             </a>
@@ -249,28 +244,25 @@ export default function Footer() {
             Accomodation
             </Link>
             <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
-              <li className="hover:text-white cursor-pointer">Deluxe Room</li>
-              <li className="hover:text-white cursor-pointer">Family Room              </li>
-              <li className="hover:text-white cursor-pointer">Fantasy Room</li>
+              <li className="hover:text-white cursor-pointer"><Link href="/rooms/deluxeroom">Deluxe Room</Link></li>
+              <li className="hover:text-white cursor-pointer"><Link href="/rooms/familyroom">Family Room</Link> </li>
+              <li className="hover:text-white cursor-pointer"><Link href="/rooms/fantasyroom">Fantasy Room</Link></li>
             
             </ul>
           </div>
 
           {/* TERM & CONDITIONS */}
           <div className="flex flex-col items-start justify-start text-start gap-[40px] w-[33%]">
-            <h4 className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
+          <Link href="/restaurants" className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
             Cuisine
-            </h4>
+            </Link>
             <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
-              <li className="hover:text-white cursor-pointer">
-              Main Restaurant
+            <li className="hover:text-white cursor-pointer">
+             <Link href="/restaurants/mainrestaurant"> Main Restaurant</Link>
               </li>
-              <li className="hover:text-white cursor-pointer">
-              Orchestra
-              </li>
-              <li className="hover:text-white cursor-pointer">Bella Azura              </li>
-              <li className="hover:text-white cursor-pointer">Ottoman A'la Carte
-              </li>
+             
+              <li className="hover:text-white cursor-pointer"><Link href="/restaurants/bellaazura">Bella Azura</Link> </li>
+              <li className="hover:text-white cursor-pointer"><Link href="/restaurants/ottomanrestaurant">Ottoman A'la Carte</Link></li>
               
             </ul>
           </div>
@@ -278,20 +270,17 @@ export default function Footer() {
           {/* COMPANY */}
           <div className="flex flex-col items-start justify-start text-start gap-[40px] w-[33%]">
             <h4 className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
-              COMPANY
+              Activities
             </h4>
             <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
-              <li className="hover:text-white cursor-pointer">About Company</li>
+              <li className="hover:text-white cursor-pointer"><Link href="/spor">Spor</Link></li>
               <li className="hover:text-white cursor-pointer">
-                <Link href="/connect">Contact</Link>
+                <Link href="/kidsclub">Kidsclub</Link>
               </li>
               <li className="hover:text-white cursor-pointer">
-                Terms & Condition
+              <Link href="/spa">Spa</Link>
               </li>
-              <li className="hover:text-white cursor-pointer">Help Center</li>
-              <li className="hover:text-white cursor-pointer">
-                <Link href="/news">Blog</Link>
-              </li>
+             
             </ul>
           </div>
         </div>
@@ -439,43 +428,31 @@ export default function Footer() {
                   All Rooms
                 </Link>
                 <Link
-                  href="/rooms/subroom"
-                  className="block text-[14px] text-[#A6A6A6] leading-[29.639px] uppercase"
-                >
-                  Superior Room
-                </Link>
-                <Link
-                  href="/rooms/subroom"
+                  href="/rooms/familyroom"
                   className="block text-[14px] text-[#A6A6A6] leading-[29.639px] uppercase"
                 >
                   Family Room
                 </Link>
                 <Link
-                  href="/rooms/"
+                  href="/rooms/deluxeroom"
                   className="block text-[14px] text-[#A6A6A6] leading-[29.639px] uppercase"
                 >
-                  Swim-up Room
+                  Deluxe Room
                 </Link>
                 <Link
-                  href="/rooms/subroom"
+                  href="/rooms/fantasyroom"
                   className="block text-[14px] text-[#A6A6A6] leading-[29.639px] uppercase"
                 >
-                  Family Swim-up Room
-                </Link>
-                <Link
-                  href="/rooms/subroom"
-                  className="block text-[14px] text-[#A6A6A6] leading-[29.639px] uppercase"
-                >
-                  Duplex Family Room
+                  Fantasy Room
                 </Link>
               </div>
             </div>
 
             <Link
-              href="/special"
+              href="/restaurants"
               className="flex w-[98%] p-[10px] md:max-w-[306px] mt-[15px] items-center justify-between border border-white leading-[26.667px]"
             >
-              EXPERIENCES
+             CUISINE
             </Link>
             <Link
               href="/connect"

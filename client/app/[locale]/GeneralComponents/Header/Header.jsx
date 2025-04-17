@@ -291,10 +291,10 @@ export default function Header() {
               BARS 
             </Link>
             <Link
-              href="entertainment"
+              href="/spor"
               className="block font-normal leading-[26.667px] w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
-              EXPERIENCES
+              SPOR
             </Link>
             <Link
               href="/kidsclub"
