@@ -567,6 +567,26 @@
       "list5":"Steam Room",
       "list6":"Relaxation Areas",
       "list7":"Professional Fitness Center"
+    },
+    "GallerySection":{
+      "subtitle":" Rejuvenate Your Senses",
+      "title": " Symphony Spa & Wellness",
+      "text":"Indulge yourself at Azura Deluxe Resort & Spa's Symphony Spa, where tranquility and relaxation await. Discover soothing treatments, calming massages, traditional Turkish bath experiences, and serene sauna sessions designed to refresh your mind and revitalize your body."
+    },
+    
+    "CarouselSection":{
+      "subtitle":"RELAX AND FORGET",
+      "title": " Massage Options",
+      "text":"Enjoy ultimate relaxation with a wide variety of professional massage treatments at Symphony Spa & Wellness Center. Relieve stress, refresh your body, and unwind your mind during your stay at Azura Deluxe Resort & Spa."
+    },
+
+    "SpaTypes":{
+      "subtitle1":"Working Hours: 08:00 – 19:00",
+      "title1": "Indoor Pool",
+      "text1":" Enjoy tranquility and relaxation at our Indoor Pool, available seasonally heated for your comfort. It's the perfect spot to unwind and recharge in a peaceful atmosphere during your stay at Azura Deluxe Resort & Spa",
+      "subtitle2":" Experience Traditional Culture",
+      "title2":" Turkish Hammam",
+      "text2":"Immerse yourself in authentic Turkish tradition at our luxurious Turkish Hammam. Experience relaxation and renewal through a traditional bathing ritual, rejuvenating foam massages, and gentle exfoliation that leave your skin refreshed and revitalized at Azura Deluxe Resort & Spa’s Symphony Spa & Wellness Center."
     }
   }
 }

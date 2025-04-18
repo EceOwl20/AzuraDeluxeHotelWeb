@@ -518,5 +518,51 @@
       "text3": "Unser Indoor‑Kinderpool bietet eine warme, sichere und komfortable Wasserumgebung für junge Gäste. Mit flachem und beheiztem Wasser ist er ideal für unterhaltsames und beaufsichtigtes Spielen, sodass Ihre Kinder unabhängig vom Wetter endlosen Spaß haben."
     },
     "galleryTitle": "Jeden Moment unvergesslich machen"
+  },
+
+  "Spa": {
+    "subtitle": "ENTSPANNEN SIE IN UNSEREM SYMPHONY SPA & WELLNESS CENTER",
+    "title": "Spa & Wellness",
+    "text": "Entspannen, regenerieren und auftanken im Symphony Spa & Wellness Center des Azura Deluxe Resort & Spa. Genießen Sie hochwertige professionelle Massagen und Behandlungen für völlige körperliche und geistige Entspannung – für einen ruhigen und unvergesslichen Urlaub.",
+
+    "InfoSection": {
+      "subtitle1": "Erneuern Sie Körper und Geist",
+      "title1": "Wellness im Azura Deluxe Resort & Spa",
+      "text1": "Bleiben Sie im voll ausgestatteten Fitnesscenter fit. Nach dem Workout genießen Sie eine professionelle Massage im Symphony Spa & Wellness Center, erholen sich im traditionellen Türkischen Bad oder entspannen und entgiften in der Finnischen Sauna.",
+      "subtitle2": "Entspannen im Türkischen Bad und in der Sauna",
+      "title2": "Sauna & Türkisches Bad",
+      "text2": "Öffnungszeiten: 07:00 – 20:00",
+      "subtitle3": "Spa‑Behandlungen",
+      "title3": "Spa & Wellness",
+      "text3": "Öffnungszeiten: 07:00 – 20:00",
+      "list1": "10 Massageräume",
+      "list2": "1 VIP Doppel Spa Suite",
+      "list3": "Türkisches Bad",
+      "list4": "Sauna",
+      "list5": "Dampfbad",
+      "list6": "Ruhebereiche",
+      "list7": "Professionelles Fitnesscenter"
+    },
+
+    "GallerySection": {
+      "subtitle": "Erfrischen Sie Ihre Sinne",
+      "title": "Symphony Spa & Wellness",
+      "text": "Gönnen Sie sich im Symphony Spa des Azura Deluxe Resort & Spa Entspannung pur. Entdecken Sie beruhigende Anwendungen, entspannende Massagen, traditionelle Türkische Bad‑Erlebnisse und ruhige Saunagänge."
+    },
+
+    "CarouselSection": {
+      "subtitle": "ENTSPANNEN UND LOSLASSEN",
+      "title": "Massage‑Optionen",
+      "text": "Erleben Sie ultimative Entspannung mit einer Vielzahl professioneller Massagetherapien im Symphony Spa & Wellness Center. Reduzieren Sie Stress, erfrischen Sie Ihren Körper und entspannen Sie Ihren Geist."
+    },
+
+    "SpaTypes": {
+      "subtitle1": "Öffnungszeiten: 08:00 – 19:00",
+      "title1": "Innenpool",
+      "text1": "Genießen Sie Ruhe und Erholung in unserem saisonal beheizten Innenpool – der perfekte Ort, um in friedlicher Atmosphäre zu entspannen und Energie zu tanken.",
+      "subtitle2": "Tradition erleben",
+      "title2": "Türkisches Hammam",
+      "text2": "Tauchen Sie ein in die authentische türkische Tradition im luxuriösen Türkischen Hammam. Erleben Sie Entspannung durch traditionelle Badezeremonien, belebende Schaummassagen und sanftes Peeling."
+    }
   }
 }

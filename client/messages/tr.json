@@ -519,6 +519,52 @@
       "text3": "Kapalı Çocuk Havuzumuz, Azura Deluxe Resort & Spa’nın genç misafirlerine sıcak, güvenli ve rahat bir su ortamı sunar. Sığ ve ısıtmalı suyuyla her hava koşulunda keyifle oynayıp eğlenebilecekleri ideal bir alandır."
     },
     "galleryTitle": "Her Anı Unutulmaz Kılın"
+  },
+
+  "Spa": {
+    "subtitle": "SENFONY SPA & WELLNESS MERKEZİMİZDE RAHATLAYIN",
+    "title": "Spa & Wellness",
+    "text": "Azura Deluxe Resort & Spa’nın Symphony Spa & Wellness Merkezi'nde rahatlayın, yenilenin ve enerjinizi tazeleyin. Yüksek kalitede profesyonel masajlar ve bakımlarla hem bedensel hem zihinsel tam rahatlama sağlayın; tatiliniz huzurlu ve unutulmaz geçsin.",
+
+    "InfoSection": {
+      "subtitle1": "Bedeninizi ve Zihninizi Yenileyin",
+      "title1": "Azura Deluxe Resort & Spa’da Wellness",
+      "text1": "Tam donanımlı fitness merkezimizde formunuzu koruyun. Antrenmandan sonra Symphony Spa & Wellness Merkezi'nde profesyonel masajla gevşeyin, geleneksel Türk Hamamı’nda yenilenin veya Finlandiya Saunası’nda detoks yaparak rahatlayın.",
+      "subtitle2": "Symphony Spa’da Türk Hamamı ve Sauna Konforu",
+      "title2": "Sauna & Türk Hamamı",
+      "text2": "Çalışma Saatleri: 07:00 – 20:00",
+      "subtitle3": "Spa Bakımları",
+      "title3": "Spa & Wellness",
+      "text3": "Çalışma Saatleri: 07:00 – 20:00",
+      "list1": "10 Masaj Odası",
+      "list2": "1 VIP Çift Kişilik Spa Süiti",
+      "list3": "Türk Hamamı",
+      "list4": "Sauna",
+      "list5": "Buhar Odası",
+      "list6": "Dinlenme Alanları",
+      "list7": "Profesyonel Fitness Merkezi"
+    },
+
+    "GallerySection": {
+      "subtitle": "Duyularınızı Yenileyin",
+      "title": "Symphony Spa & Wellness",
+      "text": "Azura Deluxe Resort & Spa’nın Symphony Spa’sında kendinizi şımartın; huzur ve dinlenme sizi bekliyor. Zihninizi tazeleyen bakımlar, rahatlatıcı masajlar, geleneksel Türk hamamı deneyimleri ve huzurlu sauna seanslarını keşfedin."
+    },
+
+    "CarouselSection": {
+      "subtitle": "RAHATLAYIN VE UNUTUN",
+      "title": "Masaj Seçenekleri",
+      "text": "Symphony Spa & Wellness Merkezi'nde geniş profesyonel masaj seçenekleriyle nihai rahatlamayı yaşayın. Stresi azaltın, bedeninizi yenileyin ve zihninizi dinlendirin."
+    },
+
+    "SpaTypes": {
+      "subtitle1": "Çalışma Saatleri: 08:00 – 19:00",
+      "title1": "Kapalı Havuz",
+      "text1": "Mevsimsel olarak ısıtılan Kapalı Havuzumuzda huzur ve sakinliğin tadını çıkarın. Azura Deluxe Resort & Spa’daki konaklamanız sırasında dinlenmek ve enerji toplamak için ideal bir mekandır.",
+      "subtitle2": "Geleneksel Kültürü Deneyimleyin",
+      "title2": "Türk Hamamı",
+      "text2": "Symphony Spa & Wellness Merkezi'mizde lüks Türk Hamamı deneyimi yaşayın. Geleneksel banyo ritüelleri, köpük masajları ve nazik peelinglerle cildinizi yenileyin ve canlandırın."
+    }
   }
     
 }
