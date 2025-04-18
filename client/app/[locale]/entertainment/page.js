@@ -3,7 +3,6 @@ import MainBannerSection from './components/MainBannerSection'
 import mainImg from "./images/ent_ban.jpg"
 import ActivitiesSection from './components/ActivitiesSection'
 import EntertainmentTypesSection from './components/EntertainmentTypesSection'
-import ActivityBackgroundSection from './components/ActivityBackgroundSection'
 import ContactSection2 from '../GeneralComponents/Contact/ContactSection2'
 
 const page = () => {

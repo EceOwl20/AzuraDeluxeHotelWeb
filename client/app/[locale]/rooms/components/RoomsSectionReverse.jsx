@@ -8,7 +8,7 @@ import Link from "next/link";
 const RoomsSectionReverse = ({img,img2, header,text,span,span2,link, id}) => {
   return (
     <div id={id} className="flex w-screen h-auto items-center justify-center">
-      <div className="flex flex-col lg:flex-row-reverse items-center justify-between w-[87.79%] md:w-[91.4%] lg:w-[76.8%] gap-[28px] lg:gap-[42px] max-w-[1208px] px-4 lg:px-0">
+      <div className="flex flex-col lg:flex-row-reverse items-center justify-between w-[87.79%] md:w-[91.4%] lg:w-[76.8%] gap-[28px] lg:gap-[42px] max-w-[1400px] px-4 lg:px-0">
         <div className="flex flex-row items-center w-full lg:w-[72.5%] gap-[10px]">
           <Image
             src={img}

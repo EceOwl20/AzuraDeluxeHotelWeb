@@ -62,54 +62,509 @@
     },
 
     "Rooms":{
-      "header":"SİZ VE AİLENİZ İÇİN KONFORLU KONAKLAMA",
-      "buttonText1":"Deluxe Room",
-      "buttonText2":"Family Room",
-      "buttonText3":" Fantasy Room",
+      "header":"ODALARIMIZ",
+      "buttonText1":"Deluxe Oda",
+      "buttonText2":"Aile Odası",
+      "buttonText3":" Fantasy Oda",
   
-      "subtitle":" COMFORTABLE STAY FOR YOU AND YOUR FAMILY",
-      "title":"Feel Right at Home in Our Luxurious Rooms",
-      "text":"Enjoy the comfort and elegance of Azura Deluxe Resort & Spa's beautifully appointed rooms, each thoughtfully designed to offer relaxation, convenience, and luxury. Whether you choose a Deluxe Room with stunning views, a spacious Family Room ideal for families, or a romantic Fantasy Room with exclusive amenities, you'll find the perfect sanctuary to unwind and recharge. All our rooms feature modern comforts including daily refreshed minibars, premium bath amenities, tea and coffee-making facilities, and high-speed Wi-Fi, ensuring your stay is both memorable and convenient.",
-      "checkin":"CHECK-IN: 14:00",
-      "checkout":"CHECK-OUT: 12:00",
+      "subtitle":" SİZ VE AİLENİZ İÇİN KONFORLU KONAKLAMA",
+      "title":"Lüks Odalarımızda Kendinizi Evde Hissedin",
+      "text":"Azura Deluxe Resort & Spa’nın özenle dekore edilmiş odalarında konfor ve zarafetin tadını çıkarın. Her oda, dinlenme, rahatlık ve lüksü bir arada sunmak üzere özenle tasarlanmıştır. İster etkileyici manzaraya sahip bir Deluxe Oda, ister aileler için ideal geniş bir Aile Odası, ister özel ayrıcalıklarla donatılmış romantik bir Fantasy Oda tercih edin — tüm ihtiyaçlarınıza hitap eden mükemmel bir sığınak sizi bekliyor.",
+      "checkin":"GİRİŞ: 14:00",
+      "checkout":"ÇIKIŞ: 12:00",
   
       "Room1":{
-        "title":"Deluxe Room",
-        "text1":"Enjoy the elegance and comfort of our Deluxe Rooms, beautifully appointed spaces spanning 30-32 m². Located between the first and seventh floors of our main building, these stylish rooms offer delightful views of the sea or lush landscapes. Each Deluxe Room includes one double bed and one single bed, ensuring a cozy and restful stay. Specially designed accessible rooms are also available on the ground floor, fully equipped to accommodate every guest’s comfort.",
+        "title":"Deluxe Oda",
+        "text":"30-32 m² büyüklüğündeki zarif ve konforlu odalarımız, ana binamızın birinci ile yedinci katları arasında yer alır. Deniz, yeşil doğa veya kısmi deniz manzarası sunan bu şık odalarda bir çift kişilik yatak ve bir tek kişilik yatak bulunur. Tüm misafirlerimizin konforu için zemin katta, özel tasarlanmış engelli odaları da mevcuttur.",
         "area":"30-32 m²",
-        "view":"Sea, Land, or Partial Sea View",
-        "buttonText":"EXPLORE"
+        "view":" Kara veya Kısmi Deniz Manzarası",
+        "buttonText":" Keşfet"
       },
   
       "Room2":{
-        "title":"Family Room",
-        "text1":"Ideal for families and groups, our spacious Family Rooms offer 50 m² of comfort with two beautifully decorated bedrooms connected by a convenient door. Each Family Room includes one double bed and two single beds, providing flexibility and space to comfortably accommodate up to 2 adults and 2 children, 3 adults and 1 child, or 4 adults and 1 child. Choose from enchanting sea or scenic land views to enhance your perfect stay.",
+        "title":"Aile Odası",
+        "text":"Aileler ve gruplar için ideal olan 50 m² büyüklüğündeki odalarımızda, birbirine kapı ile bağlı iki ayrı yatak odası yer alır. Bir çift kişilik ve iki tek kişilik yatak içeren Aile Odaları; 2 yetişkin + 2 çocuk, 3 yetişkin + 1 çocuk veya 4 yetişkin + 1 çocuk konaklamaları için uygundur. Deniz veya kara manzaralı seçenekleriyle keyifli bir tatil sizleri bekliyor.",
         "area":" 50 m²",
-        "view":"Land or Sea View",
-        "buttonText":"EXPLORE"
+        "view":"Kara veya Kısmi Deniz Manzarası",
+        "buttonText":" Keşfet"
       },
   
       "Room3":{
-        "title":" Fantasy Room",
-        "text1":"Our Fantasy Rooms offer an exclusive and romantic getaway for couples. Each elegantly designed room spans 58 m², featuring breathtaking sea views and a private 25 m² terrace. Indulge yourselves with the luxurious jacuzzi and relax comfortably on the terrace sunbeds. With one stylish bedroom equipped with a spacious double bed, Fantasy Rooms provide the perfect romantic ambiance for two.",
+        "title":" Fantasy Oda",
+        "text":" Çiftler için özel olarak tasarlanmış Fantasy Odalarımız, 58 m² genişliğindedir ve büyüleyici deniz manzarasına sahiptir. 25 m²’lik özel terasında jakuzi ve şezlonglar bulunan bu odalar, romantik ve ayrıcalıklı bir tatil için idealdir. Şık bir şekilde dekore edilmiş yatak odasında geniş çift kişilik yatak yer almaktadır.",
         "area":" 58 m²",
-        "view":" Sea View",
-        "buttonText":"EXPLORE"
+        "view":"Deniz Manzarası",
+        "buttonText":" Keşfet"
       },
   
       "Parallax":{
-        "subtitle":"The Essential In-Room Amenities",
-        "title":"Everything You Need, Right in Your Room",
-        "text":"Enjoy a seamless stay with all the essential amenities at your fingertips. From daily minibar replenishments to premium bath essentials, secure room access, and uninterrupted entertainment with LED TV and 24-hour WiFi, we ensure your comfort at every moment.",
+        "subtitle":" Odada Sunulan Temel Olanaklar",
+        "title":"İhtiyacınız Olan Her Şey, Odalarımızda Sizi Bekliyor",
+        "text":"Tüm temel ihtiyaçlar elinizin altında, kusursuz bir konaklama deneyimi sizi bekliyor. Günlük yenilenen minibar, kaliteli banyo ürünleri, güvenli oda erişimi ve LED TV ile 24 saat Wi-Fi hizmetiyle her an konforunuz ön planda tutulur.",
         "span1":"Mini Bar",
-        "text1":"Daily replenishments include bottled water, soft drinks (Coca Cola, Fanta, Sprite), fruit juices, and soda.",
-        "span2":"Cosmetics",
-        "text2":" Bathroom essentials include shampoo, conditioner, shower gel, soap, body lotion, loofah, toothbrush & toothpaste, shower cap, razor, makeup remover cotton, and a hairdryer.",
-        "span3":"Room Access",
-        "text3":" All doors are securely operated using a convenient electronic key card system for easy access",
+        "text1":" Günlük olarak yenilenen minibarımızda; şişe su, gazlı içecekler (Coca Cola, Fanta, Sprite), meyve suları ve soda yer alır.",
+        "span2":"Kozmetik Ürünleri",
+        "text2":"  Banyo malzemeleri arasında şampuan, saç kremi, duş jeli, sabun, vücut losyonu, lif, diş fırçası ve macunu, duş bonesi, tıraş bıçağı, makyaj temizleme pamuğu ve saç kurutma makinesi bulunur.",
+        "span3":" Oda Girişi",
+        "text3":"  Tüm odalara güvenli elektronik kart sistemiyle kolay ve güvenli erişim sağlanmaktadır.",
         "span4":"Wifi & LedTV ",
-        "text4":"LED TV with international and national satellite channels, radio, and 24-hour WiFi access."
+        "text4":" Ulusal ve uluslararası uydu kanallarına sahip LED TV, radyo ve 24 saat kesintisiz Wi-Fi hizmeti mevcuttur."
       }
   
+    },
+
+    "FamilyRoom":{
+      "subtitle":"Deniz veya Orman Manzaralı Konforlu Aile Konaklaması",
+        "title":" Aile Odası",
+        "text":"Enjoy a seamless stay",
+        "span1":" Orman / Deniz Manzarası ",
+        "span2":" 1-4 Yetişkin + 1-3 Çocuk ",
+        "span3":"1 Çift Kişilik Yatak + 2 Tek Kişilik Yatak",
+  
+        "RoomFeatures":{
+          "subtitle":" HER YAŞA UYGUN EĞLENCE",
+          "title":"Aile Odası",
+          "text":"  Ana binada yer alan, 50 m² genişliğe sahip Aile Odalarımız; deniz veya orman manzarası seçenekleriyle ferah bir konaklama sunar. Bu odalarda ara kapı ile ayrılmış iki ayrı yatak odası bulunur: biri çift kişilik yataklı, diğeri ise iki tek kişilik yataklıdır. Ortak banyo ile birlikte gelen bu alanlar, 2 yetişkin + 2 çocuk, 3 yetişkin + 1 çocuk veya 4 yetişkin + 1 çocuk için idealdir.",
+          "subtitle2":" Ailelere Özel Olanaklar",
+          "span1":" 2 Tek Kişilik Yatak",
+          "span2":"Ekstra Bebek Beşiği ",
+          "subtitle3":"Oda Özellikleri",
+          "text2":"Tüm odalarda Elektronik Anahtar Kart Sistemi, günlük minibar yenilemesi, özel banyo kozmetikleri, çay-kahve yapma olanakları mevcuttur. 4 odamız, engelli misafirler için özel olarak tasarlanmış olup, ana kapı genişliği 112 cm'dir.",
+          "feature1":"50 m2",
+          "feature2":"Makyaj Masası",
+          "feature3":"Sigara İçilmez",
+          "feature4":"Mini Bar",
+          "feature5":"Kasa",
+          "feature6":"Saç Kurutma Makinesi",
+          "feature7":"Banyo Ürünleri",
+          "feature8":"Çay-Kahve Seti ",
+          "feature9":"LED TV ve Wi-Fi",
+          "feature10":"Balkon",
+          "feature11":"Duş"
+        },
+  
+        "BackgroundSection":{
+          "subtitle":"  AYRICALIKLI HİZMETLER",
+          "title":" Aile Odası Avantajları",
+          "text":" Aile Odalarımızda konaklayan misafirler, iki ayrı yatak odasının sunduğu konfor ve etkileyici deniz veya orman manzaralarının tadını çıkarır.",
+          "list1":"  A’la Carte Yemek: 7 gece ve üzeri konaklamalarda bir defaya mahsus ücretsiz A’la Carte akşam yemeği.",
+          "list2":"Spa & Wellness: Türk hamamı, sauna, buhar odası ve fitness merkezi kullanımı ücretsizdir.",
+          "buttonText":" DAHA FAZLASINI KEŞFET"
+        },
+  
+        "OtherOptions":{
+          "subtitle":"  Size Uygun Odayı Seçin",
+          "title":"  Diğer Konforlu Seçenekleri Keşfedin",
+          "span1":"AİLENİZİN TÜM BİREYLERİ İÇİN ODA",
+          "title1":" Aile Odası",
+          "area1":" 50 m²",
+          "person1":"En fazla 4 yetişkin + 1 çocuk",
+          "text1":" İç kapı ile ayrılmış iki yatak odası bulunan Aile Odalarımız, ailelerin rahatça konaklayabileceği şekilde tasarlanmıştır. Deniz veya orman manzarası seçenekleriyle unutulmaz aile anıları için idealdir.",
+          "span2":"Odanızdan Ayrılmadan Yenilenin",
+          "title2":" Fantasy Oda",
+          "area2":" 58 m²",
+          "person2":"2 yetişkin (yalnızca çiftler)",
+          "text2":"Özel tasarımlı Fantasy Odalar, muhteşem deniz manzaraları ve jakuzili 25 m² özel teras ile çiftlere romantik ve huzurlu bir tatil sunar.",
+          "buttonText":" DAHA FAZLASINI KEŞFET"
+         
+        }
+    },
+
+
+    "FantasyRoom":{
+      "subtitle":"ÖZEL VE ROMANTİK KAÇAMAK",
+        "title":" Fantasy Oda",
+        "text":"Özel jakuzili 25 m² terası ve konforlu şezlonglarıyla unutulmaz bir romantik tatil için Fantasy Odalarımıza davetlisiniz. Her biri özenle tasarlanmış bu odalar, muhteşem deniz manzarasına sahip olup çiftlerin mahremiyet ve lüks içinde konaklaması için ideal bir ortam sunmaktadır.",
+        "span1":"Deniz Manzaralı ",
+        "span2":"2 Yetişkin (Sadece Çiftler)",
+        "span3":"1 Yatak Odası / 1 Yatak",
+  
+        "RoomFeatures":{
+          "subtitle":"ÖZEL VE ROMANTİK KAÇAMAK",
+          "title":"Fantasy Room",
+          "text":" Ana binamızda yer alan Fantasy Odalar, 58 m² genişliğinde romantizm ve mahremiyet arayan çiftler için özel olarak tasarlanmıştır. Her odada lüks bir çift kişilik yatak bulunan zarif bir yatak odası ve 25 m²'lik özel bir teras yer almakta; terasta ise jakuzili ve şezlonglu eşsiz bir manzara sunulmaktadır. Bu odalar yalnızca 2 yetişkini ağırlamakta olup, romantik bir deneyim için mükemmel bir seçenektir.",
+          "subtitle2":"Özel Romantik Olanaklar",
+          "span1":"Jakuzili Özel Teras",
+          "span2":"Sadece Çiftlere Özel Tasarım",
+          "subtitle3":"Oda Özellikleri",
+          "text2":"Tüm Fantasy Odalarda Elektronik Kartlı Giriş Sistemi, günlük minibar yenilemesi, lüks banyo kozmetikleri, çay-kahve seti, konforlu terlikler ve ücretsiz Wi-Fi mevcuttur. Bu odalar yalnızca romantik çift konaklamaları için tasarlanmıştır. Oda 58 m² genişliğindedir ve 25 m² özel jakuzili terasa sahiptir. Not: Fantasy Odalar sadece 2 yetişkin (çift) için uygundur. Bu oda tipinde ilave yatak, bebek yatağı veya özel havuz bulunmamaktadır.",
+          "feature1":"50 m2",
+          "feature2":"Makyaj Masası",
+          "feature3":"Sigara İçilmez",
+          "feature4":"Mini Bar",
+          "feature5":"Kasa",
+          "feature6":"Saç Kurutma Makinesi",
+          "feature7":"Banyo Ürünleri",
+          "feature8":"Çay-Kahve Seti ",
+          "feature9":"LED TV ve Wi-Fi",
+          "feature10":"Balkon",
+          "feature11":"Duş"
+        },
+  
+        "BackgroundSection":{
+          "subtitle":"  AYRICALIKLI HİZMETLER",
+          "title":" Aile Odası Avantajları",
+          "text":" Aile Odalarımızda konaklayan misafirler, iki ayrı yatak odasının sunduğu konfor ve etkileyici deniz veya orman manzaralarının tadını çıkarır.",
+          "list1":"  A’la Carte Yemek: 7 gece ve üzeri konaklamalarda bir defaya mahsus ücretsiz A’la Carte akşam yemeği.",
+          "list2":"Spa & Wellness: Türk hamamı, sauna, buhar odası ve fitness merkezi kullanımı ücretsizdir.",
+          "buttonText":" DAHA FAZLASINI KEŞFET"
+        },
+  
+        "OtherOptions":{
+          "subtitle":"  Size Uygun Odayı Seçin",
+          "title":"  Diğer Konforlu Seçenekleri Keşfedin",
+          "span1":"AİLENİZİN TÜM BİREYLERİ İÇİN ODA",
+          "title1":" Aile Odası",
+          "area1":" 50 m²",
+          "person1":"En fazla 4 yetişkin + 1 çocuk",
+          "text1":" İç kapı ile ayrılmış iki yatak odası bulunan Aile Odalarımız, ailelerin rahatça konaklayabileceği şekilde tasarlanmıştır. Deniz veya orman manzarası seçenekleriyle unutulmaz aile anıları için idealdir.",
+          "span2":"Odanızdan Ayrılmadan Yenilenin",
+          "title2":" Fantasy Oda",
+          "area2":" 58 m²",
+          "person2":"2 yetişkin (yalnızca çiftler)",
+          "text2":"Özel tasarımlı Fantasy Odalar, muhteşem deniz manzaraları ve jakuzili 25 m² özel teras ile çiftlere romantik ve huzurlu bir tatil sunar.",
+          "buttonText":" DAHA FAZLASINI KEŞFET"
+         
+        }
+    },
+
+    "DeluxeRoom":{
+      "subtitle":"ÖZEL VE ROMANTİK KAÇAMAK",
+        "title":" Deluxe Oda",
+        "text":"Özel jakuzili 25 m² terası ve konforlu şezlonglarıyla unutulmaz bir romantik tatil için Fantasy Odalarımıza davetlisiniz. Her biri özenle tasarlanmış bu odalar, muhteşem deniz manzarasına sahip olup çiftlerin mahremiyet ve lüks içinde konaklaması için ideal bir ortam sunmaktadır.",
+        "span1":"Deniz Manzaralı ",
+        "span2":"2 Yetişkin (Sadece Çiftler)",
+        "span3":"1 Yatak Odası / 1 Yatak",
+  
+        "RoomFeatures":{
+          "subtitle":"ÖZEL VE ROMANTİK KAÇAMAK",
+          "title":"Fantasy Room",
+          "text":" Ana binamızda yer alan Fantasy Odalar, 58 m² genişliğinde romantizm ve mahremiyet arayan çiftler için özel olarak tasarlanmıştır. Her odada lüks bir çift kişilik yatak bulunan zarif bir yatak odası ve 25 m²'lik özel bir teras yer almakta; terasta ise jakuzili ve şezlonglu eşsiz bir manzara sunulmaktadır. Bu odalar yalnızca 2 yetişkini ağırlamakta olup, romantik bir deneyim için mükemmel bir seçenektir.",
+          "subtitle2":"Özel Romantik Olanaklar",
+          "span1":"Jakuzili Özel Teras",
+          "span2":"Sadece Çiftlere Özel Tasarım",
+          "subtitle3":"Oda Özellikleri",
+          "text2":"Tüm Fantasy Odalarda Elektronik Kartlı Giriş Sistemi, günlük minibar yenilemesi, lüks banyo kozmetikleri, çay-kahve seti, konforlu terlikler ve ücretsiz Wi-Fi mevcuttur. Bu odalar yalnızca romantik çift konaklamaları için tasarlanmıştır. Oda 58 m² genişliğindedir ve 25 m² özel jakuzili terasa sahiptir. Not: Fantasy Odalar sadece 2 yetişkin (çift) için uygundur. Bu oda tipinde ilave yatak, bebek yatağı veya özel havuz bulunmamaktadır.",
+          "feature1":"50 m2",
+          "feature2":"Makyaj Masası",
+          "feature3":"Sigara İçilmez",
+          "feature4":"Mini Bar",
+          "feature5":"Kasa",
+          "feature6":"Saç Kurutma Makinesi",
+          "feature7":"Banyo Ürünleri",
+          "feature8":"Çay-Kahve Seti ",
+          "feature9":"LED TV ve Wi-Fi",
+          "feature10":"Balkon",
+          "feature11":"Duş"
+        },
+  
+        "BackgroundSection":{
+          "subtitle":"  AYRICALIKLI HİZMETLER",
+          "title":" Aile Odası Avantajları",
+          "text":" Aile Odalarımızda konaklayan misafirler, iki ayrı yatak odasının sunduğu konfor ve etkileyici deniz veya orman manzaralarının tadını çıkarır.",
+          "list1":"  A’la Carte Yemek: 7 gece ve üzeri konaklamalarda bir defaya mahsus ücretsiz A’la Carte akşam yemeği.",
+          "list2":"Spa & Wellness: Türk hamamı, sauna, buhar odası ve fitness merkezi kullanımı ücretsizdir.",
+          "buttonText":" DAHA FAZLASINI KEŞFET"
+        },
+  
+        "OtherOptions":{
+          "subtitle":"  Size Uygun Odayı Seçin",
+          "title":"  Diğer Konforlu Seçenekleri Keşfedin",
+          "span1":"AİLENİZİN TÜM BİREYLERİ İÇİN ODA",
+          "title1":" Aile Odası",
+          "area1":" 50 m²",
+          "person1":"En fazla 4 yetişkin + 1 çocuk",
+          "text1":" İç kapı ile ayrılmış iki yatak odası bulunan Aile Odalarımız, ailelerin rahatça konaklayabileceği şekilde tasarlanmıştır. Deniz veya orman manzarası seçenekleriyle unutulmaz aile anıları için idealdir.",
+          "span2":"Odanızdan Ayrılmadan Yenilenin",
+          "title2":" Fantasy Oda",
+          "area2":" 58 m²",
+          "person2":"2 yetişkin (yalnızca çiftler)",
+          "text2":"Özel tasarımlı Fantasy Odalar, muhteşem deniz manzaraları ve jakuzili 25 m² özel teras ile çiftlere romantik ve huzurlu bir tatil sunar.",
+          "buttonText":" DAHA FAZLASINI KEŞFET"
+         
+        }
+    },
+
+    "BeachPools": {
+    "subtitle": "DENİZ KENARINDA RAHATLA & YENİLEN",
+    "title": "Plaj & Havuzlar",
+    "text": "70 metre uzunluğundaki özel plajımızda yumuşak kum, konforlu şezlonglar, şemsiyeler ve dinlendirici anlar için lüks bir iskele sizi bekliyor.",
+    "TwoImageSection": {
+      "subtitle": "DENİZ KENARINDA RAHAT ANLAR",
+      "title": "Özel Plajımızı Keşfedin",
+      "text": "Sakin turkuaz sularıyla yüzme ve su sporları için ideal özel kumlu plajımızda rahatlama anlarının keyfini çıkarın. Konforlu şezlonglar, şemsiyeler ve ücretsiz havlular bir günlük keyif için hazır. Gün boyu plaj barlarımızda sunulan serinletici içecekler ve lezzetli atıştırmalıklarla kendinizi yenileyin.",
+      "span": "Özel Ayrıcalıklar",
+      "list1": "Ücretsiz şezlong, şemsiye ve havlular.",
+      "list2": "Plaj barlarında serinletici içecekler ve hafif atıştırmalıklar.",
+      "list3": "Yüzme ve su sporları için sakin sular."
+    },
+    "BeachCarousel": {
+      "subtitle": "DENİZ KENARINDA EĞLENCE & GÜNEŞ",
+      "title": "Plaj Aktiviteleri ve Daha Fazlası",
+      "text": "Yüzme, su sporları ve her yaşa uygun heyecan verici eğlenceler de dahil olmak üzere çeşitli plaj aktiviteleri ile canlı bir atmosferin keyfini çıkarın. Deniz kenarında eğlence ve heyecan dolu unutulmaz anlar yaratın.",
+      "title1": "",
+      "title2": "",
+      "title3": "",
+      "title4": "",
+      "subtitle1": "",
+      "subtitle2": "",
+      "subtitle3": "",
+      "subtitle4": ""
+    },
+    "BeachGif": {
+      "subtitle": "Her An İçin Tasarlanmış Havuzlar",
+      "title": "Rahatlamaya Yelken Açın",
+      "text": "Her ruh haline uygun tasarlanmış havuzlarımızda dinlenin ve yenilenin. Geniş açık yüzme havuzumuzda dalın veya ısıtmalı kapalı havuzumuzda huzurun tadını çıkarın. Küçük misafirlerimiz için özel çocuk havuzları ve heyecan verici su kaydırakları, herkes için neşe dolu anlar yaratır."
+    },
+    "PoolSection": {
+      "subtitle": "Özel Havuz Seçimlerimize Dalın",
+      "title": "Tüm Havuzlara Genel Bakış",
+      "text": "Azura Deluxe Resort & Spa, her tercihe uygun havuzlar sunar. Ferahlatıcı yüzüşler için geniş açık yüzme havuzu, dinlenme için ısıtmalı kapalı havuz veya aqua parkımızdaki heyecan verici su kaydıraklarını deneyimleyin. Çocuklara özel havuzlar, küçük misafirlerimiz için de eğlence sağlar. İdeal havuz deneyiminizi burada keşfedin.",
+      "subtitle1": "Genel Kullanıma Uygun Aile Dostu Havuz",
+      "title1": "Açık Yüzme Havuzu",
+      "text1": "Geniş açık yüzme havuzumuzda ferahlatıcı yüzüşlerin ve rahatlama anlarının tadını çıkarın. Her yaşa uygun olarak tasarlanmış havuzumuz, konforlu şezlonglar ve şemsiyelerle güneş altında keyifli ve dinlendirici bir deneyim sunar.",
+      "depth1": "140 cm",
+      "area1": "750 m²",
+      "subtitle2": "Genel Kullanıma Uygun Aile Dostu Havuz",
+      "title2": "Açık Yüzme Havuzu",
+      "text2": "",
+      "depth2": "140 cm",
+      "area2": "100 m²",
+      "span2": "Mevsimlik Isıtmalı",
+      "subtitle3": "Genel Kullanıma Uygun Aile Dostu Havuz",
+      "title3": "Açık Yüzme Havuzu",
+      "text3": "",
+      "depth3": "40 cm",
+      "area3": "90 m²",
+      "span3": "Mini Kaydırak Dahil",
+      "subtitle4": "Genel Kullanıma Uygun Aile Dostu Havuz",
+      "title4": "Açık Yüzme Havuzu",
+      "text4": "",
+      "depth4": "120 cm",
+      "area4": "80 m²",
+      "span4": "4 Su Kaydırağı",
+      "subtitle5": "Genel Kullanıma Uygun Aile Dostu Havuz",
+      "title5": "Açık Yüzme Havuzu",
+      "text5": "Mevsimlik Isıtmalı",
+      "depth5": "40 cm",
+      "area5": "14 m²",
+      "span5": "",
+      "indoor": "Kapalı",
+      "outdoor": "Açık"
     }
+  },
+
+  "Restaurants": {
+    "subtitle": "Özenle Hazırlanmış Gurme Deneyimler",
+    "title": "Restoranlar",
+    "text": "Özenle seçilmiş yemek seçeneklerimizle keyifli bir lezzet yolculuğuna çıkın. Otantik Türk ve Akdeniz tatlarından uluslararası gurme uzmanlıklarına kadar Azura Deluxe Resort & Spa, her öğünü unutulmaz kılacak geniş bir restoran yelpazesi sunar.",
+    "TwoImagesSection": {
+      "subtitle": "Mükemmel Gurme Deneyimler",
+      "title": "Azura Deluxe'de Lezzet Sanatı",
+      "text": "Azura Deluxe Resort & Spa’da olağanüstü lezzet deneyimlerinin tadını çıkarın. Şık À la Carte restoranlarımızda en seçkin uluslararası mutfakların keyfini sürebilir veya zengin açık büfemizdeki Türk özel tatları ve taze Akdeniz lezzetleriyle her öğünü unutulmaz kılabilirsiniz",
+      "span": "Yemek Seçenekleri:",
+      "list1": "Ana Restoran: Erken Kahvaltı, Kahvaltı, Geç Kahvaltı, Öğle Yemeği, Akşam Yemeği, Gece Kahvaltısı (01:00–03:00)",
+      "list2": "Snack Restoran (Lyric Snack - Plaj): 12:00–16:00 (ızgara spesiyaliteler, fast‑food, tatlılar, meyveler, dondurma belirli saatlerde servis edilir)"
+    },
+    "BackgroundSection": {
+      "subtitle": "EŞSİZ BİR LEZZET ŞÖLENİ",
+      "title": "Ana Restoran",
+      "text": "Kahvaltı, öğle ve akşam yemeklerinde, Türk mutfağının otantik lezzetlerini ve mevsimsel uzmanlıkları sergileyen zengin açık büfemizde keşfedin.",
+      "span": "Yemek Saatleri:",
+      "list1": "Kahvaltı: 07:00 - 10:30",
+      "list2": "Öğle Yemeği: 12:30 - 14:00",
+      "list3": "Akşam Yemeği: 19:00 - 21:00",
+      "buttonText": "DAHA FAZLASINI KEŞFET"
+    },
+    "CarouselSection2": {
+      "subtitle": "Mükemmel Gurme Deneyimler",
+      "title": "À la Carte Restoranlar",
+      "text": "Özel à la carte restoranlarımızda olağanüstü uluslararası lezzetlerin tadını çıkarın. Yetenekli ve ödüllü şeflerimiz tarafından ustalıkla hazırlanan enfes yemeklerle tatilinizi benzersiz kılın.",
+      "subtitle1": "TATLILAR & SICAK İÇECEKLER",
+      "title1": "Patisserie",
+      "text1": "Çekici pastanemizde taze pişmiş hamur işleri, enfes tatlılar, lezzetli kekler ve sıcak içeceklerden oluşan zengin bir seçkiyle tatlı anların tadını çıkarın. Gün boyu keyifle dinlenmek ve kendinizi şımartmak için ideal bir mekan. Öne çıkanlar: Çeşitli kahveler, demlenmiş çay, baklava, kurabiye ve sandviçler.",
+      "span1": "Açılış Saatleri: 10:00 – 18:00",
+      "subtitle2": "À LA CARTE ATİŞTİRMALIKLAR",
+      "title2": "Mazurka Snack Restoranı",
+      "text2": "Mazurka Snack Restoranı'nda taze ızgara spesiyaliteler, lezzetli sandviçler ve nefis salatalardan oluşan à la carte atıştırmalıkların tadını çıkarın. Sahil kenarında rahat bir yemek deneyimiyle öğle saatlerindeki atıştırmalık ihtiyaçlarınızı karşılayın. Mutfak: Izgara ürünler, burgerler, sandviçler, salatalar ve meyveler.",
+      "span2": "Açılış Saatleri: 12:00 – 16:00",
+      "subtitle3": "PLAJ ATİŞTİRMALIKLARI",
+      "title3": "Lyric Beach",
+      "text3": "Plaj ve iskele kenarındaki Lyric Beach Snack Bar’da rahatlatıcı bir deniz kenarı yemek deneyimi yaşayın. Lezzetli taze salatalar, çıtır pizzalar, sulu kebaplar, taze meyveler, waffle’lar, atıştırmalıklar ve ferahlatıcı içecekler eşliğinde güneşin ve sonsuz deniz manzarasının keyfini çıkarın. Öne çıkanlar: Salatalar, pizza, kebaplar, meyveler, waffle ve çeşitli atıştırmalıklar.",
+      "span3": "Açılış Saatleri: 12:00 – 16:00"
+    },
+    "BackgroundSection2": {
+      "subtitle": "EŞSİZ BİR LEZZET ŞÖLENİ",
+      "title": "Barlarımızı Keşfedin",
+      "text": "Azura Deluxe Resort & Spa’nın şık barlarında keyifli bir atmosferin tadını çıkarın. Ferahlatıcı kokteyllerden premium içeceklere, sosyalleşme veya dinlenme için ideal rahat alanlara kadar her barımız, ruh halinize göre benzersiz bir deneyim sunar.",
+      "buttonText": "DAHA FAZLASINI KEŞFET"
+    }
+  },
+
+  "Bars": {
+    "subtitle": "ÖZEL İÇECEK DENEYİMLERİ",
+    "title": "Barlar",
+    "text": "Azura Deluxe Resort & Spa’nın barlarında seçkin içecek çeşitleri ve şık atmosferler keşfedin. Ustalıkla hazırlanmış kokteyllerden premium uluslararası içeceklere, rahatlatıcı bitki çaylarından taze demlenmiş kahvelere kadar her anınıza uygun lezzet seçenekleri sunuyoruz.",
+
+    "TwoImageSection": {
+      "subtitle": "Mükemmel İçecek Deneyimleri",
+      "title": "Seçkin Barlar",
+      "text": "Azura Deluxe Resort & Spa’nın şık barlarında tatilinizi bir üst düzeye taşıyın. Ustalıkla hazırlanmış kokteyller, premium uluslararası içecekler veya taze demlenmiş çay ve kahvelerle rahatlayın. Her bar, dinlenmek, sosyalleşmek veya özel anları kutlamak için mükemmel bir atmosfer sunar."
+    },
+
+    "BackgroundSection": {
+      "subtitle": "EŞSİZ BİR TAD ZİYAFETİ",
+      "title": "Serinleyin ve Rahatlayın",
+      "text": "Özenle tasarlanmış barlarımızda dinlenip yenilenin. Şık ortamlarda çeşitli ferahlatıcı içecekler, ustaca hazırlanmış kokteyller ve premium içecekler sunuyoruz; günün her anında rahatlamak için ideal.",
+      "buttonText": "DAHA FAZLASINI KEŞFET"
+    },
+
+    "Carousel": {
+      "subtitle": "Mükemmel İçecek Deneyimleri",
+      "title": "Barlar",
+      "text": "Azura Deluxe Resort & Spa’nın davetkar barlarında keyifli içecek deneyimlerinin tadını çıkarın. Ferahlatıcı kokteyller, premium içkiler, uluslararası içecekler ve rahatlatıcı ikramlar sizleri bekliyor. Her anı şıklık ve zerafetle yaşayın.",
+      "subtitle1": "Mart, Nisan, Ekim: 10:00–00:00Mayıs–Eylül: 24 Saat",
+      "title1": "Lobby Piyano Barı",
+      "text1": "Lobby Piyano Barı’nda uzmanlıkla hazırlanmış kokteyller, premium içecekler ve lezzetli ikramlarla rahatlayın ve sosyalleşin. Zarif bir atmosferde keyifli sohbetlerin tadını çıkarın.",
+      "subtitle2": "Saat: 10:00–24:00",
+      "title2": "Cha Cha Pool Bar",
+      "text2": "Havuz kenarında hareketli Cha Cha Pool Bar’ımızda serinletici kokteyller, soğuk içecekler ve lezzetli atıştırmalıkların tadını çıkarın. Güneş altında veya yıldızlar altında unutulmaz anılar biriktirin.",
+      "subtitle3": "Saat: 10:00–18:00",
+      "title3": "Pier Bar",
+      "text3": "Pier Bar’ımızda deniz kenarında ferahlatıcı molanın keyfini çıkarın. Lezzetli kokteyller, soğuk içecekler ve atıştırmalıklar muhteşem manzara eşliğinde sunulur.",
+      "subtitle4": "24 Saat",
+      "title4": "Disco Bar Ciks",
+      "text4": "Disco Bar Ciks’te canlı gece hayatı ve enerjik atmosferi deneyimleyin. Gece boyunca dans edin, enerjik müzikle coşun ve özel kokteyllerle eğlenceyi 24 saat canlı tutun.",
+      "buttonText": "DAHA FAZLASINI KEŞFET"
+    },
+
+    "BackgroundSection2": {
+      "subtitle": "EŞSİZ BİR LEZZET ŞÖLENİ",
+      "title": "En Güzel Restoranlarımızı Keşfedin",
+      "text": "Azura Deluxe Resort & Spa’da olağanüstü gastronomik deneyimlere davetlisiniz. Restoranlarımız, özgün Türk spesiyalitelerinden Akdeniz lezzetlerine ve uluslararası gurme sunumlara kadar geniş bir yelpaze sunar; her biri unutulmaz tat anları için özenle hazırlanır.",
+      "buttonText": "DAHA FAZLASINI KEŞFET"
+    }
+  },
+
+  "Entertainment": {
+    "subtitle": "Eğlence & Aktiviteler",
+    "title": "Sınırsız Eğlence ve Aktiviteler",
+    "text": "Azura Deluxe Resort & Spa, her yaştan misafirimiz için bitmeyen eğlence fırsatları sunar. Günlük havuz aktiviteleri, heyecanlı canlı gösteriler, fitness seansları, su aerobiği, dart, boccia ve çok daha fazlasının tadını çıkarın. Profesyonel animasyon ekibimiz, konaklamanızın her anını unutulmaz kılacak eğlence vaat eder.",
+    "span1": "Heyecan Verici Deneyim",
+    "span2": "Unutulmaz Deneyim",
+    "daytime": "Gündüz Aktiviteleri",
+    "nighttime": "Gece Eğlencesi",
+    "GridSection": {
+      "subtitle": "Eğlence & Aktiviteler",
+      "title": "Etkinlikler her gün düzenlenir",
+      "text": "Azura Deluxe Resort & Spa, canlı gösteriler, özel akşam şovları, diskolar, boccia, plaj voleybolu, masa tenisi, dart, havuz oyunları, aerobik ve su jimnastiği gibi çeşitli aktiviteler sunarak sizi unutulmaz eğlence ve spor deneyimleriyle ağırlamaya hazır.",
+      "title1": "Sport & Fitness",
+      "text1": "Azura Deluxe Resort & Spa’da tatiliniz boyunca formda ve enerjik kalın. Tam donanımlı fitness merkezimizden yararlanın, canlandırıcı aerobik seanslarına, su jimnastiğine, plaj voleybolu maçlarına, boccia oyunlarına, dart ve havuz aktivitelerine katılarak tatilinizi zenginleştirin.",
+      "title2": "Çocuk & Genç Kulübü",
+      "text2": "Azura Deluxe Resort & Spa, küçük misafirlerimiz için sonsuz eğlence sunar! Özel tasarlanmış Kids Club’ımızda denetimli günlük aktiviteler, oyun alanları, mini diskolar ve 4–12 yaş çocuklara yönelik yaratıcı etkinlikler sizi bekliyor. Gençler de güvenli ve samimi ortamda oyunlar ve sosyal aktivitelerle yeni arkadaşlar edinebilir.",
+      "title3": "Su Sporları",
+      "text3": "Azura Deluxe Resort & Spa’da heyecan dolu su sporları deneyimi yaşayın. Maceralı jet ski turlarından parasailing, muz botu gezilerine kadar çeşit çeşit aktiviteyle Akdeniz’in masmavi sularında unutulmaz anlar sizi bekliyor.",
+      "title4": "Plaj Aktiviteleri",
+      "text4": "Güzel özel plajımızda plaj voleybolu, boccia, dart, çeşitli oyunlar ve rahatlatıcı sahil eğlenceleriyle sonsuz eğlence sizi bekliyor. Akdeniz’in ışıltılı sularının kıyısında güneş altında renkli aktivitelerle günlerinizi unutulmaz kılın.",
+      "title5": "Masa Tenisi",
+      "text5": "Azura Deluxe Resort & Spa’da heyecan verici masa tenisi karşılaşmalarıyla rekabet ve eğlence bir arada. Her seviyeye uygun bu aktivite, gününüzü aktif ve keyifli geçirmenin harika bir yoludur.",
+      "title6": "Su Jimnastiği",
+      "text6": "Azura Deluxe Resort & Spa’da enerjik su jimnastiği seanslarıyla bedeninizi ve zihninizi yenileyin. Profesyonel eğitmenlerimiz eşliğinde havuzda yapılan bu antrenmanlar, tatilinizde formda kalmanızı ve eğlenmenizi sağlar.",
+      "title7": "Step Aerobik",
+      "text7": "Enerjik step aerobik seanslarımıza katılarak vücudunuzu canlandırın, modunuzu yükseltin ve eğlenceli bir grup antrenmanı deneyimi yaşayın.",
+      "title8": "Sahne Şovları",
+      "text8": "Azura Deluxe Resort & Spa’da gündüz sahne şovları ile büyülenin. Canlı performanslar, etkileşimli eğlenceler ve profesyonel gösterilerle dolu etkinliklerimiz, tüm yaşlardaki misafirlerimize unutulmaz anlar vaat eder.",
+      "title9": "Dart & Boccia",
+      "text9": "Becerilerinizi test edin ve dostça rekabetin tadını çıkarın. Dart ve boccia oyunları, konaklamanız süresince sosyalleşme ve eğlence sunar.",
+      "daytime": "GÜNDÜZ AKTİVİTELERİ",
+      "nighttime": "GECE ETKİNLİKLERİ"
+    }
+  },
+
+  "KidsClub": {
+    "subtitle": "ÇOCUKLAR İÇİN EĞLENCELİ ZAMAN",
+    "title": "Mini Kulüp",
+    "text": "Azura Deluxe Resort & Spa’nın Mini Kulübü’nde 4–12 yaş arası küçük misafirlerimizi eğlence ve heyecan bekliyor. Denetimli aktiviteler, yaratıcı atölyeler, heyecanlı oyun alanları ve canlı mini diskolarla Kids Club’ımız gün boyu unutulmaz anlar ve güvenli eğlence sunar.",
+    "TwoImageSection": {
+      "subtitle": "KÜÇÜKLER İÇİN EĞLENCE & KEYİF",
+      "title": "Mini Kulüp",
+      "text": "Azura Deluxe Resort & Spa’nın Mini Kulübü’nde 4–12 yaş arası çocuklar, denetimli günlük aktiviteler, yaratıcı oyunlar, mini diskolar, oyun alanları ve daha fazlasıyla sonsuz eğlencenin tadını çıkarır. Şefkatli ve deneyimli ekibimiz, miniklerinizin neşeli, güvenli ve unutulmaz bir tatil geçirmesini sağlarken siz de tatilinizin keyfini çıkarabilirsiniz."
+    },
+    "iconsText1": "Güvenli Ortam",
+    "iconsText2": "Yaşa Uygun Aktiviteler",
+    "iconsText3": "Sosyal Etkileşim",
+    "iconsText4": "Profesyonel Personel",
+    "CarouselSection": {
+      "subtitle": "Mini Kulübe Hoş Geldiniz",
+      "title": "Eğlence ve Eğitim Buluşuyor",
+      "text": "Kids Club’ımız, her yaştan çocuğa yönelik eğitici ve eğlenceli aktiviteler sunar. Yaratıcılığı besleyen, hayal gücünü geliştiren ve çocukların hayallerini gerçeğe dönüştüren canlı bir ortam yarattık, tatilinizi unutulmaz kılacak anlar sizi bekliyor.",
+      "title1": "Çocuk Aktiviteleri",
+      "title2": "Mini Disko",
+      "title3": "Minik Sinema",
+      "title4": "Oyun Odaları",
+      "title5": "Oyun Alanı"
+    },
+    "OtherOptions": {
+      "subtitle": "Mini Kulüp",
+      "title": "Çocuk Havuzları",
+      "text": "Azura Deluxe Resort & Spa’daki özel çocuk havuzlarımız, miniklerinizin suyla oynayıp eğlenebileceği güvenli ve keyifli bir ortam sunar. Sığ suyu, mini kaydırağı ve konforlu atmosferiyle bu havuzlar, en küçük misafirlerimizin ihtiyaçlarına ve eğlencesine göre tasarlanmıştır.",
+      "subtitle1": "Mini Kulüp",
+      "title1": "Çocuk Kaydırak Havuzu",
+      "text1": "Azura Deluxe Resort & Spa’daki Çocuk Kaydırak Havuzu, genç misafirlerimize heyecanlı ve güvenli bir ortam sunar. Sığ havuzu ve mini kaydırağıyla çocuklar tatil boyunca su aktivitelerinin, çılgın sıçramaların ve sınırsız eğlencenin keyfini çıkarır.",
+      "subtitle2": "Mini Kulüp",
+      "title2": "Çocuk Havuzları",
+      "text2": "Azura Deluxe Resort & Spa’daki özel tasarım Çocuk Havuzu, miniklerimize güvenli, keyifli ve dinlendirici bir ortam sunar. Sığ sular ve mini kaydırağıyla çocuklar gözetim altında güvenle oynar, tatilin her anı neşe ve unutulmaz anlara dönüşür.",
+      "subtitle3": "Mini Kulüp",
+      "title3": "Kapalı Çocuk Havuzu",
+      "text3": "Kapalı Çocuk Havuzumuz, Azura Deluxe Resort & Spa’nın genç misafirlerine sıcak, güvenli ve rahat bir su ortamı sunar. Sığ ve ısıtmalı suyuyla her hava koşulunda keyifle oynayıp eğlenebilecekleri ideal bir alandır."
+    },
+    "galleryTitle": "Her Anı Unutulmaz Kılın"
+  },
+
+  "Spa": {
+    "subtitle": "SENFONY SPA & WELLNESS MERKEZİMİZDE RAHATLAYIN",
+    "title": "Spa & Wellness",
+    "text": "Azura Deluxe Resort & Spa’nın Symphony Spa & Wellness Merkezi'nde rahatlayın, yenilenin ve enerjinizi tazeleyin. Yüksek kalitede profesyonel masajlar ve bakımlarla hem bedensel hem zihinsel tam rahatlama sağlayın; tatiliniz huzurlu ve unutulmaz geçsin.",
+
+    "InfoSection": {
+      "subtitle1": "Bedeninizi ve Zihninizi Yenileyin",
+      "title1": "Azura Deluxe Resort & Spa’da Wellness",
+      "text1": "Tam donanımlı fitness merkezimizde formunuzu koruyun. Antrenmandan sonra Symphony Spa & Wellness Merkezi'nde profesyonel masajla gevşeyin, geleneksel Türk Hamamı’nda yenilenin veya Finlandiya Saunası’nda detoks yaparak rahatlayın.",
+      "subtitle2": "Symphony Spa’da Türk Hamamı ve Sauna Konforu",
+      "title2": "Sauna & Türk Hamamı",
+      "text2": "Çalışma Saatleri: 07:00 – 20:00",
+      "subtitle3": "Spa Bakımları",
+      "title3": "Spa & Wellness",
+      "text3": "Çalışma Saatleri: 07:00 – 20:00",
+      "list1": "10 Masaj Odası",
+      "list2": "1 VIP Çift Kişilik Spa Süiti",
+      "list3": "Türk Hamamı",
+      "list4": "Sauna",
+      "list5": "Buhar Odası",
+      "list6": "Dinlenme Alanları",
+      "list7": "Profesyonel Fitness Merkezi"
+    },
+
+    "GallerySection": {
+      "subtitle": "Duyularınızı Yenileyin",
+      "title": "Symphony Spa & Wellness",
+      "text": "Azura Deluxe Resort & Spa’nın Symphony Spa’sında kendinizi şımartın; huzur ve dinlenme sizi bekliyor. Zihninizi tazeleyen bakımlar, rahatlatıcı masajlar, geleneksel Türk hamamı deneyimleri ve huzurlu sauna seanslarını keşfedin."
+    },
+
+    "CarouselSection": {
+      "subtitle": "RAHATLAYIN VE UNUTUN",
+      "title": "Masaj Seçenekleri",
+      "text": "Symphony Spa & Wellness Merkezi'nde geniş profesyonel masaj seçenekleriyle nihai rahatlamayı yaşayın. Stresi azaltın, bedeninizi yenileyin ve zihninizi dinlendirin."
+    },
+
+    "SpaTypes": {
+      "subtitle1": "Çalışma Saatleri: 08:00 – 19:00",
+      "title1": "Kapalı Havuz",
+      "text1": "Mevsimsel olarak ısıtılan Kapalı Havuzumuzda huzur ve sakinliğin tadını çıkarın. Azura Deluxe Resort & Spa’daki konaklamanız sırasında dinlenmek ve enerji toplamak için ideal bir mekandır.",
+      "subtitle2": "Geleneksel Kültürü Deneyimleyin",
+      "title2": "Türk Hamamı",
+      "text2": "Symphony Spa & Wellness Merkezi'mizde lüks Türk Hamamı deneyimi yaşayın. Geleneksel banyo ritüelleri, köpük masajları ve nazik peelinglerle cildinizi yenileyin ve canlandırın."
+    }
+  }
+    
 }

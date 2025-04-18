@@ -8,7 +8,7 @@ import backgroundImg from "../subroomComponent/images/odafull.webp"
 import ContactSection2 from '@/app/[locale]/GeneralComponents/Contact/ContactSection2'
 import options1 from "../deluxeroom/images/deluxe4.jpg";
 import options2 from "../fantasyroom/images/fantasy4.jpg";
-
+import {useTranslations} from 'next-intl';
 import img1 from "./images/family1.webp";
 import img2 from "./images/family2.jpg";
 import img3 from "./images/family3.webp";
@@ -22,32 +22,37 @@ import img10 from "./images/family10.webp";
 import img11 from "./images/family11.jpg";
 import img12 from "./images/family12.jpg";
 
-const subroomBannerText=["Forest / Sea View","1-4 Adult + 1-3 Children","2 Bedrooms / 4 Beds"]
-const backgroundTexts=["Guests staying in Swim-Up rooms are welcomed with a VIP setup, including a carefully prepared fruit tray and delicate macarons upon check-in.","A’la Carte Dining: One complimentary visit for stays of 7+ nights.","Pavilion Discount: Enjoy 15% off exclusive pavilion services."]
-
-const iconTexts=["Independent Pool"," 2 Single Beds"," Extra Baby Crib"];
-
 const page = () => {
+  const t = useTranslations('FamilyRoom');
+  const t2 = useTranslations('FamilyRoom.RoomFeatures');
+  const t3 = useTranslations('FamilyRoom.BackgroundSection');
+  const t4 = useTranslations('FamilyRoom.OtherOptions');
+
+  const subroomBannerText=[t("span1"),t("span2"),t("span3")]
+const backgroundTexts=[t3("text"),t3("list1"),t3("list2")]
+
+const iconTexts=[t2("span1"),t2("span2")];
+
   const carouselImages = [img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12];
   const rooms = [
     {
       id: 1,
       img: options1,
-      title: "Deluxe Room",
-      description: "Room for all the family members",
-      size: "38-41 m2",
-      capacity: "2 adults + 1 child",
-      text: "Lorem ipsum dolor sit amet consectetur. Vel vitae adipiscing pellentesque sed mauris nisl velit in. Imperdiet orci purus nunc nisi. Pretium malesuada sed nibh varius. Scelerisque iaculis fringilla commodo hac. Aenean nulla.",
+      title: t4("title1"),
+      description: t4("subtitle1"),
+      size: t4("area1"),
+      capacity: t4("person1"),
+      text: t4("text1"),
       link: "/rooms/deluxeroom",
     },
     {
       id: 2,
       img: options2,
-      title: "Fantasy Room",
-      description: "FRESHEN UP WITHOUT LEAVING YOUR ROOM",
-      size: "40-43 m2",
-      capacity: "2 adults + 1 child",
-      text: "Lorem ipsum dolor sit amet consectetur. Vel vitae adipiscing pellentesque sed mauris nisl velit in. Imperdiet orci purus nunc nisi. Pretium malesuada sed nibh varius. Scelerisque iaculis fringilla commodo hac. Aenean nulla.",
+      title: t4("title2"),
+      description: t4("subtitle2"),
+      size: t4("area2"),
+      capacity: t4("person2"),
+      text: t4("text2") ,
       link: "/rooms/fantasyroom",
     },
   
@@ -56,24 +61,11 @@ const page = () => {
   return (
     <div className=' overflow-hidden flex flex-col items-center justify-center gap-[60px] md:gap-[80px] lg:gap-[100px] bg-[#fbfbfb]'>
      <div className='flex flex-col'>
-     <SubRoomBanner img={img1} span="exclusive stay with an INDEPENDENT pool" header="Family Room" texts={subroomBannerText}/>
+     <SubRoomBanner img={img1} span={t("subtitle")} header={t("title")} texts={subroomBannerText}/>
      <SubroomCarousel images={carouselImages}/>
      </div>
-      <RoomFeatures span=" FUN FOR ALL ages" header="Family Room" text="   It is located in our main building with a volume of 50-55 m2 with
-              sea and forest view. This room type consists of 2 separate
-              bedrooms (with intermediate door) with double bedroom (for 2
-              adults) and room with 2 separate beds (2 twin beds / for 2
-              adults). 1 shared bathroom, pool & terrace with seating
-              group. Maximum stay with 4 adults  Suitable for up to 1
-              child.  Family Swim-up Forest has a large pool shared
-              with other SwimUp rooms.
-              Family Swim-up Deniz features an independent private pool." header2="  Family-friendly Amenities" header3="Room Features"  text2="Services offered to all rooms (Key System with Chip Armband, Daily
-              Mini Bar Refill, Bathroom Cosmetics, Tea-Coffee Set-Up)
-              6 of our rooms are specially designed for our disabled
-              guests and the width of the main doors is 112cm.
-              Extra folding bed is used in rooms without Sofa Bed.
-              THE POOLS IN THE SWIMUP ROOMS ARE NOT HEATED." iconsTexts={iconTexts}  />
-     <BackgroundSection span="EXCLUSIVE PRIVILEGES" header="Family Room VIP Benefits" texts={backgroundTexts} link="/" img={img3}/>
+      <RoomFeatures span={t2("subtitle")} header={t2("title")} text={t2("text")} header2={t2("subtitle2")} header3={t2("subtitle3")}  text2={t2("text2")} iconsTexts={iconTexts}  />
+     <BackgroundSection span={t3("subtitle")} header={t3("title")} texts={backgroundTexts} link="/" img={img3}/>
       <OtherOptions rooms={rooms}/>
       <ContactSection2/>
     </div>
