@@ -14,8 +14,13 @@ import imgFantasy from "./images/fantasy1.png";
 import imgFantasy2 from "./images/fantasy2.png";
 
 import ContactSection2 from "../GeneralComponents/Contact/ContactSection2";
+import {useTranslations} from 'next-intl';
 
 const page = () => {
+  const t = useTranslations('Rooms.Room1');
+  const t2 = useTranslations('Rooms.Room2');
+  const t3 = useTranslations('Rooms.Room3');
+
   return (
     <div className="overflow-hidden flex flex-col items-center justify-center gap-[50px] lg:gap-[100px] bg-[#fbfbfb]">
       <RoomsBanner />
@@ -24,20 +29,20 @@ const page = () => {
       id="deluxeroom"
         img={imgdeluxe}
         img2={imgdeluxe2}
-        header=" Deluxe Room"
-        text=" Deluxe rooms (30-32 m²) are located from the first to the seventh floor in the main building, 4 of which are handicapped rooms on the ground floor with all necessary equipment."
-        span="30-32 m2"
-        span2="Land/Sea View"
+        header={t("title")}
+        text={t("text")}
+        span={t("area")}
+        span2={t("view")}
         link="/rooms/deluxeroom" 
       />
       <RoomsSectionReverse
       id="familyroom"
         img={imgFamily}
         img2={imgFamily2}
-        header="Family Room"
-        text=" Maximum accommodation is 2 adults and 2 children, 3 adults and 1 child and 4 adults and 1 child.Our rooms; 2 bedrooms (with connecting door, 1 double bed and 2 single beds)"
-        span=" 50 m2"
-        span2="Land/Sea View"
+        header={t2("title")}
+        text={t2("text")}
+        span={t2("area")}
+        span2={t2("view")}
         link="/rooms/familyroom" 
       />
 
@@ -45,12 +50,10 @@ const page = () => {
        id="fantasyroom"
         img={imgFantasy}
         img2={imgFantasy2}
-        header="Fantasy Room"
-        text="  All specially designed rooms with sea views have a Jacuzzi on the terrace.
-1 Bedroom (1 double bed), 1, 25 m2 terrace, sunbed on the terrace.
-Only 2 people (couples) can stay in Fantasy Sea View Rooms."
-        span=" 58 m2"
-        span2="Sea View"
+        header={t3("title")}
+        text={t3("text")}
+        span={t3("area")}
+        span2={t3("view")}
         link="/rooms/fantasyroom" 
       />
 

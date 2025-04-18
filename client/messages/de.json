@@ -8,7 +8,7 @@
     "subtitle":"Willkommen im Azura Deluxe Resort & Spa – Wo Träume auf Komfort treffen!",
     "title":"Luxus, Komfort, Qualität und tadelloser Service",
     "text":"Zwischen dem Mittelmeer und den atemberaubenden Taurusbergen gelegen, erstreckt sich das Azura Deluxe Resort & Spa über ein 12.000 m² großes, malerisches Gelände direkt am Meer. Dank der günstigen Lage in der Nähe der Flughäfen Antalya und Gazipaşa erwartet Sie unser 70 Meter langer Privatstrand mit einladendem Steg.",
-    "buttonText":"DISCOVER MORE",
+    "buttonText":"MEHR ENTDECKEN",
 
     "TwoImageSection":{
       "subtitle":"  ENTDECKEN SIE MEHRE",
@@ -62,54 +62,461 @@
   },
 
   "Rooms":{
-    "header":"Luxury, comfort, quality, and impeccable service",
-    "buttonText1":"Deluxe Room",
-    "buttonText2":"Family Room",
-    "buttonText3":" Fantasy Room",
+    "header":"Unsere Zimmer",
+    "buttonText1":"Deluxe-Zimmer",
+    "buttonText2":"Familienzimmer",
+    "buttonText3":" Fantasy-Zimmer",
 
-    "subtitle":" COMFORTABLE STAY FOR YOU AND YOUR FAMILY",
-    "title":"Feel Right at Home in Our Luxurious Rooms",
-    "text":"Enjoy the comfort and elegance of Azura Deluxe Resort & Spa's beautifully appointed rooms, each thoughtfully designed to offer relaxation, convenience, and luxury. Whether you choose a Deluxe Room with stunning views, a spacious Family Room ideal for families, or a romantic Fantasy Room with exclusive amenities, you'll find the perfect sanctuary to unwind and recharge. All our rooms feature modern comforts including daily refreshed minibars, premium bath amenities, tea and coffee-making facilities, and high-speed Wi-Fi, ensuring your stay is both memorable and convenient.",
+    "subtitle":" KOMFORTABLER AUFENTHALT FÜR SIE UND IHRE FAMILIE",
+    "title":" Fühlen Sie sich wie zu Hause in unseren luxuriösen Zimmern",
+    "text":" Genießen Sie Komfort und Eleganz in den stilvoll eingerichteten Zimmern des Azura Deluxe Resort & Spa, die mit viel Liebe zum Detail für Entspannung, Bequemlichkeit und Luxus gestaltet wurden. Ob Sie sich für ein Deluxe-Zimmer mit atemberaubender Aussicht, ein geräumiges Familienzimmer oder ein romantisches Fantasy-Zimmer mit exklusiven Annehmlichkeiten entscheiden – hier finden Sie den perfekten Rückzugsort zum Abschalten und Auftanken.",
     "checkin":"CHECK-IN: 14:00",
     "checkout":"CHECK-OUT: 12:00",
 
     "Room1":{
-      "title":"Deluxe Room",
-      "text1":"Enjoy the elegance and comfort of our Deluxe Rooms, beautifully appointed spaces spanning 30-32 m². Located between the first and seventh floors of our main building, these stylish rooms offer delightful views of the sea or lush landscapes. Each Deluxe Room includes one double bed and one single bed, ensuring a cozy and restful stay. Specially designed accessible rooms are also available on the ground floor, fully equipped to accommodate every guest’s comfort.",
+      "title":"Deluxe-Zimmer",
+      "text":"Unsere eleganten Deluxe-Zimmer bieten 30–32 m² Wohnkomfort und befinden sich zwischen dem ersten und siebten Stockwerk unseres Hauptgebäudes. Sie bieten herrliche Ausblicke auf das Meer, die Landschaft oder seitlichen Meerblick. Die Zimmer sind mit einem Doppelbett und einem Einzelbett ausgestattet – ideal für einen entspannten Aufenthalt. Barrierefreie Zimmer befinden sich im Erdgeschoss und sind vollständig ausgestattet.",
       "area":"30-32 m²",
-      "view":"Sea, Land, or Partial Sea View",
-      "buttonText":"EXPLORE"
+      "view":"Meerblick, Landblick oder seitlicher Meerblick",
+      "buttonText":"Entdecken"
     },
 
     "Room2":{
-      "title":"Family Room",
-      "text1":"Ideal for families and groups, our spacious Family Rooms offer 50 m² of comfort with two beautifully decorated bedrooms connected by a convenient door. Each Family Room includes one double bed and two single beds, providing flexibility and space to comfortably accommodate up to 2 adults and 2 children, 3 adults and 1 child, or 4 adults and 1 child. Choose from enchanting sea or scenic land views to enhance your perfect stay.",
+      "title":"Familienzimmer",
+      "text":"Ideal für Familien oder Gruppen: Unsere 50 m² großen Familienzimmer verfügen über zwei durch eine Tür verbundene Schlafzimmer mit stilvoller Einrichtung. Mit einem Doppelbett und zwei Einzelbetten bieten diese Zimmer Platz für 2 Erwachsene + 2 Kinder, 3 Erwachsene + 1 Kind oder 4 Erwachsene + 1 Kind. Wählen Sie zwischen Meer- oder Landblick für Ihren perfekten Urlaub.",
       "area":" 50 m²",
-      "view":"Land or Sea View",
-      "buttonText":"EXPLORE"
+      "view":"Land- oder Meerblick",
+      "buttonText":"Entdecken"
     },
 
     "Room3":{
-      "title":" Fantasy Room",
-      "text1":"Our Fantasy Rooms offer an exclusive and romantic getaway for couples. Each elegantly designed room spans 58 m², featuring breathtaking sea views and a private 25 m² terrace. Indulge yourselves with the luxurious jacuzzi and relax comfortably on the terrace sunbeds. With one stylish bedroom equipped with a spacious double bed, Fantasy Rooms provide the perfect romantic ambiance for two.",
+      "title":"Fantasy-Zimmer",
+      "text":" Unsere exklusiv gestalteten Fantasy-Zimmer bieten Paaren eine romantische Auszeit auf 58 m² Wohnfläche. Genießen Sie den atemberaubenden Meerblick und entspannen Sie auf der 25 m² großen privaten Terrasse mit Whirlpool und Sonnenliegen. Das elegante Schlafzimmer ist mit einem großzügigen Doppelbett ausgestattet – die perfekte Atmosphäre für Zweisamkeit.",
       "area":" 58 m²",
-      "view":" Sea View",
-      "buttonText":"EXPLORE"
+      "view":"Meerblick",
+      "buttonText":"Entdecken"
     },
 
     "Parallax":{
-      "subtitle":"The Essential In-Room Amenities",
-      "title":"Everything You Need, Right in Your Room",
-      "text":"Enjoy a seamless stay with all the essential amenities at your fingertips. From daily minibar replenishments to premium bath essentials, secure room access, and uninterrupted entertainment with LED TV and 24-hour WiFi, we ensure your comfort at every moment.",
+      "subtitle":" Unverzichtbare Annehmlichkeiten im Zimmer",
+      "title":" Alles, was Sie brauchen – direkt in Ihrem Zimmer",
+      "text":"Tägliche Auffüllung mit: Wasserflaschen, Erfrischungsgetränken (Coca Cola, Fanta, Sprite), Fruchtsäften und Soda.",
       "span1":"Mini Bar",
       "text1":"Daily replenishments include bottled water, soft drinks (Coca Cola, Fanta, Sprite), fruit juices, and soda.",
-      "span2":"Cosmetics",
-      "text2":" Bathroom essentials include shampoo, conditioner, shower gel, soap, body lotion, loofah, toothbrush & toothpaste, shower cap, razor, makeup remover cotton, and a hairdryer.",
-      "span3":"Room Access",
-      "text3":" All doors are securely operated using a convenient electronic key card system for easy access",
+      "span2":"Kosmetikartikel",
+      "text2":"  Im Bad finden Sie: Shampoo, Conditioner, Duschgel, Seife, Bodylotion, Duschschwamm, Zahnbürste & Zahnpasta, Duschhaube, Rasierer, Make-up-Entfernerpads und einen Haartrockner.",
+      "span3":"Zugang zum Zimmer",
+      "text3":" Alle Türen sind mit einem elektronischen Schlüsselkartensystem für sicheren und bequemen Zugang ausgestattet.",
       "span4":"Wifi & LedTV ",
-      "text4":"LED TV with international and national satellite channels, radio, and 24-hour WiFi access."
+      "text4":" LED-Fernseher mit nationalen und internationalen Satellitenkanälen, Radio sowie 24-Stunden-WLAN-Verbindung."
     }
 
+  },
+
+  "FamilyRoom":{
+    "subtitle":" Komfortable Familienunterkunft mit Meer- oder Waldblick",
+      "title":"Familienzimmer",
+      "text":"Enjoy a seamless stay",
+      "span1":" Wald- oder Meerblick",
+      "span2":"1–4 Erwachsene + 1–3 Kinder ",
+      "span3":" 1 Doppelbett & 2 Einzelbetten",
+
+      "RoomFeatures":{
+        "subtitle":"SPASS FÜR ALLE ALTERSGRUPPEN",
+        "title":"Familienzimmer",
+        "text":" Unsere geräumigen Familienzimmer befinden sich im Hauptgebäude und bieten mit 50 m² ausreichend Platz sowie einen schönen Blick auf das Meer oder den Wald. Jedes Zimmer verfügt über zwei getrennte Schlafzimmer (durch eine Verbindungstür): eines mit einem Doppelbett, das andere mit zwei Einzelbetten. Mit einem gemeinsamen Badezimmer sind sie ideal für 2 Erwachsene + 2 Kinder, 3 Erwachsene + 1 Kind oder 4 Erwachsene + 1 Kind.",
+        "subtitle2":" Familienfreundliche Ausstattung",
+        "span1":"2 Einzelbetten",
+        "span2":"Babybett auf Anfrage",
+        "subtitle3":"Zimmerausstattung",
+        "text2":"Alle Zimmer verfügen über ein elektronisches Schlüsselkartensystem, tägliche Minibar-Auffüllung, Premium-Badeartikel und Tee-/Kaffeezubereitung. Vier Zimmer sind barrierefrei gestaltet, mit einer Türbreite von 112 cm.",
+        "feature1":"50 m2",
+        "feature2":"Schminktisch",
+        "feature3":"Nichtraucher",
+        "feature4":"Mini Bar",
+        "feature5":"Safe",
+        "feature6":"Haartrockner",
+        "feature7":"Pflegeprodukte",
+        "feature8":"Tee-/Kaffee-Set ",
+        "feature9":"LedTv & WLAN",
+        "feature10":"Balkon",
+        "feature11":"Dusche"
+      },
+
+      "BackgroundSection":{
+        "subtitle":" EXKLUSIVE VORTEILE",
+        "title":"Familienzimmer-Vorteile",
+        "text":" Gäste in unseren Familienzimmern genießen zwei separate Schlafzimmer mit herrlichem Blick auf Meer oder Wald.",
+        "list1":"A’la Carte Abendessen: Bei Aufenthalten ab 7 Nächten ist ein A’la Carte-Abendessen kostenfrei.",
+        "list2":"Spa & Wellness: Kostenfreier Zugang zu Hammam, Sauna, Dampfbad und Fitnesscenter.",
+        "buttonText":" MEHR ENTDECKEN"
+      },
+
+      "OtherOptions":{
+        "subtitle":"  Wählen Sie Ihr Ideales Zimmer",
+        "title":"  Weitere komfortable Optionen entdecken",
+        "span1":"ZIMMER FÜR DIE GANZE FAMILIE",
+        "title1":"Familienzimmer",
+        "area1":" 50 m²",
+        "person1":"Bis zu 4 Erwachsene + 1 Kind",
+        "text1":" Zwei durch eine Tür verbundene Schlafzimmer bieten Komfort und Privatsphäre für Familien. Mit Meer- oder Waldblick ideal für unvergessliche Familienmomente.",
+        "span2":"Erfrischen Sie sich ohne Ihr Zimmer zu verlassen",
+        "title2":" Fantasy Zimmer",
+        "area2":" 58 m²",
+        "person2":"2 Erwachsene (nur Paare)",
+        "text2":" Die exklusiven Fantasy Zimmer bieten Paaren einen romantischen Rückzugsort mit spektakulärem Meerblick und einer privaten Terrasse mit Whirlpool.",
+        "buttonText":" MEHR ENTDECKEN"
+       
+      }
+  },
+
+  "FantasyRoom":{
+    "subtitle":"EXKLUSIVER ROMANTISCHER URLAUB",
+      "title":"Fantasy Zimmer",
+      "text":"Genießen Sie einen unvergesslichen romantischen Aufenthalt in unseren Fantasy Zimmern mit einer exklusiven 25 m² großen Terrasse, privatem Whirlpool und luxuriösen Sonnenliegen. Jedes Zimmer ist stilvoll gestaltet und bietet atemberaubenden Meerblick sowie ein komfortables Schlafzimmer mit einem Doppelbett – ideal für Paare, die Privatsphäre und Luxus suchen.",
+      "span1":" Meerblick",
+      "span2":"2 Erwachsene (Nur Paare))",
+      "span3":"1 Schlafzimmer / 1 Bett",
+
+      "RoomFeatures":{
+        "subtitle":" EXKLUSIVES & ROMANTISCHES ERLEBNIS",
+        "title":"Fantasy Room",
+        "text":"Die Fantasy Zimmer befinden sich im Hauptgebäude und bieten auf 58 m² einen exklusiven Raum, der speziell für Paare entworfen wurde. Jedes Zimmer verfügt über ein geschmackvoll eingerichtetes Schlafzimmer mit einem luxuriösen Doppelbett sowie eine 25 m² große private Terrasse mit beeindruckendem Meerblick, Whirlpool und Sonnenliegen. Diese Zimmer sind ideal für zwei Erwachsene und versprechen ein unvergessliches romantisches Erlebnis.",
+        "subtitle2":"  Exklusive Romantische Annehmlichkeiten",
+        "span1":" Private Terrasse mit Whirlpool",
+        "span2":"Speziell für Paare gestaltet",
+        "subtitle3":"Zimmerausstattung",
+        "text2":"Alle Fantasy Zimmer verfügen über ein elektronisches Schlüsselkartensystem, tägliche Minibar-Auffüllung, hochwertige Badezimmerkosmetik, Tee- und Kaffeezubereitungsmöglichkeiten, bequeme Hausschuhe und kostenloses WLAN. Diese Zimmer wurden ausschließlich für romantische Aufenthalte konzipiert und bieten 58 m² Wohnfläche sowie eine 25 m² große Terrasse mit privatem Whirlpool. Hinweis: Fantasy Zimmer sind ausschließlich für 2 Erwachsene (Paare). Zustellbetten, Babybetten oder separate Pools sind für diesen Zimmertyp nicht verfügbar.",
+        "feature1":"50 m2",
+        "feature2":"Schminktisch",
+        "feature3":"Nichtraucher",
+        "feature4":"Mini Bar",
+        "feature5":"Safe",
+        "feature6":"Haartrockner",
+        "feature7":"Pflegeprodukte",
+        "feature8":"Tee-/Kaffee-Set ",
+        "feature9":"LedTv & WLAN",
+        "feature10":"Balkon",
+        "feature11":"Dusche"
+      },
+
+      "BackgroundSection":{
+        "subtitle":" EXKLUSIVE VORTEILE",
+        "title":"Familienzimmer-Vorteile",
+        "text":" Gäste in unseren Familienzimmern genießen zwei separate Schlafzimmer mit herrlichem Blick auf Meer oder Wald.",
+        "list1":"A’la Carte Abendessen: Bei Aufenthalten ab 7 Nächten ist ein A’la Carte-Abendessen kostenfrei.",
+        "list2":"Spa & Wellness: Kostenfreier Zugang zu Hammam, Sauna, Dampfbad und Fitnesscenter.",
+        "buttonText":" MEHR ENTDECKEN"
+      },
+
+      "OtherOptions":{
+        "subtitle":"  Wählen Sie Ihr Ideales Zimmer",
+        "title":"  Weitere komfortable Optionen entdecken",
+        "span1":"ZIMMER FÜR DIE GANZE FAMILIE",
+        "title1":"Familienzimmer",
+        "area1":" 50 m²",
+        "person1":"Bis zu 4 Erwachsene + 1 Kind",
+        "text1":" Zwei durch eine Tür verbundene Schlafzimmer bieten Komfort und Privatsphäre für Familien. Mit Meer- oder Waldblick ideal für unvergessliche Familienmomente.",
+        "span2":"Erfrischen Sie sich ohne Ihr Zimmer zu verlassen",
+        "title2":" Fantasy Zimmer",
+        "area2":" 58 m²",
+        "person2":"2 Erwachsene (nur Paare)",
+        "text2":" Die exklusiven Fantasy Zimmer bieten Paaren einen romantischen Rückzugsort mit spektakulärem Meerblick und einer privaten Terrasse mit Whirlpool.",
+        "buttonText":" MEHR ENTDECKEN"
+       
+      }
+  },
+
+  "DeluxeRoom":{
+    "subtitle":"EXKLUSIVER ROMANTISCHER URLAUB",
+      "title":"Fantasy Zimmer",
+      "text":"Genießen Sie einen unvergesslichen romantischen Aufenthalt in unseren Fantasy Zimmern mit einer exklusiven 25 m² großen Terrasse, privatem Whirlpool und luxuriösen Sonnenliegen. Jedes Zimmer ist stilvoll gestaltet und bietet atemberaubenden Meerblick sowie ein komfortables Schlafzimmer mit einem Doppelbett – ideal für Paare, die Privatsphäre und Luxus suchen.",
+      "span1":" Meerblick",
+      "span2":"2 Erwachsene (Nur Paare))",
+      "span3":"1 Schlafzimmer / 1 Bett",
+
+      "RoomFeatures":{
+        "subtitle":" EXKLUSIVES & ROMANTISCHES ERLEBNIS",
+        "title":"Fantasy Room",
+        "text":"Die Fantasy Zimmer befinden sich im Hauptgebäude und bieten auf 58 m² einen exklusiven Raum, der speziell für Paare entworfen wurde. Jedes Zimmer verfügt über ein geschmackvoll eingerichtetes Schlafzimmer mit einem luxuriösen Doppelbett sowie eine 25 m² große private Terrasse mit beeindruckendem Meerblick, Whirlpool und Sonnenliegen. Diese Zimmer sind ideal für zwei Erwachsene und versprechen ein unvergessliches romantisches Erlebnis.",
+        "subtitle2":"  Exklusive Romantische Annehmlichkeiten",
+        "span1":" Private Terrasse mit Whirlpool",
+        "span2":"Speziell für Paare gestaltet",
+        "subtitle3":"Zimmerausstattung",
+        "text2":"Alle Fantasy Zimmer verfügen über ein elektronisches Schlüsselkartensystem, tägliche Minibar-Auffüllung, hochwertige Badezimmerkosmetik, Tee- und Kaffeezubereitungsmöglichkeiten, bequeme Hausschuhe und kostenloses WLAN. Diese Zimmer wurden ausschließlich für romantische Aufenthalte konzipiert und bieten 58 m² Wohnfläche sowie eine 25 m² große Terrasse mit privatem Whirlpool. Hinweis: Fantasy Zimmer sind ausschließlich für 2 Erwachsene (Paare). Zustellbetten, Babybetten oder separate Pools sind für diesen Zimmertyp nicht verfügbar.",
+        "feature1":"50 m2",
+        "feature2":"Schminktisch",
+        "feature3":"Nichtraucher",
+        "feature4":"Mini Bar",
+        "feature5":"Safe",
+        "feature6":"Haartrockner",
+        "feature7":"Pflegeprodukte",
+        "feature8":"Tee-/Kaffee-Set ",
+        "feature9":"LedTv & WLAN",
+        "feature10":"Balkon",
+        "feature11":"Dusche"
+      },
+
+      "BackgroundSection":{
+        "subtitle":" EXKLUSIVE VORTEILE",
+        "title":"Familienzimmer-Vorteile",
+        "text":" Gäste in unseren Familienzimmern genießen zwei separate Schlafzimmer mit herrlichem Blick auf Meer oder Wald.",
+        "list1":"A’la Carte Abendessen: Bei Aufenthalten ab 7 Nächten ist ein A’la Carte-Abendessen kostenfrei.",
+        "list2":"Spa & Wellness: Kostenfreier Zugang zu Hammam, Sauna, Dampfbad und Fitnesscenter.",
+        "buttonText":" MEHR ENTDECKEN"
+      },
+
+      "OtherOptions":{
+        "subtitle":"  Wählen Sie Ihr Ideales Zimmer",
+        "title":"  Weitere komfortable Optionen entdecken",
+        "span1":"ZIMMER FÜR DIE GANZE FAMILIE",
+        "title1":"Familienzimmer",
+        "area1":" 50 m²",
+        "person1":"Bis zu 4 Erwachsene + 1 Kind",
+        "text1":" Zwei durch eine Tür verbundene Schlafzimmer bieten Komfort und Privatsphäre für Familien. Mit Meer- oder Waldblick ideal für unvergessliche Familienmomente.",
+        "span2":"Erfrischen Sie sich ohne Ihr Zimmer zu verlassen",
+        "title2":" Fantasy Zimmer",
+        "area2":" 58 m²",
+        "person2":"2 Erwachsene (nur Paare)",
+        "text2":" Die exklusiven Fantasy Zimmer bieten Paaren einen romantischen Rückzugsort mit spektakulärem Meerblick und einer privaten Terrasse mit Whirlpool.",
+        "buttonText":" MEHR ENTDECKEN"
+       
+      }
+  },
+
+  "BeachPools": {
+    "subtitle": "ENTSPANNEN & ERFRISCHEN AM MEER",
+    "title": "Strand & Pools",
+    "text": "Genießen Sie unseren wunderschönen 70 Meter langen Privatstrand mit feinem Sand, bequemen Liegen, Sonnenschirmen und einer luxuriösen Seebrücke für entspannte Momente.",
+    "TwoImageSection": {
+      "subtitle": "ENTSPANNENDE MOMENTE AM MEER",
+      "title": "Entdecken Sie unseren exklusiven Strand",
+      "text": "Genießen Sie entspannende Momente an unserem privaten Sandstrand mit ruhigem türkisblauem Wasser – ideal zum Schwimmen und für Wassersport. Bequeme Liegen, Sonnenschirme und kostenlose Handtücher erwarten Sie für einen Tag der Erholung. Erfrischen Sie sich tagsüber mit köstlichen Getränken und leckeren Snacks an unseren Strandbars.",
+      "span": "Besondere Merkmale",
+      "list1": "Kostenlose Liegen, Sonnenschirme und Handtücher.",
+      "list2": "Strandbars mit erfrischenden Getränken und leichten Snacks.",
+      "list3": "Ruhiges Wasser – ideal zum Schwimmen und für Wassersport."
+    },
+    "BeachCarousel": {
+      "subtitle": "SPAß & SONNE AM MEER",
+      "title": "Strandaktivitäten & mehr",
+      "text": "Genießen Sie eine lebhafte Atmosphäre mit verschiedenen Strandaktivitäten – Schwimmen, Wassersport und unterhaltsame Angebote für alle Altersgruppen. Schaffen Sie unvergessliche Erinnerungen voller Spaß und Spannung am Meer.",
+      "title1": "",
+      "title2": "",
+      "title3": "",
+      "title4": "",
+      "subtitle1": "",
+      "subtitle2": "",
+      "subtitle3": "",
+      "subtitle4": ""
+    },
+    "BeachGif": {
+      "subtitle": "Für jeden Moment gestaltete Pools",
+      "title": "Entspannen Sie sich im Wasser",
+      "text": "Entspannen und erholen Sie sich in unseren wunderschön gestalteten Pools, perfekt für jede Stimmung. Tauchen Sie in unseren großen Außenpool ein oder genießen Sie Ruhe in unserem beheizten Innenpool. Für unsere kleinen Gäste gibt es spezielle Kinderpools und aufregende Wasserrutschen – für fröhliche Momente für alle."
+    },
+    "PoolSection": {
+      "subtitle": "Entdecken Sie unsere exklusiven Pools",
+      "title": "Alle Pools im Überblick",
+      "text": "Das Azura Deluxe Resort & Spa bietet Pools für jeden Geschmack. Genießen Sie unseren großzügigen Außenpool für erfrischende Schwimmzüge, unseren beheizten Innenpool für Entspannung oder erleben Sie aufregende Wasserrutschen in unserem Aqua Park. Spezielle Kinderpools sorgen für Spaß bei unseren jüngeren Gästen. Finden Sie hier Ihr perfektes Pool-Erlebnis.",
+      "subtitle1": "Familienfreundlicher Pool zur allgemeinen Nutzung",
+      "title1": "Außenpool",
+      "text1": "Genießen Sie erfrischende Schwimmzüge und entspannte Momente in unserem großzügigen Außenpool. Perfekt für Gäste jeden Alters – mit bequemen Liegen und Sonnenschirmen für ein angenehmes Erlebnis unter freiem Himmel.",
+      "depth1": "140 cm",
+      "area1": "750 m²",
+      "subtitle2": "Familienfreundlicher Pool zur allgemeinen Nutzung",
+      "title2": "Außenpool",
+      "text2": "",
+      "depth2": "140 cm",
+      "area2": "100 m²",
+      "span2": "Saisonal beheizt",
+      "subtitle3": "Familienfreundlicher Pool zur allgemeinen Nutzung",
+      "title3": "Außenpool",
+      "text3": "",
+      "depth3": "40 cm",
+      "area3": "90 m²",
+      "span3": "Mini-Rutsche inklusive",
+      "subtitle4": "Familienfreundlicher Pool zur allgemeinen Nutzung",
+      "title4": "Außenpool",
+      "text4": "",
+      "depth4": "120 cm",
+      "area4": "80 m²",
+      "span4": "4 Wasserrutschen",
+      "subtitle5": "Familienfreundlicher Pool zur allgemeinen Nutzung",
+      "title5": "Außenpool",
+      "text5": "Saisonal beheizt",
+      "depth5": "40 cm",
+      "area5": "14 m²",
+      "span5": "",
+      "indoor": "Innen",
+      "outdoor": "Außen"
+    }
+  },
+
+  "Restaurants": {
+    "subtitle": "Ausgewählte kulinarische Erlebnisse",
+    "title": "Restaurants",
+    "text": "Begeben Sie sich auf eine genussvolle kulinarische Reise mit unseren sorgfältig ausgewählten Speiseoptionen. Von authentischen türkischen und mediterranen Spezialitäten bis hin zu internationalen Gourmet‑Kreationen bietet das Azura Deluxe Resort & Spa eine außergewöhnliche Vielfalt an Restaurants und macht jede Mahlzeit zu einem unvergesslichen Erlebnis.",
+    "TwoImagesSection": {
+      "subtitle": "Perfekte Fine‑Dining‑Erlebnisse",
+      "title": "Kulinarische Kunst im Azura Deluxe",
+      "text": "Im Azura Deluxe Resort & Spa verwöhnen Sie sich mit außergewöhnlichen kulinarischen Genüssen. Kosten Sie die besten internationalen Speisen in unseren eleganten À‑la‑carte‑Restaurants oder genießen Sie unser reichhaltiges Buffet mit köstlichen türkischen Spezialitäten und frischen mediterranen Aromen.",
+      "span": "Speiseoptionen:",
+      "list1": "Hauptrestaurant: Early Breakfast, Frühstück, Late Breakfast, Mittagessen, Abendessen, Mitternachtsfrühstück (01:00–03:00)",
+      "list2": "Snack‑Restaurant (Lyric Snack – Strand): 12:00–16:00 (Gegrillte Spezialitäten, Fast Food, Desserts, Obst, Eis zu ausgewählten Zeiten)"
+    },
+    "BackgroundSection": {
+      "subtitle": "Einzigartiges Geschmackserlebnis",
+      "title": "Hauptrestaurant",
+      "text": "Genießen Sie zum Frühstück, Mittag‑ und Abendessen ein reichhaltiges Buffet mit authentischen Aromen der türkischen Küche und köstlichen saisonalen Spezialitäten, sorgfältig für Ihr kulinarisches Vergnügen zubereitet.",
+      "span": "Essenszeiten:",
+      "list1": "Frühstück: 07:00 - 10:30",
+      "list2": "Mittagessen: 12:30 - 14:00",
+      "list3": "Abendessen: 19:00 - 21:00",
+      "buttonText": "MEHR ENTDECKEN"
+    },
+    "CarouselSection2": {
+      "subtitle": "Perfekte Fine‑Dining‑Erlebnisse",
+      "title": "À‑la‑carte‑Restaurants",
+      "text": "Begeben Sie sich auf eine kulinarische Reise in unseren exklusiven À‑la‑carte‑Restaurants, in denen exquisite internationale Aromen auf Sie warten – meisterhaft zubereitet von unseren talentierten und preisgekrönten Küchenchefs. Verfeinern Sie Ihr Urlaubserlebnis mit außergewöhnlichen Gerichten und unvergesslichen Genussmomenten.",
+      "subtitle1": "DESSERTS & HEISSE GETRÄNKE",
+      "title1": "Patisserie",
+      "text1": "Gönnen Sie sich süße Momente in unserer charmanten Patisserie mit frisch gebackenen Backwaren, köstlichen Desserts, raffinierten Kuchen und einer erlesenen Auswahl an Heißgetränken. Ein perfekter Ort zum Entspannen und Genießen den ganzen Tag über. Highlights: Kaffeespezialitäten, aufgebrühter Tee, süße Gebäckspezialitäten, Kekse und Sandwiches.",
+      "span1": "Öffnungszeiten: 10:00 – 18:00",
+      "subtitle2": "À‑LA‑CARTE‑SNACKS",
+      "title2": "Mazurka Snack Restaurant",
+      "text2": "Besuchen Sie unser Mazurka Snack Restaurant für köstliche à‑la‑carte‑Snacks, darunter frisch gegrillte Spezialitäten, leckere Sandwiches und erfrischende Salate. Genießen Sie ein entspanntes Essen am Strand – perfekt für den kleinen Hunger zwischendurch. Küche: Gegrilltes, Burger, Sandwiches, Salate und Obst.",
+      "span2": "Öffnungszeiten: 12:00 – 16:00",
+      "subtitle3": "STRANDSNACKS",
+      "title3": "Lyric Beach",
+      "text3": "Direkt am Strand und an der Seebrücke bietet die Lyric Beach Snack Bar ein entspanntes Dining‑Erlebnis mit Meerblick. Genießen Sie frische Salate, knusprige Pizzen, saftige Kebabs, frisches Obst, Waffeln, köstliche Snacks und erfrischende Getränke in der Sonne. Highlights: Salate, Pizza, Kebabs, Obst, Waffeln und verschiedene Snacks.",
+      "span3": "Öffnungszeiten: 12:00 – 16:00"
+    },
+    "BackgroundSection2": {
+      "subtitle": "Einzigartiges Geschmackserlebnis",
+      "title": "Entdecken Sie unsere Bars",
+      "text": "Tauchen Sie ein in die stilvolle Atmosphäre der Bars im Azura Deluxe Resort & Spa. Von erfrischenden Cocktails und hochwertigen Getränken bis zu gemütlichen Bereichen zum Entspannen oder geselligen Beisammensein – jede Bar bietet ein einzigartiges Erlebnis, das perfekt auf Ihre Stimmung abgestimmt ist.",
+      "buttonText": "MEHR ENTDECKEN"
+    }
+  },
+
+  "Bars": {
+    "subtitle": "Exklusive Getränkeerlebnisse",
+    "title": "Bars",
+    "text": "Entdecken Sie eine außergewöhnliche Vielfalt an Getränken und stilvollen Atmosphären in den Bars des Azura Deluxe Resort & Spa. Von meisterhaft zubereiteten Cocktails und hochwertigen internationalen Drinks bis zu beruhigenden Kräutertees und frisch gebrühtem Kaffee – wir bieten köstliche Optionen für jeden Moment Ihres Aufenthalts.",
+
+    "TwoImageSection": {
+      "subtitle": "Perfekte Getränkeerlebnisse",
+      "title": "Außergewöhnliche Bars",
+      "text": "Im Azura Deluxe Resort & Spa heben Sie Ihr Urlaubserlebnis in unseren stilvollen Bars auf ein neues Level. Genießen Sie meisterhaft zubereitete Cocktails, Premium-Getränke oder entspannen Sie bei frisch gebrühtem Kaffee und Tee. Jede Bar bietet eine einzigartige Atmosphäre zum Entspannen, Kontakte knüpfen oder Feiern."
+    },
+
+    "BackgroundSection": {
+      "subtitle": "Einzigartiger Geschmacksgenuss",
+      "title": "Abkühlen und Entspannen",
+      "text": "Entspannen und erfrischen Sie sich in unseren liebevoll gestalteten Bars. Genießen Sie eine Auswahl an erfrischenden Getränken, meisterhaft zubereiteten Cocktails und Premium-Drinks in stilvollem Ambiente – ideal für jede Entspannungspause.",
+      "buttonText": "MEHR ENTDECKEN"
+    },
+
+    "Carousel": {
+      "subtitle": "Perfekte Getränkeerlebnisse",
+      "title": "Bars",
+      "text": "Erleben Sie genussvolle Getränkemomente in den einladenden Bars des Azura Deluxe Resort & Spa. Kosten Sie erfrischende Cocktails, Premium-Spirituosen, internationale Drinks und beruhigende Getränke, die unsere erfahrenen Barkeeper kreieren. Genießen Sie jeden Moment mit Stil und Eleganz.",
+      "subtitle1": "März, April, Oktober: 10:00–00:00 Mai–September: 24 Stunden",
+      "title1": "Lobby Piano Bar",
+      "text1": "Entspannen und netzwerken Sie in unserer eleganten Lobby Piano Bar – der perfekte Ort für meisterhafte Cocktails, hochwertige Drinks und genussvolle Momente in stilvollem Ambiente.",
+      "subtitle2": "Öffnungszeit: 10:00–24:00",
+      "title2": "Cha Cha Pool Bar",
+      "text2": "Relaxen Sie am Pool in der lebhaften Cha Cha Pool Bar mit erfrischenden Cocktails, gekühlten Getränken und leckeren Snacks. Genießen Sie Ihre Lieblingsdrinks unter der Sonne oder unter den Sternen.",
+      "subtitle3": "Öffnungszeit: 10:00–18:00",
+      "title3": "Pier Bar",
+      "text3": "Genießen Sie eine erfrischende Auszeit an unserer Pier Bar mit köstlichen Cocktails, kalten Getränken und leichten Snacks vor der atemberaubenden Meereskulisse.",
+      "subtitle4": "24 Stunden",
+      "title4": "Disco Bar Ciks",
+      "text4": "Erleben Sie pulsierendes Nachtleben in der Disco Bar Ciks. Tanzen Sie die ganze Nacht, genießen Sie mitreißende Musik und erfrischen Sie sich mit Signature-Cocktails und Premium-Drinks.",
+      "buttonText": "MEHR ENTDECKEN"
+    },
+
+    "BackgroundSection2": {
+      "subtitle": "Einzigartiger Geschmacksgenuss",
+      "title": "Entdecken Sie unsere besten Restaurants",
+      "text": "Tauchen Sie ein in kulinarische Vielfalt im Azura Deluxe Resort & Spa. Unsere Restaurants bieten von authentischen türkischen Spezialitäten und mediterranen Delikatessen bis hin zu internationalen Gourmetkreationen die perfekte Auswahl für unvergessliche Genussmomente.",
+      "buttonText": "MEHR ENTDECKEN"
+    }
+  },
+
+  "Entertainment": {
+    "subtitle": "Unterhaltung & Aktivitäten",
+    "title": "Unbegrenzter Spaß und Aktivitäten",
+    "text": "Das Azura Deluxe Resort & Spa bietet endlose Unterhaltungsmöglichkeiten für Gäste jeden Alters. Genießen Sie tägliche Pool‑Aktivitäten, spannende Live‑Shows, Fitness‑Kurse, Wasseraerobic, Dart, Boccia und vieles mehr. Unser professionelles Animationsteam sorgt für unvergesslichen Spaß und macht jeden Moment Ihres Aufenthalts zum Vergnügen.",
+    "span1": "Spannendes Erlebnis",
+    "span2": "Unvergessliches Erlebnis",
+    "daytime": "Tagesaktivitäten",
+    "nighttime": "Abendunterhaltung",
+    "GridSection": {
+      "subtitle": "Unterhaltung & Aktivitäten",
+      "title": "Tägliche Veranstaltungen",
+      "text": "Das Azura Deluxe Resort & Spa lädt Sie zu einer Vielzahl von Aktivitäten ein – von Live‑Shows und speziellen Abendveranstaltungen über Discos, Boccia und Beachvolleyball bis hin zu Tischtennis, Dart, Pool‑Spielen, Aerobic und Wassergymnastik. Erleben Sie unvergessliche Unterhaltungs‑ und Sporterlebnisse.",
+      "title1": "Sport & Fitness",
+      "text1": "Bleiben Sie während Ihres Urlaubs aktiv und voller Energie. Nutzen Sie unser komplett ausgestattetes Fitnesscenter, nehmen Sie an belebenden Aerobic‑Einheiten, Wassergymnastik, Beachvolleyball‑Matches, Boccia‑Spielen, Dart und diversen Pool‑Aktivitäten teil – alles für ein bereicherndes Urlaubserlebnis.",
+      "title2": "Kids‑ & Teen‑Club",
+      "text2": "Spaß und Unterhaltung für unsere jungen Gäste! Unser speziell gestalteter Kids‑Club bietet betreute Tagesaktivitäten, Spiele, Spielplätze, Mini‑Discos und kreative Events für 4‑ bis 12‑Jährige. Teens genießen soziale Aktivitäten, Spiele und neue Freundschaften in sicherer, einladender Umgebung.",
+      "title3": "Wassersport",
+      "text3": "Erleben Sie aufregende Wassersportarten im Azura Deluxe Resort & Spa. Von abenteuerlichen Jetski‑Fahrten über Parasailing und Bananenboot bis hin zu vielem mehr – unvergesslicher Spaß auf den kristallklaren Gewässern des Mittelmeers.",
+      "title4": "Strandaktivitäten",
+      "text4": "Endloser Spaß am privaten Sandstrand mit Beachvolleyball, Boccia, Dart, Spielen und entspannender Unterhaltung. Erleben Sie lebhafte Aktivitäten unter der Sonne, direkt am funkelnden Wasser.",
+      "title5": "Tischtennis",
+      "text5": "Genießen Sie aufregende Tischtennismatches. Ideal für Spieler aller Niveaus – eine großartige Möglichkeit, den Tag aktiv und unterhaltsam mit Familie oder Freunden zu verbringen.",
+      "title6": "Wassergymnastik",
+      "text6": "Erfrischen Sie Körper und Geist mit energiegeladenen Wassergymnastik‑Kursen. Professionelle Trainer begleiten Sie bei unterhaltsamen Workouts im Pool für Fitness und Spaß.",
+      "title7": "Step‑Aerobic",
+      "text7": "Nehmen Sie an unseren energiegeladenen Step‑Aerobic‑Kursen teil, geleitet von professionellen Trainern. Aktivieren Sie Ihren Körper, steigern Sie Ihre Stimmung und genießen Sie ein spaßiges Gruppenworkout.",
+      "title8": "Bühnenshows",
+      "text8": "Fesselnde Bühnenshows am Tag: Lebendige Darbietungen, interaktive Unterhaltung und professionelle Shows versprechen endlosen Spaß für alle.",
+      "title9": "Dart & Boccia",
+      "text9": "Testen Sie Ihre Fähigkeiten in Dart und Boccia. Perfekt für alle Altersgruppen – Unterhaltung, Geselligkeit und Spaß garantiert.",
+      "daytime": "TAGESAKTIVITÄTEN",
+      "nighttime": "ABENDUNTERHALTUNG"
+    }
+  },
+
+  "KidsClub": {
+    "subtitle": "Spaßige Zeit für Kinder",
+    "title": "Mini Club",
+    "text": "Im Mini Club des Azura Deluxe Resort & Spa erwarten unsere kleinen Gäste im Alter von 4 bis 12 Jahren Spaß und Spannung. Mit beaufsichtigten Aktivitäten, kreativen Workshops, spannenden Spielplätzen und lebhaften Mini-Discos bietet unser Kids Club sichere Unterhaltung und unvergessliche Momente den ganzen Tag.",
+    "TwoImageSection": {
+      "subtitle": "Spaß & Vergnügen für die Kleinen",
+      "title": "Mini Club",
+      "text": "Im Mini Club des Azura Deluxe Resort & Spa erleben Ihre Kinder im Alter von 4 bis 12 Jahren endlosen Spaß mit beaufsichtigten täglichen Aktivitäten, kreativen Spielen, Mini-Discos, Spielplätzen und vielem mehr. Unser fürsorgliches und erfahrenes Personal sorgt dafür, dass Ihre Kleinen eine fröhliche, sichere und unvergessliche Urlaubserfahrung genießen können, während Sie Ihren Urlaub entspannt genießen."
+    },
+    "iconsText1": "Sichere Umgebung",
+    "iconsText2": "Altersgerechte Aktivitäten",
+    "iconsText3": "Soziale Interaktion",
+    "iconsText4": "Professionelles Personal",
+    "CarouselSection": {
+      "subtitle": "Willkommen im Kids Club",
+      "title": "Wo Spaß und Bildung aufeinandertreffen",
+      "text": "Unser Kids Club bietet altersgerechte pädagogische und unterhaltsame Aktivitäten. Wir haben eine lebendige Umgebung geschaffen, die Kreativität fördert, die Fantasie anregt und Träume zum Leben erweckt – für unvergessliche Urlaubsmomente Ihrer Kinder.",
+      "title1": "Kinderaktivitäten",
+      "title2": "Mini-Disco",
+      "title3": "Kino für Kids",
+      "title4": "Spielzimmer",
+      "title5": "Spielplatz"
+    },
+    "OtherOptions": {
+      "subtitle": "Mini Club",
+      "title": "Kinderpools",
+      "text": "Unsere speziellen Kinderpools im Azura Deluxe Resort & Spa bieten eine sichere und spaßige Umgebung, in der die Kleinen planschen, spielen und endlosen Spaß haben können. Mit flachem Wasser, einer Mini-Rutsche und einer komfortablen Atmosphäre sind diese Pools perfekt auf die Bedürfnisse und das Vergnügen unserer jüngsten Gäste abgestimmt.",
+      "subtitle1": "Mini Club",
+      "title1": "Kinder‑Rutschpool",
+      "text1": "Unser Kinder‑Rutschpool im Azura Deluxe Resort & Spa bietet eine aufregende und sichere Umgebung für junge Gäste. Mit flachem Becken und Mini-Rutsche ist er der perfekte Ort für Kinder, um während ihres Urlaubs Wasserspaß und Spritzvergnügen zu genießen.",
+      "subtitle2": "Mini Club",
+      "title2": "Kinderpools",
+      "text2": "Unser speziell gestalteter Kinderpool im Azura Deluxe Resort & Spa bietet eine sichere, angenehme und entspannende Umgebung für unsere kleinen Gäste. Mit flachem Wasser und Mini-Rutsche können Kinder unter Aufsicht sicher und fröhlich spielen, sodass jeder Moment ihres Urlaubs freudig und unvergesslich wird.",
+      "subtitle3": "Mini Club",
+      "title3": "Innenpool für Kinder",
+      "text3": "Unser Indoor‑Kinderpool bietet eine warme, sichere und komfortable Wasserumgebung für junge Gäste. Mit flachem und beheiztem Wasser ist er ideal für unterhaltsames und beaufsichtigtes Spielen, sodass Ihre Kinder unabhängig vom Wetter endlosen Spaß haben."
+    },
+    "galleryTitle": "Jeden Moment unvergesslich machen"
   }
 }
