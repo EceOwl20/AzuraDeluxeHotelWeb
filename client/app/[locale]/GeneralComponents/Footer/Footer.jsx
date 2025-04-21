@@ -16,8 +16,10 @@ import MessageSvg from "./MessageSvg";
 import ArrawDown from "@/app/[locale]/HomePage/Components/Icons/ArrawDown";
 import DgtlfaceSvg from "./DgtlfaceSvg";
 import BSvg from "./BSvg";
+import {useTranslations} from 'next-intl';
 
 export default function Footer() {
+  const t = useTranslations('Footer');
   const [isRoomsOpen, setIsRoomsOpen] = useState(false);
   const [isMoreOpen, setIsMoreOpen] = useState(false);
 
@@ -30,32 +32,32 @@ export default function Footer() {
             {/* QUICK MENU */}
             <div className="flex flex-col items-start justify-start text-start gap-[40px]">
               <Link href="/rooms" className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
-              Accomodation
+             {t("category1")}
               </Link>
               <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
-              <li>  <Link href="/rooms/deluxeroom" className="hover:text-white cursor-pointer">Deluxe Room</Link></li>
-                <li><Link href="/rooms/familyroom" className="hover:text-white cursor-pointer">Family Room</Link></li>
-                <li><Link href="/rooms/fantasyroom" className="hover:text-white cursor-pointer">Fantasy Room</Link></li>
+              <li>  <Link href="/rooms/deluxeroom" className="hover:text-white cursor-pointer">{t("deluxe")}</Link></li>
+                <li><Link href="/rooms/familyroom" className="hover:text-white cursor-pointer">{t("family")}</Link></li>
+                <li><Link href="/rooms/fantasyroom" className="hover:text-white cursor-pointer">{t("fantasy")}</Link></li>
               </ul>
             </div>
 
             {/* TERM & CONDITIONS */}
             <div className="flex flex-col items-start justify-start text-start gap-[40px]">
               <Link href="/restaurants" className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
-              Cuisine
+              {t("category2")}
 
               </Link>
               <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
                 <Link href="/restaurants" className="hover:text-white cursor-pointer">
-                  Main Restaurant
+                {t("mainrestaurant")}
                 </Link>
                 <li className="hover:text-white cursor-pointer">
-              <Link href="/restaurants/orchestrarestaurant">  Orchestra</Link>
+              <Link href="/restaurants/orchestrarestaurant">  {t("orchestra")}</Link>
                 </li>
                 <li className="hover:text-white cursor-pointer">
-               <Link href="/restaurants/bellaazura"> Bella Azura</Link>
+               <Link href="/restaurants/bellaazura"> {t("bella")}</Link>
                 </li>
-                <li className="hover:text-white cursor-pointer"><Link href="/restaurants/ottomanrestaurant">Ottoman A'la Carte</Link></li>
+                <li className="hover:text-white cursor-pointer"><Link href="/restaurants/ottomanrestaurant">{t("ottoman")}</Link></li>
                
         
               </ul>
@@ -64,17 +66,17 @@ export default function Footer() {
             {/* COMPANY */}
             <div className="flex flex-col items-start justify-start text-start gap-[40px]">
               <h4 className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
-              Activities
+              {t("category3")}
               </h4>
               <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
                 <li className="hover:text-white cursor-pointer">
-                <Link href="/spor">Spor</Link>
+                <Link href="/spor">{t("spor")}</Link>
                 </li>
                 <li className="hover:text-white cursor-pointer">
-                  <Link href="/kidsclub">Kids</Link>
+                  <Link href="/kidsclub">{t("kids")}</Link>
                 </li>
                 <li className="hover:text-white cursor-pointer">
-                  <Link href="/spawellness">Spa</Link>
+                  <Link href="/spawellness">{t("spa")}</Link>
                 </li>
               </ul>
             </div>
@@ -147,21 +149,21 @@ export default function Footer() {
           {/* Alt linkler */}
           <div className="grid grid-cols-2 items-center gap-6 whitespace-nowrap text-lagoGray2">
             <a href="#" className="hover:underline">
-              Terms of Use
+            {t("termsuse")}
             </a>
             <a href="#" className="hover:underline">
-              Privacy Notice
+            {t("notice")}
             </a>
             <a href="/kvkk" className="hover:underline">
-              KVKK
+            {t("kvkk")}
             </a>
             <a href="/covid-19" className="hover:underline">
-              COVID-19
+            {t("covid")}
             </a>
             <a href="/documents/Azura Hotel Sürdürülebilirlik Raporu 2023-2024.pdf" target="_blank"  rel="noopener noreferrer" className="hover:underline">
-              Sustainability
+            {t("sustainability")}
             </a>
-            <Link className="hover:underline" href="/news">Blog</Link>
+            <Link className="hover:underline" href="/news">{t("blog")}</Link>
                 
           </div>
         </div>
@@ -244,12 +246,12 @@ export default function Footer() {
         <div className="flex gap-[30px] items-start justify-center w-[90%] ml-[10%]">
           <div className="flex flex-col items-start justify-start text-start gap-[40px] w-[33%]">
             <Link href="/rooms" className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
-            Accomodation
+            {t("category1")}
             </Link>
             <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
-              <li className="hover:text-white cursor-pointer"><Link href="/rooms/deluxeroom">Deluxe Room</Link></li>
-              <li className="hover:text-white cursor-pointer"><Link href="/rooms/familyroom">Family Room</Link> </li>
-              <li className="hover:text-white cursor-pointer"><Link href="/rooms/fantasyroom">Fantasy Room</Link></li>
+              <li className="hover:text-white cursor-pointer"><Link href="/rooms/deluxeroom">{t("deluxe")}</Link></li>
+              <li className="hover:text-white cursor-pointer"><Link href="/rooms/familyroom">{t("family")}</Link> </li>
+              <li className="hover:text-white cursor-pointer"><Link href="/rooms/fantasyroom">{t("fantasy")}</Link></li>
             
             </ul>
           </div>
@@ -257,15 +259,15 @@ export default function Footer() {
           {/* TERM & CONDITIONS */}
           <div className="flex flex-col items-start justify-start text-start gap-[40px] w-[33%]">
           <Link href="/restaurants" className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
-            Cuisine
+          {t("category2")}
             </Link>
             <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
             <li className="hover:text-white cursor-pointer">
-             <Link href="/restaurants/mainrestaurant"> Main Restaurant</Link>
+             <Link href="/restaurants/mainrestaurant"> {t("mainrestaurant")}</Link>
               </li>
              
-              <li className="hover:text-white cursor-pointer"><Link href="/restaurants/bellaazura">Bella Azura</Link> </li>
-              <li className="hover:text-white cursor-pointer"><Link href="/restaurants/ottomanrestaurant">Ottoman A'la Carte</Link></li>
+              <li className="hover:text-white cursor-pointer"><Link href="/restaurants/bellaazura">{t("bella")}</Link> </li>
+              <li className="hover:text-white cursor-pointer"><Link href="/restaurants/ottomanrestaurant">{t("ottoman")}</Link></li>
               
             </ul>
           </div>
@@ -276,12 +278,12 @@ export default function Footer() {
               Activities
             </h4>
             <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
-              <li className="hover:text-white cursor-pointer"><Link href="/spor">Spor</Link></li>
+              <li className="hover:text-white cursor-pointer"><Link href="/spor">{t("spor")}</Link></li>
               <li className="hover:text-white cursor-pointer">
-                <Link href="/kidsclub">Kidsclub</Link>
+                <Link href="/kidsclub">{t("kids")}</Link>
               </li>
               <li className="hover:text-white cursor-pointer">
-              <Link href="/spa">Spa</Link>
+              <Link href="/spa">{t("spa")}</Link>
               </li>
              
             </ul>
@@ -322,16 +324,16 @@ export default function Footer() {
           {/* Alt linkler */}
           <div className="flex items-center gap-6 font-jost whitespace-nowrap font-normal leading-[20px] text-[16px] text-lagoGray2">
             <a href="#" className="hover:underline">
-              Terms of Use
+            {t("termsuse")}
             </a>
             <a href="#" className="hover:underline">
-              Privacy Notice
+            {t("notice")}
             </a>
             <a href="/documents/Azura Hotel Sürdürülebilirlik Raporu 2023-2024.pdf" target="_blank"  rel="noopener noreferrer" className="hover:underline">
-              Sustainability
+            {t("sustainability")}
             </a>
             <li className="hover:text-white cursor-pointer">
-                  <Link href="/news">Blog</Link>
+                  <Link href="/news">{t("blog")}</Link>
                 </li>
           </div>
         </div>
@@ -416,7 +418,7 @@ export default function Footer() {
               onClick={() => setIsRoomsOpen(!isRoomsOpen)}
               className="flex w-[98%] p-[10px] md:max-w-[306px] items-center justify-between border border-white leading-[26.667px]"
             >
-              ACCOMODATION <ArrawDown className="flex" width={25} height={25} />
+               {t("category1")} <ArrawDown className="flex" width={25} height={25} />
             </div>
             <div
               className={`overflow-hidden transition-all duration-500 ease-in-out ${
@@ -424,29 +426,24 @@ export default function Footer() {
               }`}
             >
               <div className="mt-2 space-y-2 pl-4 border-l border-white/30 font-jost">
-              <Link
-                  href="/rooms/"
-                  className="block text-[14px] text-[#A6A6A6] leading-[29.639px] uppercase"
-                >
-                  All Rooms
-                </Link>
+             
                 <Link
                   href="/rooms/familyroom"
                   className="block text-[14px] text-[#A6A6A6] leading-[29.639px] uppercase"
                 >
-                  Family Room
+                  {t("family")}
                 </Link>
                 <Link
                   href="/rooms/deluxeroom"
                   className="block text-[14px] text-[#A6A6A6] leading-[29.639px] uppercase"
                 >
-                  Deluxe Room
+                  {t("deluxe")}
                 </Link>
                 <Link
                   href="/rooms/fantasyroom"
                   className="block text-[14px] text-[#A6A6A6] leading-[29.639px] uppercase"
                 >
-                  Fantasy Room
+                {t("fantasy")}
                 </Link>
               </div>
             </div>
@@ -455,13 +452,13 @@ export default function Footer() {
               href="/restaurants"
               className="flex w-[98%] p-[10px] md:max-w-[306px] mt-[15px] items-center justify-between border border-white leading-[26.667px]"
             >
-             CUISINE
+             {t("category2")}
             </Link>
             <Link
               href="/connect"
               className="flex w-[98%] p-[10px] md:max-w-[306px] mt-[15px] items-center justify-between border border-white leading-[26.667px]"
             >
-              CONTACT US{" "}
+             {t("contact")}{" "}
             </Link>
             <div
                 onClick={() => setIsMoreOpen(!isMoreOpen)}
@@ -476,22 +473,22 @@ export default function Footer() {
             >
               <div className="mt-2 space-y-2 pl-4 border-l border-white/30 font-jost">
                 <Link
-                  href="/special"
+                  href="/entertainment"
                   className="block text-[14px] text-[#A6A6A6] leading-[29.639px] uppercase"
                 >
-                  Special
+                  {t("entertainment")}
                 </Link>
                 <Link
                   href="/kidsclub"
                   className="block text-[14px] text-[#A6A6A6] leading-[29.639px] uppercase"
                 >
-                  Kids
+                  {t("kids")}
                 </Link>
                 <Link
                   href="/gallery/"
                   className="block text-[14px] text-[#A6A6A6] leading-[29.639px] uppercase"
                 >
-                  Gallery
+                  {t("gallery")}
                 </Link>
                 
               

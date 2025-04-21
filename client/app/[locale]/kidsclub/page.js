@@ -30,25 +30,25 @@ const kids = [
   {
     id: 1,
     img: kids1,
-    title: t("title1"),
-    description: t("subtitle1"),
-    text:t("text1"),
+    title: t3("title1"),
+    description: t3("subtitle1"),
+    text:t3("text1"),
     link:"/"
   },
   {
     id: 2,
     img: kids2,
-    title: t("title2"),
-    description: t("subtitle2"),
-    text:t("text2"),
+    title: t3("title2"),
+    description: t3("subtitle2"),
+    text:t3("text2"),
      link:"/"
   },
   {
     id: 3,
     img: kids3,
-    title: t("title3"),
-    description: t("subtitle3"),
-    text:t("text3"),
+    title: t3("title3"),
+    description: t3("subtitle3"),
+    text:t3("text3"),
      link:"/"
   }
 ];

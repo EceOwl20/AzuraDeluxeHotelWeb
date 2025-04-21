@@ -19,6 +19,7 @@ import LangSwitcher from "@/LangSwitcher";
 import {useTranslations} from 'next-intl';
 
 export default function Header() {
+  const t = useTranslations('Header');
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuRef = useRef(null);
@@ -132,7 +133,7 @@ export default function Header() {
                 h-[41px]
               "
             >
-              Contact
+             {t("contact")}
             </Link>
             <Link
             href="https://azuradeluxehotel.orsmod.com/"
@@ -158,7 +159,7 @@ export default function Header() {
                  font-jost
               "
             >
-              Book Now
+              {t("booknow")}
             </Link>
           </div>
         </div>
@@ -227,7 +228,7 @@ export default function Header() {
                 onClick={() => setIsRoomsOpen(!isRoomsOpen)}
                 className="flex items-center font-normal leading-[26.667px] gap-[11.11px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
               >
-                ACCOMODATION
+               {t("accommodation")}
                 <IoMdArrowDropdown
                   className={`w-4 h-4 transition-transform ${
                     isRoomsOpen ? "rotate-180" : "rotate-0"
@@ -247,25 +248,25 @@ export default function Header() {
                     href="/rooms/"
                     className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase"
                   >
-                    All Rooms
+                      {t("allrooms")}
                   </Link>
                   <Link
                     href="/rooms/deluxeroom"
                     className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase"
                   >
-                    Deluxe Room
+                      {t("deluxe")}
                   </Link>
                   <Link
                     href="/rooms/familyroom"
                     className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase"
                   >
-                    Family Room
+                     {t("family")}
                   </Link>
                   <Link
                     href="/rooms/fantasyroom"
                     className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase"
                   >
-                    Fantasy Room
+                      {t("fantasy")}
                   </Link>
                   
                  
@@ -276,62 +277,62 @@ export default function Header() {
               href="/beachpools"
               className="block  font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
-              BEACH & POOL
+                {t("beachPools")}
             </Link>
             <Link
               href="/restaurants"
               className="block font-normal leading-[26.667px] w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
-              RESTAURANTS AND CAFÉS
+            {t("restaurants")}
             </Link>
             <Link
               href="/bars"
               className="block font-normal leading-[26.667px] w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
-              BARS 
+              {t("bars")}
             </Link>
             <Link
               href="/spor"
               className="block font-normal leading-[26.667px] w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
-              SPOR
+              {t("spor")}
             </Link>
             <Link
               href="/kidsclub"
               className="font-normal leading-[26.667px] items-center gap-[6px] flex w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
-              KIDS CLUB
+              {t("kids")}
              
             </Link>
             <Link
               href="/spawellness"
               className="block text-white  font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
-              SPA & WELLNESS
+              {t("spa")}
             </Link>
             <Link
-              href="/"
+              href="/entertainment"
               className="block text-white  font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
-              SPECIAL
+              {t("entertainment")}
             </Link>
             <Link
               href="/gallery"
               className="block text-white  font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
-              GALLERY
+             {t("gallery")}
             </Link>
             <Link
               href="/about"
               className="block text-white font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
-              OUR HOTEL
+            {t("ourhotel")}
             </Link>
             <Link
               href="/connect"
               className="block text-white font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
-              CONTACT
+              {t("contact")}
             </Link>
           </nav>
 
@@ -365,7 +366,7 @@ export default function Header() {
               px-[19px]
             "
             >
-              LET US CALL YOU
+              {t("letuscallyou")}
             </button>
               {/* Contact Form bileşeni burada çağrılıyor */}
           <Form isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
