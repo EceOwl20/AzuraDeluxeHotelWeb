@@ -91,7 +91,7 @@ const page = () => {
   ];
 
   return (
-    <div className='flex flex-col items-center justify-center bg-[#fbfbfb] gap-[60px] md:gap-[80px] lg:gap-[100px]'>
+    <div className='flex flex-col items-center justify-center bg-[#fbfbfb] gap-[60px] md:gap-[80px] lg:gap-[100px] overflow-hidden'>
     <BannerDark img={mainimage} span={t("subtitle")} header={t("title")} text={t("text")}/>
     <ClinaryInfoSection
             img1={blok1}

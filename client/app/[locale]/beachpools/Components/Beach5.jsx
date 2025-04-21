@@ -61,7 +61,7 @@ const Beach5 = ({span,header,text,poolItems, showLink,links=[]}) => {
             height={233}
             className="object-cover w-full transition-opacity duration-300 group-hover:opacity-0"
           />
-          <div className="flex absolute inset-0 items-center justify-center gap-[30px] bg-cover bg-center top-0 left-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100 text-white font-jost text-[16px]" style={{ backgroundImage: `url(${pool.hoverSrc})` }}>
+          <div className="flex absolute inset-0 items-center justify-center gap-[30px] bg-cover bg-center top-0 left-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100 text-white font-jost text-[16px]" style={{ backgroundImage: `url(${pool.hoverSrc.src})` }}>
             <div className="absolute inset-0 bg-black/40 z-[1]"></div>
             <div className="flex flex-col gap-[12.25px] items-center justify-center text-center z-[20]">
               <SwimmingSvg className="flex"/>

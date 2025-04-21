@@ -39,12 +39,6 @@ const OtherOptionSlide = ({ room }) => (
       <p className="text-[12px] lg:text-[14px] leading-[21px] font-normal w-[98%] lg:capsizedText4">
         {room.text}
       </p>
-      <Link
-            href={room.link}
-            className="text-[14px] lg:text-[16px] font-normal leading-normal font-marcellus uppercase border-b border-lagoBlack pb-[8px] h-[24px] text-center w-auto items-center justify-center"
-          >
-            DISCOVER MORE
-          </Link>
     </div>
   </div>
 );
