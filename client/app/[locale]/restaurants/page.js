@@ -86,7 +86,7 @@ const page = () => {
     }
   ];
 
-const textsClinary=[t2("text"),t2("span"),t2("list1"),t2("list2")]
+const textsClinary=[t2("text"),t2("span"),t2("list1")]
 
   return (
     <div className='overflow-hidden items-center justify-center flex flex-col gap-[60px]  md:gap-[80px] lg:gap-[100px] bg-[#fbfbfb]'>
