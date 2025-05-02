@@ -271,7 +271,7 @@
 
       "BackgroundSection":{
         "subtitle":" EXKLUSIVE VORTEILE",
-        "title":"Familienzimmer-Vorteile",
+        "title":"Fantasy Zimmer-Vorteile",
         "text":" Gäste in unseren Familienzimmern genießen zwei separate Schlafzimmer mit herrlichem Blick auf Meer oder Wald.",
         "list1":"A’la Carte Abendessen: Bei Aufenthalten ab 7 Nächten ist ein A’la Carte-Abendessen kostenfrei.",
         "list2":"Spa & Wellness: Kostenfreier Zugang zu Hammam, Sauna, Dampfbad und Fitnesscenter.",
@@ -298,21 +298,21 @@
 
   "DeluxeRoom":{
     "subtitle":"EXKLUSIVER ROMANTISCHER URLAUB",
-      "title":"Fantasy Zimmer",
-      "text":"Genießen Sie einen unvergesslichen romantischen Aufenthalt in unseren Fantasy Zimmern mit einer exklusiven 25 m² großen Terrasse, privatem Whirlpool und luxuriösen Sonnenliegen. Jedes Zimmer ist stilvoll gestaltet und bietet atemberaubenden Meerblick sowie ein komfortables Schlafzimmer mit einem Doppelbett – ideal für Paare, die Privatsphäre und Luxus suchen.",
+      "title":"Deluxe-Zimmer",
+      "text":"Genießen Sie einen unvergesslichen romantischen Aufenthalt in unseren Deluxe Zimmern mit einer exklusiven 25 m² großen Terrasse, privatem Whirlpool und luxuriösen Sonnenliegen. Jedes Zimmer ist stilvoll gestaltet und bietet atemberaubenden Meerblick sowie ein komfortables Schlafzimmer mit einem Doppelbett – ideal für Paare, die Privatsphäre und Luxus suchen.",
       "span1":" Land- / Meerblick",
       "span2":"3 Erwachsene + 1 Kind",
       "span3":"1 Schlafzimmer / 2 Bett",
 
       "RoomFeatures":{
         "subtitle":" EXKLUSIVES & ROMANTISCHES ERLEBNIS",
-        "title":"Fantasy Room",
+        "title":"Deluxe Room",
         "text":"Die Fantasy Zimmer befinden sich im Hauptgebäude und bieten auf 58 m² einen exklusiven Raum, der speziell für Paare entworfen wurde. Jedes Zimmer verfügt über ein geschmackvoll eingerichtetes Schlafzimmer mit einem luxuriösen Doppelbett sowie eine 25 m² große private Terrasse mit beeindruckendem Meerblick, Whirlpool und Sonnenliegen. Diese Zimmer sind ideal für zwei Erwachsene und versprechen ein unvergessliches romantisches Erlebnis.",
         "subtitle2":"  Exklusive Romantische Annehmlichkeiten",
         "span1":" Private Terrasse mit Whirlpool",
         "span2":"Speziell für Paare gestaltet",
         "subtitle3":"Zimmerausstattung",
-        "text2":"Alle Fantasy Zimmer verfügen über ein elektronisches Schlüsselkartensystem, tägliche Minibar-Auffüllung, hochwertige Badezimmerkosmetik, Tee- und Kaffeezubereitungsmöglichkeiten, bequeme Hausschuhe und kostenloses WLAN. Diese Zimmer wurden ausschließlich für romantische Aufenthalte konzipiert und bieten 58 m² Wohnfläche sowie eine 25 m² große Terrasse mit privatem Whirlpool. Hinweis: Fantasy Zimmer sind ausschließlich für 2 Erwachsene (Paare). Zustellbetten, Babybetten oder separate Pools sind für diesen Zimmertyp nicht verfügbar.",
+        "text2":"Alle Deluxe Zimmer verfügen über ein elektronisches Schlüsselkartensystem, tägliche Minibar-Auffüllung, hochwertige Badezimmerkosmetik, Tee- und Kaffeezubereitungsmöglichkeiten, bequeme Hausschuhe und kostenloses WLAN. Diese Zimmer wurden ausschließlich für romantische Aufenthalte konzipiert und bieten 58 m² Wohnfläche sowie eine 25 m² große Terrasse mit privatem Whirlpool. Hinweis: Fantasy Zimmer sind ausschließlich für 2 Erwachsene (Paare). Zustellbetten, Babybetten oder separate Pools sind für diesen Zimmertyp nicht verfügbar.",
         "feature1":"50 m2",
         "feature2":"Schminktisch",
         "feature3":"Nichtraucher",
@@ -328,7 +328,7 @@
 
       "BackgroundSection":{
         "subtitle":" EXKLUSIVE VORTEILE",
-        "title":"Familienzimmer-Vorteile",
+        "title":"Deluxe-Vorteile",
         "text":" Gäste in unseren Familienzimmern genießen zwei separate Schlafzimmer mit herrlichem Blick auf Meer oder Wald.",
         "list1":"A’la Carte Abendessen: Bei Aufenthalten ab 7 Nächten ist ein A’la Carte-Abendessen kostenfrei.",
         "list2":"Spa & Wellness: Kostenfreier Zugang zu Hammam, Sauna, Dampfbad und Fitnesscenter.",

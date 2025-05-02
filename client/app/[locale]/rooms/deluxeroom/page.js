@@ -27,7 +27,7 @@ const page = () => {
   const t4 = useTranslations('DeluxeRoom.OtherOptions');
 
   const subroomBannerText=[t("span1"),t("span2"),t("span3")]
-  const backgroundTexts=[t3("text"),t3("list1"),t3("list2")]
+  const backgroundTexts=[t3("text")]
   
   const iconTexts=[t2("span1"),t2("span2")];
 
