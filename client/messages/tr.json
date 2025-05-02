@@ -144,7 +144,7 @@
   
       "Room1":{
         "title":"Deluxe Oda",
-        "text":"30-32 m² büyüklüğündeki zarif ve konforlu odalarımız, ana binamızın birinci ile yedinci katları arasında yer alır. Deniz, yeşil doğa veya kısmi deniz manzarası sunan bu şık odalarda bir çift kişilik yatak ve bir tek kişilik yatak bulunur. Tüm misafirlerimizin konforu için zemin katta, özel tasarlanmış engelli odaları da mevcuttur.",
+        "text":"30-32 m² büyüklüğündeki zarif ve konforlu odalarımız, ana binamızın birinci ile yedinci katları arasında yer alır. Deniz veya kısmi deniz manzarası sunan bu şık odalarda bir çift kişilik yatak ve bir tek kişilik yatak bulunur. Tüm misafirlerimizin konforu için zemin katta, özel tasarlanmış engelli odaları da mevcuttur.",
         "area":"30-32 m²",
         "view":" Kara veya Kısmi Deniz Manzarası",
         "buttonText":" Keşfet"
@@ -183,17 +183,17 @@
     },
 
     "FamilyRoom":{
-      "subtitle":"Deniz veya Orman Manzaralı Konforlu Aile Konaklaması",
+      "subtitle":"Deniz veya Kara Manzaralı Konforlu Aile Konaklaması",
         "title":" Aile Odası",
         "text":"Enjoy a seamless stay",
-        "span1":" Orman / Deniz Manzarası ",
+        "span1":"Deniz Manzarası ",
         "span2":" 1-4 Yetişkin + 1-3 Çocuk ",
         "span3":"1 Çift Kişilik Yatak + 2 Tek Kişilik Yatak",
   
         "RoomFeatures":{
           "subtitle":" HER YAŞA UYGUN EĞLENCE",
           "title":"Aile Odası",
-          "text":"  Ana binada yer alan, 50 m² genişliğe sahip Aile Odalarımız; deniz veya orman manzarası seçenekleriyle ferah bir konaklama sunar. Bu odalarda ara kapı ile ayrılmış iki ayrı yatak odası bulunur: biri çift kişilik yataklı, diğeri ise iki tek kişilik yataklıdır. Ortak banyo ile birlikte gelen bu alanlar, 2 yetişkin + 2 çocuk, 3 yetişkin + 1 çocuk veya 4 yetişkin + 1 çocuk için idealdir.",
+          "text":"  Ana binada yer alan, 50 m² genişliğe sahip Aile Odalarımız; deniz veya kara manzarası seçenekleriyle ferah bir konaklama sunar. Bu odalarda ara kapı ile ayrılmış iki ayrı yatak odası bulunur: biri çift kişilik yataklı, diğeri ise iki tek kişilik yataklıdır. Ortak banyo ile birlikte gelen bu alanlar, 2 yetişkin + 2 çocuk, 3 yetişkin + 1 çocuk veya 4 yetişkin + 1 çocuk için idealdir.",
           "subtitle2":" Ailelere Özel Olanaklar",
           "span1":" 2 Tek Kişilik Yatak",
           "span2":"Ekstra Bebek Beşiği ",
@@ -215,7 +215,7 @@
         "BackgroundSection":{
           "subtitle":"  AYRICALIKLI HİZMETLER",
           "title":" Aile Odası Avantajları",
-          "text":" Aile Odalarımızda konaklayan misafirler, iki ayrı yatak odasının sunduğu konfor ve etkileyici deniz veya orman manzaralarının tadını çıkarır.",
+          "text":" Aile Odalarımızda konaklayan misafirler, iki ayrı yatak odasının sunduğu konfor ve etkileyici deniz veya kara manzaralarının tadını çıkarır.",
           "list1":"  A’la Carte Yemek: 7 gece ve üzeri konaklamalarda bir defaya mahsus ücretsiz A’la Carte akşam yemeği.",
           "list2":"Spa & Wellness: Türk hamamı, sauna, buhar odası ve fitness merkezi kullanımı ücretsizdir.",
           "buttonText":" DAHA FAZLASINI KEŞFET"
@@ -228,7 +228,7 @@
           "title1":" Aile Odası",
           "area1":" 50 m²",
           "person1":"En fazla 4 yetişkin + 1 çocuk",
-          "text1":" İç kapı ile ayrılmış iki yatak odası bulunan Aile Odalarımız, ailelerin rahatça konaklayabileceği şekilde tasarlanmıştır. Deniz veya orman manzarası seçenekleriyle unutulmaz aile anıları için idealdir.",
+          "text1":" İç kapı ile ayrılmış iki yatak odası bulunan Aile Odalarımız, ailelerin rahatça konaklayabileceği şekilde tasarlanmıştır. Deniz veya kara manzarası seçenekleriyle unutulmaz aile anıları için idealdir.",
           "span2":"Odanızdan Ayrılmadan Yenilenin",
           "title2":" Fantasy Oda",
           "area2":" 58 m²",
@@ -273,7 +273,7 @@
         "BackgroundSection":{
           "subtitle":"  AYRICALIKLI HİZMETLER",
           "title":" Aile Odası Avantajları",
-          "text":" Aile Odalarımızda konaklayan misafirler, iki ayrı yatak odasının sunduğu konfor ve etkileyici deniz veya orman manzaralarının tadını çıkarır.",
+          "text":" Aile Odalarımızda konaklayan misafirler, iki ayrı yatak odasının sunduğu konfor ve etkileyici deniz veya kara manzaralarının tadını çıkarır.",
           "list1":"  A’la Carte Yemek: 7 gece ve üzeri konaklamalarda bir defaya mahsus ücretsiz A’la Carte akşam yemeği.",
           "list2":"Spa & Wellness: Türk hamamı, sauna, buhar odası ve fitness merkezi kullanımı ücretsizdir.",
           "buttonText":" DAHA FAZLASINI KEŞFET"
@@ -301,8 +301,8 @@
       "subtitle":"ÖZEL VE ROMANTİK KAÇAMAK",
         "title":" Deluxe Oda",
         "text":"Özel jakuzili 25 m² terası ve konforlu şezlonglarıyla unutulmaz bir romantik tatil için Fantasy Odalarımıza davetlisiniz. Her biri özenle tasarlanmış bu odalar, muhteşem deniz manzarasına sahip olup çiftlerin mahremiyet ve lüks içinde konaklaması için ideal bir ortam sunmaktadır.",
-        "span1":"Deniz Manzaralı ",
-        "span2":"2 Yetişkin (Sadece Çiftler)",
+        "span1":"Deniz/Kara Manzaralı ",
+        "span2":"3 Yetişkin + 1 Çocuk",
         "span3":"1 Yatak Odası / 2 Yatak",
   
         "RoomFeatures":{

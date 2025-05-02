@@ -23,7 +23,7 @@ import Link from "next/link"
 
 const items = [
   { text: "Private Pool", icon: PoolSvg2 },
-  { text: "48 m2", icon: AreaSvg },
+  { text: " m2", icon: AreaSvg },
   { text: "Makeup Table", icon: DresserSvg },
   { text: "No Smoke", icon: SmokingSvg },
   { text: "Mini Bar", icon: FridgeSvg },

@@ -194,7 +194,7 @@
     "subtitle":"The Essential In-Room Amenities",
       "title":"Everything You Need, Right in Your Room",
       "text":"Enjoy a seamless stay",
-      "span1":" Forest / Sea View",
+      "span1":"  Sea View",
       "span2":"1-4 Adult + 1-3 Children",
       "span3":" 1 Double Bed and 2 Single Beds",
 
@@ -308,8 +308,8 @@
     "subtitle":" EXCLUSIVE ROMANTIC ESCAPE",
       "title":" Deluxe Room",
       "text":"Enjoy an unforgettable romantic getaway in our Fantasy Rooms, featuring an exclusive 25 m² terrace with a private jacuzzi and luxurious sunbeds. Each beautifully designed room offers stunning sea views and includes a comfortable bedroom with one double bed, perfect for couples seeking privacy and luxury.",
-      "span1":" Sea View",
-      "span2":"2 Adults (Couples Only)",
+      "span1":" Sea/Land View",
+      "span2":"3 Adults + 1 child",
       "span3":"1 Bedrooms / 2 Bed",
 
       "RoomFeatures":{

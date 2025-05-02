@@ -93,7 +93,7 @@
       "roomTitle1":" Deluxe-Zimmer",
       "roomText1":" Dieses stilvolle Zimmer mit einer Größe von 30–32 m² befindet sich im Hauptgebäude und bietet einen charmanten Ausblick auf das Meer, das Land oder einen teilweisen Meerblick. Es verfügt über ein Doppelbett und ein Einzelbett und bietet bequem Platz für bis zu 3 Erwachsene und 1 Kind. Zur Ausstattung gehören ein modernes Badezimmer sowie ein gemütlicher Sitzbereich für Ihr Wohlbefinden.",
       "area1":" 30-32 m²",
-      "view1":"Land / Sea View",
+      "view1":"Land- / Meerblick",
       "roomTitle2":"   Fantasie-Zimmer",
       "roomText2":"  Unsere exklusiv gestalteten Fantasie-Zimmer bieten großzügige 58 m² Wohnfläche mit atemberaubendem Meerblick. Jedes Zimmer verfügt über ein elegantes Schlafzimmer mit einem komfortablen Doppelbett sowie eine 25 m² große private Terrasse mit Whirlpool und Sonnenliegen – ideal für Paare, die romantische Entspannung und Privatsphäre suchen.",
       "area2":"  58 m²",
@@ -186,7 +186,7 @@
     "subtitle":" Komfortable Familienunterkunft mit Meer- oder Waldblick",
       "title":"Familienzimmer",
       "text":"Enjoy a seamless stay",
-      "span1":" Wald- oder Meerblick",
+      "span1":"Meerblick",
       "span2":"1–4 Erwachsene + 1–3 Kinder ",
       "span3":" 1 Doppelbett & 2 Einzelbetten",
 
@@ -300,8 +300,8 @@
     "subtitle":"EXKLUSIVER ROMANTISCHER URLAUB",
       "title":"Fantasy Zimmer",
       "text":"Genießen Sie einen unvergesslichen romantischen Aufenthalt in unseren Fantasy Zimmern mit einer exklusiven 25 m² großen Terrasse, privatem Whirlpool und luxuriösen Sonnenliegen. Jedes Zimmer ist stilvoll gestaltet und bietet atemberaubenden Meerblick sowie ein komfortables Schlafzimmer mit einem Doppelbett – ideal für Paare, die Privatsphäre und Luxus suchen.",
-      "span1":" Meerblick",
-      "span2":"2 Erwachsene (Nur Paare))",
+      "span1":" Land- / Meerblick",
+      "span2":"3 Erwachsene + 1 Kind",
       "span3":"1 Schlafzimmer / 2 Bett",
 
       "RoomFeatures":{
