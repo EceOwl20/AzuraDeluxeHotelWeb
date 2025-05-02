@@ -4,6 +4,7 @@ import React, { useEffect, useState, useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
+import {useTranslations} from 'next-intl';
 
 // Varsayılan slaytlar
 const DEFAULT_SLIDES = [
@@ -79,6 +80,37 @@ function Slide({ slide, marginClass }) {
 }
 
 export default function Slider1({ slides }) {
+  const t = useTranslations('Homepage.EmblaCarousel');
+
+  const DEFAULT_SLIDES = [
+    {
+      src: require("./Images/accommodation.jpg"),
+      title: t("accommodation"),
+      link: "/rooms",
+    },
+    {
+      src: require("./Images/Flavours.jpg"),
+      title: t("restaurants"),
+      link: "/restaurants",
+    },
+    {
+      src: require("./Images/Beachandpool.jpg"),
+      title: t("beachPools"),
+      link: "/beachpools",
+    },
+    {
+      src: require("./Images/Entertainment.jpg"),
+      title: t("experiences"),
+      link: "/entertainment",
+    },
+    {
+      src: require("./Images/kids.jpg"),
+      title: t("kids"),
+      link: "/kidsclub",
+    },
+  ];
+
+  
   const slidesOriginal = slides || DEFAULT_SLIDES;
   const slidesCombined = [...slidesOriginal, ...slidesOriginal]; // Loop için ekstra slaytlar
 

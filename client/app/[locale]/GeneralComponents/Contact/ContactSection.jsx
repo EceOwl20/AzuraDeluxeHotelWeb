@@ -55,7 +55,7 @@ const ContactSection = () => {
             Phone: <Link href="tel:+902425171234" className="underline">+90 242 517 12 34</Link>
           </span>
           <span className="capsizedText4 lg:hidden">
-            Call Center: <Link href="tel:+902422771143" className="underline">+90 242 277 11 43</Link>
+            Call Center: <Link href="tel:+902422771143" className="underline">+90 242 510 52 30</Link>
           </span>
           <span className="capsizedText4 lg:hidden">
             Email: <Link  href="mailto:info@azuradeluxe.com" className="underline z-20">info@azuradeluxe.com</Link>
@@ -69,7 +69,7 @@ const ContactSection = () => {
           Phone: <Link href="tel:+902425171234" className="underline">+90 242 517 12 34</Link>
           </span>
           <span className="hidden lg:block">
-          Call Center: <Link href="tel:+902422771143" className="underline">+90 242 277 11 43</Link>
+          Call Center: <Link href="tel:+902422771143" className="underline">+90 242 510 52 30</Link>
           </span>
           <span className="hidden lg:block">
           Email: <Link  href="mailto:info@azuradeluxe.com" className="underline z-20">info@azuradeluxe.com</Link>

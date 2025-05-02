@@ -14,142 +14,75 @@ import themed from "../images/kids5.jpg"
 import Link from 'next/link'
 import {useTranslations} from 'next-intl';
 
-const activities = [
-  {
-    title: t("title1"),
-    category: t("daytime"),
-    description: t("text1"),
-    image: fitness,
-    link:"/spor"
-  },
-  {
-    title: t("title2"),
-    category: t("daytime"),
-    description: t("text2"),
-    image: kids,
-    link:"/kidsclub"
-  },
-  {
-    title: t("title3"),
-    category: t("daytime"),
-    description: t("text3"),
-    image: water,
-    link:"/beachpools"
-  },
-  {
-    title: t("title4"),
-    category: t("daytime"),
-    description: t("text4"),
-    image: beachvoley,
-    link:"/spor"
-  },
-  {
-    title: t("title5"),
-    category: t("daytime"),
-    description: t("text5"),
-    image: tennis,
-    link:"/spor"
-  },
-  {
-    title: t("title6"),
-    category: t("daytime"),
-    description: t("text6"),
-    image: cinema,
-    link:"/spor"
-  },
-  {
-    title: t("title7"),
-    category: t("daytime"),
-    description: t("text7"),
-    image: sunset,
-    link:"/spor"
-  },
-  {
-    title: t("title8"),
-    category: t("daytime"),
-    description: t("text8"),
-    image: stage,
-    link:"/spor"
-  },
-  {
-    title: t("title9"),
-    category: t("daytime"),
-    description: t("text9"),
-    image: themed,
-    link:"/spor"
-  }
-];
-
 const EntertainmentTypesSection = () => {
   const t = useTranslations('Entertainment.GridSection');
 
   const activities = [
     {
-      title: "Sport & Fitness",
-      category: "DAYTIME ACTIVITIES",
-      description: "Lorem ipsum dolor sit amet consectetur. Eget in non viverra est lorem sed. Non a elit adipiscing et eleifend nunc. Ornare sagittis sit non at morbi fermentum et.",
+      title: t("title1"),
+      category: t("daytime"),
+      description: t("text1"),
       image: fitness,
       link:"/spor"
     },
     {
-      title: "Kids & Teen Club",
-      category: "DAYTIME ACTIVITIES",
-      description: "Lorem ipsum dolor sit amet consectetur. Suspendisse interdum velit euismod. Pharetra volutpat dolor in euismod sed euismod. Vel quam purus consectetur ut malesuada.",
+      title: t("title2"),
+      category: t("daytime"),
+      description: t("text2"),
       image: kids,
       link:"/kidsclub"
     },
     {
-      title: "Water sports",
-      category: "DAYTIME ACTIVITIES",
-      description: "Lorem ipsum dolor sit amet consectetur. Varius tortor nec sed sed sed et dolor. Sapien in turpis et in. Elementum amet sagittis et id scelerisque convallis.",
+      title: t("title3"),
+      category: t("daytime"),
+      description: t("text3"),
       image: water,
       link:"/beachpools"
     },
     {
-      title: "Beach Activıties",
-      category: "DAYTIME ACTIVITIES",
-      description: "Lorem ipsum dolor sit amet consectetur. Varius tortor nec sed sed sed et dolor. Sapien in turpis et in. Elementum amet sagittis et id scelerisque convallis.",
+      title: t("title4"),
+      category: t("daytime"),
+      description: t("text4"),
       image: beachvoley,
       link:"/spor"
     },
     {
-      title: "Tennis",
-      category: "DAYTIME ACTIVITIES",
-      description: "Lorem ipsum dolor sit amet consectetur. Varius tortor nec sed sed sed et dolor. Sapien in turpis et in. Elementum amet sagittis et id scelerisque convallis.",
+      title: t("title5"),
+      category: t("daytime"),
+      description: t("text5"),
       image: tennis,
       link:"/spor"
     },
     {
-      title: "Cinema",
-      category: "DAYTIME ACTIVITIES",
-      description: "Lorem ipsum dolor sit amet consectetur. Varius tortor nec sed sed sed et dolor. Sapien in turpis et in. Elementum amet sagittis et id scelerisque convallis.",
+      title: t("title6"),
+      category: t("daytime"),
+      description: t("text6"),
       image: cinema,
       link:"/spor"
     },
     {
-      title: "Sunset parties",
-      category: "DAYTIME ACTIVITIES",
-      description: "Lorem ipsum dolor sit amet consectetur. Varius tortor nec sed sed sed et dolor. Sapien in turpis et in. Elementum amet sagittis et id scelerisque convallis.",
+      title: t("title7"),
+      category: t("daytime"),
+      description: t("text7"),
       image: sunset,
       link:"/spor"
     },
     {
-      title: "Stage shows",
-      category: "DAYTIME ACTIVITIES",
-      description: "Lorem ipsum dolor sit amet consectetur. Varius tortor nec sed sed sed et dolor. Sapien in turpis et in. Elementum amet sagittis et id scelerisque convallis.",
+      title: t("title8"),
+      category: t("daytime"),
+      description: t("text8"),
       image: stage,
       link:"/spor"
     },
     {
-      title: "Themed Parties ",
-      category: "DAYTIME ACTIVITIES",
-      description: "Lorem ipsum dolor sit amet consectetur. Varius tortor nec sed sed sed et dolor. Sapien in turpis et in. Elementum amet sagittis et id scelerisque convallis.",
+      title: t("title9"),
+      category: t("daytime"),
+      description: t("text9"),
       image: themed,
       link:"/spor"
     }
   ];
 
-  
 
   const [emblaRef, emblaApi] = useEmblaCarousel({  loop: true,
     align: "start",
@@ -174,7 +107,6 @@ const EntertainmentTypesSection = () => {
     }
   }, [emblaApi]);
 
-
   return (
     <div className="flex w-screen items-center justify-center max-w-[1440px]">
       <div className="flex flex-col w-[87.79%] md:w-[91.4%] lg:w-[76.8%] items-start justify-center gap-[30px] md:gap-[50px] max-w-[1106px]">
@@ -191,7 +123,6 @@ const EntertainmentTypesSection = () => {
           {t("text")}
           </p>
         </div>
-
         {/* Dinamik Kartlar */}
         <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-3 w-full items-center justify-center gap-[31px]">
           {activities.map((activity, index) => (

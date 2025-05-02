@@ -71,6 +71,14 @@
     "text":"Zwischen dem Mittelmeer und den atemberaubenden Taurusbergen gelegen, erstreckt sich das Azura Deluxe Resort & Spa über ein 12.000 m² großes, malerisches Gelände direkt am Meer. Dank der günstigen Lage in der Nähe der Flughäfen Antalya und Gazipaşa erwartet Sie unser 70 Meter langer Privatstrand mit einladendem Steg.",
     "buttonText":"MEHR ENTDECKEN",
 
+    "EmblaCarousel": {
+      "accommodation": "Unterkunft",
+      "restaurants": "Restaurants",
+      "beachPools": "Strand & Pools",
+      "experiences": "Erlebnisse",
+      "kids": "Kinder"
+    },
+
     "TwoImageSection":{
       "subtitle":"  ENTDECKEN SIE MEHRE",
       "title":" UNVERGESSLICHE MOMENTE IM AZURA DELUXE",
@@ -437,6 +445,24 @@
       "list3": "Abendessen: 19:00 - 21:00",
       "buttonText": "MEHR ENTDECKEN"
     },
+    "CarouselSection": {
+      "subtitle": "Perfekte Fine‑Dining‑Erlebnisse",
+      "title": "À‑la‑carte‑Restaurants",
+      "text": "Begeben Sie sich auf eine kulinarische Reise in unseren exklusiven À‑la‑carte‑Restaurants, in denen exquisite internationale Aromen auf Sie warten – meisterhaft zubereitet von unseren talentierten und preisgekrönten Küchenchefs. Verfeinern Sie Ihr Urlaubserlebnis mit außergewöhnlichen Gerichten und unvergesslichen Genussmomenten.",
+      "subtitle1": " KÜCHE: International",
+      "title1": " Hauptrestaurant",
+      "text1": " Entdecken Sie die Vielfalt internationaler Spezialitäten, liebevoll zubereitet von unseren talentierten Köchen in der gemütlichen Atmosphäre unseres Hauptrestaurants. Genießen Sie täglich zum Frühstück, Mittag- und Abendessen unser sorgfältig zusammengestelltes und geschmackvoll präsentiertes Buffet mit köstlichen Gerichten aus aller Welt.",
+      "span1": "Öffnungszeiten: 10:00 – 18:00",
+      "subtitle2": " KÜCHE: Italienisch",
+      "title2": " Italienisches À-la-Carte-Restaurant",
+      "text2": "Entdecken Sie die unwiderstehlichen Aromen der süditalienischen Küche in unserem italienischen À-la-Carte-Restaurant. Genießen Sie besondere Gerichte wie Carpaccio, Risotto, Pasta und Salate, begleitet vom verführerischen Aroma edler Rotweine. Erleben Sie ein magisches kulinarisches Erlebnis und reisen Sie mit uns geschmacklich durch das Mittelmeer.",
+      "span2": "Öffnungszeiten: 19:00 – 21:00",
+      "subtitle3": "KÜCHE: Türkisch",
+      "title3": " Türkisches À-la-Carte-Restaurant",
+      "text3": " Genießen Sie ein außergewöhnliches kulinarisches Erlebnis mit seltenen Rezepten aus der prunkvollen osmanischen Palastküche. Begleitet von sanfter klassischer türkischer Musik laden unsere Gerichte Sie dazu ein, das reiche kulinarische Erbe der Türkei zu entdecken.",
+      "span3": "Öffnungszeiten: 12:00 – 16:00"
+    },
+
     "CarouselSection2": {
       "subtitle": "Perfekte Fine‑Dining‑Erlebnisse",
       "title": "À‑la‑carte‑Restaurants",
@@ -448,7 +474,7 @@
       "subtitle2": "À‑LA‑CARTE‑SNACKS",
       "title2": "Mazurka Snack Restaurant",
       "text2": "Besuchen Sie unser Mazurka Snack Restaurant für köstliche à‑la‑carte‑Snacks, darunter frisch gegrillte Spezialitäten, leckere Sandwiches und erfrischende Salate. Genießen Sie ein entspanntes Essen am Strand – perfekt für den kleinen Hunger zwischendurch. Küche: Gegrilltes, Burger, Sandwiches, Salate und Obst.",
-      "span2": "Öffnungszeiten: 12:00 – 16:00",
+      "span2": "Öffnungszeiten: 19:00 – 21:00",
       "subtitle3": "STRANDSNACKS",
       "title3": "Lyric Beach",
       "text3": "Direkt am Strand und an der Seebrücke bietet die Lyric Beach Snack Bar ein entspanntes Dining‑Erlebnis mit Meerblick. Genießen Sie frische Salate, knusprige Pizzen, saftige Kebabs, frisches Obst, Waffeln, köstliche Snacks und erfrischende Getränke in der Sonne. Highlights: Salate, Pizza, Kebabs, Obst, Waffeln und verschiedene Snacks.",
@@ -493,7 +519,7 @@
       "subtitle3": "Öffnungszeit: 10:00–18:00",
       "title3": "Pier Bar",
       "text3": "Genießen Sie eine erfrischende Auszeit an unserer Pier Bar mit köstlichen Cocktails, kalten Getränken und leichten Snacks vor der atemberaubenden Meereskulisse.",
-      "subtitle4": "24 Stunden",
+      "subtitle4": "Öffnungszeit: 23.00-02.00",
       "title4": "Disco Bar Ciks",
       "text4": "Erleben Sie pulsierendes Nachtleben in der Disco Bar Ciks. Tanzen Sie die ganze Nacht, genießen Sie mitreißende Musik und erfrischen Sie sich mit Signature-Cocktails und Premium-Drinks.",
       "buttonText": "MEHR ENTDECKEN"
@@ -596,7 +622,7 @@
       "text2": "Öffnungszeiten: 07:00 – 20:00",
       "subtitle3": "Spa‑Behandlungen",
       "title3": "Spa & Wellness",
-      "text3": "Öffnungszeiten: 07:00 – 20:00",
+      "text3": "Öffnungszeiten: 08:00 – 19:00",
       "list1": "10 Massageräume",
       "list2": "1 VIP Doppel Spa Suite",
       "list3": "Türkisches Bad",
@@ -625,6 +651,67 @@
       "subtitle2": "Tradition erleben",
       "title2": "Türkisches Hammam",
       "text2": "Tauchen Sie ein in die authentische türkische Tradition im luxuriösen Türkischen Hammam. Erleben Sie Entspannung durch traditionelle Badezeremonien, belebende Schaummassagen und sanftes Peeling."
+    }
+  },
+
+  "Sport": {
+    "subtitle1": " BLEIBEN SIE FIT UND AKTIV",
+      "title1": " Sport & Fitness",
+      "text1": "Bleiben Sie auch im Urlaub aktiv im Azura Deluxe Resort & Spa. Unser professionell ausgestattetes Fitnesscenter bietet Ihnen alles, was Sie für Ihre täglichen Trainingseinheiten benötigen, um während Ihres Aufenthalts fit und energiegeladen zu bleiben.",
+
+    "InfoSection": {
+      "subtitle1": "  Fit bleiben und Wohlfühlen",
+      "title1": "  Fitness & Wellness im Azura Deluxe Resort & Spa",
+      "text1": " Halten Sie Ihre Fitnessroutine in unserem professionell ausgestatteten Fitnesscenter aufrecht und entspannen Sie anschließend im Symphony Spa & Wellness Center. Erfrischen Sie sich mit einer wohltuenden Massage, entspannen Sie im traditionellen türkischen Hamam oder entgiften Sie in der finnischen Sauna, um Ihren Urlaub vollständig zu genießen.",
+      "subtitle2": "Sport & Fitness",
+      "title2": " Gruppenaktivitäten",
+      "text2": " Bleiben Sie während Ihres Aufenthalts im Azura Deluxe Resort & Spa aktiv und voller Energie mit unseren abwechslungsreichen Gruppenaktivitäten:",
+      "subtitle3": "Halten Sie sich fit und genießen Sie den Spaß in der Gruppe!",
+      "title3": "Sport & Fitness",
+      "text3": "Öffnungszeiten: 08:00 – 19:00",
+      "list1": " Step-Aerobic",
+      "list2": " Wassergymnastik",
+      "list3": "Pool-Spiele",
+      "list4": "Fitnesskurse"
+    },
+
+    "GallerySection": {
+      "subtitle": " Fit & Vital Bleiben",
+      "title": " Fitnesscenter",
+      "text": " Halten Sie Ihre Fitnessroutine im professionell ausgestatteten Fitnesscenter des Azura Deluxe Resort & Spa aufrecht. Mit modernen Geräten und angenehmer Atmosphäre bieten wir Ihnen ideale Bedingungen, um während Ihres Urlaubs aktiv, gesund und energiegeladen zu bleiben."
+    },
+
+    "SpaTypes": {
+      "subtitle1": " Personalisierte Fitness-Erfahrung",
+      "title1": " Personal Trainer",
+      "text1": " Verbessern Sie Ihre Fitnessroutine mit persönlicher Betreuung durch unsere professionellen Trainer im Azura Deluxe Resort & Spa. Individuelle Trainingsprogramme und Einzelbetreuung sorgen dafür, dass Sie während Ihres Urlaubs aktiv und motiviert bleiben.",
+      "subtitle2": " Ihr täglicher Energieschub",
+      "title2": " Fitnesscenter",
+      "text2": " Steigern Sie Ihre Energie und halten Sie Ihre Trainingsroutine im Azura Deluxe Resort & Spa aufrecht. Trainieren Sie mit vielfältigen, modernen Fitnessgeräten in unserem modernen Fitnessbereich. Bleiben Sie aktiv, fühlen Sie sich erfrischt und erhalten Sie Ihre Fitness während Ihres Aufenthalts"
+    }
+  },
+
+  "About":{
+    "subtitle":"  UNVERGESSLICHE GLÜCKLICHE MOMENTE",
+    "title":" Über Unser Hotel",
+  
+  "InfoSection":{
+    "subtitle":" Azura Deluxe Resort & Spa",
+    "title":" Ihr Idealer Urlaubsort",
+    "text":"  Genießen Sie ein unvergessliches Urlaubserlebnis im Azura Deluxe Resort & Spa, wo Komfort und Eleganz in stilvoll eingerichteten Zimmern aufeinandertreffen. Dank der einzigartigen Lage unseres Hotels bieten unsere Zimmer herrliche Ausblicke auf das Meer, den Pool oder die grüne Umgebung. Zusätzlich verfügen wir über beheizte Innenpools, einen für Erwachsene und einen speziell für Kinder.",
+    "buttonText":"MORE ABOUT"
+  },
+    "MissinonVision":{
+      "subtitle":" Azura Deluxe Resort & Spa",
+      "title":" Unsere Mission und Vision",
+      "text":"  Unsere Mission im Azura Deluxe Resort & Spa ist es, unübertroffene Gastfreundschaft zu bieten und bleibende Erinnerungen für unsere Gäste zu schaffen. Wir sind der Exzellenz in allen Bereichen Ihres Aufenthaltes verpflichtet – von personalisiertem Service bis hin zu nachhaltigen Praktiken. Unsere Vision ist es, ein führender Name in der Hotelbranche zu werden, bekannt für außergewöhnliche Erlebnisse und Umweltbewusstsein.",
+      "clubsubtitle1":" Azura Deluxe Resort & Spa",
+      "clubtitle1":" Warum Azura Deluxe wählen?",
+      "clubtext1":"  Wählen Sie das Azura Deluxe Resort & Spa für ein unvergessliches Urlaubserlebnis, das Luxus, Komfort und herausragenden Service vereint. Mit unserer idealen Lage am Meer, stilvollen Unterkünften, vielfältigen gastronomischen Angeboten, exklusiven Spa- und Wellness-Dienstleistungen sowie unserem Engagement für Nachhaltigkeit versprechen wir Ihnen einen unvergesslichen Aufenthalt.",
+      "clubsubtitle2":" Azura Deluxe Resort & Spa",
+      "clubtitle2":" Ein Außergewöhnliches Urlaubserlebnis",
+      "clubtext2":"  Eingebettet zwischen dem ruhigen Mittelmeer und dem imposanten Taurusgebirge vereint das Azura Deluxe Resort & Spa unvergleichlichen Luxus mit persönlicher Gastfreundschaft. Von eleganten Zimmern über exklusive kulinarische Erlebnisse bis hin zu unserem erholsamen Spa und abwechslungsreicher Unterhaltung gestalten wir jeden Moment einzigartig. Unsere hervorragende Lage ermöglicht bequemen Zugang zum historischen Alanya und den umliegenden Flughäfen.",
+       "buttonText":"MORE ABOUT"
     }
   }
 }

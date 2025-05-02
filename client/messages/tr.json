@@ -70,6 +70,14 @@
       "title":" Lüks, konfor, kalite ve kusursuz hizmet",
       "text":"Akdeniz ile büyüleyici Toros Dağları arasında konumlanan Azura Deluxe Resort & Spa, 12.000 m²'lik etkileyici bir deniz kenarı alanına yayılmaktadır. Antalya ve Gazipaşa havalimanlarına yakın konumuyla, 70 metrelik özel plajımız ve davetkâr iskelesi sizleri bekliyor.",
       "buttonText":" DAHA FAZLASINI KEŞFEDİN",
+
+      "EmblaCarousel":{
+        "accommodation":"Konaklama",
+    "restaurants":"Restoranlar",
+    "beachPools":"Plaj ve Havuzlar",
+     "experiences":"Deneyimler",
+      "kids":"Çocuklar"
+      },
   
       "TwoImageSection":{
         "subtitle":" AZURA DELUXE’TE UNUTULMAZ ANLAR",
@@ -438,6 +446,25 @@
       "list3": "Akşam Yemeği: 19:00 - 21:00",
       "buttonText": "DAHA FAZLASINI KEŞFET"
     },
+
+    "CarouselSection": {
+      "subtitle": "Mükemmel Gurme Deneyimler",
+      "title": "À la Carte Restoranlar",
+      "text": "Özel à la carte restoranlarımızda olağanüstü uluslararası lezzetlerin tadını çıkarın. Yetenekli ve ödüllü şeflerimiz tarafından ustalıkla hazırlanan enfes yemeklerle tatilinizi benzersiz kılın.",
+      "subtitle1": " MUTFAK: Uluslararası",
+      "title1": " Ana Restoran",
+      "text1": "Ana restoranımızın sıcak atmosferinde yetenekli şeflerimiz tarafından hazırlanan uluslararası lezzetlerin zengin çeşitliliğini keşfedin. Dünyanın farklı mutfaklarından özenle seçilmiş, lezzetli ve şık sunumlu açık büfemizin keyfini kahvaltı, öğle ve akşam yemeklerinde çıkarabilirsiniz.",
+      "span1": "Açılış Saatleri: 10:00 – 18:00",
+      "subtitle2": " MUTFAK: İtalyan",
+      "title2": " İtalyan À la Carte Restoranı",
+      "text2": " İtalyan À la Carte Restoranımızda Güney İtalya mutfağının birbirinden leziz tatlarını keşfedin. Carpaccio, risotto, makarna ve salata gibi özel lezzetlerin yanında kaliteli kırmızı şarapların eşsiz aromasını duyumsayın. Akdeniz boyunca büyüleyici bir gastronomi yolculuğuna çıkacağınız sihirli bir yemek deneyimi yaşayın.",
+      "span2": "Açılış Saatleri: 19:00 – 21:00",
+      "subtitle3": " MUTFAK: Türk",
+      "title3": " Türk À la Carte Restoran",
+      "text3": "Muhteşem Osmanlı Saray mutfağının nadir tarifleriyle hazırlanan benzersiz menümüzü keşfedin. Klasik Türk müziğinin huzur veren ezgileri eşliğinde, Türkiye’nin zengin mutfak mirasının tadına varacağınız unutulmaz bir yemek deneyimi yaşayın.",
+      "span3": "Açılış Saatleri: 12:00 – 16:00"
+    },
+
     "CarouselSection2": {
       "subtitle": "Mükemmel Gurme Deneyimler",
       "title": "À la Carte Restoranlar",
@@ -449,7 +476,7 @@
       "subtitle2": "À LA CARTE ATİŞTİRMALIKLAR",
       "title2": "Mazurka Snack Restoranı",
       "text2": "Mazurka Snack Restoranı'nda taze ızgara spesiyaliteler, lezzetli sandviçler ve nefis salatalardan oluşan à la carte atıştırmalıkların tadını çıkarın. Sahil kenarında rahat bir yemek deneyimiyle öğle saatlerindeki atıştırmalık ihtiyaçlarınızı karşılayın. Mutfak: Izgara ürünler, burgerler, sandviçler, salatalar ve meyveler.",
-      "span2": "Açılış Saatleri: 12:00 – 16:00",
+      "span2": "Açılış Saatleri: 19:00 – 21:00",
       "subtitle3": "PLAJ ATİŞTİRMALIKLARI",
       "title3": "Lyric Beach",
       "text3": "Plaj ve iskele kenarındaki Lyric Beach Snack Bar’da rahatlatıcı bir deniz kenarı yemek deneyimi yaşayın. Lezzetli taze salatalar, çıtır pizzalar, sulu kebaplar, taze meyveler, waffle’lar, atıştırmalıklar ve ferahlatıcı içecekler eşliğinde güneşin ve sonsuz deniz manzarasının keyfini çıkarın. Öne çıkanlar: Salatalar, pizza, kebaplar, meyveler, waffle ve çeşitli atıştırmalıklar.",
@@ -494,7 +521,7 @@
       "subtitle3": "Saat: 10:00–18:00",
       "title3": "Pier Bar",
       "text3": "Pier Bar’ımızda deniz kenarında ferahlatıcı molanın keyfini çıkarın. Lezzetli kokteyller, soğuk içecekler ve atıştırmalıklar muhteşem manzara eşliğinde sunulur.",
-      "subtitle4": "24 Saat",
+      "subtitle4": "Saat: 23.00-2.00",
       "title4": "Disco Bar Ciks",
       "text4": "Disco Bar Ciks’te canlı gece hayatı ve enerjik atmosferi deneyimleyin. Gece boyunca dans edin, enerjik müzikle coşun ve özel kokteyllerle eğlenceyi 24 saat canlı tutun.",
       "buttonText": "DAHA FAZLASINI KEŞFET"
@@ -597,7 +624,7 @@
       "text2": "Çalışma Saatleri: 07:00 – 20:00",
       "subtitle3": "Spa Bakımları",
       "title3": "Spa & Wellness",
-      "text3": "Çalışma Saatleri: 07:00 – 20:00",
+      "text3": "Çalışma Saatleri: 08:00 – 19:00",
       "list1": "10 Masaj Odası",
       "list2": "1 VIP Çift Kişilik Spa Süiti",
       "list3": "Türk Hamamı",
@@ -626,6 +653,67 @@
       "subtitle2": "Geleneksel Kültürü Deneyimleyin",
       "title2": "Türk Hamamı",
       "text2": "Symphony Spa & Wellness Merkezi'mizde lüks Türk Hamamı deneyimi yaşayın. Geleneksel banyo ritüelleri, köpük masajları ve nazik peelinglerle cildinizi yenileyin ve canlandırın."
+    }
+  },
+
+  "Sport": {
+    "subtitle": " FORMUNUZU KORUYUN",
+    "title": " Spor & Fitness",
+    "text": " Azura Deluxe Resort & Spa’daki tatiliniz boyunca spor rutininizi aksatmadan devam ettirebilirsiniz. Profesyonel ekipmanlarla donatılmış Fitness Merkezimizde günlük egzersizlerinizi yapabilir, tatil boyunca formda kalabilirsiniz.",
+
+    "InfoSection": {
+      "subtitle1": " Formda Kalın ve İyi Hissedin",
+      "title1": " Azura Deluxe Resort & Spa’da Fitness ve Wellness",
+      "text1": " Profesyonel ekipmanlarla donatılmış fitness merkezimizde spor rutininizi devam ettirin ve ardından Symphony Spa & Wellness Merkezi’nde rahatlayın. Tatiliniz boyunca, rahatlatıcı masaj seçenekleriyle yenilenin, geleneksel Türk Hamamı’nda rahatlayın veya Fin Saunası’nda vücudunuzu toksinlerden arındırarak tamamen tazelenin.",
+      "subtitle2": "Spor & Fitness",
+      "title2": " Grup Aktiviteleri",
+      "text2": " Azura Deluxe Resort & Spa’da tatiliniz boyunca aktif ve enerjik kalmanız için sunduğumuz grup aktivitelerine katılın:",
+      "subtitle3": " Eğlenceli bir atmosferde formda kalmanın keyfini çıkarın!",
+      "title3": "Spor & Fitness",
+      "text3": "Çalışma Saatleri: 08:00 – 19:00",
+      "list1": " Step Aerobik",
+      "list2": " Su Jimnastiği",
+      "list3": " Havuz Oyunları",
+      "list4": " Fitness Dersleri"
+    },
+
+    "GallerySection": {
+      "subtitle": "Formda ve Enerjik Kalın",
+      "title": "Fitness Merkezi",
+      "text": "Azura Deluxe Resort & Spa’nın profesyonel ekipmanlarla donatılmış Fitness Merkezi’nde spor rutininizi devam ettirin. Modern ekipmanlarımız ve samimi ortamımızla tatiliniz boyunca aktif, sağlıklı ve enerjik kalmanız için ideal bir alan sunuyoruz."
+    },
+
+    "SpaTypes": {
+      "subtitle1": " Kişiselleştirilmiş Fitness Deneyimi",
+      "title1": " Kişisel Eğitmen",
+      "text1": "Azura Deluxe Resort & Spa’daki tatiliniz boyunca profesyonel kişisel eğitmenlerimizin hazırladığı özel programlarla fitness rutininizi geliştirin. Size özel antrenman programları ve birebir çalışmalarla formda ve motive kalın.",
+      "subtitle2": "Günlük Enerji Takviyeniz",
+      "title2": " Fitness Merkezi",
+      "text2": " Azura Deluxe Resort & Spa’da spor rutininizi sürdürün ve enerjinizi her gün yenileyin. Son teknoloji fitness ekipmanları ile donatılmış modern salonumuzda egzersizin keyfine varın. Tatil boyunca formunuzu koruyun, enerjinizi yükseltin ve zinde kalın"
+    }
+  },
+
+  "About":{
+    "subtitle":"  UNUTULMAZ MUTLU ANLAR",
+    "title":" Otelimiz Hakkında",
+  
+  "InfoSection":{
+    "subtitle":" Azura Deluxe Resort & Spa",
+    "title":" İdeal Tatil Adresiniz",
+    "text":"  Azura Deluxe Resort & Spa’da konfor ve şıklığı bir arada sunan odalarımızda unutulmaz bir tatil deneyimi yaşayın. Otelimizin eşsiz konumu sayesinde odalarımız deniz, havuz veya yemyeşil çevre manzarasına sahiptir. Ayrıca, biri yetişkinler diğeri çocuklar için özel olarak tasarlanmış ısıtmalı kapalı havuzlarımızla tatilinizi daha keyifli hale getirin.",
+    "buttonText":"DAHA FAZLASINI KEŞFET"
+  },
+    "MissinonVision":{
+      "subtitle":"Azura Deluxe Resort & Spa",
+      "title":" Misyonumuz ve Vizyonumuz",
+      "text":"  Azura Deluxe Resort & Spa olarak misyonumuz, misafirlerimize benzersiz bir konukseverlik sunmak ve unutulmaz anılar yaratmaktır. Kişiye özel hizmetlerden sürdürülebilir uygulamalara kadar konaklamanızın her alanında mükemmelliğe adanmış bulunmaktayız. Vizyonumuz ise, olağanüstü deneyimler yaşatan ve çevreye duyarlı bir işletme olarak turizm sektöründe öncü olmaktır.",
+      "clubsubtitle1":"Azura Deluxe Resort & Spa",
+      "clubtitle1":" Neden Azura Deluxe’ü Tercih Etmelisiniz?",
+      "clubtext1":"  Lüks, konfor ve kusursuz hizmeti bir araya getiren unutulmaz bir tatil deneyimi için Azura Deluxe Resort & Spa’yı tercih edin. Deniz kenarındaki ideal konumu, şık odaları, zengin restoran seçenekleri, seçkin Spa & Wellness hizmetleri ve sürdürülebilirlik ilkemizle tatilinizi unutulmaz ve ayrıcalıklı hale getireceğiz.",
+      "clubsubtitle2":"Azura Deluxe Resort & Spa",
+      "clubtitle2":" Sıradışı Bir Tatil Deneyimi",
+      "clubtext2":"  Huzur veren Akdeniz ve görkemli Toros Dağları’nın arasında yer alan Azura Deluxe Resort & Spa, ayrıcalıklı konforu kişiye özel misafirperverlikle buluşturuyor. Şık odalarımız, gurme restoranlarımız, dinlendirici spa olanaklarımız ve keyifli aktivitelerimizle unutulmaz anılar yaratın. Alanya’ya yakın konumumuz ve kolay ulaşım imkanlarımızla tatilinizi konforla buluşturuyoruz.",
+       "buttonText":"DAHA FAZLASINI KEŞFET"
     }
   }
     

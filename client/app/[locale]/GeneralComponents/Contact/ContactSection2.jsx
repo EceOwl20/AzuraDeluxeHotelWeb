@@ -34,7 +34,7 @@ const ContactDetails = () => {
           <span className="capsizedText4 lg:hidden">
             Call Center:{" "}
             <Link href="" className="underline">
-              +90 242 277 11 43
+            +90 242 510 52 30
             </Link>
           </span>
           <span className="capsizedText4 lg:hidden">
@@ -57,7 +57,7 @@ const ContactDetails = () => {
           <span className="hidden lg:block">
             Call Center:{" "}
             <Link href="" className="underline">
-              +90 242 277 11 43
+            +90 242 510 52 30
             </Link>
           </span>
           <span className="hidden lg:block">
