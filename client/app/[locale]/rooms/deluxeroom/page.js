@@ -31,7 +31,10 @@ const page = () => {
   
   const iconTexts=[t2("span1"),t2("span2")];
 
+  const features=[t2("feature1"),t2("feature2"),t2("feature3"),t2("feature4"),t2("feature5"),t2("feature6"),t2("feature7"),t2("feature8"),t2("feature9"),t2("feature10"),t2("feature11")];
+
   const carouselImages = [img1,img2,img3,img4,img5,img6,img7,img8,img9];
+
   const rooms = [
     {
       id: 1,
@@ -63,7 +66,7 @@ const page = () => {
      <SubRoomBanner img={img1} span={t("subtitle")} header={t("title")} texts={subroomBannerText}/>
      <SubroomCarousel images={carouselImages}/>
      </div>
-      <RoomFeatures span={t2("subtitle")} header={t2("title")} text={t2("text")} header2={t2("subtitle2")} header3={t2("subtitle3")}  text2={t2("text2")} iconsTexts={iconTexts}  />
+      <RoomFeatures span={t2("subtitle")} header={t2("title")} text={t2("text")} header2={t2("subtitle2")} header3={t2("subtitle3")}  text2={t2("text2")} iconsTexts={iconTexts} features={features} />
      <BackgroundSection span={t3("subtitle")} header={t3("title")} texts={backgroundTexts} link="/" img={img3}/>
       <OtherOptions rooms={rooms}/>
       <ContactSection2/>

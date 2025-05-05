@@ -201,12 +201,12 @@
       "RoomFeatures":{
         "subtitle":"FUN FOR ALL AGES",
         "title":"Family Room",
-        "text":" Our Family Rooms, perfectly located in the main building with a generous 50 m² space, offer beautiful sea or forest views. Each room features two separate bedrooms (connected by an intermediate door): one bedroom with a comfortable double bed and one bedroom with two single beds, along with one shared bathroom. Ideal for families or groups, these rooms comfortably accommodate up to 2 adults + 2 children, 3 adults + 1 child, or 4 adults + 1 child.",
+        "text":" Our Family Rooms, perfectly located in the main building with a generous 50 m² space, offer beautiful sea or land views. Each room features two separate bedrooms (connected by an intermediate door): one bedroom with a comfortable double bed and one bedroom with two single beds, along with one shared bathroom. Ideal for families or groups, these rooms comfortably accommodate up to 2 adults + 2 children, 3 adults + 1 child, or 4 adults + 1 child.",
         "subtitle2":" Amenities Designed for Families",
         "span1":"2 Single Beds",
         "span2":"Extra Baby Crib",
         "subtitle3":"Room Features",
-        "text2":"Services provided in all rooms include an Electronic Key Card System, daily minibar refill, premium bathroom cosmetics, and tea-coffee making facilities. Four of our rooms are specially designed for disabled guests, featuring main doors with a width of 112 cm.",
+        "text2":"Services provided in all rooms include an Electronic Key Card System, daily minibar refill, premium bathroom cosmetics, and tea-coffee making facilities.",
         "feature1":"50 m2",
         "feature2":"Makeup Table",
         "feature3":"No Smoke",
@@ -223,7 +223,7 @@
       "BackgroundSection":{
         "subtitle":" EXCLUSIVE PRIVILEGES",
         "title":" Family Room Benefits",
-        "text":" Guests staying in our Family Rooms enjoy comfortable accommodations featuring two separate bedrooms with stunning sea or forest views. For stays of 7 nights or more, enjoy a complimentary dinner at one of our elegant A’la Carte restaurants",
+        "text":" Guests staying in our Family Rooms enjoy comfortable accommodations featuring two separate bedrooms with stunning sea or land views. For stays of 7 nights or more, enjoy a complimentary dinner at one of our elegant A’la Carte restaurants",
         "list1":" A’la Carte Dining: One complimentary visit for stays of 7+ nights.",
         "list2":"Spa & Wellness: Complimentary access to our Turkish Bath, sauna, steam room, and fitness center.",
         "buttonText":" DISCOVER MORE"
@@ -236,7 +236,7 @@
         "title1":"Family Room",
         "area1":" 50 m²",
         "person1":"Up to 4 adults + 1 child",
-        "text1":" Our Family Rooms offer spacious and comfortable accommodation designed especially for families. Featuring two separate bedrooms connected by an interior door—one with a double bed and one with two single beds—these rooms provide relaxing sea or forest views, making them perfect for creating unforgettable family memories.",
+        "text1":" Our Family Rooms offer spacious and comfortable accommodation designed especially for families. Featuring two separate bedrooms connected by an interior door—one with a double bed and one with two single beds—these rooms provide relaxing sea or land views, making them perfect for creating unforgettable family memories.",
         "span2":"FRESHEN UP WITHOUT LEAVING YOUR ROOM",
         "title2":"Fantasy Room",
         "area2":" 58 m²",
@@ -253,7 +253,7 @@
       "text":"Enjoy an unforgettable romantic getaway in our Fantasy Rooms, featuring an exclusive 25 m² terrace with a private jacuzzi and luxurious sunbeds. Each beautifully designed room offers stunning sea views and includes a comfortable bedroom with one double bed, perfect for couples seeking privacy and luxury.",
       "span1":" Sea View",
       "span2":"2 Adults (Couples Only)",
-      "span3":"1 Bedrooms / 1 Bed",
+      "span3":"1 Bedrooms / 1 King Size Bed",
 
       "RoomFeatures":{
         "subtitle":"EXCLUSIVE & ROMANTIC ESCAPE",
@@ -280,7 +280,7 @@
       "BackgroundSection":{
         "subtitle":" EXCLUSIVE PRIVILEGES",
         "title":" Fantasy Room Benefits",
-        "text":" Guests staying in our Family Rooms enjoy comfortable accommodations featuring two separate bedrooms with stunning sea or forest views. For stays of 7 nights or more, enjoy a complimentary dinner at one of our elegant A’la Carte restaurants",
+        "text":" Guests staying in our Fantasy Rooms enjoy comfortable accommodations featuring two separate bedrooms with stunning sea or land views. For stays of 7 nights or more, enjoy a complimentary dinner at one of our elegant A’la Carte restaurants",
         "list1":" A’la Carte Dining: One complimentary visit for stays of 7+ nights.",
         "list2":"Spa & Wellness: Complimentary access to our Turkish Bath, sauna, steam room, and fitness center.",
         "buttonText":" DISCOVER MORE"
@@ -293,7 +293,7 @@
         "title1":"Family Room",
         "area1":" 50 m²",
         "person1":"Up to 4 adults + 1 child",
-        "text1":" Our Family Rooms offer spacious and comfortable accommodation designed especially for families. Featuring two separate bedrooms connected by an interior door—one with a double bed and one with two single beds—these rooms provide relaxing sea or forest views, making them perfect for creating unforgettable family memories.",
+        "text1":" Our Family Rooms offer spacious and comfortable accommodation designed especially for families. Featuring two separate bedrooms connected by an interior door—one with a double bed and one with two single beds—these rooms provide relaxing sea or land views, making them perfect for creating unforgettable family memories.",
         "span2":"FRESHEN UP WITHOUT LEAVING YOUR ROOM",
         "title2":"Fantasy Room",
         "area2":" 58 m²",
@@ -321,7 +321,7 @@
         "span2":"Designed Specifically for Couples",
         "subtitle3":"Room Features",
         "text2":"All Fantasy Rooms feature an Electronic Key Card System, daily minibar refill, premium bathroom cosmetics, tea and coffee making facilities, comfortable slippers, and free Wi-Fi.These rooms are exclusively designed for romantic stays, featuring a spacious 58 m² area, one bedroom with a double bed, and a 25 m² terrace offering a private jacuzzi and sunbeds. Please Note: Fantasy Rooms accommodate only 2 adults (couples). Extra beds, cribs, or independent pools are not available for this room type.",
-        "feature1":"50 m2",
+        "feature1":"30-32 m2",
         "feature2":"Makeup Table",
         "feature3":"No Smoke",
         "feature4":"Mini Bar",
@@ -337,7 +337,7 @@
       "BackgroundSection":{
         "subtitle":" EXCLUSIVE PRIVILEGES",
         "title":" Deluxe Room Benefits",
-        "text":" Guests staying in our Family Rooms enjoy comfortable accommodations featuring two separate bedrooms with stunning sea or forest views. For stays of 7 nights or more, enjoy a complimentary dinner at one of our elegant A’la Carte restaurants",
+        "text":" Guests staying in our Family Rooms enjoy comfortable accommodations featuring two separate bedrooms with stunning sea or land views. For stays of 7 nights or more, enjoy a complimentary dinner at one of our elegant A’la Carte restaurants",
         "list1":" A’la Carte Dining: One complimentary visit for stays of 7+ nights.",
         "list2":"Spa & Wellness: Complimentary access to our Turkish Bath, sauna, steam room, and fitness center.",
         "buttonText":" DISCOVER MORE"
@@ -350,7 +350,7 @@
         "title1":"Family Room",
         "area1":" 50 m²",
         "person1":"Up to 4 adults + 1 child",
-        "text1":" Our Family Rooms offer spacious and comfortable accommodation designed especially for families. Featuring two separate bedrooms connected by an interior door—one with a double bed and one with two single beds—these rooms provide relaxing sea or forest views, making them perfect for creating unforgettable family memories.",
+        "text1":" Our Family Rooms offer spacious and comfortable accommodation designed especially for families. Featuring two separate bedrooms connected by an interior door—one with a double bed and one with two single beds—these rooms provide relaxing sea or land views, making them perfect for creating unforgettable family memories.",
         "span2":"FRESHEN UP WITHOUT LEAVING YOUR ROOM",
         "title2":"Fantasy Room",
         "area2":" 58 m²",

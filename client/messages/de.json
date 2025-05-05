@@ -183,7 +183,7 @@
   },
 
   "FamilyRoom":{
-    "subtitle":" Komfortable Familienunterkunft mit Meer- oder Waldblick",
+    "subtitle":" Komfortable Familienunterkunft mit Meer- oder Landblick",
       "title":"Familienzimmer",
       "text":"Enjoy a seamless stay",
       "span1":"Meerblick",
@@ -193,13 +193,12 @@
       "RoomFeatures":{
         "subtitle":"SPASS FÜR ALLE ALTERSGRUPPEN",
         "title":"Familienzimmer",
-        "text":" Unsere geräumigen Familienzimmer befinden sich im Hauptgebäude und bieten mit 50 m² ausreichend Platz sowie einen schönen Blick auf das Meer oder den Wald. Jedes Zimmer verfügt über zwei getrennte Schlafzimmer (durch eine Verbindungstür): eines mit einem Doppelbett, das andere mit zwei Einzelbetten. Mit einem gemeinsamen Badezimmer sind sie ideal für 2 Erwachsene + 2 Kinder, 3 Erwachsene + 1 Kind oder 4 Erwachsene + 1 Kind.",
+        "text":" Unsere geräumigen Familienzimmer befinden sich im Hauptgebäude und bieten mit 50 m² ausreichend Platz sowie einen schönen Blick auf das Meer oder den Land. Jedes Zimmer verfügt über zwei getrennte Schlafzimmer (durch eine Verbindungstür): eines mit einem Doppelbett, das andere mit zwei Einzelbetten. Mit einem gemeinsamen Badezimmer sind sie ideal für 2 Erwachsene + 2 Kinder, 3 Erwachsene + 1 Kind oder 4 Erwachsene + 1 Kind.",
         "subtitle2":" Familienfreundliche Ausstattung",
         "span1":"2 Einzelbetten",
         "span2":"Babybett auf Anfrage",
         "subtitle3":"Zimmerausstattung",
-        "text2":"Alle Zimmer verfügen über ein elektronisches Schlüsselkartensystem, tägliche Minibar-Auffüllung, Premium-Badeartikel und Tee-/Kaffeezubereitung. Vier Zimmer sind barrierefrei gestaltet, mit einer Türbreite von 112 cm.",
-        "feature1":"50 m2",
+        "text2":"Alle Zimmer verfügen über ein elektronisches Schlüsselkartensystem, tägliche Minibar-Auffüllung, Premium-Badeartikel und Tee-/Kaffeezubereitung. ",
         "feature2":"Schminktisch",
         "feature3":"Nichtraucher",
         "feature4":"Mini Bar",
@@ -215,7 +214,7 @@
       "BackgroundSection":{
         "subtitle":" EXKLUSIVE VORTEILE",
         "title":"Familienzimmer-Vorteile",
-        "text":" Gäste in unseren Familienzimmern genießen zwei separate Schlafzimmer mit herrlichem Blick auf Meer oder Wald.",
+        "text":" Gäste in unseren Familienzimmern genießen zwei separate Schlafzimmer mit herrlichem Blick auf Meer oder Land.",
         "list1":"A’la Carte Abendessen: Bei Aufenthalten ab 7 Nächten ist ein A’la Carte-Abendessen kostenfrei.",
         "list2":"Spa & Wellness: Kostenfreier Zugang zu Hammam, Sauna, Dampfbad und Fitnesscenter.",
         "buttonText":" MEHR ENTDECKEN"
@@ -228,7 +227,7 @@
         "title1":"Familienzimmer",
         "area1":" 50 m²",
         "person1":"Bis zu 4 Erwachsene + 1 Kind",
-        "text1":" Zwei durch eine Tür verbundene Schlafzimmer bieten Komfort und Privatsphäre für Familien. Mit Meer- oder Waldblick ideal für unvergessliche Familienmomente.",
+        "text1":" Zwei durch eine Tür verbundene Schlafzimmer bieten Komfort und Privatsphäre für Familien. Mit Meer- oder Landblick ideal für unvergessliche Familienmomente.",
         "span2":"Erfrischen Sie sich ohne Ihr Zimmer zu verlassen",
         "title2":" Fantasy Zimmer",
         "area2":" 58 m²",
@@ -272,7 +271,7 @@
       "BackgroundSection":{
         "subtitle":" EXKLUSIVE VORTEILE",
         "title":"Fantasy Zimmer-Vorteile",
-        "text":" Gäste in unseren Familienzimmern genießen zwei separate Schlafzimmer mit herrlichem Blick auf Meer oder Wald.",
+        "text":" Gäste in unseren Fantasy Zimmer genießen zwei separate Schlafzimmer mit herrlichem Blick auf Meer.",
         "list1":"A’la Carte Abendessen: Bei Aufenthalten ab 7 Nächten ist ein A’la Carte-Abendessen kostenfrei.",
         "list2":"Spa & Wellness: Kostenfreier Zugang zu Hammam, Sauna, Dampfbad und Fitnesscenter.",
         "buttonText":" MEHR ENTDECKEN"
@@ -285,7 +284,7 @@
         "title1":"Familienzimmer",
         "area1":" 50 m²",
         "person1":"Bis zu 4 Erwachsene + 1 Kind",
-        "text1":" Zwei durch eine Tür verbundene Schlafzimmer bieten Komfort und Privatsphäre für Familien. Mit Meer- oder Waldblick ideal für unvergessliche Familienmomente.",
+        "text1":" Zwei durch eine Tür verbundene Schlafzimmer bieten Komfort und Privatsphäre für Familien. Mit Meer- oder Landblick ideal für unvergessliche Familienmomente.",
         "span2":"Erfrischen Sie sich ohne Ihr Zimmer zu verlassen",
         "title2":" Fantasy Zimmer",
         "area2":" 58 m²",
@@ -313,7 +312,7 @@
         "span2":"Speziell für Paare gestaltet",
         "subtitle3":"Zimmerausstattung",
         "text2":"Alle Deluxe Zimmer verfügen über ein elektronisches Schlüsselkartensystem, tägliche Minibar-Auffüllung, hochwertige Badezimmerkosmetik, Tee- und Kaffeezubereitungsmöglichkeiten, bequeme Hausschuhe und kostenloses WLAN. Diese Zimmer wurden ausschließlich für romantische Aufenthalte konzipiert und bieten 58 m² Wohnfläche sowie eine 25 m² große Terrasse mit privatem Whirlpool. Hinweis: Fantasy Zimmer sind ausschließlich für 2 Erwachsene (Paare). Zustellbetten, Babybetten oder separate Pools sind für diesen Zimmertyp nicht verfügbar.",
-        "feature1":"50 m2",
+        "feature1":"30-32 m2",
         "feature2":"Schminktisch",
         "feature3":"Nichtraucher",
         "feature4":"Mini Bar",
@@ -329,7 +328,7 @@
       "BackgroundSection":{
         "subtitle":" EXKLUSIVE VORTEILE",
         "title":"Deluxe-Vorteile",
-        "text":" Gäste in unseren Familienzimmern genießen zwei separate Schlafzimmer mit herrlichem Blick auf Meer oder Wald.",
+        "text":" Gäste in unseren Familienzimmern genießen zwei separate Schlafzimmer mit herrlichem Blick auf Meer oder Land.",
         "list1":"A’la Carte Abendessen: Bei Aufenthalten ab 7 Nächten ist ein A’la Carte-Abendessen kostenfrei.",
         "list2":"Spa & Wellness: Kostenfreier Zugang zu Hammam, Sauna, Dampfbad und Fitnesscenter.",
         "buttonText":" MEHR ENTDECKEN"
@@ -342,7 +341,7 @@
         "title1":"Familienzimmer",
         "area1":" 50 m²",
         "person1":"Bis zu 4 Erwachsene + 1 Kind",
-        "text1":" Zwei durch eine Tür verbundene Schlafzimmer bieten Komfort und Privatsphäre für Familien. Mit Meer- oder Waldblick ideal für unvergessliche Familienmomente.",
+        "text1":" Zwei durch eine Tür verbundene Schlafzimmer bieten Komfort und Privatsphäre für Familien. Mit Meer- oder Landblick ideal für unvergessliche Familienmomente.",
         "span2":"Erfrischen Sie sich ohne Ihr Zimmer zu verlassen",
         "title2":" Fantasy Zimmer",
         "area2":" 58 m²",

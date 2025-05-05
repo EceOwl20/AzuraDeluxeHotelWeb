@@ -21,22 +21,8 @@ import LedTvSvg from "./LedTvSvg";
 import BalconySvg from "./BalconySvg";
 import Link from "next/link"
 
-const items = [
-  { text: "Private Pool", icon: PoolSvg2 },
-  { text: " m2", icon: AreaSvg },
-  { text: "Makeup Table", icon: DresserSvg },
-  { text: "No Smoke", icon: SmokingSvg },
-  { text: "Mini Bar", icon: FridgeSvg },
-  { text: "Safe Box", icon: SafeboxSvg },
-  { text: "Hair Dryer", icon: HairdryerSvg },
-  { text: "Bath Essentials", icon: HandsoapSvg },
-  { text: "Tea & Coffee Setup", icon: TeaCoffeeSvg },
-  { text: "LedTv & Wifi", icon: LedTvSvg },
-  { text: "Balcony", icon: BalconySvg },
-  { text: "Shower", icon: ShowerSvg },
-];
+const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, features}) => {
 
-const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts}) => {
   const [checkInDate, setCheckInDate] = useState(null)
   const [checkOutDate, setCheckOutDate] = useState(null)
   const [showGuests, setShowGuests] = useState(false)
@@ -81,6 +67,20 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts})
   const incrementChildren = () => setChildren(children + 1)
   const decrementChildren = () => children > 0 && setChildren(children - 1)
 
+  const items = [
+    { text: features[0], icon: AreaSvg },
+    { text: features[1], icon: DresserSvg },
+    { text: features[2], icon: SmokingSvg },
+    { text: features[3], icon: FridgeSvg },
+    { text: features[4], icon: SafeboxSvg },
+    { text: features[5], icon: HairdryerSvg },
+    { text: features[6], icon: HandsoapSvg },
+    { text: features[7], icon: TeaCoffeeSvg },
+    { text: features[8], icon: LedTvSvg },
+    { text: features[9], icon: BalconySvg },
+    { text: features[10], icon: ShowerSvg },
+  ];
+
   return (
     <div className="flex w-screen h-auto items-center justify-center bg-[#fbfbfb] max-w-[1440px]">
       <div className="flex flex-col md:flex-row w-[87.79%] md:w-[91.4%] lg:w-[76.8%] items-center md:items-start justify-center gap-[35px] md:gap-[4.5%] ">
@@ -99,40 +99,42 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts})
           </div>
 
           <div className="flex flex-col w-full items-start justify-center gap-[17px]">
-            <h3 className="text-[25px] lg:text-[28px] text-lagoBlack leading-[120%] font-normal font-marcellus">
-            {header2}
-            </h3>
+  <h3 className="text-[25px] lg:text-[28px] text-lagoBlack leading-[120%] font-normal font-marcellus">
+    {header2}
+  </h3>
 
-            <div className="sm:flex grid grid-cols-2 sm:flex-row gap-[10px] lg:gap-[15px] w-full items-center justify-start">
-              <div className="flex items-center justify-start text-center w-[100%] sm:w-[32.5%] gap-[0px] lg:gap-[10px] bg-[#4B4E4F14] h-[70px] md:h-[60px]">
-                <PoolSvg className="flex" width={65} height={60} />
-                <p className="text-[14px] lg:text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px]">
-                {iconsTexts[0]}
-                </p>
-              </div>
+  <div className="sm:flex grid grid-cols-2 sm:flex-row gap-[10px] lg:gap-[15px] w-full items-center justify-start">
+    {/* Havuz */}
+    <div className="flex items-center justify-start text-center w-[100%] sm:w-[32.5%] gap-[0px] lg:gap-[10px] bg-[#4B4E4F14] h-[70px] md:h-[60px]">
+      <PoolSvg className="flex" width={65} height={60} />
+      <p className="text-[14px] lg:text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px]">
+        {iconsTexts[0]}
+      </p>
+    </div>
 
-              <div className="flex items-center justify-start text-center w-[100%] sm:w-[32.5%] gap-[0px] lg:gap-[10px] bg-[#4B4E4F14] h-[70px] md:h-[60px]">
-                <div className="flex py-[10px] px-[3px] lg:px-[6px]">
-                  <SinglebedSvg className="flex" width={32} height={35} />
-                  <SinglebedSvg
-                    className="flex -ml-[12px]"
-                    width={32}
-                    height={35}
-                  />
-                </div>
-                <p className="text-[14px] lg:text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px] whitespace-nowrap">
-                {iconsTexts[1]}
-                </p>
-              </div>
+    {/* Yatak */}
+    <div className="flex items-center justify-start text-center w-[100%] sm:w-[32.5%] gap-[0px] lg:gap-[10px] bg-[#4B4E4F14] h-[70px] md:h-[60px]">
+      <div className="flex py-[10px] px-[3px] lg:px-[6px]">
+        <SinglebedSvg className="flex" width={32} height={35} />
+        <SinglebedSvg className="flex -ml-[12px]" width={32} height={35} />
+      </div>
+      <p className="text-[14px] lg:text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px] whitespace-nowrap">
+        {iconsTexts[1]}
+      </p>
+    </div>
 
-              <div className="flex items-center justify-start text-center w-[100%] sm:w-[32.5%] gap-[0px] lg:gap-[10px] bg-[#4B4E4F14] h-[70px] md:h-[60px]">
-                <BabycribSvg className="flex px-[11px] py-[9px]" width={38} height={38} />
-                <p className="text-[14px] lg:text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px]">
-                {iconsTexts[2]}
-                </p>
-              </div>
-            </div>
-          </div>
+    {/* Bebek beşiği sadece varsa göster */}
+    {iconsTexts[2] && (
+      <div className="flex items-center justify-start text-center w-[100%] sm:w-[32.5%] gap-[0px] lg:gap-[10px] bg-[#4B4E4F14] h-[70px] md:h-[60px]">
+        <BabycribSvg className="flex px-[11px] py-[9px]" width={38} height={38} />
+        <p className="text-[14px] lg:text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px]">
+          {iconsTexts[2]}
+        </p>
+      </div>
+    )}
+  </div>
+</div>
+
 
           <div className="flex flex-col w-full items-start justify-center gap-[10px]">
             <h3 className="text-[25px] lg:text-[28px] text-lagoBlack leading-[120%] font-normal font-marcellus">
