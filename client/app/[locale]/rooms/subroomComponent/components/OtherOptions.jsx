@@ -9,8 +9,11 @@ import Link from "next/link";
 import AreaSvg2 from "../../components/svg/AreaSvg2";
 import UserSvg from "../../components/svg/UserSvg";
 import { BiArea, BiGroup } from "react-icons/bi";
+import {useTranslations} from 'next-intl';
 
 const OtherOptions = ({rooms}) => {
+  const t = useTranslations('DeluxeRoom.OtherOptions');
+
   const [emblaRef, emblaApi] = useEmblaCarousel({  loop: true,
     align: "start",
     startIndex: 0, });
@@ -39,10 +42,10 @@ const OtherOptions = ({rooms}) => {
       <div className="flex flex-col w-[87.79%] md:w-[91.4%] lg:w-[76.8%] items-start justify-center gap-[30px] lg:gap-[50px] lg:min-w-[960px]">
         <div className="flex flex-col items-start justify-center w-full text-black gap-[15px] md:gap-[25px] lg:gap-[35px]">
           <span className="text-[12px] font-medium uppercase tracking-[0.48px] leading-[14px] font-jost">
-            CHOOSE THE BEST ROOM FOR YOU
+            {t("subtitle")}
           </span>
           <h2 className="text-[28px] md:text-[36px] lg:text-[48px] font-marcellus font-normal leading-[120%] lg:leading-[57.6px] lg:capsizedText2">
-            Other options
+          {t("title")}
           </h2>
         </div>
 
@@ -71,14 +74,14 @@ const OtherOptions = ({rooms}) => {
                     <div className="flex items-center justify-center gap-[10px]">
                       <BiArea size={18}/>
                       <p className="text-lagoBrown text-[14px] lg:text-[16px] font-normal leading-normal">
-                      30-32 m2
+                     {room.size}
                     </p>
                     </div>
                     
                     <div className="flex items-center justify-center gap-[10px]">
                      <BiGroup size={19} />
                      <p className="text-lagoBrown text-[14px] lg:text-[16px] font-normal leading-normal">
-                      2 adults + 1 child
+                     {room.capacity}
                     </p>
                     </div>
                     

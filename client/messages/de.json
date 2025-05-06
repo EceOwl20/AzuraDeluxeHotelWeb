@@ -144,7 +144,7 @@
 
     "Room1":{
       "title":"Deluxe-Zimmer",
-      "text":"Unsere eleganten Deluxe-Zimmer bieten 30–32 m² Wohnkomfort und befinden sich zwischen dem ersten und siebten Stockwerk unseres Hauptgebäudes. Sie bieten herrliche Ausblicke auf das Meer, die Landschaft oder seitlichen Meerblick. Die Zimmer sind mit einem Doppelbett und einem Einzelbett ausgestattet – ideal für einen entspannten Aufenthalt. Barrierefreie Zimmer befinden sich im Erdgeschoss und sind vollständig ausgestattet.",
+      "text": "Unsere eleganten und komfortablen Zimmer mit einer Größe von 30–32 m² befinden sich im Hauptgebäude. Diese Zimmer bieten Blick auf das Land, teilweisen Meerblick oder direkten Meerblick und sind mit einem Doppelbett, einem Einzelbett und einem Sofa ausgestattet. Insgesamt stehen 288 Standard-Deluxe-Zimmer und 4 barrierefreie Zimmer zur Verfügung. Für den Komfort aller Gäste befinden sich im Erdgeschoss speziell gestaltete barrierefreie Zimmer.",
       "area":"30-32 m²",
       "view":"Meerblick, Landblick oder seitlicher Meerblick",
       "buttonText":"Entdecken"
@@ -183,23 +183,22 @@
   },
 
   "FamilyRoom":{
-    "subtitle":" Komfortable Familienunterkunft mit Meer- oder Waldblick",
-      "title":"Familienzimmer",
-      "text":"Enjoy a seamless stay",
-      "span1":"Meerblick",
+    "subtitle": "Komfortabler Familienaufenthalt mit Meer- oder Landblick",
+    "title": "Familienzimmer",
+    "text": "Genießen Sie einen makellosen Aufenthalt",
+    "span1": "Land- / Meerblick",
       "span2":"1–4 Erwachsene + 1–3 Kinder ",
       "span3":" 1 Doppelbett & 2 Einzelbetten",
 
       "RoomFeatures":{
         "subtitle":"SPASS FÜR ALLE ALTERSGRUPPEN",
         "title":"Familienzimmer",
-        "text":" Unsere geräumigen Familienzimmer befinden sich im Hauptgebäude und bieten mit 50 m² ausreichend Platz sowie einen schönen Blick auf das Meer oder den Wald. Jedes Zimmer verfügt über zwei getrennte Schlafzimmer (durch eine Verbindungstür): eines mit einem Doppelbett, das andere mit zwei Einzelbetten. Mit einem gemeinsamen Badezimmer sind sie ideal für 2 Erwachsene + 2 Kinder, 3 Erwachsene + 1 Kind oder 4 Erwachsene + 1 Kind.",
+        "text":" Unsere geräumigen Familienzimmer befinden sich im Hauptgebäude und bieten mit 50 m² ausreichend Platz sowie einen schönen Blick auf das Meer oder den Land. Jedes Zimmer verfügt über zwei getrennte Schlafzimmer (durch eine Verbindungstür): eines mit einem Doppelbett, das andere mit zwei Einzelbetten. Mit einem gemeinsamen Badezimmer sind sie ideal für 2 Erwachsene + 2 Kinder, 3 Erwachsene + 1 Kind oder 4 Erwachsene + 1 Kind.",
         "subtitle2":" Familienfreundliche Ausstattung",
-        "span1":"2 Einzelbetten",
-        "span2":"Babybett auf Anfrage",
+        "span1": "1 Doppelbett",
+        "span2": "2 Einzelbetten",
         "subtitle3":"Zimmerausstattung",
-        "text2":"Alle Zimmer verfügen über ein elektronisches Schlüsselkartensystem, tägliche Minibar-Auffüllung, Premium-Badeartikel und Tee-/Kaffeezubereitung. Vier Zimmer sind barrierefrei gestaltet, mit einer Türbreite von 112 cm.",
-        "feature1":"50 m2",
+        "text2":"Alle Zimmer verfügen über ein elektronisches Schlüsselkartensystem, tägliche Minibar-Auffüllung, Premium-Badeartikel und Tee-/Kaffeezubereitung. ",
         "feature2":"Schminktisch",
         "feature3":"Nichtraucher",
         "feature4":"Mini Bar",
@@ -215,7 +214,7 @@
       "BackgroundSection":{
         "subtitle":" EXKLUSIVE VORTEILE",
         "title":"Familienzimmer-Vorteile",
-        "text":" Gäste in unseren Familienzimmern genießen zwei separate Schlafzimmer mit herrlichem Blick auf Meer oder Wald.",
+        "text":" Gäste in unseren Familienzimmern genießen zwei separate Schlafzimmer mit herrlichem Blick auf Meer oder Land.",
         "list1":"A’la Carte Abendessen: Bei Aufenthalten ab 7 Nächten ist ein A’la Carte-Abendessen kostenfrei.",
         "list2":"Spa & Wellness: Kostenfreier Zugang zu Hammam, Sauna, Dampfbad und Fitnesscenter.",
         "buttonText":" MEHR ENTDECKEN"
@@ -228,7 +227,7 @@
         "title1":"Familienzimmer",
         "area1":" 50 m²",
         "person1":"Bis zu 4 Erwachsene + 1 Kind",
-        "text1":" Zwei durch eine Tür verbundene Schlafzimmer bieten Komfort und Privatsphäre für Familien. Mit Meer- oder Waldblick ideal für unvergessliche Familienmomente.",
+        "text1":" Zwei durch eine Tür verbundene Schlafzimmer bieten Komfort und Privatsphäre für Familien. Mit Meer- oder Landblick ideal für unvergessliche Familienmomente.",
         "span2":"Erfrischen Sie sich ohne Ihr Zimmer zu verlassen",
         "title2":" Fantasy Zimmer",
         "area2":" 58 m²",
@@ -245,7 +244,7 @@
       "text":"Genießen Sie einen unvergesslichen romantischen Aufenthalt in unseren Fantasy Zimmern mit einer exklusiven 25 m² großen Terrasse, privatem Whirlpool und luxuriösen Sonnenliegen. Jedes Zimmer ist stilvoll gestaltet und bietet atemberaubenden Meerblick sowie ein komfortables Schlafzimmer mit einem Doppelbett – ideal für Paare, die Privatsphäre und Luxus suchen.",
       "span1":" Meerblick",
       "span2":"2 Erwachsene (Nur Paare))",
-      "span3":"1 Schlafzimmer / 1 Bett",
+      "span3":"1 Schlafzimmer / 1 Kingsize-Bett",
 
       "RoomFeatures":{
         "subtitle":" EXKLUSIVES & ROMANTISCHES ERLEBNIS",
@@ -256,7 +255,7 @@
         "span2":"Speziell für Paare gestaltet",
         "subtitle3":"Zimmerausstattung",
         "text2":"Alle Fantasy Zimmer verfügen über ein elektronisches Schlüsselkartensystem, tägliche Minibar-Auffüllung, hochwertige Badezimmerkosmetik, Tee- und Kaffeezubereitungsmöglichkeiten, bequeme Hausschuhe und kostenloses WLAN. Diese Zimmer wurden ausschließlich für romantische Aufenthalte konzipiert und bieten 58 m² Wohnfläche sowie eine 25 m² große Terrasse mit privatem Whirlpool. Hinweis: Fantasy Zimmer sind ausschließlich für 2 Erwachsene (Paare). Zustellbetten, Babybetten oder separate Pools sind für diesen Zimmertyp nicht verfügbar.",
-        "feature1":"50 m2",
+        "feature1":"58 m2",
         "feature2":"Schminktisch",
         "feature3":"Nichtraucher",
         "feature4":"Mini Bar",
@@ -272,7 +271,7 @@
       "BackgroundSection":{
         "subtitle":" EXKLUSIVE VORTEILE",
         "title":"Fantasy Zimmer-Vorteile",
-        "text":" Gäste in unseren Familienzimmern genießen zwei separate Schlafzimmer mit herrlichem Blick auf Meer oder Wald.",
+        "text":" Gäste in unseren Fantasy Zimmer genießen  Schlafzimmer mit herrlichem Blick auf Meer.",
         "list1":"A’la Carte Abendessen: Bei Aufenthalten ab 7 Nächten ist ein A’la Carte-Abendessen kostenfrei.",
         "list2":"Spa & Wellness: Kostenfreier Zugang zu Hammam, Sauna, Dampfbad und Fitnesscenter.",
         "buttonText":" MEHR ENTDECKEN"
@@ -285,7 +284,7 @@
         "title1":"Familienzimmer",
         "area1":" 50 m²",
         "person1":"Bis zu 4 Erwachsene + 1 Kind",
-        "text1":" Zwei durch eine Tür verbundene Schlafzimmer bieten Komfort und Privatsphäre für Familien. Mit Meer- oder Waldblick ideal für unvergessliche Familienmomente.",
+        "text1":" Zwei durch eine Tür verbundene Schlafzimmer bieten Komfort und Privatsphäre für Familien. Mit Meer- oder Landblick ideal für unvergessliche Familienmomente.",
         "span2":"Erfrischen Sie sich ohne Ihr Zimmer zu verlassen",
         "title2":" Fantasy Zimmer",
         "area2":" 58 m²",
@@ -300,20 +299,20 @@
     "subtitle":"EXKLUSIVER ROMANTISCHER URLAUB",
       "title":"Deluxe-Zimmer",
       "text":"Genießen Sie einen unvergesslichen romantischen Aufenthalt in unseren Deluxe Zimmern mit einer exklusiven 25 m² großen Terrasse, privatem Whirlpool und luxuriösen Sonnenliegen. Jedes Zimmer ist stilvoll gestaltet und bietet atemberaubenden Meerblick sowie ein komfortables Schlafzimmer mit einem Doppelbett – ideal für Paare, die Privatsphäre und Luxus suchen.",
-      "span1":" Land- / Meerblick",
+      "span1": "Meer-, Land- und seitlicher Meerblick",
       "span2":"3 Erwachsene + 1 Kind",
-      "span3":"1 Schlafzimmer / 2 Bett",
+      "span3":"1 Schlafzimmer / 2 Bett 1 Sofa",
 
       "RoomFeatures":{
         "subtitle":" EXKLUSIVES & ROMANTISCHES ERLEBNIS",
         "title":"Deluxe Room",
-        "text":"Die Fantasy Zimmer befinden sich im Hauptgebäude und bieten auf 58 m² einen exklusiven Raum, der speziell für Paare entworfen wurde. Jedes Zimmer verfügt über ein geschmackvoll eingerichtetes Schlafzimmer mit einem luxuriösen Doppelbett sowie eine 25 m² große private Terrasse mit beeindruckendem Meerblick, Whirlpool und Sonnenliegen. Diese Zimmer sind ideal für zwei Erwachsene und versprechen ein unvergessliches romantisches Erlebnis.",
+        "text":"Die Fantasy Zimmer befinden sich im Hauptgebäude und bieten auf 30–32 m² einen exklusiven Raum, der speziell für Paare entworfen wurde. Jedes Zimmer verfügt über ein geschmackvoll eingerichtetes Schlafzimmer mit einem luxuriösen Doppelbett sowie eine 25 m² große private Terrasse mit beeindruckendem Meerblick, Whirlpool und Sonnenliegen. Diese Zimmer sind ideal für zwei Erwachsene und versprechen ein unvergessliches romantisches Erlebnis.  Die Zimmer bieten Blick auf das Land, teilweise Meerblick oder vollen Meerblick und sind mit einem Doppelbett, einem Einzelbett und einem Sofa ausgestattet. Es stehen insgesamt 288 Standard-Deluxe-Zimmer und 4 barrierefreie Zimmer zur Verfügung. Für den Komfort aller Gäste befinden sich die barrierefreien Zimmer im Erdgeschoss.",
         "subtitle2":"  Exklusive Romantische Annehmlichkeiten",
-        "span1":" Private Terrasse mit Whirlpool",
-        "span2":"Speziell für Paare gestaltet",
+        "span1": "1 Doppelbett",
+  "span2": "1 Einzelbett",
         "subtitle3":"Zimmerausstattung",
         "text2":"Alle Deluxe Zimmer verfügen über ein elektronisches Schlüsselkartensystem, tägliche Minibar-Auffüllung, hochwertige Badezimmerkosmetik, Tee- und Kaffeezubereitungsmöglichkeiten, bequeme Hausschuhe und kostenloses WLAN. Diese Zimmer wurden ausschließlich für romantische Aufenthalte konzipiert und bieten 58 m² Wohnfläche sowie eine 25 m² große Terrasse mit privatem Whirlpool. Hinweis: Fantasy Zimmer sind ausschließlich für 2 Erwachsene (Paare). Zustellbetten, Babybetten oder separate Pools sind für diesen Zimmertyp nicht verfügbar.",
-        "feature1":"50 m2",
+        "feature1":"30-32 m2",
         "feature2":"Schminktisch",
         "feature3":"Nichtraucher",
         "feature4":"Mini Bar",
@@ -329,7 +328,7 @@
       "BackgroundSection":{
         "subtitle":" EXKLUSIVE VORTEILE",
         "title":"Deluxe-Vorteile",
-        "text":" Gäste in unseren Familienzimmern genießen zwei separate Schlafzimmer mit herrlichem Blick auf Meer oder Wald.",
+        "text":" Gäste in unseren Familienzimmern genießen zwei separate Schlafzimmer mit herrlichem Blick auf Meer oder Land.",
         "list1":"A’la Carte Abendessen: Bei Aufenthalten ab 7 Nächten ist ein A’la Carte-Abendessen kostenfrei.",
         "list2":"Spa & Wellness: Kostenfreier Zugang zu Hammam, Sauna, Dampfbad und Fitnesscenter.",
         "buttonText":" MEHR ENTDECKEN"
@@ -342,7 +341,7 @@
         "title1":"Familienzimmer",
         "area1":" 50 m²",
         "person1":"Bis zu 4 Erwachsene + 1 Kind",
-        "text1":" Zwei durch eine Tür verbundene Schlafzimmer bieten Komfort und Privatsphäre für Familien. Mit Meer- oder Waldblick ideal für unvergessliche Familienmomente.",
+        "text1":" Zwei durch eine Tür verbundene Schlafzimmer bieten Komfort und Privatsphäre für Familien. Mit Meer- oder Landblick ideal für unvergessliche Familienmomente.",
         "span2":"Erfrischen Sie sich ohne Ihr Zimmer zu verlassen",
         "title2":" Fantasy Zimmer",
         "area2":" 58 m²",
@@ -433,7 +432,7 @@
       "text": "Im Azura Deluxe Resort & Spa verwöhnen Sie sich mit außergewöhnlichen kulinarischen Genüssen. Kosten Sie die besten internationalen Speisen in unseren eleganten À‑la‑carte‑Restaurants oder genießen Sie unser reichhaltiges Buffet mit köstlichen türkischen Spezialitäten und frischen mediterranen Aromen.",
       "span": "Speiseoptionen:",
       "list1": "Hauptrestaurant: Early Breakfast, Frühstück, Late Breakfast, Mittagessen, Abendessen, Mitternachtsfrühstück (01:00–03:00)",
-      "list2": "Snack‑Restaurant (Lyric Snack – Strand): 12:00–16:00 (Gegrillte Spezialitäten, Fast Food, Desserts, Obst, Eis zu ausgewählten Zeiten)"
+      "list2": "Snack‑Restaurant (Lyric Snack): 12:00–16:00 (Gegrillte Spezialitäten, Fast Food, Desserts, Obst, Eis zu ausgewählten Zeiten)"
     },
     "BackgroundSection": {
       "subtitle": "Einzigartiges Geschmackserlebnis",
@@ -463,6 +462,14 @@
       "span3": "Öffnungszeiten: 12:00 – 16:00"
     },
 
+    "TwoImagesSection2": {
+     "subtitle": "",
+  "title": "Unwiderstehliche süße Köstlichkeiten",
+  "span": "Unwiderstehliche süße Köstlichkeiten",
+  "text": "Das Azura Deluxe Resort & Spa bietet Dessertliebhabern ein unvergessliches Erlebnis. In unserer Patisserie können Sie Ihren Urlaub mit Geschmacksrichtungen versüßen, die jeden Gaumen erfreuen. Genießen Sie zu jeder Tageszeit eine süße Pause mit einer reichhaltigen Auswahl an süßen und herzhaften Keksen, saftigen Kuchen und speziellen Sandwiches, perfekt kombiniert mit Ihrem Kaffee oder Tee.",
+  "text2": "Unsere köstlichen Desserts werden von unseren professionellen Küchenchefs sorgfältig zubereitet. Mit frischen und natürlichen Zutaten hergestellt, verkörpern diese Leckereien den kulinarischen Anspruch von Azura Deluxe und verleihen Ihrem Urlaub eine besondere Note."
+    },
+
     "CarouselSection2": {
       "subtitle": "Perfekte Fine‑Dining‑Erlebnisse",
       "title": "À‑la‑carte‑Restaurants",
@@ -476,8 +483,8 @@
       "text2": "Besuchen Sie unser Mazurka Snack Restaurant für köstliche à‑la‑carte‑Snacks, darunter frisch gegrillte Spezialitäten, leckere Sandwiches und erfrischende Salate. Genießen Sie ein entspanntes Essen am Strand – perfekt für den kleinen Hunger zwischendurch. Küche: Gegrilltes, Burger, Sandwiches, Salate und Obst.",
       "span2": "Öffnungszeiten: 19:00 – 21:00",
       "subtitle3": "STRANDSNACKS",
-      "title3": "Lyric Beach",
-      "text3": "Direkt am Strand und an der Seebrücke bietet die Lyric Beach Snack Bar ein entspanntes Dining‑Erlebnis mit Meerblick. Genießen Sie frische Salate, knusprige Pizzen, saftige Kebabs, frisches Obst, Waffeln, köstliche Snacks und erfrischende Getränke in der Sonne. Highlights: Salate, Pizza, Kebabs, Obst, Waffeln und verschiedene Snacks.",
+      "title3": "Lyric",
+      "text3": "Direkt am Strand und an der Seebrücke bietet die Lyric Snack Bar ein entspanntes Dining‑Erlebnis mit Meerblick. Genießen Sie frische Salate, knusprige Pizzen, saftige Kebabs, frisches Obst, Waffeln, köstliche Snacks und erfrischende Getränke in der Sonne. Highlights: Salate, Pizza, Kebabs, Obst, Waffeln und verschiedene Snacks.",
       "span3": "Öffnungszeiten: 12:00 – 16:00"
     },
     "BackgroundSection2": {

@@ -144,7 +144,7 @@
   
       "Room1":{
         "title":"Deluxe Oda",
-        "text":"30-32 m² büyüklüğündeki zarif ve konforlu odalarımız, ana binamızın birinci ile yedinci katları arasında yer alır. Deniz veya kısmi deniz manzarası sunan bu şık odalarda bir çift kişilik yatak ve bir tek kişilik yatak bulunur. Tüm misafirlerimizin konforu için zemin katta, özel tasarlanmış engelli odaları da mevcuttur.",
+        "text": "30-32 m² büyüklüğündeki zarif ve konforlu odalarımız, ana binamızda yer alır. Kara, kısmi deniz ve tam deniz manzarası seçenekleri sunan bu odalarda 1 çift kişilik yatak, 1 tek kişilik yatak ve 1 koltuk (sofa) yer alır. Toplamda 288 adet standart deluxe ve 4 adet engelli odası mevcuttur. Tüm misafirlerimizin konforu için zemin katta özel olarak tasarlanmış engelli odaları da bulunmaktadır.",
         "area":"30-32 m²",
         "view":" Kara veya Kısmi Deniz Manzarası",
         "buttonText":" Keşfet"
@@ -186,7 +186,7 @@
       "subtitle":"Deniz veya Kara Manzaralı Konforlu Aile Konaklaması",
         "title":" Aile Odası",
         "text":"Enjoy a seamless stay",
-        "span1":"Deniz Manzarası ",
+        "span1":"Kara / Deniz Manzarası ",
         "span2":" 1-4 Yetişkin + 1-3 Çocuk ",
         "span3":"1 Çift Kişilik Yatak + 2 Tek Kişilik Yatak",
   
@@ -195,10 +195,10 @@
           "title":"Aile Odası",
           "text":"  Ana binada yer alan, 50 m² genişliğe sahip Aile Odalarımız; deniz veya kara manzarası seçenekleriyle ferah bir konaklama sunar. Bu odalarda ara kapı ile ayrılmış iki ayrı yatak odası bulunur: biri çift kişilik yataklı, diğeri ise iki tek kişilik yataklıdır. Ortak banyo ile birlikte gelen bu alanlar, 2 yetişkin + 2 çocuk, 3 yetişkin + 1 çocuk veya 4 yetişkin + 1 çocuk için idealdir.",
           "subtitle2":" Ailelere Özel Olanaklar",
-          "span1":" 2 Tek Kişilik Yatak",
-          "span2":"Ekstra Bebek Beşiği ",
+          "span1":" 1 Çift Kişilik Yatak",
+          "span2":"2 Tek Kişilik Yatak ",
           "subtitle3":"Oda Özellikleri",
-          "text2":"Tüm odalarda Elektronik Anahtar Kart Sistemi, günlük minibar yenilemesi, özel banyo kozmetikleri, çay-kahve yapma olanakları mevcuttur. 4 odamız, engelli misafirler için özel olarak tasarlanmış olup, ana kapı genişliği 112 cm'dir.",
+          "text2":"Tüm odalarda Elektronik Anahtar Kart Sistemi, günlük minibar yenilemesi, özel banyo kozmetikleri, çay-kahve yapma olanakları mevcuttur.",
           "feature1":"50 m2",
           "feature2":"Makyaj Masası",
           "feature3":"Sigara İçilmez",
@@ -231,7 +231,7 @@
           "text1":" İç kapı ile ayrılmış iki yatak odası bulunan Aile Odalarımız, ailelerin rahatça konaklayabileceği şekilde tasarlanmıştır. Deniz veya kara manzarası seçenekleriyle unutulmaz aile anıları için idealdir.",
           "span2":"Odanızdan Ayrılmadan Yenilenin",
           "title2":" Fantasy Oda",
-          "area2":" 58 m²",
+          "area2":" 50 m²",
           "person2":"2 yetişkin (yalnızca çiftler)",
           "text2":"Özel tasarımlı Fantasy Odalar, muhteşem deniz manzaraları ve jakuzili 25 m² özel teras ile çiftlere romantik ve huzurlu bir tatil sunar.",
           "buttonText":" DAHA FAZLASINI KEŞFET"
@@ -246,7 +246,7 @@
         "text":"Özel jakuzili 25 m² terası ve konforlu şezlonglarıyla unutulmaz bir romantik tatil için Fantasy Odalarımıza davetlisiniz. Her biri özenle tasarlanmış bu odalar, muhteşem deniz manzarasına sahip olup çiftlerin mahremiyet ve lüks içinde konaklaması için ideal bir ortam sunmaktadır.",
         "span1":"Deniz Manzaralı ",
         "span2":"2 Yetişkin (Sadece Çiftler)",
-        "span3":"1 Yatak Odası / 1 Yatak",
+        "span3":"1 Yatak Odası / 1 King Size Yatak",
   
         "RoomFeatures":{
           "subtitle":"ÖZEL VE ROMANTİK KAÇAMAK",
@@ -254,10 +254,10 @@
           "text":" Ana binamızda yer alan Fantasy Odalar, 58 m² genişliğinde romantizm ve mahremiyet arayan çiftler için özel olarak tasarlanmıştır. Her odada lüks bir çift kişilik yatak bulunan zarif bir yatak odası ve 25 m²'lik özel bir teras yer almakta; terasta ise jakuzili ve şezlonglu eşsiz bir manzara sunulmaktadır. Bu odalar yalnızca 2 yetişkini ağırlamakta olup, romantik bir deneyim için mükemmel bir seçenektir.",
           "subtitle2":"Özel Romantik Olanaklar",
           "span1":"Jakuzili Özel Teras",
-          "span2":"Sadece Çiftlere Özel Tasarım",
+          "span2":"Çiftlere Özel Tasarım",
           "subtitle3":"Oda Özellikleri",
           "text2":"Tüm Fantasy Odalarda Elektronik Kartlı Giriş Sistemi, günlük minibar yenilemesi, lüks banyo kozmetikleri, çay-kahve seti, konforlu terlikler ve ücretsiz Wi-Fi mevcuttur. Bu odalar yalnızca romantik çift konaklamaları için tasarlanmıştır. Oda 58 m² genişliğindedir ve 25 m² özel jakuzili terasa sahiptir. Not: Fantasy Odalar sadece 2 yetişkin (çift) için uygundur. Bu oda tipinde ilave yatak, bebek yatağı veya özel havuz bulunmamaktadır.",
-          "feature1":"50 m2",
+          "feature1":"58 m2",
           "feature2":"Makyaj Masası",
           "feature3":"Sigara İçilmez",
           "feature4":"Mini Bar",
@@ -273,7 +273,7 @@
         "BackgroundSection":{
           "subtitle":"  AYRICALIKLI HİZMETLER",
           "title":" Fantasy Odası Avantajları",
-          "text":" Aile Odalarımızda konaklayan misafirler, iki ayrı yatak odasının sunduğu konfor ve etkileyici deniz veya kara manzaralarının tadını çıkarır.",
+          "text":" Fantasy Odalarımızda konaklayan misafirler, yatak odasının sunduğu konfor ve etkileyici deniz manzaralarının tadını çıkarır.",
           "list1":"  A’la Carte Yemek: 7 gece ve üzeri konaklamalarda bir defaya mahsus ücretsiz A’la Carte akşam yemeği.",
           "list2":"Spa & Wellness: Türk hamamı, sauna, buhar odası ve fitness merkezi kullanımı ücretsizdir.",
           "buttonText":" DAHA FAZLASINI KEŞFET"
@@ -300,21 +300,21 @@
     "DeluxeRoom":{
       "subtitle":"ÖZEL VE ROMANTİK KAÇAMAK",
         "title":" Deluxe Oda",
-        "text":"Özel jakuzili 25 m² terası ve konforlu şezlonglarıyla unutulmaz bir romantik tatil için Fantasy Odalarımıza davetlisiniz. Her biri özenle tasarlanmış bu odalar, muhteşem deniz manzarasına sahip olup çiftlerin mahremiyet ve lüks içinde konaklaması için ideal bir ortam sunmaktadır.",
-        "span1":"Deniz/Kara Manzaralı ",
+        "text":"Özel jakuzili 25 m² terası ve konforlu şezlonglarıyla unutulmaz bir romantik tatil için Fantasy Odalarımıza davetlisiniz. Her biri özenle tasarlanmış bu odalar, muhteşem deniz manzarasına sahip olup çiftlerin mahremiyet ve lüks içinde konaklaması için ideal bir ortam sunmaktadır. Kara, kısmi deniz ve tam deniz manzarası seçenekleri sunan bu odalarda 1 çift kişilik yatak, 1 tek kişilik yatak ve 1 koltuk (sofa) yer alır. Toplamda 288 adet standart deluxe ve 4 adet engelli odası mevcuttur. Tüm misafirlerimizin konforu için zemin katta özel olarak tasarlanmış engelli odaları da bulunmaktadır.",
+        "span1":"Deniz, kara ve kısmi deniz manzaralı",
         "span2":"3 Yetişkin + 1 Çocuk",
-        "span3":"1 Yatak Odası / 2 Yatak",
+        "span3":"1 Yatak Odası / 2 Yatak 1 Koltuk (Sofa)",
   
         "RoomFeatures":{
           "subtitle":"ÖZEL VE ROMANTİK KAÇAMAK",
           "title":"Deluxe Oda",
-          "text":" Ana binamızda yer alan Fantasy Odalar, 58 m² genişliğinde romantizm ve mahremiyet arayan çiftler için özel olarak tasarlanmıştır. Her odada lüks bir çift kişilik yatak bulunan zarif bir yatak odası ve 25 m²'lik özel bir teras yer almakta; terasta ise jakuzili ve şezlonglu eşsiz bir manzara sunulmaktadır. Bu odalar yalnızca 2 yetişkini ağırlamakta olup, romantik bir deneyim için mükemmel bir seçenektir.",
+          "text":" Ana binamızda yer alan Fantasy Odalar, 30–32 m² genişliğinde romantizm ve mahremiyet arayan çiftler için özel olarak tasarlanmıştır. Her odada lüks bir çift kişilik yatak bulunan zarif bir yatak odası ve 25 m²'lik özel bir teras yer almakta; terasta ise jakuzili ve şezlonglu eşsiz bir manzara sunulmaktadır. Bu odalar yalnızca 2 yetişkini ağırlamakta olup, romantik bir deneyim için mükemmel bir seçenektir.",
           "subtitle2":"Özel Romantik Olanaklar",
-          "span1":"Jakuzili Özel Teras",
-          "span2":"Sadece Çiftlere Özel Tasarım",
+         "span1": "1 Çift Kişilik Yatak",
+          "span2": "1 Tek Kişilik Yatak ",
           "subtitle3":"Oda Özellikleri",
           "text2":"Tüm Fantasy Odalarda Elektronik Kartlı Giriş Sistemi, günlük minibar yenilemesi, lüks banyo kozmetikleri, çay-kahve seti, konforlu terlikler ve ücretsiz Wi-Fi mevcuttur. Bu odalar yalnızca romantik çift konaklamaları için tasarlanmıştır. Oda 58 m² genişliğindedir ve 25 m² özel jakuzili terasa sahiptir. Not: Fantasy Odalar sadece 2 yetişkin (çift) için uygundur. Bu oda tipinde ilave yatak, bebek yatağı veya özel havuz bulunmamaktadır.",
-          "feature1":"50 m2",
+          "feature1":"30-32 m2",
           "feature2":"Makyaj Masası",
           "feature3":"Sigara İçilmez",
           "feature4":"Mini Bar",
@@ -330,7 +330,7 @@
         "BackgroundSection":{
           "subtitle":"  AYRICALIKLI HİZMETLER",
           "title":" Deluxe Odası Avantajları",
-          "text":" Aile Odalarımızda konaklayan misafirler, iki ayrı yatak odasının sunduğu konfor ve etkileyici deniz veya kara manzaralarının tadını çıkarır.",
+          "text":"Odalarımızda konaklayan misafirler, iki ayrı yatak odasının sunduğu konfor ve etkileyici deniz veya kara manzaralarının tadını çıkarır.",
           "list1":"  A’la Carte Yemek: 7 gece ve üzeri konaklamalarda bir defaya mahsus ücretsiz A’la Carte akşam yemeği.",
           "list2":"Spa & Wellness: Türk hamamı, sauna, buhar odası ve fitness merkezi kullanımı ücretsizdir.",
           "buttonText":" DAHA FAZLASINI KEŞFET"
@@ -434,7 +434,7 @@
       "text": "Azura Deluxe Resort & Spa’da olağanüstü lezzet deneyimlerinin tadını çıkarın. Şık À la Carte restoranlarımızda en seçkin uluslararası mutfakların keyfini sürebilir veya zengin açık büfemizdeki Türk özel tatları ve taze Akdeniz lezzetleriyle her öğünü unutulmaz kılabilirsiniz",
       "span": "Yemek Seçenekleri:",
       "list1": "Ana Restoran: Erken Kahvaltı, Kahvaltı, Geç Kahvaltı, Öğle Yemeği, Akşam Yemeği, Gece Kahvaltısı (01:00–03:00)",
-      "list2": "Snack Restoran (Lyric Snack - Plaj): 12:00–16:00 (ızgara spesiyaliteler, fast‑food, tatlılar, meyveler, dondurma belirli saatlerde servis edilir)"
+      "list2": "Snack Restoran (Lyric Snack): 12:00–16:00 (ızgara spesiyaliteler, fast‑food, tatlılar, meyveler, dondurma belirli saatlerde servis edilir)"
     },
     "BackgroundSection": {
       "subtitle": "EŞSİZ BİR LEZZET ŞÖLENİ",
@@ -465,6 +465,14 @@
       "span3": "Açılış Saatleri: 12:00 – 16:00"
     },
 
+    "TwoImagesSection2": {
+      "subtitle": "",
+      "span":"",
+      "title": "Tatlıların Dayanılmaz Lezzeti",
+      "text": "Azura Deluxe Resort & Spa, tatlı severlere unutulmaz bir deneyim sunuyor. Tesisimizin patisserie bölümünde, her damak tadına hitap eden lezzetlerle tatilinizi daha da tatlandırabilirsiniz. Zengin çeşitlilikteki tuzlu ve tatlı kurabiyeler, ıslak kekler ve özel sandviçlerle günün her anında tatlı bir mola verebilir, kahvenizin ya da çayınızın yanında seçkin lezzetlerin tadını çıkarabilirsiniz.",
+      "text2":"Birbirinden leziz tatlılarımız, profesyonel şeflerimizin elinden çıkarak özenle hazırlanır. Taze ve doğal malzemelerle hazırlanan bu tatlar, Azura Deluxe'ın lezzet anlayışının en güzel örneklerini sergiler ve tatilinize özel bir dokunuş katmaya hazırdır."
+    },
+
     "CarouselSection2": {
       "subtitle": "Mükemmel Gurme Deneyimler",
       "title": "À la Carte Restoranlar",
@@ -478,8 +486,8 @@
       "text2": "Mazurka Snack Restoranı'nda taze ızgara spesiyaliteler, lezzetli sandviçler ve nefis salatalardan oluşan à la carte atıştırmalıkların tadını çıkarın. Sahil kenarında rahat bir yemek deneyimiyle öğle saatlerindeki atıştırmalık ihtiyaçlarınızı karşılayın. Mutfak: Izgara ürünler, burgerler, sandviçler, salatalar ve meyveler.",
       "span2": "Açılış Saatleri: 19:00 – 21:00",
       "subtitle3": "PLAJ ATİŞTİRMALIKLARI",
-      "title3": "Lyric Beach",
-      "text3": "Plaj ve iskele kenarındaki Lyric Beach Snack Bar’da rahatlatıcı bir deniz kenarı yemek deneyimi yaşayın. Lezzetli taze salatalar, çıtır pizzalar, sulu kebaplar, taze meyveler, waffle’lar, atıştırmalıklar ve ferahlatıcı içecekler eşliğinde güneşin ve sonsuz deniz manzarasının keyfini çıkarın. Öne çıkanlar: Salatalar, pizza, kebaplar, meyveler, waffle ve çeşitli atıştırmalıklar.",
+      "title3": "Lyric",
+      "text3": "Plaj ve iskele kenarındaki Lyric Snack Bar’da rahatlatıcı bir deniz kenarı yemek deneyimi yaşayın. Lezzetli taze salatalar, çıtır pizzalar, sulu kebaplar, taze meyveler, waffle’lar, atıştırmalıklar ve ferahlatıcı içecekler eşliğinde güneşin ve sonsuz deniz manzarasının keyfini çıkarın. Öne çıkanlar: Salatalar, pizza, kebaplar, meyveler, waffle ve çeşitli atıştırmalıklar.",
       "span3": "Açılış Saatleri: 12:00 – 16:00"
     },
     "BackgroundSection2": {
