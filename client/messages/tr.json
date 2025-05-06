@@ -144,7 +144,7 @@
   
       "Room1":{
         "title":"Deluxe Oda",
-        "text":"30-32 m² büyüklüğündeki zarif ve konforlu odalarımız, ana binamızın birinci ile yedinci katları arasında yer alır. Deniz veya kısmi deniz manzarası sunan bu şık odalarda bir çift kişilik yatak ve bir tek kişilik yatak bulunur. Tüm misafirlerimizin konforu için zemin katta, özel tasarlanmış engelli odaları da mevcuttur.",
+        "text": "30-32 m² büyüklüğündeki zarif ve konforlu odalarımız, ana binamızda yer alır. Kara, kısmi deniz ve tam deniz manzarası seçenekleri sunan bu odalarda 1 çift kişilik yatak, 1 tek kişilik yatak ve 1 koltuk (sofa) yer alır. Toplamda 288 adet standart deluxe ve 4 adet engelli odası mevcuttur. Tüm misafirlerimizin konforu için zemin katta özel olarak tasarlanmış engelli odaları da bulunmaktadır.",
         "area":"30-32 m²",
         "view":" Kara veya Kısmi Deniz Manzarası",
         "buttonText":" Keşfet"
@@ -231,7 +231,7 @@
           "text1":" İç kapı ile ayrılmış iki yatak odası bulunan Aile Odalarımız, ailelerin rahatça konaklayabileceği şekilde tasarlanmıştır. Deniz veya kara manzarası seçenekleriyle unutulmaz aile anıları için idealdir.",
           "span2":"Odanızdan Ayrılmadan Yenilenin",
           "title2":" Fantasy Oda",
-          "area2":" 58 m²",
+          "area2":" 50 m²",
           "person2":"2 yetişkin (yalnızca çiftler)",
           "text2":"Özel tasarımlı Fantasy Odalar, muhteşem deniz manzaraları ve jakuzili 25 m² özel teras ile çiftlere romantik ve huzurlu bir tatil sunar.",
           "buttonText":" DAHA FAZLASINI KEŞFET"
@@ -300,7 +300,7 @@
     "DeluxeRoom":{
       "subtitle":"ÖZEL VE ROMANTİK KAÇAMAK",
         "title":" Deluxe Oda",
-        "text":"Özel jakuzili 25 m² terası ve konforlu şezlonglarıyla unutulmaz bir romantik tatil için Fantasy Odalarımıza davetlisiniz. Her biri özenle tasarlanmış bu odalar, muhteşem deniz manzarasına sahip olup çiftlerin mahremiyet ve lüks içinde konaklaması için ideal bir ortam sunmaktadır.",
+        "text":"Özel jakuzili 25 m² terası ve konforlu şezlonglarıyla unutulmaz bir romantik tatil için Fantasy Odalarımıza davetlisiniz. Her biri özenle tasarlanmış bu odalar, muhteşem deniz manzarasına sahip olup çiftlerin mahremiyet ve lüks içinde konaklaması için ideal bir ortam sunmaktadır. Kara, kısmi deniz ve tam deniz manzarası seçenekleri sunan bu odalarda 1 çift kişilik yatak, 1 tek kişilik yatak ve 1 koltuk (sofa) yer alır. Toplamda 288 adet standart deluxe ve 4 adet engelli odası mevcuttur. Tüm misafirlerimizin konforu için zemin katta özel olarak tasarlanmış engelli odaları da bulunmaktadır.",
         "span1":"Deniz/Kara Manzaralı ",
         "span2":"3 Yetişkin + 1 Çocuk",
         "span3":"1 Yatak Odası / 2 Yatak",
@@ -308,7 +308,7 @@
         "RoomFeatures":{
           "subtitle":"ÖZEL VE ROMANTİK KAÇAMAK",
           "title":"Deluxe Oda",
-          "text":" Ana binamızda yer alan Fantasy Odalar, 58 m² genişliğinde romantizm ve mahremiyet arayan çiftler için özel olarak tasarlanmıştır. Her odada lüks bir çift kişilik yatak bulunan zarif bir yatak odası ve 25 m²'lik özel bir teras yer almakta; terasta ise jakuzili ve şezlonglu eşsiz bir manzara sunulmaktadır. Bu odalar yalnızca 2 yetişkini ağırlamakta olup, romantik bir deneyim için mükemmel bir seçenektir.",
+          "text":" Ana binamızda yer alan Fantasy Odalar, 30–32 m² genişliğinde romantizm ve mahremiyet arayan çiftler için özel olarak tasarlanmıştır. Her odada lüks bir çift kişilik yatak bulunan zarif bir yatak odası ve 25 m²'lik özel bir teras yer almakta; terasta ise jakuzili ve şezlonglu eşsiz bir manzara sunulmaktadır. Bu odalar yalnızca 2 yetişkini ağırlamakta olup, romantik bir deneyim için mükemmel bir seçenektir.",
           "subtitle2":"Özel Romantik Olanaklar",
           "span1":"Jakuzili Özel Teras",
           "span2":"Çiftlere Özel Tasarım",
@@ -330,7 +330,7 @@
         "BackgroundSection":{
           "subtitle":"  AYRICALIKLI HİZMETLER",
           "title":" Deluxe Odası Avantajları",
-          "text":" Aile Odalarımızda konaklayan misafirler, iki ayrı yatak odasının sunduğu konfor ve etkileyici deniz veya kara manzaralarının tadını çıkarır.",
+          "text":"Odalarımızda konaklayan misafirler, iki ayrı yatak odasının sunduğu konfor ve etkileyici deniz veya kara manzaralarının tadını çıkarır.",
           "list1":"  A’la Carte Yemek: 7 gece ve üzeri konaklamalarda bir defaya mahsus ücretsiz A’la Carte akşam yemeği.",
           "list2":"Spa & Wellness: Türk hamamı, sauna, buhar odası ve fitness merkezi kullanımı ücretsizdir.",
           "buttonText":" DAHA FAZLASINI KEŞFET"

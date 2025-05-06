@@ -152,7 +152,7 @@
 
     "Room1":{
       "title":"Deluxe Room",
-      "text":"Enjoy the elegance and comfort of our Deluxe Rooms, beautifully appointed spaces spanning 30-32 m². Located between the first and seventh floors of our main building, these stylish rooms offer delightful views of the sea or lush landscapes. Each Deluxe Room includes one double bed and one single bed, ensuring a cozy and restful stay. Specially designed accessible rooms are also available on the ground floor, fully equipped to accommodate every guest’s comfort.",
+     "text": "Our elegant and comfortable rooms, sized between 30–32 m², are located in our main building. These rooms offer land, partial sea, or full sea views and are furnished with one double bed, one single bed, and one sofa. There are a total of 288 standard deluxe rooms and 4 accessible rooms. For the comfort of all our guests, specially designed accessible rooms are also available on the ground floor.",
       "area":"30-32 m²",
       "view":"Sea, Land, or Partial Sea View",
       "buttonText":"EXPLORE"
@@ -264,7 +264,7 @@
         "span2":"Designed Specifically for Couples",
         "subtitle3":"Room Features",
         "text2":"All Fantasy Rooms feature an Electronic Key Card System, daily minibar refill, premium bathroom cosmetics, tea and coffee making facilities, comfortable slippers, and free Wi-Fi.These rooms are exclusively designed for romantic stays, featuring a spacious 58 m² area, one bedroom with a double bed, and a 25 m² terrace offering a private jacuzzi and sunbeds. Please Note: Fantasy Rooms accommodate only 2 adults (couples). Extra beds, cribs, or independent pools are not available for this room type.",
-        "feature1":"50 m2",
+        "feature1":"58 m2",
         "feature2":"Makeup Table",
         "feature3":"No Smoke",
         "feature4":"Mini Bar",
@@ -315,7 +315,7 @@
       "RoomFeatures":{
         "subtitle":"EXCLUSIVE & ROMANTIC ESCAPE",
         "title":"Fantasy Room",
-        "text":" Located in our main building, Fantasy Rooms offer an exclusive space of 58 m² designed especially for couples seeking romance and privacy. Featuring a beautifully appointed bedroom with one luxurious double bed, each room has a private 25 m² terrace with breathtaking sea views, complete with an elegant jacuzzi and comfortable sunbeds. These rooms comfortably accommodate 2 adults and promise an unforgettable, romantic experience.",
+        "text":" Located in our main building, Fantasy Rooms offer an exclusive space of 30-32 m² designed especially for couples seeking romance and privacy. Featuring a beautifully appointed bedroom with one luxurious double bed, each room has a private 25 m² terrace with breathtaking sea views, complete with an elegant jacuzzi and comfortable sunbeds. These rooms comfortably accommodate 2 adults and promise an unforgettable, romantic experience. These rooms offer land, partial sea, or full sea views, and are furnished with one double bed, one single bed, and one sofa. A total of 288 standard deluxe rooms and 4 specially designed accessible rooms are available. For the comfort of all our guests, accessible rooms are located on the ground floor.",
         "subtitle2":"  Exclusive Romantic Amenities",
         "span1":" Private Terrace with Jacuzzi",
         "span2":"Designed Specifically for Couples",
@@ -337,7 +337,7 @@
       "BackgroundSection":{
         "subtitle":" EXCLUSIVE PRIVILEGES",
         "title":" Deluxe Room Benefits",
-        "text":" Guests staying in our Family Rooms enjoy comfortable accommodations featuring two separate bedrooms with stunning sea or land views. For stays of 7 nights or more, enjoy a complimentary dinner at one of our elegant A’la Carte restaurants",
+        "text":" Guests staying in our rooms enjoy comfortable accommodations featuring two separate bedrooms with stunning sea or land views. For stays of 7 nights or more, enjoy a complimentary dinner at one of our elegant A’la Carte restaurants",
         "list1":" A’la Carte Dining: One complimentary visit for stays of 7+ nights.",
         "list2":"Spa & Wellness: Complimentary access to our Turkish Bath, sauna, steam room, and fitness center.",
         "buttonText":" DISCOVER MORE"

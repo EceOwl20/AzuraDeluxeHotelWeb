@@ -144,7 +144,7 @@
 
     "Room1":{
       "title":"Deluxe-Zimmer",
-      "text":"Unsere eleganten Deluxe-Zimmer bieten 30–32 m² Wohnkomfort und befinden sich zwischen dem ersten und siebten Stockwerk unseres Hauptgebäudes. Sie bieten herrliche Ausblicke auf das Meer, die Landschaft oder seitlichen Meerblick. Die Zimmer sind mit einem Doppelbett und einem Einzelbett ausgestattet – ideal für einen entspannten Aufenthalt. Barrierefreie Zimmer befinden sich im Erdgeschoss und sind vollständig ausgestattet.",
+      "text": "Unsere eleganten und komfortablen Zimmer mit einer Größe von 30–32 m² befinden sich im Hauptgebäude. Diese Zimmer bieten Blick auf das Land, teilweisen Meerblick oder direkten Meerblick und sind mit einem Doppelbett, einem Einzelbett und einem Sofa ausgestattet. Insgesamt stehen 288 Standard-Deluxe-Zimmer und 4 barrierefreie Zimmer zur Verfügung. Für den Komfort aller Gäste befinden sich im Erdgeschoss speziell gestaltete barrierefreie Zimmer.",
       "area":"30-32 m²",
       "view":"Meerblick, Landblick oder seitlicher Meerblick",
       "buttonText":"Entdecken"
@@ -255,7 +255,7 @@
         "span2":"Speziell für Paare gestaltet",
         "subtitle3":"Zimmerausstattung",
         "text2":"Alle Fantasy Zimmer verfügen über ein elektronisches Schlüsselkartensystem, tägliche Minibar-Auffüllung, hochwertige Badezimmerkosmetik, Tee- und Kaffeezubereitungsmöglichkeiten, bequeme Hausschuhe und kostenloses WLAN. Diese Zimmer wurden ausschließlich für romantische Aufenthalte konzipiert und bieten 58 m² Wohnfläche sowie eine 25 m² große Terrasse mit privatem Whirlpool. Hinweis: Fantasy Zimmer sind ausschließlich für 2 Erwachsene (Paare). Zustellbetten, Babybetten oder separate Pools sind für diesen Zimmertyp nicht verfügbar.",
-        "feature1":"50 m2",
+        "feature1":"58 m2",
         "feature2":"Schminktisch",
         "feature3":"Nichtraucher",
         "feature4":"Mini Bar",
@@ -306,7 +306,7 @@
       "RoomFeatures":{
         "subtitle":" EXKLUSIVES & ROMANTISCHES ERLEBNIS",
         "title":"Deluxe Room",
-        "text":"Die Fantasy Zimmer befinden sich im Hauptgebäude und bieten auf 58 m² einen exklusiven Raum, der speziell für Paare entworfen wurde. Jedes Zimmer verfügt über ein geschmackvoll eingerichtetes Schlafzimmer mit einem luxuriösen Doppelbett sowie eine 25 m² große private Terrasse mit beeindruckendem Meerblick, Whirlpool und Sonnenliegen. Diese Zimmer sind ideal für zwei Erwachsene und versprechen ein unvergessliches romantisches Erlebnis.",
+        "text":"Die Fantasy Zimmer befinden sich im Hauptgebäude und bieten auf 30–32 m² einen exklusiven Raum, der speziell für Paare entworfen wurde. Jedes Zimmer verfügt über ein geschmackvoll eingerichtetes Schlafzimmer mit einem luxuriösen Doppelbett sowie eine 25 m² große private Terrasse mit beeindruckendem Meerblick, Whirlpool und Sonnenliegen. Diese Zimmer sind ideal für zwei Erwachsene und versprechen ein unvergessliches romantisches Erlebnis.  Die Zimmer bieten Blick auf das Land, teilweise Meerblick oder vollen Meerblick und sind mit einem Doppelbett, einem Einzelbett und einem Sofa ausgestattet. Es stehen insgesamt 288 Standard-Deluxe-Zimmer und 4 barrierefreie Zimmer zur Verfügung. Für den Komfort aller Gäste befinden sich die barrierefreien Zimmer im Erdgeschoss.",
         "subtitle2":"  Exklusive Romantische Annehmlichkeiten",
         "span1":" Private Terrasse mit Whirlpool",
         "span2":"Speziell für Paare gestaltet",
