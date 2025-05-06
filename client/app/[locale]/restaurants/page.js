@@ -95,7 +95,7 @@ const textsClinary=[t2("text"),t2("span"),t2("list1")]
       <BannerDark img={mainBanner} span={t("subtitle")} header={t("title")} text={t("text")}/>
       <ClinaryInfoSection img1={img3} img2={img4} span={t2("subtitle")} header={t2("title")} texts={textsClinary} />
       <MainRestaurantSection/>
-      <CuisinesCarouselSingle span={t3("subtitle")} header={t3("title")} text={t3("text")} cuisines={cuisines}/>
+      <CuisinesCarouselSingle span={t3("subtitle")} header={t3("title1")} text={t3("text1")} cuisines={cuisines}/>
       <ClinaryReverseInfo img1={img1} img2={img2} span={t6("span")} header={t6("title")} text1={t6("text")} text2={t6("text2")}/>
      <div className='flex flex-col relative'>
      <CuisinesCarousel span={t4("subtitle")} header={t4("title")} text={t4("text")} cuisines={cuisines2}/>
