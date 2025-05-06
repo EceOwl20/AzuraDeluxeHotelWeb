@@ -25,6 +25,7 @@ const page = () => {
   const t2 = useTranslations('DeluxeRoom.RoomFeatures');
   const t3 = useTranslations('DeluxeRoom.BackgroundSection');
   const t4 = useTranslations('DeluxeRoom.OtherOptions');
+  const t5 = useTranslations('DeluxeRoom.RoomTour');
 
   const subroomBannerText=[t("span1"),t("span2"),t("span3")]
   const backgroundTexts=[t3("text")]
@@ -67,6 +68,9 @@ const page = () => {
      </div>
       <RoomFeatures span={t2("subtitle")} header={t2("title")} text={t2("text")} header2={t2("subtitle2")} header3={t2("subtitle3")}  text2={t2("text2")} iconsTexts={iconTexts} features={features} />
      <BackgroundSection span={t3("subtitle")} header={t3("title")} texts={backgroundTexts} link="/" img={img3}/>
+     <RoomTour span={t5("span")} header={t5("title")} text={t5("text")} link="https://kuula.co/share/collection/7brmW?logo=1&info=0&fs=1&vr=1&autorotate=0.22&autop=10&autopalt=1&thumbs=4&margin=2&alph"/>
+     <RoomTour span={t5("span2")} header={t5("title2")} text={t5("text2")} link="https://kuula.co/share/collection/7brpw?logo=1&info=0&fs=1&vr=1&autorotate=0.22&autop=10&autopalt=1&thumbs=4&margin=2&alpha=0.72"/>
+     <RoomTour span={t5("span3")} header={t5("title3")} text={t5("text3")} link="https://kuula.co/share/collection/7bBZw?logo=1&info=0&fs=1&vr=1&autorotate=0.22&autop=10&autopalt=1&thumbs=4&margin=2&alpha=0.72"/>
       <OtherOptions rooms={rooms}/>
       <ContactSection2/>
     </div>

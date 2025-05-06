@@ -22,8 +22,10 @@ import BalconySvg from "./BalconySvg";
 import Link from "next/link"
 import LivingroomSvg from "./LivingroomSvg"
 import { LiaBedSolid } from "react-icons/lia";
+import { useTranslations } from "next-intl";
 
 const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, features}) => {
+  const t = useTranslations('Reservation');
 
   const [checkInDate, setCheckInDate] = useState(null)
   const [checkOutDate, setCheckOutDate] = useState(null)
@@ -167,19 +169,19 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, 
         <div className="flex flex-col w-[95%] md:w-[32.5%] gap-[35px] pb-[16px] font-jost">
         <div className="flex flex-col w-full py-[50px] lg:pl-[50px] items-center lg:items-start justify-center text-center gap-[20px] bg-white shadow-divCustom lg:min-w-[330px]">
             <div className="flex flex-col gap-[10px] w-[94%] lg:w-full mb-[5px] items-center lg:items-start text-center lg:text-start">
-            <h3 className="text-[28px] lg:text-[32px] text-lagoBrown font-marcellus font-normal leading-[120%] -tracking-[0.64px]">Reservation Dates</h3>
-            <p className="text-[16px] text-lagoBrown leading-[140%] font-normal font-jost">Pick up the dates for your stay</p>
+            <h3 className="text-[28px] lg:text-[32px] text-lagoBrown font-marcellus font-normal leading-[120%] -tracking-[0.64px]">{t("reservationDates")}</h3>
+            <p className="text-[16px] text-lagoBrown leading-[140%] font-normal font-jost">{t("pickDates")}</p>
             </div>
 
           <div className="relative flex items-center justify-center w-auto ">
           <label htmlFor="checkInDate" className="sr-only text-white">
-            Check In
+            {t("checkin")}
           </label>
           <DatePicker
             id="checkInDate"
             selected={checkInDate}
             onChange={(date) => setCheckInDate(date)}
-            placeholderText="Check In"
+            placeholderText= {t("checkin")}
             className="
               cursor-pointer 
               items-center text-start justify-start p-[18px] h-[47px] w-[70vw] sm:w-[50vw] md:w-[23vw] lg:w-[250px] border border-lagoBlack
@@ -199,14 +201,14 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, 
 
             <div className="relative flex items-center justify-center w-auto ">
           <label htmlFor="checkOutDate" className="sr-only">
-            Check Out
+          {t("checkout")}
       
           </label>
           <DatePicker
             id="checkOutDate"
             selected={checkOutDate}
             onChange={(date) => setCheckOutDate(date)}
-            placeholderText="Check Out"
+            placeholderText= {t("checkout")}
             className="
               cursor-pointer 
               items-center text-start justify-start p-[18px] h-[47px] w-[70vw] sm:w-[50vw] md:w-[23vw] lg:w-[250px] border border-lagoBlack
@@ -276,7 +278,7 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, 
                   htmlFor="adultCounter"
                   id="adultCounterLabel"
                   className="whitespace-nowrap">
-                  Adult(s)
+                  {t("adults")}
                 </label>
                 <div className="flex items-center gap-1 lg:gap-2" id="adultCounter">
                   <button
@@ -329,7 +331,7 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, 
                   id="childrenCounterLabel"
                   className="whitespace-nowrap"
                 >
-                  Child(ren)
+                   {t("kids")}
                 </label>
                 <div className="flex items-center gap-1 lg:gap-2" id="childrenCounter">
                   <button
@@ -385,13 +387,13 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, 
        
         </div>
             
-            <Link href="https://azuradeluxehotel.orsmod.com/"  type="button" className="flex p-5 text-white items-center justify-center text-center bg-lagoBlack border h-[47px] border-lagoBlack lg:w-[175px] shadow-buttonCustom text-[16px] uppercase font-semibold font-jost leading-[120%] hover:bg-white hover:underline hover:text-lagoBlack">BOOK NOW</Link>
+            <Link href="https://azuradeluxehotel.orsmod.com/"  type="button" className="flex p-5 text-white items-center justify-center text-center bg-lagoBlack border h-[47px] border-lagoBlack lg:w-[175px] shadow-buttonCustom text-[16px] uppercase font-semibold font-jost leading-[120%] hover:bg-white hover:underline hover:text-lagoBlack"> {t("search")}</Link>
         </div>
         <div className="flex flex-col items-center justify-center w-full gap-[17px] bg-white py-[15px] shadow-divCustom">
-          <h4 className="text-[28px] font-marcellus font-normal text-lagoBlack leading-[120%] -tracking-[0.56px] leading-trim-both">Contact us now</h4>
+          <h4 className="text-[28px] font-marcellus font-normal text-lagoBlack leading-[120%] -tracking-[0.56px] leading-trim-both">{t("contactUs")}</h4>
           <div className="flex gap-[11px] items-center justify-center w-full">
             <DarkPhoneSvg className="flex" width={20} height={20} />
-          <p className="text-[16px] text-lagoBlack font-medium font-jost leading-[120%] -tracking-[0.32px]">+90 123 456 78 90</p>
+          <p className="text-[16px] text-lagoBlack font-medium font-jost leading-[120%] -tracking-[0.32px]">+90 242 517 12 34</p>
           </div>
         </div>
         </div>

@@ -9,13 +9,16 @@ import {
   PiFacebookLogoLight,
   PiYoutubeLogoLight,
 } from "react-icons/pi";
+import {useTranslations} from 'next-intl';
 
 const ContactDetails = () => {
+  const t = useTranslations('ContactPage');
+
   return (
     <div className="flex flex-col justify-center items-center w-full md:w-[40%] md:pl-0">
       <div className="flex flex-col w-full max-w-[350px] items-center md:items-start justify-center gap-[20px] md:gap-[30px]">
         <span className="font-jost text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
-          CONTACT US FOR MORE
+          {t("contactForMore")}
         </span>
         <h2 className="font-marcellus font-normal text-[28px] md:text-[28px] lg:text-[28px] xl:text-[36px] 2xl:text-[44px] leading-[150%] lg:leading-[57.6px] capsizedText3 lg:capsizedText2">
           @AzuraDeluxeResort
@@ -26,13 +29,13 @@ const ContactDetails = () => {
             Avsallar Mah. İncekum Cad. No:76 Alanya / Turkey
           </span>
           <span className="capsizedText4 lg:hidden">
-            Phone:{" "}
+          {t("phoneColon")}:{" "}
             <Link href="" className="underline">
-            +90 242 510 52 30
+            +90 242 517 12 34
             </Link>
           </span>
           <span className="capsizedText4 lg:hidden">
-            Call Center:{" "}
+          {t("callCenter")}{" "}
             <Link href="" className="underline">
             +90 242 277 11 43
             </Link>
@@ -51,11 +54,11 @@ const ContactDetails = () => {
           <span className="hidden lg:block">
             Phone:{" "}
             <Link href="" className="underline">
-            +90 242 510 52 30
+            +90 242 517 12 34
             </Link>
           </span>
           <span className="hidden lg:block">
-            Call Center:{" "}
+          {t("callCenter")}{" "}
             <Link href="" className="underline">
             +90 242 277 11 43
             </Link>
@@ -98,7 +101,7 @@ const ContactDetails = () => {
           <div className="flex bg-black h-[20px] w-[1px] self-center"></div>
           <Link href="https://azuradeluxehotel.orsmod.com/"  target="_blank"
               rel="norefferer nofollower" className="text-lagoBrown font-marcellus underline underline-offset-[6px] text-[16px] font-normal leading-[30px] uppercase">
-            BOOK NOW
+          {t("bookNow")}
           </Link>
         </div>
       </div>

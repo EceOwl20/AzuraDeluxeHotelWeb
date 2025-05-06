@@ -24,12 +24,38 @@
     "fantasy": "Fantazi Odası",
      "spor":"Spor"
   },
+
   "Reservation": {
     "text": "Hayalinizdeki Tatili Ayırtın",
     "checkin": "Giriş",
     "checkout": "Çıkış",
     "guests": "Misafirler",
-    "search": "Ara"
+    "search": "Ara",
+    "adults": "Yetişkin(ler)",
+  "kids": "Çocuk(lar)",
+  "reservationDates": "Rezervasyon Tarihleri",
+  "pickDates": "Konaklama tarihlerinizi seçin",
+  "contactUs": "Şimdi iletişime geçin"
+  },
+
+  "ContactPage":{
+    "contactTitle": "Azura Hotel İletişim",
+    "connectWithUs": "Bizimle Bağlanın",
+    "ourAddress": "Adresimiz:",
+    "phoneNumber": "Telefon Numarası:",
+    "emailAddress": "E-posta Adresi:",
+    "dropMessage": "Bize Bir Mesaj Göndermekten Çekinmeyin",
+    "connectPrompt": "Bize iletmek istediğiniz bir şey var mı? İletişim formumuz aracılığıyla mutlaka bize ulaşın.",
+    "yourFullName": "Adınız Soyadınız",
+    "yourEmailAddress": "E-posta Adresiniz",
+    "yourMessage": "Mesajınız",
+    "saveDetails": "Adımı, e-posta adresimi ve web sitemi bu tarayıcıda bir sonraki yorumum için kaydet.",
+    "sendMessage": "MESAJ GÖNDER",
+    "addressShort": "Adres",
+    "contactForMore": "DAHA FAZLA BİLGİ İÇİN İLETİŞİME GEÇİN",
+    "phoneColon": "Telefon:",
+    "callCenter": "Çağrı Merkezi",
+    "bookNow": "HEMEN REZERVASYON"
   },
 
   "Footer": {
@@ -55,7 +81,7 @@
     "bookings": "Rezervasyonlar & İptaller",
     "terms": "Web Sitesi Şartları",
     "aboutcompany": "Şirket Hakkında",
-    "phone": "Tel: +90 242 510 52 30",
+    "phone": "Tel: +90 242 517 12 34",
     "email": "E-posta: info@azuradeluxe.com",
     "address": "Avsallar Mah. İncekum Cad. No:76 Alanya/Türkiye",
     "termsuse": "Kullanım Şartları",
@@ -220,6 +246,15 @@
           "list2":"Spa & Wellness: Türk hamamı, sauna, buhar odası ve fitness merkezi kullanımı ücretsizdir.",
           "buttonText":" DAHA FAZLASINI KEŞFET"
         },
+
+        "RoomTour": {
+          "span": "360° Sanal Oda Turu",
+          "title": "Family Oda – Kara Manzarası 360°",
+          "text": "Geniş ve konforlu Family odamızın doğal kara manzarasını, her açıdan keşfedebileceğiniz 360° sanal tur ile deneyimleyin.",
+          "span2": "360° Sanal Oda Turu",
+          "title2": "Family Oda – Deniz Manzarası 360°",
+          "text2": "Ferahlık ve şıklığı bir araya getiren Family odamızın muhteşem deniz manzarasını, 360° sanal tur ile doyasıya keşfedin."
+        },
   
         "OtherOptions":{
           "subtitle":"  Size Uygun Odayı Seçin",
@@ -279,6 +314,12 @@
           "list2":"Spa & Wellness: Türk hamamı, sauna, buhar odası ve fitness merkezi kullanımı ücretsizdir.",
           "buttonText":" DAHA FAZLASINI KEŞFET"
         },
+
+        "RoomTour": {
+          "span": "360° Sanal Oda Turu",
+          "title": "Fantasy Oda – Deniz Manzarası 360°",
+          "text": "Romantik Fantasy odamızın eşsiz deniz manzarasını ve şık iç mekanını, sadece deniz manzarasına odaklanan 360° sanal tur ile keşfedin."
+        },
   
         "OtherOptions":{
           "subtitle":"  Size Uygun Odayı Seçin",
@@ -336,6 +377,18 @@
           "list2":"Spa & Wellness: Türk hamamı, sauna, buhar odası ve fitness merkezi kullanımı ücretsizdir.",
           "buttonText":" DAHA FAZLASINI KEŞFET"
         },
+
+        "RoomTour": {
+          "span": "360° Sanal Oda Turu",
+          "title": "Deluxe Oda – Kara Manzarası 360°",
+          "text": "Geniş ve konforlu Deluxe odamızın doğal kara manzarasını, bulunduğunuz her açıdan görebileceğiniz 360° sanal tur ile keşfedin.",
+          "span2": "360° Sanal Oda Turu",
+          "title2": "Deluxe Oda – Deniz Manzarası 360°",
+          "text2": "Şık tasarımlı Deluxe odamızın eşsiz deniz manzarasını, 360° sanal tur ile doyasıya deneyimleyin.",
+          "span3": "360° Sanal Oda Turu",
+          "title3": "Deluxe Oda – Kısmi Deniz Manzarası 360°",
+          "text3": "Özenle tasarlanmış Deluxe odamızın kısmi deniz manzarasını her açıdan keşfedebileceğiniz 360° sanal tur ile deneyimleyin."
+        },
   
         "OtherOptions":{
           "subtitle":"  Size Uygun Odayı Seçin",
@@ -372,14 +425,14 @@
       "subtitle": "DENİZ KENARINDA EĞLENCE & GÜNEŞ",
       "title": "Plaj Aktiviteleri ve Daha Fazlası",
       "text": "Yüzme, su sporları ve her yaşa uygun heyecan verici eğlenceler de dahil olmak üzere çeşitli plaj aktiviteleri ile canlı bir atmosferin keyfini çıkarın. Deniz kenarında eğlence ve heyecan dolu unutulmaz anlar yaratın.",
-      "title1": "",
-      "title2": "",
-      "title3": "",
-      "title4": "",
-      "subtitle1": "",
-      "subtitle2": "",
-      "subtitle3": "",
-      "subtitle4": ""
+      "title1": "Yüzme & Dinlenme",
+      "span1": "Kokteyller & Atıştırmalıklar",
+      "title2": "Plaj Barında Ferahlayın",
+      "span2": "Tüm Gün Açık",
+      "title3": "Su Sporları",
+      "span3": "Tüm Gün Açık",
+      "title4": "Plajda Kutlama",
+      "span4": "SÜRE: 60 DAKİKA"
     },
     "BeachGif": {
       "subtitle": "Her An İçin Tasarlanmış Havuzlar",
@@ -404,13 +457,13 @@
     "span2": "Mevsimsel Isıtmalı",
     "subtitle3": "Kids Club",
     "title3": "Çocuk Havuzu",
-    "text3": "Özel tasarlanmış çocuk havuzumuz, küçük misafirlerimiz için güvenli ve eğlenceli bir ortam sunar. Sığ su ve mini kaydırakla çocuklar güvenle oynayıp unutulmaz anılar biriktirir.",
+    "text3": "Özel tasarlanmış ısıtmalı çocuk havuzumuz, küçük misafirlerimiz için güvenli ve eğlenceli bir ortam sunar. Sığ su ve mini kaydırakla çocuklar güvenle oynayıp unutulmaz anılar biriktirir.",
     "depth3": "40 cm",
     "area3": "90 m²",
     "span3": "Mini kaydırak dahil",
     "subtitle4": "Heyecan Dolu Kaydırak Keyfi",
     "title4": "Kaydırak Havuzu",
-    "text4": "Tatilinize macera katın! Dört farklı su kaydırağına sahip Kaydırak Havuzu, hem çocuklar hem yetişkinler için heyecan ve eğlenceli anlar sunar.",
+    "text4": "Tatilinize macera katın! Dört farklı su kaydırağına sahip ısıtmalı Kaydırak Havuzu, hem çocuklar hem yetişkinler için heyecan ve eğlenceli anlar sunar.",
     "depth4": "120 cm",
     "area4": "80 m²",
     "span4": "4 Su Kaydırağı",
@@ -524,7 +577,7 @@
       "subtitle1": "Mart, Nisan, Ekim: 10:00–00:00Mayıs–Eylül: 24 Saat",
       "title1": "Lobby Piyano Barı",
       "text1": "Lobby Piyano Barı’nda uzmanlıkla hazırlanmış kokteyller, premium içecekler ve lezzetli ikramlarla rahatlayın ve sosyalleşin. Zarif bir atmosferde keyifli sohbetlerin tadını çıkarın.",
-      "subtitle2": "Saat: 10:00–24:00",
+      "subtitle2": "Saat: 10:00–00:00",
       "title2": "Cha Cha Pool Bar",
       "text2": "Havuz kenarında hareketli Cha Cha Pool Bar’ımızda serinletici kokteyller, soğuk içecekler ve lezzetli atıştırmalıkların tadını çıkarın. Güneş altında veya yıldızlar altında unutulmaz anılar biriktirin.",
       "subtitle3": "Saat: 10:00–18:00",
