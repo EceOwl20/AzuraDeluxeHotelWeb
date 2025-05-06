@@ -33,17 +33,75 @@ import img27 from "../images/Image-27.jpg"
 import img28 from "../images/Image-28.jpg"
 import img29 from "../images/Image-29.jpg"
 
+import img30 from "../../restaurants/bellaazura/images/bellaazura.webp"
+import img31 from "../../restaurants/images/blok222.webp"
+import img32 from "../../restaurants/images/Banner.jpg"
+import img33 from "../../restaurants/images/ottoman.webp"
+import img34 from "../../restaurants/images/LYRIC.jpg"
+import img35 from "../../restaurants/images/MAZURKA.jpg"
+import img36 from "../../restaurants/images/blok2.jpg"
+import img37 from "../../restaurants/images/blok21.jpg"
+import img38 from "../../restaurants/images/blok22.jpg"
+
+import img39 from "../../restaurants/images/discoverbarsparallax.jpg"
+import img40 from "../../restaurants/images/Patisserie.webp"
+import img41 from "../../bars/images/Pierbar.png"
+import img42 from "../../bars/images/discobar.png"
+import img43 from "../../bars/images/Chacha.png"
+import img44 from "../../bars/images/POOL.png"
+import img45 from "../../bars/images/blok2.png"
+
+import img46 from "../images/entertainment/1.jpg"
+import img47 from "../images/entertainment/2.jpg"
+import img48 from "../images/entertainment/500.jpg"
+import img49 from "../images/entertainment/5042.jpg"
+import img50 from "../images/entertainment/2150407949.jpg"
+import img51 from "../images/entertainment/ent_ban.jpg"
+import img52 from "../images/entertainment/FITNESS CENTER.jpg"
+import img53 from "../images/entertainment/Screenshot16.jpg"
+import img54 from "../images/entertainment/Screenshot57.jpg"
+import img55 from "../images/entertainment/Screenshot59.jpg"
+import img56 from "../images/entertainment/Screenshot00.jpg"
+import img57 from "../images/entertainment/Screenshot05.jpg"
+
+import img58 from "../images/spa/indoor.webp"
+import img59 from "../images/spa/spa1.webp"
+import img60 from "../images/spa/spa10.webp"
+import img61 from "../images/spa/spa2.webp"
+import img62 from "../images/spa/spa3.webp"
+import img63 from "../images/spa/spa4.webp"
+import img64 from "../images/spa/spa5.webp"
+import img65 from "../images/spa/spa6.webp"
+import img66 from "../images/spa/spa7.webp"
+import img67 from "../images/spa/spa8.jpg"
+import img68 from "../images/spa/spa9.webp"
+import img69 from "../images/spa/spa10.webp"
+import img70 from "../images/spa/SPAcopy.webp"
+
+
+import img83 from "../../kidsclub/images/1.jpg"
+import img71 from "../../kidsclub/images/kids1.webp"
+import img72 from "../../kidsclub/images/KIDS2.webp"
+import img73 from "../../kidsclub/images/2149046677.jpg"
+import img75 from "../../kidsclub/images/kids3.webp"
+import img76 from "../../kidsclub/images/kids4.webp"
+import img77 from "../../kidsclub/images/kids5.webp"
+import img78 from "../../kidsclub/images/kids6.webp"
+import img79 from "../../kidsclub/images/kids7.jpg"
+import img80 from "../../kidsclub/images/kids8.jpg"
+import img81 from "../../kidsclub/images/kids9.jpg"
+
 
 // Kategorilere göre resimler
 const imageCategories = {
   "GENERAL": [img4,img9,img25,img6, img28, img19, img22, img11, img13, img5, img1, img7, img16, img10, img20, img23, img26, img12, img14, img27, img2, img8, img18, img3, img21, img24, img29, img15, img17],
   ROOMS: [img2,img3,img6,img11,img12,img23,img27],
-  RESTAURANT: [img13,img17],
-  BARS: [],
+  RESTAURANT: [img13,img17,img30,img31,img32,img33,img34,img35,img36,img37,img38,img40],
+  BARS: [img39,img41,img42,img43,img44,img45],
   "POOL & BEACH": [img8,img9,img16,img21,img22,img24,img28],
-  ENTERTAINMENT: [],
-  "KIDS": [],
-  "SPA": [img10,img20,img26],
+  ENTERTAINMENT: [img46,img47,img48,img49,img50,img51,img52,img53,img54,img55,img56,img57],
+  "KIDS": [img83,img71,img72,img73,img75,img76,img77,img78,img79,img80,img81],
+  "SPA": [img10,img20,img26,img58,img59,img60,img63,img64,img65,img66,img67,img68,img70],
   MEETING:[]
 }
 

@@ -31,8 +31,33 @@
   "checkin":"Check In",
   "checkout":"Check Out",
   "guests":"Guests",
-   "search":"Search"
+   "search":"Search",
+   "adults":"Adult(s)",
+   "kids":"Child(ren)",
+   "reservationDates": "Reservation Dates",
+   "pickDates": "Pick up the dates for your stay",
+   "contactUs": "Contact us now"
 
+},
+
+"ContactPage":{
+  "contactTitle": "AZURA HOTEL CONTACT",
+  "connectWithUs": "Connect with Us",
+  "ourAddress": "Our Address:",
+  "phoneNumber": "Phone Number:",
+  "emailAddress": "Email Address:",
+  "dropMessage": "Feel Free to Drop Us a Message",
+  "connectPrompt": "Do you have anything in your brain to let us know? Kindly don't fail to connect with us through our contact form.",
+  "yourFullName": "Your Full Name",
+  "yourEmailAddress": "Your Email Address",
+  "yourMessage": "Your Message",
+  "saveDetails": "Save my name, email, and website in this browser for the next time I comment.",
+  "sendMessage": "SEND MESSAGE",
+  "addressShort": "Address",
+  "contactForMore": "CONTACT US FOR MORE",
+  "phoneColon": "Phone:",
+  "callCenter": "Call Center",
+  "bookNow": "BOOK NOW"
 },
 
 
@@ -62,7 +87,7 @@
   "terms":"Website Terms",
  
   "aboutcompany":"About Company",
-  "phone":"Phone: +90 242 510 52 30",
+  "phone":"Phone: +90 242 517 12 34",
   "email":"Email: info@azuradeluxe.com",
   "address":" Avsallar Mah. İncekum Cad. No:76 Alanya/ Turkey",
   "termsuse":"Terms of Use",
@@ -229,6 +254,15 @@
         "buttonText":" DISCOVER MORE"
       },
 
+      "RoomTour": {
+        "span": "360° Virtual Room Tour",
+        "title": "Family Room – Land View 360°",
+        "text": "Explore every angle of our spacious and comfortable Family Room’s natural land view through an immersive 360° virtual tour.",
+        "span2": "360° Virtual Room Tour",
+        "title2": "Family Room – Sea View 360°",
+        "text2": "Discover the stunning sea vistas of our stylish Family Room in full 360° with our virtual room tour."
+      },
+
       "OtherOptions":{
         "subtitle":" Choose Your Ideal Room",
         "title":" Explore Other Comfortable Options",
@@ -285,6 +319,12 @@
         "list1":" A’la Carte Dining: One complimentary visit for stays of 7+ nights.",
         "list2":"Spa & Wellness: Complimentary access to our Turkish Bath, sauna, steam room, and fitness center.",
         "buttonText":" DISCOVER MORE"
+      },
+
+      "RoomTour": {
+        "span": "360° Virtual Room Tour",
+        "title": "Fantasy Room – Sea View 360°",
+        "text": "Explore our romantic Fantasy Room with a fully immersive 360° virtual tour focused solely on its stunning sea views and elegant interiors."
       },
 
       "OtherOptions":{
@@ -344,6 +384,19 @@
         "buttonText":" DISCOVER MORE"
       },
 
+      "RoomTour": {
+        "span": "360° Virtual Room Tour",
+        "title": "Deluxe Room – Land View 360°",
+        "text": "Explore every angle of our spacious and comfortable Deluxe Room’s natural land view through a fully immersive 360° virtual tour.",
+        "span2": "360° Virtual Room Tour",
+        "title2": "Deluxe Room – Sea View 360°",
+        "text2": "Experience the stunning sea vistas of our elegantly designed Deluxe Room in full 360° with our virtual tour.",
+        "span3": "360° Virtual Room Tour",
+        "title3": "Deluxe Room – Partial Sea View 360°",
+        "text3": "Discover the elegant design and partial sea vistas of our Deluxe Room through an immersive 360° virtual tour focused on its stunning partial sea views."
+      },
+      
+
       "OtherOptions":{
         "subtitle":" Choose Your Ideal Room",
         "title":" Explore Other Comfortable Options",
@@ -381,14 +434,15 @@
       "subtitle":"FUN & SUN BY THE SEA",
       "title":"Beach Activities & More",
       "text":"Enjoy a vibrant atmosphere with various beach activities, including swimming, water sports, and exciting entertainment options suitable for all ages. Create unforgettable memories filled with fun and excitement by the sea",
-      "title1":"",
-      "title2":"",
-      "title3":"",
-      "title4":"",
-      "subtitle1":"",
-       "subtitle2":"",
-        "subtitle3":"",
-         "subtitle4":""
+      "title1": "Swimming & Lounging",
+  "span1": "Cocktails & Snacks",
+  "title2": "Refresh at the Beach Bar",
+  "span2": "All Day Round",
+  "title3": "Water Sports",
+  "span3": "All Day Round",
+  "title4": "Celebrate at the Beach",
+  "span4": "DURATION: 60 MIN"
+
 
     },
 
@@ -416,13 +470,13 @@
       "span2":"Heated (Seasonally)",
       "subtitle3":" Kids Club",
       "title3":"Children's Pool",
-      "text3":"Our specially designed children's pool offers a safe and enjoyable environment for our youngest guests. Featuring shallow waters and a fun mini-slide, it's the perfect place for children to splash around, play safely, and make wonderful holiday memories",
+      "text3":"Our specially designed heated children’s pool provides a safe and fun environment for our little guests. With shallow water and a mini slide, children can play safely and create unforgettable memories.",
       "depth3":"40 cm",
       "area3":"90 m²",
       "span3":"Mini-slide included",
       "subtitle4":"Exciting Fun with Thrilling Slides",
       "title4":"Slide Pool",
-      "text4":"Add excitement to your vacation with our thrilling Slide Pool! Featuring four different water slides, it's the perfect place for both kids and adults to enjoy adventurous moments and splash-filled fun.",
+      "text4":"Add adventure to your holiday! The heated Slide Pool with four different water slides offers excitement and fun for both children and adults.",
       "depth4":"120 cm",
       "area4":"80 m²",
       "span4":"4 Water Slides",
@@ -539,7 +593,7 @@
       "subtitle1":"March, April, October: 10:00 – 00:00 May – September: 24 Hours ",
       "title1":"Lobby Piano Bar",
       "text1":"Relax and socialize in our elegant Lobby Piano Bar, the perfect spot to unwind with expertly prepared cocktails, premium beverages, and delightful refreshments. Enjoy pleasant conversations in a sophisticated ambiance",
-      "subtitle2":"HOURS: 10:00 – 24:00 ",
+      "subtitle2":"HOURS: 10:00 – 00:00 ",
       "title2":"Cha Cha Pool Bar",
       "text2":"Relax poolside at our vibrant Cha Cha Pool Bar, serving refreshing cocktails, chilled beverages, and delightful snacks. Enjoy your favorite drinks under the sun or beneath the stars, creating memorable moments throughout the day.",
       "subtitle3":"HOURS: 10:00 – 18:00 ",

@@ -29,7 +29,32 @@
     "checkin": "Check‑in",
     "checkout": "Check‑out",
     "guests": "Gäste",
-    "search": "Suchen"
+    "search": "Suchen",
+    "adults": "Erwachsene",
+  "kids": "Kinder",
+  "reservationDates": "Reservierungsdaten",
+  "pickDates": "Wählen Sie Ihre Aufenthaltsdaten",
+  "contactUs": "Kontaktieren Sie uns jetzt"
+  },
+
+  "ContactPage":{
+    "contactTitle": "AZURA HOTEL KONTAKT",
+    "connectWithUs": "Verbinden Sie sich mit uns",
+    "ourAddress": "Unsere Adresse:",
+    "phoneNumber": "Telefonnummer:",
+    "emailAddress": "E-Mail-Adresse:",
+    "dropMessage": "Hinterlassen Sie uns gerne eine Nachricht",
+    "connectPrompt": "Haben Sie etwas auf dem Herzen? Bitte kontaktieren Sie uns über unser Kontaktformular.",
+    "yourFullName": "Ihr vollständiger Name",
+    "yourEmailAddress": "Ihre E-Mail-Adresse",
+    "yourMessage": "Ihre Nachricht",
+    "saveDetails": "Speichern Sie meinen Namen, meine E-Mail und Website in diesem Browser für das nächste Mal.",
+    "sendMessage": "NACHRICHT SENDEN",
+    "addressShort": "Adresse",
+    "contactForMore": "KONTAKTIEREN SIE UNS FÜR MEHR",
+    "phoneColon": "Telefon:",
+    "callCenter": "Call Center",
+    "bookNow": "JETZT BUCHEN"
   },
 
   "Footer": {
@@ -55,7 +80,7 @@
     "bookings": "Buchungen & Stornierungen",
     "terms": "Webseitenbedingungen",
     "aboutcompany": "Über das Unternehmen",
-    "phone": "Tel.: +90 242 510 52 30",
+    "phone": "Tel.: +90 242 517 12 34",
     "email": "E‑Mail: info@azuradeluxe.com",
     "address": "Avsallar Mah. İncekum Cad. No:76 Alanya/Türkei",
     "termsuse": "Nutzungsbedingungen",
@@ -220,6 +245,15 @@
         "buttonText":" MEHR ENTDECKEN"
       },
 
+      "RoomTour": {
+        "span": "360° Virtuelle Zimmertour",
+        "title": "Family-Zimmer – 360° Landblick",
+        "text": "Erkunden Sie jeden Winkel unseres geräumigen und komfortablen Family-Zimmers mit Landblick in einer vollständig immersiven 360°-Tour.",
+        "span2": "360° Virtuelle Zimmertour",
+        "title2": "Family-Zimmer – 360° Meerblick",
+        "text2": "Erleben Sie die beeindruckende Meersicht unseres stilvollen Family-Zimmers in voller 360°-Ansicht mit unserer virtuellen Tour."
+      },
+
       "OtherOptions":{
         "subtitle":"  Wählen Sie Ihr Ideales Zimmer",
         "title":"  Weitere komfortable Optionen entdecken",
@@ -276,6 +310,12 @@
         "list1":"A’la Carte Abendessen: Bei Aufenthalten ab 7 Nächten ist ein A’la Carte-Abendessen kostenfrei.",
         "list2":"Spa & Wellness: Kostenfreier Zugang zu Hammam, Sauna, Dampfbad und Fitnesscenter.",
         "buttonText":" MEHR ENTDECKEN"
+      },
+
+      "RoomTour": {
+        "span": "360° Virtuelle Zimmertour",
+        "title": "Fantasy-Zimmer – 360° Meerblick",
+        "text": "Entdecken Sie unser romantisches Fantasy-Zimmer in einer 360°-Tour, die sich ganz auf den atemberaubenden Meerblick und das elegante Interieur konzentriert."
       },
 
       "OtherOptions":{
@@ -335,6 +375,18 @@
         "buttonText":" MEHR ENTDECKEN"
       },
 
+      "RoomTour": {
+        "span": "360° Virtuelle Zimmertour",
+        "title": "Deluxe-Zimmer – 360° Landblick",
+        "text": "Erkunden Sie jeden Winkel des geräumigen und komfortablen Deluxe-Zimmers mit natürlichem Landblick durch eine vollständig immersive 360°-Tour.",
+        "span2": "360° Virtuelle Zimmertour",
+        "title2": "Deluxe-Zimmer – 360° Meerblick",
+        "text2": "Erleben Sie die atemberaubende Meersicht unseres elegant gestalteten Deluxe-Zimmers in voller 360°-Ansicht mit unserer virtuellen Tour.",
+        "span3": "360° Virtuelle Zimmertour",
+        "title3": "Deluxe-Zimmer – 360° Teilmeerblick",
+        "text3": "Erkunden Sie das elegant gestaltete Deluxe-Zimmer mit teilweisem Meerblick in einer vollständig immersiven 360°-Tour."
+      },
+
       "OtherOptions":{
         "subtitle":"  Wählen Sie Ihr Ideales Zimmer",
         "title":"  Weitere komfortable Optionen entdecken",
@@ -370,14 +422,14 @@
       "subtitle": "SPAß & SONNE AM MEER",
       "title": "Strandaktivitäten & mehr",
       "text": "Genießen Sie eine lebhafte Atmosphäre mit verschiedenen Strandaktivitäten – Schwimmen, Wassersport und unterhaltsame Angebote für alle Altersgruppen. Schaffen Sie unvergessliche Erinnerungen voller Spaß und Spannung am Meer.",
-      "title1": "",
-      "title2": "",
-      "title3": "",
-      "title4": "",
-      "subtitle1": "",
-      "subtitle2": "",
-      "subtitle3": "",
-      "subtitle4": ""
+      "title1": "Schwimmen & Entspannen",
+  "span1": "Cocktails & Snacks",
+  "title2": "Erfrischen an der Strandbar",
+  "span2": "Den ganzen Tag",
+  "title3": "Wassersport",
+  "span3": "Den ganzen Tag",
+  "title4": "Feiern am Strand",
+  "span4": "DAUER: 60 MIN"
     },
     "BeachGif": {
       "subtitle": "Für jeden Moment gestaltete Pools",
@@ -402,13 +454,13 @@
       "span2": "Beheizt (saisonal)",
       "subtitle3": "Kids Club",
       "title3": "Kinderpool",
-      "text3": "Der speziell gestaltete Kinderpool bietet eine sichere und unterhaltsame Umgebung für unsere jüngsten Gäste. Mit flachem Wasser und Mini-Rutsche ideal für sicheres Planschen und fröhliche Urlaubserinnerungen.",
+      "text3": "Unser speziell gestalteter beheizter Kinderpool bietet unseren kleinen Gästen eine sichere und unterhaltsame Umgebung. Mit flachem Wasser und einer Mini-Rutsche können Kinder sicher spielen und unvergessliche Erinnerungen sammeln.",
       "depth3": "40 cm",
       "area3": "90 m²",
       "span3": "Mini-Rutsche inklusive",
       "subtitle4": "Spannender Spaß mit Rutschen",
       "title4": "Rutschenpool",
-      "text4": "Fügen Sie Ihrem Urlaub Abenteuer hinzu: Der Rutschenpool mit vier Wasserrutschen bietet Nervenkitzel und spritzigen Spaß für Groß und Klein.",
+      "text4": "Verleihen Sie Ihrem Urlaub Abenteuer! Der beheizte Rutschenpool mit vier verschiedenen Wasserrutschen bietet sowohl Kindern als auch Erwachsenen Spannung und Spaß.",
       "depth4": "120 cm",
       "area4": "80 m²",
       "span4": "4 Wasserrutschen",
@@ -521,7 +573,7 @@
       "subtitle1": "März, April, Oktober: 10:00–00:00 Mai–September: 24 Stunden",
       "title1": "Lobby Piano Bar",
       "text1": "Entspannen und netzwerken Sie in unserer eleganten Lobby Piano Bar – der perfekte Ort für meisterhafte Cocktails, hochwertige Drinks und genussvolle Momente in stilvollem Ambiente.",
-      "subtitle2": "Öffnungszeit: 10:00–24:00",
+      "subtitle2": "Öffnungszeit: 10:00–00:00",
       "title2": "Cha Cha Pool Bar",
       "text2": "Relaxen Sie am Pool in der lebhaften Cha Cha Pool Bar mit erfrischenden Cocktails, gekühlten Getränken und leckeren Snacks. Genießen Sie Ihre Lieblingsdrinks unter der Sonne oder unter den Sternen.",
       "subtitle3": "Öffnungszeit: 10:00–18:00",

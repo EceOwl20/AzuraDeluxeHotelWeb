@@ -22,12 +22,14 @@ import img9 from "./images/fantasy9.jpg";
 import img10 from "./images/fantasy10.jpg";
 import img11 from "./images/fantasy11.jpg";
 import RoomsParallaxSection from '../components/RoomsParallaxSection'
+import RoomTour from '../subroomComponent/components/RoomTour'
 
 const page = () => {
   const t = useTranslations('FantasyRoom');
   const t2 = useTranslations('FantasyRoom.RoomFeatures');
   const t3 = useTranslations('FantasyRoom.BackgroundSection');
   const t4 = useTranslations('FantasyRoom.OtherOptions');
+  const t5 = useTranslations('FantasyRoom.RoomTour');
 
   const subroomBannerText=[t("span1"),t("span2"),t("span3")]
 const backgroundTexts=[t3("text"),t3("list1"),t3("list2")]
@@ -69,6 +71,7 @@ const features=[t2("feature1"),t2("feature2"),t2("feature3"),t2("feature4"),t2("
      </div>
       <RoomFeatures span={t2("subtitle")} header={t2("title")} text={t2("text")} header2={t2("subtitle2")} header3={t2("subtitle3")}  text2={t2("text2")} iconsTexts={iconTexts}  features={features}/>
      <BackgroundSection span={t3("subtitle")} header={t3("title")} texts={backgroundTexts} link="/" img={img3}/>
+     <RoomTour span={t5("span")} header={t5("title")} text={t5("text")} link="https://kuula.co/share/collection/7brLW?logo=1&info=0&fs=1&vr=1&autorotate=0.22&autop=10&autopalt=1&thumbs=4&margin=2&alpha=0.72"/>
       <OtherOptions rooms={rooms}/>
       <ContactSection2/>
     </div>

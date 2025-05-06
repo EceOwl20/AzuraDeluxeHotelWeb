@@ -10,11 +10,11 @@ const Beach3 = () => {
   const t = useTranslations('BeachPools.BeachCarousel');
 
     const slides = [
-      { src: Slide2, title: "Swimming & Lounging", span:"Cocktaıls & snacks" },
-        { src: Slide1, title: "Refresh at the Beach Bar", span:"all day round" },
+      { src: Slide2, title:t("title1"), span:t("span1") },
+        { src: Slide1, title:t("title2"), span:t("span2") },
       
-        { src: Slide3, title: "Water Sports", span:"all day round" },
-        { src: Slide4, title: "Celebrate  at the Beach", span:"DURATION: 60 MIN" },
+        { src: Slide3, title:t("title3"), span:t("span3") },
+        { src: Slide4, title:t("title4"), span:t("span4")},
       ]
   return (
     <div className='flex flex-col w-full gap-[30px] lg:gap-[50px] items-center justify-center'>

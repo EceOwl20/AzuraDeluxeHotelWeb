@@ -34,7 +34,7 @@ export default function Footer() {
               </h4>
               <div className="flex flex-col gap-[24px]">
                 <p className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] ">
-                  Phone: <span className="underline">+90 242 510 52 30</span>
+                  Phone: <span className="underline">+90 242 517 12 34</span>
                 </p>
                 <a href="mailto:info@azuradeluxe.com" className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px]">
                   info@azuradeluxe.com

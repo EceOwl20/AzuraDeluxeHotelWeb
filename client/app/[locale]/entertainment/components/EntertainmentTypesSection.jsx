@@ -5,12 +5,12 @@ import Image from 'next/image'
 import fitness from "../images/FITNESSCENTER.jpg"
 import kids from "../images/kids3.jpg"
 import water from "../images/5042.jpg"
-import beachvoley from "../images/2150407949.jpg"
+import beachvoley from "../../gallery/images/entertainment/1.jpg"
 import tennis from "../images/kids4.jpg"
 import cinema from "../images/kids1.jpg"
-import sunset from "../images/500.jpg"
+import sunset from "../../gallery/images/entertainment/2.jpg"
 import stage from "../images/kids2.jpg"
-import themed from "../images/kids5.jpg"
+import themed from "../../gallery/images/entertainment/2150407949.jpg"
 import Link from 'next/link'
 import {useTranslations} from 'next-intl';
 
