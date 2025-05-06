@@ -23,6 +23,7 @@ import blok1 from "../HomePage/Components/Images/blok2.jpg"
 import blok2 from "../HomePage/Components/Images/blok1.jpg"
 import {useTranslations} from 'next-intl';
 
+
 const page = () => {
   const t = useTranslations('BeachPools');
   const t2 = useTranslations('BeachPools.TwoImageSection');

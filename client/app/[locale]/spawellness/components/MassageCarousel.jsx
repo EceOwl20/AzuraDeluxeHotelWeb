@@ -3,6 +3,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
+import { MdArrowBackIosNew,MdArrowForwardIos } from "react-icons/md";
 
 const MassageCarousel = ({ span, header, text, headers = [], images = [] }) => {
   const imagesOriginal = images || DEFAULT_SLIDES;
@@ -45,7 +46,7 @@ const MassageCarousel = ({ span, header, text, headers = [], images = [] }) => {
 
   return (
     <div className="flex flex-col w-screen items-center justify-center gap-[30px] lg:gap-[50px]">
-      <div className="flex flex-col items-start justify-start gap-[35px] text-black font-jost w-[87.79%] md:w-[91.4%] lg:w-[76.8%]">
+      <div className="flex flex-col items-start justify-start gap-[35px] text-black font-jost w-[87.79%] lg:w-[87.4%] lg:ml-[5.8%]">
         <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
           {span}
         </span>
@@ -57,11 +58,11 @@ const MassageCarousel = ({ span, header, text, headers = [], images = [] }) => {
         </p>
       </div>
 
-      <div className="flex flex-col w-[100%] justify-start items-start">
+      <div className="flex flex-col w-[100%] justify-start items-start relative">
         {/* Carousel */}
         <div
           ref={emblaRef}
-          className="overflow-hidden w-full ml-[6.10%] md:ml-[4.3%] lg:ml-[11.6%]"
+          className="overflow-hidden w-full ml-[6.10%] md:ml-[4.3%] lg:w-[87.4%] lg:ml-[5.8%]"
         >
           <div className="flex grid-flow-col lg:h-[540px] w-auto">
             {imagesCombined.map((image, index) => (
@@ -94,10 +95,28 @@ const MassageCarousel = ({ span, header, text, headers = [], images = [] }) => {
               </div>
             ))}
           </div>
+          <div className="absolute top-1/2 left-6 transform -translate-y-1/2">
+      <button
+        className="p-1 bg-[#848383]/40 hidden lg:flex pointer-events-auto"
+        onClick={scrollPrev}
+        type="button"
+      >
+        <MdArrowBackIosNew size={32} color="white" />
+      </button>
+    </div>
+    <div className="absolute top-1/2 right-6 transform -translate-y-1/2">
+      <button
+        className="p-1 bg-[#848383]/40 hidden lg:flex pointer-events-auto"
+        onClick={scrollNext}
+        type="button"
+      >
+        <MdArrowForwardIos size={32} color="white" />
+      </button>
+    </div>
         </div>
 
         {/* Scroll Indicator */}
-        <div className="flex items-start justify-start  w-[93.89%] ml-[6.1%] md:w-[95.7%] md:ml-[4.3%] lg:w-[88.6%] lg:ml-[11.6%] mt-[20px] lg:mt-[50px] relative">
+        <div className="flex items-start justify-start  w-[93.89%] ml-[6.1%] md:w-[95.7%] md:ml-[4.3%] lg:w-[87.4%] lg:ml-[5.8%] mt-[20px] lg:mt-[50px] relative">
           {imagesOriginal.map((_, i) => (
             <div
               key={i}

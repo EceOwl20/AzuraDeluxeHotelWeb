@@ -20,6 +20,8 @@ import TeaCoffeeSvg from "./TeaCoffeeSvg";
 import LedTvSvg from "./LedTvSvg";
 import BalconySvg from "./BalconySvg";
 import Link from "next/link"
+import LivingroomSvg from "./LivingroomSvg"
+import { LiaBedSolid } from "react-icons/lia";
 
 const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, features}) => {
 
@@ -105,9 +107,9 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, 
 
   <div className="sm:flex grid grid-cols-2 sm:flex-row gap-[10px] lg:gap-[15px] w-full items-center justify-start">
     {/* Havuz */}
-    <div className="flex items-center justify-start text-center w-[100%] sm:w-[32.5%] gap-[0px] lg:gap-[10px] bg-[#4B4E4F14] h-[70px] md:h-[60px]">
-      <PoolSvg className="flex" width={65} height={60} />
-      <p className="text-[14px] lg:text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px]">
+    <div className="flex items-center justify-start text-center w-[100%] sm:w-[32.5%] gap-[0px] lg:gap-[10px] bg-[#4B4E4F14] h-[70px] md:h-[60px] pl-4">
+      <LiaBedSolid className="flex " size={36} />
+      <p className="text-[14px] lg:text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px] ">
         {iconsTexts[0]}
       </p>
     </div>
@@ -116,7 +118,7 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, 
     <div className="flex items-center justify-start text-center w-[100%] sm:w-[32.5%] gap-[0px] lg:gap-[10px] bg-[#4B4E4F14] h-[70px] md:h-[60px]">
       <div className="flex py-[10px] px-[3px] lg:px-[6px]">
         <SinglebedSvg className="flex" width={32} height={35} />
-        <SinglebedSvg className="flex -ml-[12px]" width={32} height={35} />
+        
       </div>
       <p className="text-[14px] lg:text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px] whitespace-nowrap">
         {iconsTexts[1]}
@@ -126,7 +128,7 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, 
     {/* Bebek beşiği sadece varsa göster */}
     {iconsTexts[2] && (
       <div className="flex items-center justify-start text-center w-[100%] sm:w-[32.5%] gap-[0px] lg:gap-[10px] bg-[#4B4E4F14] h-[70px] md:h-[60px]">
-        <BabycribSvg className="flex px-[11px] py-[9px]" width={38} height={38} />
+        <PoolSvg className="flex px-[11px] py-[9px]" width={65} height={60} />
         <p className="text-[14px] lg:text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px]">
           {iconsTexts[2]}
         </p>

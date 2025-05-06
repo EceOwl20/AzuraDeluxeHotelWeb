@@ -28,7 +28,7 @@ const page = () => {
   const t3 = useTranslations('FamilyRoom.BackgroundSection');
   const t4 = useTranslations('FamilyRoom.OtherOptions');
 
-  const subroomBannerText=[t("span1"),t("span2"),t("span3")]
+const subroomBannerText=[t("span1"),t("span2"),t("span3")]
 const backgroundTexts=[t3("text"),t3("list1"),t3("list2")]
 
 const iconTexts=[t2("span1"),t2("span2")];

@@ -253,8 +253,9 @@
           "title":"Fantasy Room",
           "text":" Ana binamızda yer alan Fantasy Odalar, 58 m² genişliğinde romantizm ve mahremiyet arayan çiftler için özel olarak tasarlanmıştır. Her odada lüks bir çift kişilik yatak bulunan zarif bir yatak odası ve 25 m²'lik özel bir teras yer almakta; terasta ise jakuzili ve şezlonglu eşsiz bir manzara sunulmaktadır. Bu odalar yalnızca 2 yetişkini ağırlamakta olup, romantik bir deneyim için mükemmel bir seçenektir.",
           "subtitle2":"Özel Romantik Olanaklar",
-          "span1":"Jakuzili Özel Teras",
-          "span2":"Çiftlere Özel Tasarım",
+          "span1": "Özellikle Çiftler İçin Tasarlandı",
+          "span2": "1 King Size Yatak",
+          "span3": "Jakuzili Özel Teras",        
           "subtitle3":"Oda Özellikleri",
           "text2":"Tüm Fantasy Odalarda Elektronik Kartlı Giriş Sistemi, günlük minibar yenilemesi, lüks banyo kozmetikleri, çay-kahve seti, konforlu terlikler ve ücretsiz Wi-Fi mevcuttur. Bu odalar yalnızca romantik çift konaklamaları için tasarlanmıştır. Oda 58 m² genişliğindedir ve 25 m² özel jakuzili terasa sahiptir. Not: Fantasy Odalar sadece 2 yetişkin (çift) için uygundur. Bu oda tipinde ilave yatak, bebek yatağı veya özel havuz bulunmamaktadır.",
           "feature1":"58 m2",
@@ -303,7 +304,7 @@
         "text":"Özel jakuzili 25 m² terası ve konforlu şezlonglarıyla unutulmaz bir romantik tatil için Fantasy Odalarımıza davetlisiniz. Her biri özenle tasarlanmış bu odalar, muhteşem deniz manzarasına sahip olup çiftlerin mahremiyet ve lüks içinde konaklaması için ideal bir ortam sunmaktadır. Kara, kısmi deniz ve tam deniz manzarası seçenekleri sunan bu odalarda 1 çift kişilik yatak, 1 tek kişilik yatak ve 1 koltuk (sofa) yer alır. Toplamda 288 adet standart deluxe ve 4 adet engelli odası mevcuttur. Tüm misafirlerimizin konforu için zemin katta özel olarak tasarlanmış engelli odaları da bulunmaktadır.",
         "span1":"Deniz, kara ve kısmi deniz manzaralı",
         "span2":"3 Yetişkin + 1 Çocuk",
-        "span3":"1 Yatak Odası / 2 Yatak 1 Koltuk (Sofa)",
+        "span3":"1 Çift Kişilik Yatak + 1 Tek Kişilik Yatak + 1 Sofa",
   
         "RoomFeatures":{
           "subtitle":"ÖZEL VE ROMANTİK KAÇAMAK",
@@ -529,9 +530,9 @@
       "subtitle3": "Saat: 10:00–18:00",
       "title3": "Pier Bar",
       "text3": "Pier Bar’ımızda deniz kenarında ferahlatıcı molanın keyfini çıkarın. Lezzetli kokteyller, soğuk içecekler ve atıştırmalıklar muhteşem manzara eşliğinde sunulur.",
-      "subtitle4": "Saat: 23.00-2.00",
-      "title4": "Disco Bar Ciks",
-      "text4": "Disco Bar Ciks’te canlı gece hayatı ve enerjik atmosferi deneyimleyin. Gece boyunca dans edin, enerjik müzikle coşun ve özel kokteyllerle eğlenceyi 24 saat canlı tutun.",
+      "subtitle4": "Saat: 12.00-16.00",
+      "title4": "Lyric Snack Bar",
+      "text4": "Sahildeki Lyric Snack Bar’da ızgara çeşitleri, pita, döner, hamburger, salata ve taze meyve sunuluyor; belirli saatlerde dondurma köşesi de ziyafetinize eşlik ediyor. Deniz manzarası eşliğinde keyifli atıştırmalıklar sizi bekliyor.",
       "buttonText": "DAHA FAZLASINI KEŞFET"
     },
 

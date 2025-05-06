@@ -251,8 +251,9 @@
         "title":"Fantasy Room",
         "text":"Die Fantasy Zimmer befinden sich im Hauptgebäude und bieten auf 58 m² einen exklusiven Raum, der speziell für Paare entworfen wurde. Jedes Zimmer verfügt über ein geschmackvoll eingerichtetes Schlafzimmer mit einem luxuriösen Doppelbett sowie eine 25 m² große private Terrasse mit beeindruckendem Meerblick, Whirlpool und Sonnenliegen. Diese Zimmer sind ideal für zwei Erwachsene und versprechen ein unvergessliches romantisches Erlebnis.",
         "subtitle2":"  Exklusive Romantische Annehmlichkeiten",
-        "span1":" Private Terrasse mit Whirlpool",
-        "span2":"Speziell für Paare gestaltet",
+        "span1": "Speziell für Paare konzipiert",
+        "span2": "1 Kingsize-Bett",
+        "span3": "Private Terrasse mit Jacuzzi",
         "subtitle3":"Zimmerausstattung",
         "text2":"Alle Fantasy Zimmer verfügen über ein elektronisches Schlüsselkartensystem, tägliche Minibar-Auffüllung, hochwertige Badezimmerkosmetik, Tee- und Kaffeezubereitungsmöglichkeiten, bequeme Hausschuhe und kostenloses WLAN. Diese Zimmer wurden ausschließlich für romantische Aufenthalte konzipiert und bieten 58 m² Wohnfläche sowie eine 25 m² große Terrasse mit privatem Whirlpool. Hinweis: Fantasy Zimmer sind ausschließlich für 2 Erwachsene (Paare). Zustellbetten, Babybetten oder separate Pools sind für diesen Zimmertyp nicht verfügbar.",
         "feature1":"58 m2",
@@ -301,7 +302,7 @@
       "text":"Genießen Sie einen unvergesslichen romantischen Aufenthalt in unseren Deluxe Zimmern mit einer exklusiven 25 m² großen Terrasse, privatem Whirlpool und luxuriösen Sonnenliegen. Jedes Zimmer ist stilvoll gestaltet und bietet atemberaubenden Meerblick sowie ein komfortables Schlafzimmer mit einem Doppelbett – ideal für Paare, die Privatsphäre und Luxus suchen.",
       "span1": "Meer-, Land- und seitlicher Meerblick",
       "span2":"3 Erwachsene + 1 Kind",
-      "span3":"1 Schlafzimmer / 2 Bett 1 Sofa",
+      "span3":"1 Doppelbett + 1 Einzelbett + 1 Sofa",
 
       "RoomFeatures":{
         "subtitle":" EXKLUSIVES & ROMANTISCHES ERLEBNIS",
@@ -526,9 +527,9 @@
       "subtitle3": "Öffnungszeit: 10:00–18:00",
       "title3": "Pier Bar",
       "text3": "Genießen Sie eine erfrischende Auszeit an unserer Pier Bar mit köstlichen Cocktails, kalten Getränken und leichten Snacks vor der atemberaubenden Meereskulisse.",
-      "subtitle4": "Öffnungszeit: 23.00-02.00",
-      "title4": "Disco Bar Ciks",
-      "text4": "Erleben Sie pulsierendes Nachtleben in der Disco Bar Ciks. Tanzen Sie die ganze Nacht, genießen Sie mitreißende Musik und erfrischen Sie sich mit Signature-Cocktails und Premium-Drinks.",
+      "subtitle4": "Öffnungszeit: 12.00-16.00",
+      "title4": "Lyric Snack Bar",
+      "text4": "Die Lyric Snack Bar am Strand bietet Grillgerichte, Pita, Döner, Burger, Salate und frische Früchte sowie eine Eistheke zu bestimmten Zeiten. Genießen Sie einen Snack mit Meerblick.",
       "buttonText": "MEHR ENTDECKEN"
     },
 

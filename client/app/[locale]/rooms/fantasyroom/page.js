@@ -32,7 +32,7 @@ const page = () => {
   const subroomBannerText=[t("span1"),t("span2"),t("span3")]
 const backgroundTexts=[t3("text"),t3("list1"),t3("list2")]
 
-const iconTexts=[t2("span1"),t2("span2")];
+const iconTexts=[t2("span1"),t2("span2"),t2("span3")];
 
 const features=[t2("feature1"),t2("feature2"),t2("feature3"),t2("feature4"),t2("feature5"),t2("feature6"),t2("feature7"),t2("feature8"),t2("feature9"),t2("feature10"),t2("feature11")];
 
