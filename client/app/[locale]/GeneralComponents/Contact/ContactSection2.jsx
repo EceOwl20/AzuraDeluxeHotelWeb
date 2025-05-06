@@ -28,13 +28,13 @@ const ContactDetails = () => {
           <span className="capsizedText4 lg:hidden">
             Phone:{" "}
             <Link href="" className="underline">
-              +90 242 517 12 34
+            +90 242 510 52 30
             </Link>
           </span>
           <span className="capsizedText4 lg:hidden">
             Call Center:{" "}
             <Link href="" className="underline">
-            +90 242 510 52 30
+            +90 242 277 11 43
             </Link>
           </span>
           <span className="capsizedText4 lg:hidden">
@@ -51,13 +51,13 @@ const ContactDetails = () => {
           <span className="hidden lg:block">
             Phone:{" "}
             <Link href="" className="underline">
-              +90 242 517 12 34
+            +90 242 510 52 30
             </Link>
           </span>
           <span className="hidden lg:block">
             Call Center:{" "}
             <Link href="" className="underline">
-            +90 242 510 52 30
+            +90 242 277 11 43
             </Link>
           </span>
           <span className="hidden lg:block">
