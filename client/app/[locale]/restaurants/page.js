@@ -31,6 +31,7 @@ const page = () => {
   const t3 = useTranslations('Restaurants.CarouselSection');
   const t4 = useTranslations('Restaurants.CarouselSection2');
   const t5 = useTranslations('Restaurants.BackgroundSection2');
+  const t6 = useTranslations('Restaurants.TwoImagesSection2');
 
   const cuisines = [
     {
@@ -94,7 +95,7 @@ const textsClinary=[t2("text"),t2("span"),t2("list1")]
       <ClinaryInfoSection img1={img3} img2={img4} span={t2("subtitle")} header={t2("title")} texts={textsClinary} />
       <MainRestaurantSection/>
       <CuisinesCarousel span={t3("subtitle")} header={t3("title")} text={t3("text")} cuisines={cuisines}/>
-      <ClinaryReverseInfo img1={img1} img2={img2} span="Perfect Fine Dine Experiences" header="Bistro Restaurant" text1=" Forget about the concern about whether I can eat when you visit Lago Hotel and start daydreaming about a vacation. We are open twenty-four hours a day at Bistro restaurant. Experience our concept while sipping your beer next to those who taste delicious hamburgers, pasta, sandwiches, chicken drumsticks and sweeten their palates.Let’s learn more about this concept." text2=" Bistros are restaurants where typical menu items are provided quickly. The French take little breaks from their everyday labor in these serene locations, occasionally sipping coffee and occasionally consuming alcohol. Sandwiches, both hot and cold, desserts, and other drinks can all be enjoyed."/>
+      <ClinaryReverseInfo img1={img1} img2={img2} span={t6("span")} header={t6("title")} text1={t6("text")} text2={t6("text2")}/>
      <div className='flex flex-col relative'>
      <CuisinesCarousel span={t4("subtitle")} header={t4("title")} text={t4("text")} cuisines={cuisines2}/>
      </div>

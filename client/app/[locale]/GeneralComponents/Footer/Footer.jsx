@@ -25,64 +25,10 @@ export default function Footer() {
 
   return (
     <footer className="w-full flex flex-col bg-[#1A1A16] text-gray-200 text-sm justify-center items-center z-10">
-      <div className="hidden lg:flex w-[91.1%] max-w-[1440px] items-start justify-center text-start gap-[4%] mt-[60px]">
-        <div className="flex w-[66%] items-start text-start">
+      <div className="hidden lg:flex lg:flex-row-reverse w-[91.1%] lg:w-[76.8%] max-w-[1440px] items-start justify-center text-start gap-[4%] mt-[60px]">
+        <div className="flex w-[50%] items-center text-center justify-start">
           {/* SOL: 4 SÜTUN (QUICK MENU, TERMS, COMPANY, CONTACT) */}
-          <div className="w-full grid grid-cols-2 lg:grid-cols-4 gap-8">
-            {/* QUICK MENU */}
-            <div className="flex flex-col items-start justify-start text-start gap-[40px]">
-              <Link href="/rooms" className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
-             {t("category1")}
-              </Link>
-              <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
-              <li>  <Link href="/rooms/deluxeroom" className="hover:text-white cursor-pointer">{t("deluxe")}</Link></li>
-                <li><Link href="/rooms/familyroom" className="hover:text-white cursor-pointer">{t("family")}</Link></li>
-                <li><Link href="/rooms/fantasyroom" className="hover:text-white cursor-pointer">{t("fantasy")}</Link></li>
-              </ul>
-            </div>
-
-            {/* TERM & CONDITIONS */}
-            <div className="flex flex-col items-start justify-start text-start gap-[40px]">
-              <Link href="/restaurants" className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
-              {t("category2")}
-
-              </Link>
-              <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
-                <Link href="/restaurants" className="hover:text-white cursor-pointer">
-                {t("mainrestaurant")}
-                </Link>
-                <li className="hover:text-white cursor-pointer">
-              <Link href="/restaurants/orchestrarestaurant">  {t("orchestra")}</Link>
-                </li>
-                <li className="hover:text-white cursor-pointer">
-               <Link href="/restaurants/bellaazura"> {t("bella")}</Link>
-                </li>
-                <li className="hover:text-white cursor-pointer"><Link href="/restaurants/ottomanrestaurant">{t("ottoman")}</Link></li>
-               
-        
-              </ul>
-            </div>
-
-            {/* COMPANY */}
-            <div className="flex flex-col items-start justify-start text-start gap-[40px]">
-              <h4 className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
-              {t("category3")}
-              </h4>
-              <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
-                <li className="hover:text-white cursor-pointer">
-                <Link href="/spor">{t("spor")}</Link>
-                </li>
-                <li className="hover:text-white cursor-pointer">
-                  <Link href="/kidsclub">{t("kids")}</Link>
-                </li>
-                <li className="hover:text-white cursor-pointer">
-                  <Link href="/spawellness">{t("spa")}</Link>
-                </li>
-              </ul>
-            </div>
-
-            {/* CONTACT */}
-            <div className="flex flex-col items-start justify-start text-start gap-[40px]">
+          <div className="flex flex-col items-start justify-start text-start gap-[40px]">
               <h4 className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
                 <Link href="/connect">Contact</Link>
               </h4>
@@ -102,10 +48,9 @@ export default function Footer() {
                 </p>
               </div>
             </div>
-          </div>
         </div>
-
-        <div className="w-[30%] flex flex-col items-start border-l border-gray-400 pl-16 gap-[40px]">
+<div className="flex w-[1px] h-[240px] bg-gray-400"></div>
+        <div className="w-[50%] flex flex-col items-end  pr-16 gap-[40px]">
           {/* Logo */}
           <div className="mb-1">
           <Image
@@ -243,52 +188,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="flex gap-[30px] items-start justify-center w-[90%] ml-[10%]">
-          <div className="flex flex-col items-start justify-start text-start gap-[40px] w-[33%]">
-            <Link href="/rooms" className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
-            {t("category1")}
-            </Link>
-            <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
-              <li className="hover:text-white cursor-pointer"><Link href="/rooms/deluxeroom">{t("deluxe")}</Link></li>
-              <li className="hover:text-white cursor-pointer"><Link href="/rooms/familyroom">{t("family")}</Link> </li>
-              <li className="hover:text-white cursor-pointer"><Link href="/rooms/fantasyroom">{t("fantasy")}</Link></li>
-            
-            </ul>
-          </div>
-
-          {/* TERM & CONDITIONS */}
-          <div className="flex flex-col items-start justify-start text-start gap-[40px] w-[33%]">
-          <Link href="/restaurants" className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
-          {t("category2")}
-            </Link>
-            <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
-            <li className="hover:text-white cursor-pointer">
-             <Link href="/restaurants/mainrestaurant"> {t("mainrestaurant")}</Link>
-              </li>
-             
-              <li className="hover:text-white cursor-pointer"><Link href="/restaurants/bellaazura">{t("bella")}</Link> </li>
-              <li className="hover:text-white cursor-pointer"><Link href="/restaurants/ottomanrestaurant">{t("ottoman")}</Link></li>
-              
-            </ul>
-          </div>
-
-          {/* COMPANY */}
-          <div className="flex flex-col items-start justify-start text-start gap-[40px] w-[33%]">
-            <h4 className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
-              Activities
-            </h4>
-            <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
-              <li className="hover:text-white cursor-pointer"><Link href="/spor">{t("spor")}</Link></li>
-              <li className="hover:text-white cursor-pointer">
-                <Link href="/kidsclub">{t("kids")}</Link>
-              </li>
-              <li className="hover:text-white cursor-pointer">
-              <Link href="/spa">{t("spa")}</Link>
-              </li>
-             
-            </ul>
-          </div>
-        </div>
+  
 
         <div className="flex w-[92%] items-center justify-center gap-[80px] py-[15px]">
           {/* Sosyal ikonlar */}

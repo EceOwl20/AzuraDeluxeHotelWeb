@@ -191,10 +191,10 @@
   },
 
   "FamilyRoom":{
-    "subtitle":"The Essential In-Room Amenities",
-      "title":"Everything You Need, Right in Your Room",
-      "text":"Enjoy a seamless stay",
-      "span1":"  Sea View",
+    "subtitle": "Comfortable Family Stay with Sea or Land View",
+    "title": "Family Room",
+    "text": "Enjoy a seamless stay",
+    "span1": "Land / Sea View",
       "span2":"1-4 Adult + 1-3 Children",
       "span3":" 1 Double Bed and 2 Single Beds",
 
@@ -203,8 +203,8 @@
         "title":"Family Room",
         "text":" Our Family Rooms, perfectly located in the main building with a generous 50 m² space, offer beautiful sea or land views. Each room features two separate bedrooms (connected by an intermediate door): one bedroom with a comfortable double bed and one bedroom with two single beds, along with one shared bathroom. Ideal for families or groups, these rooms comfortably accommodate up to 2 adults + 2 children, 3 adults + 1 child, or 4 adults + 1 child.",
         "subtitle2":" Amenities Designed for Families",
-        "span1":"2 Single Beds",
-        "span2":"Extra Baby Crib",
+        "span1": "1 Double Bed",
+        "span2": "2 Single Beds",
         "subtitle3":"Room Features",
         "text2":"Services provided in all rooms include an Electronic Key Card System, daily minibar refill, premium bathroom cosmetics, and tea-coffee making facilities.",
         "feature1":"50 m2",
@@ -280,7 +280,7 @@
       "BackgroundSection":{
         "subtitle":" EXCLUSIVE PRIVILEGES",
         "title":" Fantasy Room Benefits",
-        "text":" Guests staying in our Fantasy Rooms enjoy comfortable accommodations featuring two separate bedrooms with stunning sea or land views. For stays of 7 nights or more, enjoy a complimentary dinner at one of our elegant A’la Carte restaurants",
+        "text":" Guests staying in our Fantasy Rooms enjoy comfortable accommodations featuring bedroom with stunning sea views. For stays of 7 nights or more, enjoy a complimentary dinner at one of our elegant A’la Carte restaurants",
         "list1":" A’la Carte Dining: One complimentary visit for stays of 7+ nights.",
         "list2":"Spa & Wellness: Complimentary access to our Turkish Bath, sauna, steam room, and fitness center.",
         "buttonText":" DISCOVER MORE"
@@ -308,17 +308,17 @@
     "subtitle":" EXCLUSIVE ROMANTIC ESCAPE",
       "title":" Deluxe Room",
       "text":"Enjoy an unforgettable romantic getaway in our Fantasy Rooms, featuring an exclusive 25 m² terrace with a private jacuzzi and luxurious sunbeds. Each beautifully designed room offers stunning sea views and includes a comfortable bedroom with one double bed, perfect for couples seeking privacy and luxury.",
-      "span1":" Sea/Land View",
+      "span1":"Sea, land, and partial sea view",
       "span2":"3 Adults + 1 child",
-      "span3":"1 Bedrooms / 2 Bed",
+      "span3":"1 Bedrooms / 2 Bed 1 Sofa",
 
       "RoomFeatures":{
         "subtitle":"EXCLUSIVE & ROMANTIC ESCAPE",
         "title":"Fantasy Room",
         "text":" Located in our main building, Fantasy Rooms offer an exclusive space of 30-32 m² designed especially for couples seeking romance and privacy. Featuring a beautifully appointed bedroom with one luxurious double bed, each room has a private 25 m² terrace with breathtaking sea views, complete with an elegant jacuzzi and comfortable sunbeds. These rooms comfortably accommodate 2 adults and promise an unforgettable, romantic experience. These rooms offer land, partial sea, or full sea views, and are furnished with one double bed, one single bed, and one sofa. A total of 288 standard deluxe rooms and 4 specially designed accessible rooms are available. For the comfort of all our guests, accessible rooms are located on the ground floor.",
         "subtitle2":"  Exclusive Romantic Amenities",
-        "span1":" Private Terrace with Jacuzzi",
-        "span2":"Designed Specifically for Couples",
+         "span1": "1 Double Bed",
+  "span2": "1 Single Bed",
         "subtitle3":"Room Features",
         "text2":"All Fantasy Rooms feature an Electronic Key Card System, daily minibar refill, premium bathroom cosmetics, tea and coffee making facilities, comfortable slippers, and free Wi-Fi.These rooms are exclusively designed for romantic stays, featuring a spacious 58 m² area, one bedroom with a double bed, and a 25 m² terrace offering a private jacuzzi and sunbeds. Please Note: Fantasy Rooms accommodate only 2 adults (couples). Extra beds, cribs, or independent pools are not available for this room type.",
         "feature1":"30-32 m2",
@@ -446,7 +446,7 @@
       "text":"At Azura Deluxe Resort & Spa, indulge in extraordinary culinary experiences. Savor the finest international cuisines in our elegant A'la Carte restaurants, or enjoy our rich open buffet featuring delightful Turkish specialties and fresh Mediterranean flavors, making each meal unforgettable",
       "span":" Dining Options:",
       "list1":"Main Restaurant: Early Breakfast, Breakfast, Late Breakfast, Lunch, Dinner, Night Breakfast (01:00–03:00)",
-      "list2":"Snack Restaurant (Lyric Snack - Beach):12:00–16:00 (Grilled specialties, fast-food, desserts, fruits, ice cream served at selected times)"
+      "list2":"Snack Restaurant (Lyric Snack):12:00–16:00 (Grilled specialties, fast-food, desserts, fruits, ice cream served at selected times)"
     },
 
     "BackgroundSection":{
@@ -477,6 +477,14 @@
       "text3":" Enjoy an extraordinary dining experience featuring rare recipes from the magnificent Ottoman Palace cuisine. Accompanied by the gentle melodies of classical Turkish music, each dish invites you to savor the rich culinary heritage of Turkey.",
       "span3":"Opening Hours: 12:00 – 16:00"
     },
+
+    "TwoImagesSection2":{
+      "subtitle": "",
+  "title": "Irresistible Sweet Delights",
+  "span": "Irresistible Sweet Delights",
+  "text": "Azura Deluxe Resort & Spa offers an unforgettable experience for dessert lovers. In our patisserie, you can sweeten your holiday with flavors that appeal to every palate. Enjoy a sweet break at any time of the day with a rich variety of salty and sweet cookies, moist cakes, and special sandwiches, paired perfectly with your coffee or tea.",
+  "text2": "Our delicious desserts are carefully prepared by our professional chefs. Made with fresh and natural ingredients, these treats exemplify Azura Deluxe's approach to culinary excellence, ready to add a special touch to your vacation."
+    },
     
     "CarouselSection2":{
       "subtitle":"Perfect Fine Dining Experiences",
@@ -491,8 +499,8 @@
       "text2":"Visit our Mazurka Snack Restaurant for delicious snack options served à la carte, including freshly grilled specialties, tasty sandwiches, and delightful salads. Enjoy a relaxed dining experience by the beach, perfect for satisfying your midday cravings. Cuisine: Grilled dishes, burgers, sandwiches, salads, and fruits.",
       "span2":"Opening Hours: 19:00 – 21:00",
       "subtitle3":"BEACH SNACKS",
-      "title3":"Lyric Beach",
-      "text3":"Right by the beach and pier, Lyric Beach Snack Bar offers a relaxing seaside dining experience. Enjoy delicious fresh salads, crispy pizzas, juicy kebabs, fresh fruits, waffles, tasty snacks, and refreshing beverages while soaking up the sun and enjoying panoramic sea views. Highlights: Salads, pizza, kebabs, fruits, waffles, and various snacks.",
+      "title3":"Lyric",
+      "text3":"Right by the beach and pier, Lyric Snack Bar offers a relaxing seaside dining experience. Enjoy delicious fresh salads, crispy pizzas, juicy kebabs, fresh fruits, waffles, tasty snacks, and refreshing beverages while soaking up the sun and enjoying panoramic sea views. Highlights: Salads, pizza, kebabs, fruits, waffles, and various snacks.",
       "span3":"Opening Hours: 12:00 – 16:00"
     },
 
