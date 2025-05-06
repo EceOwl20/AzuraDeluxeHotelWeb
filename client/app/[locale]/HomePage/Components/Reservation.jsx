@@ -1,6 +1,7 @@
 "use client"
 
 import ArrawDown from "@/app/[locale]/HomePage/Components/Icons/ArrawDown"
+import Link from "next/link"
 import React, { useState, useEffect } from "react"
 import DatePicker from "react-datepicker"
 import "react-datepicker/dist/react-datepicker.css"
@@ -45,7 +46,7 @@ export default function Reservation() {
         right-0
         w-screen 
         h-auto 
-        z-20 
+        z-[999] 
         items-center 
         justify-center
         bg-[#1D1D1B] 
@@ -325,8 +326,9 @@ export default function Reservation() {
        
         </div>
 
-        <button
-          onClick={() => console.log("Final Guest Information:", guestInfo)}
+        <Link href="https://azuradeluxehotel.orsmod.com/" target="_blank"
+              rel="norefferer nofollower"
+          // onClick={() => console.log("Final Guest Information:", guestInfo)}
           className="
             cursor-pointer 
             border 
@@ -350,7 +352,7 @@ export default function Reservation() {
           type="button"
         >
           Search
-        </button>
+        </Link>
       </form>
     </section>
   )
