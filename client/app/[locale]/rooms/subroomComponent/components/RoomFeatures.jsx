@@ -245,7 +245,7 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, 
             onClick={toggleGuestsDropdown}
             className="
               cursor-pointer 
-              items-center text-start justify-center p-[18px] h-[47px] w-[70vw] sm:w-[50vw] md:w-[23vw] lg:w-[250px] border border-lagoBlack
+              items-center text-start justify-center px-[18px] h-[47px] w-[70vw] sm:w-[50vw] md:w-[23vw] lg:w-[250px] border border-lagoBlack
               focus:outline-none 
               bg-transparent 
               text-[16px]

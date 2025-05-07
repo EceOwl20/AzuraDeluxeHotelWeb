@@ -10,7 +10,7 @@ export default function HomePage5() {
   return (
     <div className="flex flex-col items-center justify-center gap-0 w-screen">
       <div className="flex w-full items-center justify-center h-[191px] bg-[#fbfbfb] relative">
-      <section className="w-[87.79%] md:w-[91.4%] lg:w-[60%] md:min-w-[345px] md:max-w-[550px] lg:max-w-[900px] flex flex-col items-center justify-center z-[90] absolute -bottom-12 gap-[15px] md:gap-[25px] lg:gap-[30px]">
+      <section className="w-[87.79%] md:w-[91.4%] lg:w-[60%] md:min-w-[345px] md:max-w-[550px] lg:max-w-[900px] flex flex-col items-center justify-center z-[90] absolute -bottom-8 lg:-bottom-12 gap-[10px] md:gap-[25px] lg:gap-[30px]">
       {/* Küçük üst başlık */}
       <p className=" font-jost text-[12px] leading-[14px] tracking-[0.48px] uppercase  font-medium text-lagoBlack">
       {t("subtitle")}
