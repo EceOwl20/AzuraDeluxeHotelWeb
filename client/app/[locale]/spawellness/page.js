@@ -30,27 +30,27 @@ const page = () => {
   const t4 = useTranslations('Spa.CarouselSection');
   const t5 = useTranslations('Spa.SpaTypes');
   
-const massageHeaders=["Aromatherapy Massage","Oriental Massage","Classic Massage","FacialSpecai Massage"]
+const massageHeaders=[t("title1"),t("title2"),t("title3"),t("title4")]
 
 const sliderMassage = [
   {
     src: aromatic,
-    title: "Aromatherapy Massage",
+    title: t("title1"),
 
   },
   {
     src: oriental,
-    title: "Oriental Massage",
+    title: t("title2"),
 
   },
   {
     src: clasmassage,
-    title: "Classic Massage",
+    title: t("title3"),
 
   },
   {
     src: facial,
-    title: "FacialSpecai Massage",
+    title: t("title4"),
    
   },
  

@@ -37,10 +37,10 @@ export default function Footer() {
                 {t("phone")}
                 </p>
                 <a href="mailto:info@azuradeluxe.com" className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px]">
-                {t("email")}
+                {t("emailAddress")}
                 </a>
                 <p className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] ">
-                  Address:   Avsallar Mah.  
+                  {t("ourAddress")}   Avsallar Mah.  
                   <br />
                   İncekum Cad. No:76
                   <br />
@@ -128,7 +128,7 @@ export default function Footer() {
               <Phone className="flex" width={25} height={25} color="#A6A6A6" />
               <div className="flex flex-col gap-[10px] items-start justify-start">
                 <span className="text-[#A6A6A6] leading-[32.53px] capsizedText6 tracking-[0.3px]">
-                  Hotel Line
+                {t("phoneNumber")}
                 </span>
                 <div className="flex h-[1px] w-full bg-[#D9D9D9]/50"></div>
                 <p className="text-[#FBFBFB] leading-[32.53px] capsizedText6">
@@ -141,7 +141,7 @@ export default function Footer() {
               <Phone className="flex" width={25} height={25} color="#A6A6A6" />
               <div className="flex flex-col gap-[10px] items-start justify-start">
                 <span className="text-[#A6A6A6] leading-[32.53px] capsizedText6 tracking-[0.3px]">
-                  Call Center
+                 {t("callCenter")}
                 </span>
                 <div className="flex h-[1px] w-full bg-[#D9D9D9]/50"></div>
                 <p className="text-[#FBFBFB] leading-[32.53px] capsizedText6">
@@ -159,7 +159,7 @@ export default function Footer() {
               />
               <div className="flex flex-col gap-[10px] items-start justify-start">
                 <span className="text-[#A6A6A6] leading-[32.53px] capsizedText6 tracking-[0.3px]">
-                  Adress
+                {t("ourAddress")}
                 </span>
                 <div className="flex h-[1px] w-full bg-[#D9D9D9]/50"></div>
                 <p className="text-[#FBFBFB] leading-[32.53px] capsizedText6 tracking-[0.3px]">
@@ -177,7 +177,7 @@ export default function Footer() {
               />
               <div className="flex flex-col gap-[10px] items-start justify-start">
                 <span className="text-[#A6A6A6] leading-[32.53px] capsizedText6 tracking-[0.3px]">
-                  E-mail
+                  {t("emailAddress")}
                 </span>
                 <div className="flex h-[1px] w-full bg-[#D9D9D9]/50"></div>
                 <p className="text-[#FBFBFB] leading-[32.53px] capsizedText6 tracking-[0.3px]">
@@ -254,7 +254,7 @@ export default function Footer() {
               <Phone className="flex" width={25} height={25} color="#A6A6A6" />
               <div className="flex flex-col gap-[10px] items-start justify-start">
                 <span className="text-[#A6A6A6] leading-[32.53px] capsizedText6 tracking-[0.3px]">
-                  Hotel Line
+                 {t("phoneNumber")}
                 </span>
                 <div className="flex h-[1px] w-full bg-[#D9D9D9]/50"></div>
                 <p className="text-[#FBFBFB] leading-[32.53px] capsizedText6">
@@ -267,7 +267,7 @@ export default function Footer() {
               <Phone className="flex" width={25} height={25} color="#A6A6A6" />
               <div className="flex flex-col gap-[10px] items-start justify-start">
                 <span className="text-[#A6A6A6] leading-[32.53px] capsizedText6 tracking-[0.3px]">
-                  Call Center
+                {t("ourAddress")}
                 </span>
                 <div className="flex h-[1px] w-full bg-[#D9D9D9]/50"></div>
                 <p className="text-[#FBFBFB] leading-[32.53px] capsizedText6">
@@ -285,7 +285,7 @@ export default function Footer() {
               />
               <div className="flex flex-col gap-[10px] items-start justify-start">
                 <span className="text-[#A6A6A6] leading-[32.53px] capsizedText6 tracking-[0.3px]">
-                  Adress
+                {t("ourAddress")}
                 </span>
                 <div className="flex h-[1px] w-full bg-[#D9D9D9]/50"></div>
                 <p className="text-[#FBFBFB] leading-[32.53px] capsizedText6 tracking-[0.3px] whitespace-nowrap">
@@ -303,7 +303,7 @@ export default function Footer() {
               />
               <div className="flex flex-col gap-[10px] items-start justify-start">
                 <span className="text-[#A6A6A6] leading-[32.53px] capsizedText6 tracking-[0.3px]">
-                  E-mail
+                  {t("emailAddress")}
                 </span>
                 <div className="flex h-[1px] w-full bg-[#D9D9D9]/50"></div>
                 <p className="text-[#FBFBFB] leading-[32.53px] capsizedText6 tracking-[0.3px]">

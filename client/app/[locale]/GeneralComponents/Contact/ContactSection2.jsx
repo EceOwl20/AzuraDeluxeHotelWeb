@@ -41,7 +41,7 @@ const ContactDetails = () => {
             </Link>
           </span>
           <span className="capsizedText4 lg:hidden">
-            Email:{" "}
+          {t("emailAddress")}:{" "}
             <Link href="" className="underline">
               info@azuradeluxe.com
             </Link>
@@ -52,7 +52,7 @@ const ContactDetails = () => {
             Avsallar Mah. İncekum Cad. No:76 Alanya / Turkey
           </span>
           <span className="hidden lg:block">
-            Phone:{" "}
+          {t("phoneColon")}:{" "}
             <Link href="" className="underline">
             +90 242 517 12 34
             </Link>
@@ -64,7 +64,7 @@ const ContactDetails = () => {
             </Link>
           </span>
           <span className="hidden lg:block">
-            Email:{" "}
+            {t("emailAddress")}:{" "}
             <Link href="" className="underline">
               info@azuradeluxe.com
             </Link>
