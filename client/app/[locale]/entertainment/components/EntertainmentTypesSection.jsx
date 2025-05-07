@@ -44,7 +44,7 @@ const EntertainmentTypesSection = () => {
       category: t("daytime"),
       description: t("text4"),
       image: beachvoley,
-      link:"/spor"
+      link:"/beachpools"
     },
     {
       title: t("title5"),
@@ -58,21 +58,21 @@ const EntertainmentTypesSection = () => {
       category: t("daytime"),
       description: t("text6"),
       image: cinema,
-      link:"/spor"
+      link:"/beachpools"
     },
     {
       title: t("title7"),
-      category: t("daytime"),
+      category: t("nighttime"),
       description: t("text7"),
       image: sunset,
       link:"/spor"
     },
     {
       title: t("title8"),
-      category: t("daytime"),
+      category: t("nighttime"),
       description: t("text8"),
       image: stage,
-      link:"/spor"
+      link:"/entertainment"
     },
     {
       title: t("title9"),

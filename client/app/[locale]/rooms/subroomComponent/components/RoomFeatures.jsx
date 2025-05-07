@@ -23,8 +23,9 @@ import Link from "next/link"
 import LivingroomSvg from "./LivingroomSvg"
 import { LiaBedSolid } from "react-icons/lia";
 import { useTranslations } from "next-intl";
+import { RiSofaLine } from "react-icons/ri";
 
-const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, features}) => {
+const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, features, sofa,sofaText}) => {
   const t = useTranslations('Reservation');
 
   const [checkInDate, setCheckInDate] = useState(null)
@@ -133,6 +134,15 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, 
         <PoolSvg className="flex px-[11px] py-[9px]" width={65} height={60} />
         <p className="text-[14px] lg:text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px]">
           {iconsTexts[2]}
+        </p>
+      </div>
+    )}
+
+    {sofa && (
+      <div className="flex items-center justify-start text-center w-[100%] sm:w-[32.5%] gap-[0px] lg:gap-[10px] bg-[#4B4E4F14] h-[70px] md:h-[60px]">
+        <RiSofaLine className="flex ml-3" size={30} color="#000"/>
+        <p className="text-[14px] lg:text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px] ml-2">
+          {sofaText}
         </p>
       </div>
     )}

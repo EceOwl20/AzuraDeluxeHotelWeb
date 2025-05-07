@@ -242,7 +242,8 @@
         "feature8":"Tea & Coffee Setup",
         "feature9":"LedTv & Wifi",
         "feature10":"Balcony",
-        "feature11":"Shower"
+        "feature11":"Shower",
+        "sofa":"1 Sofa"
       },
 
       "BackgroundSection":{
@@ -692,10 +693,10 @@
       "text":"Our dedicated children's pools at Azura Deluxe Resort & Spa provide a safe and fun environment for little ones to splash, play, and have endless fun. Featuring shallow water, a mini-slide, and a comfortable atmosphere, these pools are perfectly designed to meet the needs and enjoyment of our youngest guests.",
       "subtitle1":"Mini Club",
       "title1": "Kids Slide Pool",
-      "text1":"Our Kids Slide Pool at Azura Deluxe Resort & Spa provides an exciting and safe environment for young guests. Featuring a shallow pool and a mini-slide, it's the perfect spot for children to enjoy water activities, splashes, and endless fun during their holiday.",
+      "text1": "The heated Children's Slide Pool at Azura Deluxe Resort & Spa offers an exciting and safe environment for our young guests. With its shallow pool and mini slide, children can enjoy water activities, wild splashes, and endless fun throughout their holiday.",
       "subtitle2":"Mini Club",
       "title2": "Children’s Pools",
-      "text2":"Our specially designed Children's Pool at Azura Deluxe Resort & Spa offers a safe, enjoyable, and relaxing environment for little guests. With shallow waters and a mini-slide, children can play safely and happily under supervision, making every moment of their holiday joyful and memorable.",
+      "text2": "The specially designed heated Children's Pool at Azura Deluxe Resort & Spa provides a safe, enjoyable, and relaxing environment for our little ones. With its shallow waters and mini slide, children can play safely under supervision, turning every moment of the holiday into joy and unforgettable memories.",
       "subtitle3":"Mini Club",
       "title3": "Indoor Kids Pool",
       "text3":" Our Indoor Kids Pool provides a warm, safe, and comfortable water environment for young guests at Azura Deluxe Resort & Spa. Featuring shallow and heated water, it is ideal for enjoyable and supervised play, ensuring endless fun for your children regardless of the weather."
@@ -807,5 +808,20 @@
       "clubtext2":"  Nestled between the serene Mediterranean Sea and majestic Taurus Mountains, Azura Deluxe Resort & Spa combines unmatched luxury with personalized hospitality. From stylish rooms and gourmet dining experiences to our inviting spa and vibrant entertainment, every moment here is uniquely crafted for your comfort. Our prime location provides easy access to historical Alanya and nearby airports, making your vacation seamless.",
        "buttonText":"MORE ABOUT"
     }
+  },
+
+  "Gallery":{
+    "subtitle":"Explore the hotel",
+    "title": "Azura Gallery",
+    "general":"General View",
+    "rooms":"Rooms",
+  "meeting": "Meeting",
+    "pool":"Pool & Beach",
+    "flavours":"Flavours",
+    "spa":"Spa & Wellness",
+    "kidsclub":"Kids Club",
+    "entertainment":"Entertainment",
+    "bar":"Bars",
+    "lobby":"Lobby"
   }
 }
