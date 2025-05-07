@@ -22,10 +22,17 @@ const Connect2 = () => {
       </div>
       
       {/* Form overlay */}
-      <div className="absolute min-w-[350px] w-[78vw] max-w-[480px] min-h-[30vh] md:min-h-[40vh] lg:w-[480px] lg:h-[684px] top-1/2  -translate-y-1/2 lg:-translate-y-0 lg:translate-x-0  lg:top-[4%] xl:left-[55%] bg-white shadow-lg p-[18px] lg:p-[30px] z-10 text-center ">
-        <h2 className="lg:text-[42px] md:text-[32px] text-[26px] font-normal text-center font-marcellus text-lagoBlack leading-normal lg:leading-[50px] lg:mt-2 w-full capsizedText2 whitespace-nowrap mb-[15px] lg:mb-[25px]">
-         {t("dropMessage")}
+      <div className="absolute flex flex-col min-w-[350px] w-[78vw] max-w-[480px] min-h-[30vh] md:min-h-[40vh] lg:w-[480px] lg:h-[684px] top-1/2  -translate-y-1/2 lg:-translate-y-0 lg:translate-x-0  lg:top-[4%] xl:left-[55%] bg-white shadow-lg p-[18px] lg:p-[22px] z-10 text-center items-center justify-center">
+        <h2 className="lg:text-[42px] md:text-[32px] text-[24px] font-normal text-center font-marcellus text-lagoBlack leading-normal lg:leading-[50px] lg:mt-2 w-full capsizedText2 whitespace-pre-line mb-[15px] lg:mb-[25px] lg:hidden">
+        {t.rich('dropMessage', {
+    br: () => <br />
+  })}
         </h2>
+
+        <h2 className="lg:text-[42px] hidden lg:flex md:text-[32px] text-[24px] font-normal text-center font-marcellus text-lagoBlack leading-normal lg:leading-[50px] lg:mt-2 w-full capsizedText2 whitespace-pre-line mb-[15px] lg:mb-[25px]">
+        {t('dropMessage2')}
+        </h2>
+
         <p className="text-lagoGray text-[14px] lg:text-[16px] font-normal font-jost leading-[18px] lg:leading-[26px] w-[100%] lg:w-[95%] capsizedText4 mb-[15px] md:mb-[25px]">
         {t("connectPrompt")}
         </p>
@@ -75,14 +82,14 @@ const Connect2 = () => {
           <button
             type="submit"
             className="
-              md:w-1/2
+            
               mx-auto
               border
               border-[#472C10]
               bg-transparent
               px-6
               py-3
-              lg:mt-[25px]
+              lg:mt-[18px]
               hover:bg-black
               hover:text-white
               transition-colors

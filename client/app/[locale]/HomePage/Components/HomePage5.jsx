@@ -24,7 +24,7 @@ export default function HomePage5() {
       {/* İnce yatay çizgi */}
 
       {/* Paragraf */}
-      <p className="w-full leading-[130%] md:leading-[24px] font-jost text-[14px] lg:text-[16px] font-normal text-center text-lagoBlack lg:capsizedText4 ">
+      <p className="w-full leading-[130%] md:leading-[24px] font-jost text-[14px] lg:text-[16px] font-normal text-center text-lagoBlack lg:capsizedText4 line-clamp-5">
       {t("text")}
       </p>
 

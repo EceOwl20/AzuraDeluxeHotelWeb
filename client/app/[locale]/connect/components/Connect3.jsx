@@ -11,7 +11,7 @@ const Connect3 = () => {
       {/* Üst Çizgi kaldırıldı veya başka yerde kullanılabilir */}
 
       {/* Başlık */}
-      <h2 className="text-[32px] lg:text-[40px] font-marcellus font-normal text-center mt-5 mb-5">
+      <h2 className="text-[28px] md:text-[32px] lg:text-[40px] font-marcellus font-normal text-center mt-5 mb-5">
        {t("addressShort")}
       </h2>
 

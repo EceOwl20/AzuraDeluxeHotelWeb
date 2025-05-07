@@ -164,13 +164,14 @@ export default function HomePage3() {
                     py-2
                     text-[14px]
                     lg:text-[16px]
+                    text-center justify-center items-center
                     uppercase
                     text-sm
                     font-medium
                     tracking-wider
                     hover:bg-black hover:text-white hover:underline hover:underline-offset-2
                     transition">
-                  Explore
+                  {t("buttonText")}
                 </Link>
               </div>
             </div>

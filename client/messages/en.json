@@ -46,7 +46,8 @@
   "ourAddress": "Our Address:",
   "phoneNumber": "Phone Number:",
   "emailAddress": "Email Address:",
-  "dropMessage": "Feel Free to Drop Us a Message",
+  "dropMessage": "Feel Free to<br></br>Drop Us a Message",
+  "dropMessage2": "Feel Free to Drop Us a Message",
   "connectPrompt": "Do you have anything in your brain to let us know? Kindly don't fail to connect with us through our contact form.",
   "yourFullName": "Your Full Name",
   "yourEmailAddress": "Your Email Address",
@@ -134,7 +135,8 @@
       "roomTitle3":" Family Room",
       "roomText3":"  Located in our main building, our spacious Family Rooms offer 50 m² of comfort and feature two separate bedrooms connected by a door, providing both privacy and convenience. Each Family Room includes one double bed and two single beds, ideal for families or groups. Available with either sea or land views, these rooms comfortably accommodate up to 4 adults and 1 child, or 3 adults and 1 child, ensuring a delightful stay for the entire famil",
       "area3":"  50 m²",
-      "view3":" Land / Sea View"
+      "view3":" Land / Sea View",
+      "buttonText":"EXPLORE"
     },
 
     "Essentials":{

@@ -5,8 +5,8 @@
     },
 
     "Header": {
-    "contact": "İletişim",
-    "booknow": "Şimdi Rezervasyon Yap",
+    "contact": "İLETİŞİM",
+    "booknow": "Rezervasyon Yap",
     "accommodation": "Konaklama",
     "restaurants": "Restoranlar ve Kafeler",
     "beachPools": "Plaj & Havuzlar",
@@ -44,7 +44,8 @@
     "ourAddress": "Adresimiz:",
     "phoneNumber": "Telefon Numarası:",
     "emailAddress": "E-posta Adresi:",
-    "dropMessage": "Bize Bir Mesaj Göndermekten Çekinmeyin",
+    "dropMessage": "Bize Bir Mesaj<br></br>Göndermekten Çekinmeyin",
+    "dropMessage2": "Bize Mesaj Gönderin",
     "connectPrompt": "Bize iletmek istediğiniz bir şey var mı? İletişim formumuz aracılığıyla mutlaka bize ulaşın.",
     "yourFullName": "Adınız Soyadınız",
     "yourEmailAddress": "E-posta Adresiniz",
@@ -60,7 +61,7 @@
 
   "Footer": {
     "category1": "Konaklama",
-     "contact": "İletişim",
+     "contact": "İLETİŞİM",
      "gallery": "Galeri",
     "category2": "Mutfak",
     "mainrestaurant": "Ana Restoran",
@@ -98,10 +99,10 @@
       "buttonText":" DAHA FAZLASINI KEŞFEDİN",
 
       "EmblaCarousel":{
-        "accommodation":"Konaklama",
-    "restaurants":"Restoranlar",
-    "beachPools":"Plaj ve Havuzlar",
-     "experiences":"Deneyimler",
+      "accommodation":"Konaklama",
+      "restaurants":"Restoranlar",
+      "beachPools":"Plaj ve Havuzlar",
+      "experiences":"Deneyimler",
       "kids":"Çocuklar"
       },
   
@@ -127,7 +128,8 @@
         "roomTitle3":" Aile Odası",
         "roomText3":"  Ana binamızda yer alan geniş Aile Odalarımız, 50 m²’lik konforlu alanıyla iki ayrı yatak odasından oluşur ve bu odalar ara kapı ile birbirine bağlanarak hem mahremiyet hem de kullanım kolaylığı sunar. Her Aile Odasında bir adet çift kişilik yatak ve iki adet tek kişilik yatak bulunur; bu da aileler veya gruplar için ideal bir konaklama sağlar. Deniz ya da kara manzaralı seçenekleriyle sunulan bu odalar, 4 yetişkin ve 1 çocuk ya da 3 yetişkin ve 1 çocuk için konforlu bir konaklama imkânı sunar ve tüm aile için keyifli bir tatil vadeder.",
         "area3":"  50 m²",
-        "view3":"Kara / Deniz Manzarası"
+        "view3":"Kara / Deniz Manzarası",
+        "buttonText":" Keşfet"
       },
   
       "Essentials":{

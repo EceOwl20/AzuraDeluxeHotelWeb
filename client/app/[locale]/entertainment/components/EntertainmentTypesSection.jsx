@@ -153,7 +153,7 @@ const EntertainmentTypesSection = () => {
             {activities.map((activity,index) => (
               <div
                 key={index}
-                className="flex-[0_0_auto] h-[390px] min-w-0 mr-[1.5%]"
+                className="flex-[0_0_auto] h-[415px] md:h-[390px] lg:h-[390px] min-w-0 mr-[1.5%]"
               >
                 <div className="flex flex-col relative w-full items-center text-start justify-center gap-[15px] lg:gap-[20px] font-jost text-black ">
                   <Image

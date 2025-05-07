@@ -43,7 +43,8 @@
     "ourAddress": "Unsere Adresse:",
     "phoneNumber": "Telefonnummer:",
     "emailAddress": "E-Mail-Adresse:",
-    "dropMessage": "Hinterlassen Sie uns gerne eine Nachricht",
+    "dropMessage": "Hinterlassen Sie uns<br></br>gerne eine Nachricht",
+    "dropMessage2": "Hinterlassen Sie uns gerne eine Nachricht",
     "connectPrompt": "Haben Sie etwas auf dem Herzen? Bitte kontaktieren Sie uns über unser Kontaktformular.",
     "yourFullName": "Ihr vollständiger Name",
     "yourEmailAddress": "Ihre E-Mail-Adresse",
@@ -126,7 +127,8 @@
       "roomTitle3":"  Familienzimmer",
       "roomText3":"   Unsere großzügigen Familienzimmer im Hauptgebäude bieten auf 50 m² Komfort und verfügen über zwei durch eine Tür verbundene, separate Schlafzimmer – ideal für Privatsphäre und Bequemlichkeit. Jedes Familienzimmer ist mit einem Doppelbett und zwei Einzelbetten ausgestattet und eignet sich hervorragend für Familien oder Gruppen. Mit wahlweise Meer- oder Landblick bieten diese Zimmer Platz für bis zu 4 Erwachsene und 1 Kind oder 3 Erwachsene und 1 Kind – für einen rundum gelungenen Familienaufenthalt.",
       "area3":"  50 m²",
-      "view3":" Land- / Meerblick"
+      "view3":" Land- / Meerblick",
+      "buttonText":"Entdecken"
     },
 
     "Essentials":{

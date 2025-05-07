@@ -255,8 +255,8 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, 
             aria-haspopup="dialog"
             aria-expanded={showGuests}
             type="button">
-              <span> {adults === 0 ? "Adult" : `${adults} Adult"`}</span>{" "}/{" "}
-              <span> {children === 0 ? "Kid" : `${children} Kid`}</span>
+              <span> {adults === 0 ? t("adults") : `${adults} ${t("adults")}`}</span>{" "}/{" "}
+              <span> {children === 0 ? t("kids") : `${children} ${t("kids")}`}</span>
            
           </button>
           {showGuests && (

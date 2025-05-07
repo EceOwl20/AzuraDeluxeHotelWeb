@@ -26,7 +26,7 @@ const KidsIconsSection = () => {
                 <ActiviteSvg className="flex" width={57} height={56}/>
             </div>
             <div className='flex flex-col items-center justify-center gap-[8px]'>
-                <span className='text-[#121212] font-marcellus font-normal leading-[26px] text-[16px] md:text-[18px]'>{t("iconsText2")}</span>
+                <span className='text-[#121212] font-marcellus font-normal leading-[26px] text-[14px] md:text-[16px] lg::text-[18px]'>{t("iconsText2")}</span>
                 <div className='bg-[#84C9EA] h-[6px] w-[50px]'></div>
             </div>
         </div>
