@@ -51,7 +51,7 @@ const otherOptions = [
     title: "Disco Bar Ciks",
     description: "HOURS: 23:00-02:00  ",
      text:"Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the ",
-     link:"/bars/disco-bar"
+     link:"/bars/pier-bar"
   }
   ];
 

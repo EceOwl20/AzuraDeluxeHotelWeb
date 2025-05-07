@@ -57,7 +57,7 @@ const otherOptions = [
       title: t4("title4"),
       description:  t4("subtitle4"),
        text: t4("text4"),
-       link:"/bars/disco-bar"
+       link:"/bars/pier-bar"
     }
 ];
 
