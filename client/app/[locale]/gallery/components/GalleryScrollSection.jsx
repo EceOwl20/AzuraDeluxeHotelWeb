@@ -91,26 +91,27 @@ import img79 from "../../kidsclub/images/kids7.jpg"
 import img80 from "../../kidsclub/images/kids8.jpg"
 import img81 from "../../kidsclub/images/kids9.jpg"
 
+const GalleryScrollSection = () => {
+  const t = useTranslations('Gallery');
 
-// Kategorilere göre resimler
+  // Kategorilere göre resimler
 const imageCategories = {
-  "GENERAL": [img4,img9,img25,img6, img28, img19, img22, img11, img13, img5, img1, img7, img16, img10, img20, img23, img26, img12, img14, img27, img2, img8, img18, img3, img21, img24, img29, img15, img17],
-  ROOMS: [img2,img3,img6,img11,img12,img23,img27],
-  RESTAURANT: [img13,img17,img30,img31,img32,img33,img34,img35,img36,img37,img38,img40],
-  BARS: [img39,img41,img42,img43,img44,img45],
-  "POOL & BEACH": [img8,img9,img16,img21,img22,img24,img28],
-  ENTERTAINMENT: [img46,img47,img48,img49,img50,img51,img52,img53,img54,img55,img56,img57],
-  "KIDS": [img83,img71,img72,img73,img75,img76,img77,img78,img79,img80,img81],
-  "SPA": [img10,img20,img26,img58,img59,img60,img63,img64,img65,img66,img67,img68,img70],
-  MEETING:[]
+  [t("general")]: [img4,img9,img25,img6, img28, img19, img22, img11, img13, img5, img1, img7, img16, img10, img20, img23, img26, img12, img14, img27, img2, img8, img18, img3, img21, img24, img29, img15, img17],
+  [t("rooms")]: [img2,img3,img6,img11,img12,img23,img27],
+  [t("flavours")]: [img13,img17,img30,img31,img32,img33,img34,img35,img36,img37,img38,img40],
+  [t("bar")]: [img39,img41,img42,img43,img44,img45],
+  [t("pool")]: [img8,img9,img16,img21,img22,img24,img28],
+  [t("entertainment")]: [img46,img47,img48,img49,img50,img51,img52,img53,img54,img55,img56,img57],
+  [t("kidsclub")]: [img83,img71,img72,img73,img75,img76,img77,img78,img79,img80,img81],
+  [t("spa")]: [img10,img20,img26,img58,img59,img60,img63,img64,img65,img66,img67,img68,img70],
+  [t("meeting")]:[]
 }
 
-const categories = Object.keys(imageCategories)
-
-const GalleryScrollSection = () => {
   const [modalIndex, setModalIndex] = useState(null);
   // Seçili kategori (başlangıçta "GENERAL VIEW")
-  const [selectedCategory, setSelectedCategory] = useState("GENERAL")
+  const categories = Object.keys(imageCategories)
+  // Seçili kategori (başlangıçta "GENERAL VIEW")
+  const [selectedCategory, setSelectedCategory] = useState(categories[0])
   const [modalImage, setModalImage] = useState(null) // Seçilen resmi tutacak state
 
   const openModal = (img, index) => {

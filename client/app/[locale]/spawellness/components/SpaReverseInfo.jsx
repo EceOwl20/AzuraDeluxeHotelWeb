@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import {useTranslations} from 'next-intl';
 
 const SpaTypesInfoSection = ({ 
   isImageLeft = true, 
@@ -12,6 +13,7 @@ const SpaTypesInfoSection = ({
   showLink 
 }) => {
   const containerDirection = isImageLeft ? "flex-row" : "flex-row-reverse"
+  const t2 = useTranslations("About.InfoSection");
 
   return (
     <div className="flex w-screen items-center justify-center  max-w-[1440px]">
@@ -44,9 +46,9 @@ const SpaTypesInfoSection = ({
           {showLink && (
             <Link 
               href={link} 
-              className="flex w-[170.585px] whitespace-nowrap py-[16px] px-[32px] font-jost text-[14px] lg:text-[16px] text-lagoBrown font-medium leading-[30px] max-h-[41px] items-center justify-center border border-lagoBrown shadow-buttonCustom uppercase"
+              className="flex w-[173.585px] lg:w-[198px] whitespace-nowrap py-[16px] px-[32px] font-jost text-[14px] lg:text-[16px] text-lagoBrown font-medium leading-[30px] max-h-[41px] items-center justify-center border border-lagoBrown shadow-buttonCustom uppercase text-center "
             >
-              MORE ABOUT
+             {t2("buttonText")}
             </Link>
           )}
         </div>

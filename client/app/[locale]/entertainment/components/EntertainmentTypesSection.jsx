@@ -44,7 +44,7 @@ const EntertainmentTypesSection = () => {
       category: t("daytime"),
       description: t("text4"),
       image: beachvoley,
-      link:"/spor"
+      link:"/beachpools"
     },
     {
       title: t("title5"),
@@ -58,21 +58,21 @@ const EntertainmentTypesSection = () => {
       category: t("daytime"),
       description: t("text6"),
       image: cinema,
-      link:"/spor"
+      link:"/beachpools"
     },
     {
       title: t("title7"),
-      category: t("daytime"),
+      category: t("nighttime"),
       description: t("text7"),
       image: sunset,
       link:"/spor"
     },
     {
       title: t("title8"),
-      category: t("daytime"),
+      category: t("nighttime"),
       description: t("text8"),
       image: stage,
-      link:"/spor"
+      link:"/entertainment"
     },
     {
       title: t("title9"),
@@ -153,7 +153,7 @@ const EntertainmentTypesSection = () => {
             {activities.map((activity,index) => (
               <div
                 key={index}
-                className="flex-[0_0_auto] h-[390px] min-w-0 mr-[1.5%]"
+                className="flex-[0_0_auto] h-[415px] md:h-[390px] lg:h-[390px] min-w-0 mr-[1.5%]"
               >
                 <div className="flex flex-col relative w-full items-center text-start justify-center gap-[15px] lg:gap-[20px] font-jost text-black ">
                   <Image

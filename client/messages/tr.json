@@ -5,8 +5,8 @@
     },
 
     "Header": {
-    "contact": "İletişim",
-    "booknow": "Şimdi Rezervasyon Yap",
+    "contact": "İLETİŞİM",
+    "booknow": "Rezervasyon Yap",
     "accommodation": "Konaklama",
     "restaurants": "Restoranlar ve Kafeler",
     "beachPools": "Plaj & Havuzlar",
@@ -44,7 +44,8 @@
     "ourAddress": "Adresimiz:",
     "phoneNumber": "Telefon Numarası:",
     "emailAddress": "E-posta Adresi:",
-    "dropMessage": "Bize Bir Mesaj Göndermekten Çekinmeyin",
+    "dropMessage": "Bize Bir Mesaj<br></br>Göndermekten Çekinmeyin",
+    "dropMessage2": "Bize Mesaj Gönderin",
     "connectPrompt": "Bize iletmek istediğiniz bir şey var mı? İletişim formumuz aracılığıyla mutlaka bize ulaşın.",
     "yourFullName": "Adınız Soyadınız",
     "yourEmailAddress": "E-posta Adresiniz",
@@ -60,7 +61,7 @@
 
   "Footer": {
     "category1": "Konaklama",
-     "contact": "İletişim",
+     "contact": "İLETİŞİM",
      "gallery": "Galeri",
     "category2": "Mutfak",
     "mainrestaurant": "Ana Restoran",
@@ -98,10 +99,10 @@
       "buttonText":" DAHA FAZLASINI KEŞFEDİN",
 
       "EmblaCarousel":{
-        "accommodation":"Konaklama",
-    "restaurants":"Restoranlar",
-    "beachPools":"Plaj ve Havuzlar",
-     "experiences":"Deneyimler",
+      "accommodation":"Konaklama",
+      "restaurants":"Restoranlar",
+      "beachPools":"Plaj ve Havuzlar",
+      "experiences":"Deneyimler",
       "kids":"Çocuklar"
       },
   
@@ -127,7 +128,8 @@
         "roomTitle3":" Aile Odası",
         "roomText3":"  Ana binamızda yer alan geniş Aile Odalarımız, 50 m²’lik konforlu alanıyla iki ayrı yatak odasından oluşur ve bu odalar ara kapı ile birbirine bağlanarak hem mahremiyet hem de kullanım kolaylığı sunar. Her Aile Odasında bir adet çift kişilik yatak ve iki adet tek kişilik yatak bulunur; bu da aileler veya gruplar için ideal bir konaklama sağlar. Deniz ya da kara manzaralı seçenekleriyle sunulan bu odalar, 4 yetişkin ve 1 çocuk ya da 3 yetişkin ve 1 çocuk için konforlu bir konaklama imkânı sunar ve tüm aile için keyifli bir tatil vadeder.",
         "area3":"  50 m²",
-        "view3":"Kara / Deniz Manzarası"
+        "view3":"Kara / Deniz Manzarası",
+        "buttonText":" Keşfet"
       },
   
       "Essentials":{
@@ -235,7 +237,8 @@
           "feature8":"Çay-Kahve Seti ",
           "feature9":"LED TV ve Wi-Fi",
           "feature10":"Balkon",
-          "feature11":"Duş"
+          "feature11":"Duş",
+          "sofa":"1 Sofa"
         },
   
         "BackgroundSection":{
@@ -661,10 +664,10 @@
       "text": "Azura Deluxe Resort & Spa’daki özel çocuk havuzlarımız, miniklerinizin suyla oynayıp eğlenebileceği güvenli ve keyifli bir ortam sunar. Sığ suyu, mini kaydırağı ve konforlu atmosferiyle bu havuzlar, en küçük misafirlerimizin ihtiyaçlarına ve eğlencesine göre tasarlanmıştır.",
       "subtitle1": "Mini Kulüp",
       "title1": "Çocuk Kaydırak Havuzu",
-      "text1": "Azura Deluxe Resort & Spa’daki Çocuk Kaydırak Havuzu, genç misafirlerimize heyecanlı ve güvenli bir ortam sunar. Sığ havuzu ve mini kaydırağıyla çocuklar tatil boyunca su aktivitelerinin, çılgın sıçramaların ve sınırsız eğlencenin keyfini çıkarır.",
+      "text1": "Azura Deluxe Resort & Spa’daki ısıtmalı Çocuk Kaydırak Havuzu, genç misafirlerimize heyecanlı ve güvenli bir ortam sunar. Sığ havuzu ve mini kaydırağıyla çocuklar tatil boyunca su aktivitelerinin, çılgın sıçramaların ve sınırsız eğlencenin keyfini çıkarır.",
       "subtitle2": "Mini Kulüp",
       "title2": "Çocuk Havuzları",
-      "text2": "Azura Deluxe Resort & Spa’daki özel tasarım Çocuk Havuzu, miniklerimize güvenli, keyifli ve dinlendirici bir ortam sunar. Sığ sular ve mini kaydırağıyla çocuklar gözetim altında güvenle oynar, tatilin her anı neşe ve unutulmaz anlara dönüşür.",
+      "text2": "Azura Deluxe Resort & Spa’daki özel tasarım ısıtmalı Çocuk Havuzu, miniklerimize güvenli, keyifli ve dinlendirici bir ortam sunar. Sığ sular ve mini kaydırağıyla çocuklar gözetim altında güvenle oynar, tatilin her anı neşe ve unutulmaz anlara dönüşür.",
       "subtitle3": "Mini Kulüp",
       "title3": "Kapalı Çocuk Havuzu",
       "text3": "Kapalı Çocuk Havuzumuz, Azura Deluxe Resort & Spa’nın genç misafirlerine sıcak, güvenli ve rahat bir su ortamı sunar. Sığ ve ısıtmalı suyuyla her hava koşulunda keyifle oynayıp eğlenebilecekleri ideal bir alandır."
@@ -777,6 +780,22 @@
       "clubtext2":"  Huzur veren Akdeniz ve görkemli Toros Dağları’nın arasında yer alan Azura Deluxe Resort & Spa, ayrıcalıklı konforu kişiye özel misafirperverlikle buluşturuyor. Şık odalarımız, gurme restoranlarımız, dinlendirici spa olanaklarımız ve keyifli aktivitelerimizle unutulmaz anılar yaratın. Alanya’ya yakın konumumuz ve kolay ulaşım imkanlarımızla tatilinizi konforla buluşturuyoruz.",
        "buttonText":"DAHA FAZLASINI KEŞFET"
     }
+  },
+
+
+  "Gallery": {
+    "subtitle": "Otelimizi Keşfedin",
+    "title": "Azura Galerisi",
+    "general": "Genel Görünüm",
+    "rooms": "Odalar",
+    "meeting": "Toplantı",
+    "pool": "Havuz & Plaj",
+    "flavours": "Lezzetler",
+    "spa": "Spa & Wellness",
+    "kidsclub": "Kids Club",
+    "entertainment": "Eğlence",
+    "bar":"Barlar",
+    "lobby":"Lobi"
   }
     
 }

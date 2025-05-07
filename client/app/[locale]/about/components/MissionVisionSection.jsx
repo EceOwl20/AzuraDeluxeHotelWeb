@@ -19,7 +19,7 @@ const MissionColumn = ({
       width={img.width}
       height={img.height}
       alt="hotel"
-      className="flex w-full max-h-[320px] object-cover"
+      className="flex w-full min-h-[270px] max-h-[280px] lg:max-h-[350px] object-cover"
     />
     <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
       {spanText}
@@ -116,7 +116,7 @@ const MissionVisionSection = ({
         {/* Mobil görünüm: Carousel (md:hidden) */}
         <div className="md:hidden w-full overflow-hidden" ref={emblaRef}>
           <div className="flex">
-            <div className="flex-[0_0_90%] mr-[4%]">
+            <div className="flex-[0_0_90%] mr-[4%] ">
               <MissionColumn
                 img={leftImg}
                 spanText={texts2[0]}
@@ -126,7 +126,7 @@ const MissionVisionSection = ({
                 link={link1}
               />
             </div>
-            <div className="flex-[0_0_100%]">
+            <div className="flex-[0_0_90%]">
               <MissionColumn
                 img={rightImg}
                 spanText={texts2[0]}
@@ -138,8 +138,6 @@ const MissionVisionSection = ({
             </div>
           </div>
         </div>
-
-        {/* (İsteğe bağlı) Mobil Carousel kontrol butonları veya oklar ekleyebilirsiniz */}
       </div>
     </div>
   );

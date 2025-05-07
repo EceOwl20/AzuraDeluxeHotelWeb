@@ -66,7 +66,7 @@ const page = () => {
      <SubRoomBanner img={img1} span={t("subtitle")} header={t("title")} texts={subroomBannerText}/>
      <SubroomCarousel images={carouselImages}/>
      </div>
-      <RoomFeatures span={t2("subtitle")} header={t2("title")} text={t2("text")} header2={t2("subtitle2")} header3={t2("subtitle3")}  text2={t2("text2")} iconsTexts={iconTexts} features={features} />
+      <RoomFeatures span={t2("subtitle")} header={t2("title")} text={t2("text")} header2={t2("subtitle2")} header3={t2("subtitle3")}  text2={t2("text2")} iconsTexts={iconTexts} features={features}  sofa={false} />
      <BackgroundSection span={t3("subtitle")} header={t3("title")} texts={backgroundTexts} link="/" img={img3}/>
      <RoomTour span={t5("span")} header={t5("title")} text={t5("text")} link="https://kuula.co/share/collection/7brmW?logo=1&info=0&fs=1&vr=1&autorotate=0.22&autop=10&autopalt=1&thumbs=4&margin=2&alph"/>
      <RoomTour span={t5("span2")} header={t5("title2")} text={t5("text2")} link="https://kuula.co/share/collection/7brpw?logo=1&info=0&fs=1&vr=1&autorotate=0.22&autop=10&autopalt=1&thumbs=4&margin=2&alpha=0.72"/>

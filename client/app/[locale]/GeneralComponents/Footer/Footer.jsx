@@ -30,14 +30,14 @@ export default function Footer() {
           {/* SOL: 4 SÜTUN (QUICK MENU, TERMS, COMPANY, CONTACT) */}
           <div className="flex flex-col items-start justify-start text-start gap-[40px]">
               <h4 className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
-                <Link href="/connect">Contact</Link>
+                <Link href="/connect">{t("contact")}</Link>
               </h4>
               <div className="flex flex-col gap-[24px]">
                 <p className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] ">
-                  Phone: <span className="underline">+90 242 517 12 34</span>
+                {t("phone")}
                 </p>
                 <a href="mailto:info@azuradeluxe.com" className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px]">
-                  info@azuradeluxe.com
+                {t("email")}
                 </a>
                 <p className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] ">
                   Address:   Avsallar Mah.  
@@ -313,7 +313,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="flex flex-col w-full items-center justify-center font-jost font-normal text-[14px]">
+          {/* <div className="flex flex-col w-full items-center justify-center font-jost font-normal text-[14px]">
             <div
               onClick={() => setIsRoomsOpen(!isRoomsOpen)}
               className="flex w-[98%] p-[10px] md:max-w-[306px] items-center justify-between border border-white leading-[26.667px]"
@@ -394,7 +394,7 @@ export default function Footer() {
               
               </div>
             </div>
-          </div>
+          </div> */}
           <Link
               href="https://www.instagram.com/azuradeluxeresort/"
               target="_blank"

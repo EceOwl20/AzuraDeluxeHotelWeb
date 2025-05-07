@@ -43,7 +43,8 @@
     "ourAddress": "Unsere Adresse:",
     "phoneNumber": "Telefonnummer:",
     "emailAddress": "E-Mail-Adresse:",
-    "dropMessage": "Hinterlassen Sie uns gerne eine Nachricht",
+    "dropMessage": "Hinterlassen Sie uns<br></br>gerne eine Nachricht",
+    "dropMessage2": "Hinterlassen Sie uns gerne eine Nachricht",
     "connectPrompt": "Haben Sie etwas auf dem Herzen? Bitte kontaktieren Sie uns über unser Kontaktformular.",
     "yourFullName": "Ihr vollständiger Name",
     "yourEmailAddress": "Ihre E-Mail-Adresse",
@@ -126,7 +127,8 @@
       "roomTitle3":"  Familienzimmer",
       "roomText3":"   Unsere großzügigen Familienzimmer im Hauptgebäude bieten auf 50 m² Komfort und verfügen über zwei durch eine Tür verbundene, separate Schlafzimmer – ideal für Privatsphäre und Bequemlichkeit. Jedes Familienzimmer ist mit einem Doppelbett und zwei Einzelbetten ausgestattet und eignet sich hervorragend für Familien oder Gruppen. Mit wahlweise Meer- oder Landblick bieten diese Zimmer Platz für bis zu 4 Erwachsene und 1 Kind oder 3 Erwachsene und 1 Kind – für einen rundum gelungenen Familienaufenthalt.",
       "area3":"  50 m²",
-      "view3":" Land- / Meerblick"
+      "view3":" Land- / Meerblick",
+      "buttonText":"Entdecken"
     },
 
     "Essentials":{
@@ -233,7 +235,8 @@
         "feature8":"Tee-/Kaffee-Set ",
         "feature9":"LedTv & WLAN",
         "feature10":"Balkon",
-        "feature11":"Dusche"
+        "feature11":"Dusche",
+        "sofa":"1 Sofa"
       },
 
       "BackgroundSection":{
@@ -657,10 +660,10 @@
       "text": "Unsere speziellen Kinderpools im Azura Deluxe Resort & Spa bieten eine sichere und spaßige Umgebung, in der die Kleinen planschen, spielen und endlosen Spaß haben können. Mit flachem Wasser, einer Mini-Rutsche und einer komfortablen Atmosphäre sind diese Pools perfekt auf die Bedürfnisse und das Vergnügen unserer jüngsten Gäste abgestimmt.",
       "subtitle1": "Mini Club",
       "title1": "Kinder‑Rutschpool",
-      "text1": "Unser Kinder‑Rutschpool im Azura Deluxe Resort & Spa bietet eine aufregende und sichere Umgebung für junge Gäste. Mit flachem Becken und Mini-Rutsche ist er der perfekte Ort für Kinder, um während ihres Urlaubs Wasserspaß und Spritzvergnügen zu genießen.",
+      "text1": "Der beheizte Kinder-Rutschenpool im Azura Deluxe Resort & Spa bietet unseren jungen Gästen eine aufregende und sichere Umgebung. Mit seinem flachen Becken und der Mini-Rutsche können Kinder während ihres Urlaubs Wasseraktivitäten, wilde Sprünge und grenzenlosen Spaß genießen.",
       "subtitle2": "Mini Club",
       "title2": "Kinderpools",
-      "text2": "Unser speziell gestalteter Kinderpool im Azura Deluxe Resort & Spa bietet eine sichere, angenehme und entspannende Umgebung für unsere kleinen Gäste. Mit flachem Wasser und Mini-Rutsche können Kinder unter Aufsicht sicher und fröhlich spielen, sodass jeder Moment ihres Urlaubs freudig und unvergesslich wird.",
+     "text2": "Der speziell gestaltete beheizte Kinderpool im Azura Deluxe Resort & Spa bietet unseren kleinen Gästen eine sichere, angenehme und entspannende Umgebung. Mit flachem Wasser und der Mini-Rutsche können Kinder unter Aufsicht sicher spielen und jeden Moment des Urlaubs in Freude und unvergessliche Erinnerungen verwandeln.",
       "subtitle3": "Mini Club",
       "title3": "Innenpool für Kinder",
       "text3": "Unser Indoor‑Kinderpool bietet eine warme, sichere und komfortable Wasserumgebung für junge Gäste. Mit flachem und beheiztem Wasser ist er ideal für unterhaltsames und beaufsichtigtes Spielen, sodass Ihre Kinder unabhängig vom Wetter endlosen Spaß haben."
@@ -773,5 +776,20 @@
       "clubtext2":"  Eingebettet zwischen dem ruhigen Mittelmeer und dem imposanten Taurusgebirge vereint das Azura Deluxe Resort & Spa unvergleichlichen Luxus mit persönlicher Gastfreundschaft. Von eleganten Zimmern über exklusive kulinarische Erlebnisse bis hin zu unserem erholsamen Spa und abwechslungsreicher Unterhaltung gestalten wir jeden Moment einzigartig. Unsere hervorragende Lage ermöglicht bequemen Zugang zum historischen Alanya und den umliegenden Flughäfen.",
        "buttonText":"MORE ABOUT"
     }
+  },
+
+  "Gallery": {
+    "subtitle": "Erkunden Sie das Hotel",
+    "title": "Azura Galerie",
+    "general": "Gesamtansicht",
+    "rooms": "Zimmer",
+    "meeting": "Besprechung",
+    "pool": "Pool & Strand",
+    "flavours": "Aromen",
+    "spa": "Spa & Wellness",
+    "kidsclub": "Kinderclub",
+    "entertainment": "Entertainment",
+    "bar":"Bar",
+    "lobby":"Lobby"
   }
 }

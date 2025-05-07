@@ -23,8 +23,9 @@ import Link from "next/link"
 import LivingroomSvg from "./LivingroomSvg"
 import { LiaBedSolid } from "react-icons/lia";
 import { useTranslations } from "next-intl";
+import { RiSofaLine } from "react-icons/ri";
 
-const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, features}) => {
+const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, features, sofa,sofaText}) => {
   const t = useTranslations('Reservation');
 
   const [checkInDate, setCheckInDate] = useState(null)
@@ -136,6 +137,15 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, 
         </p>
       </div>
     )}
+
+    {sofa && (
+      <div className="flex items-center justify-start text-center w-[100%] sm:w-[32.5%] gap-[0px] lg:gap-[10px] bg-[#4B4E4F14] h-[70px] md:h-[60px]">
+        <RiSofaLine className="flex ml-3" size={30} color="#000"/>
+        <p className="text-[14px] lg:text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px] ml-2">
+          {sofaText}
+        </p>
+      </div>
+    )}
   </div>
 </div>
 
@@ -235,7 +245,7 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, 
             onClick={toggleGuestsDropdown}
             className="
               cursor-pointer 
-              items-center text-start justify-center p-[18px] h-[47px] w-[70vw] sm:w-[50vw] md:w-[23vw] lg:w-[250px] border border-lagoBlack
+              items-center text-start justify-center px-[18px] h-[47px] w-[70vw] sm:w-[50vw] md:w-[23vw] lg:w-[250px] border border-lagoBlack
               focus:outline-none 
               bg-transparent 
               text-[16px]
@@ -245,8 +255,8 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, 
             aria-haspopup="dialog"
             aria-expanded={showGuests}
             type="button">
-              <span> {adults === 0 ? "Adult" : `${adults} Adult"`}</span>{" "}/{" "}
-              <span> {children === 0 ? "Kid" : `${children} Kid`}</span>
+              <span> {adults === 0 ? t("adults") : `${adults} ${t("adults")}`}</span>{" "}/{" "}
+              <span> {children === 0 ? t("kids") : `${children} ${t("kids")}`}</span>
            
           </button>
           {showGuests && (
