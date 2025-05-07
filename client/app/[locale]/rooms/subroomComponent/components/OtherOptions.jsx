@@ -93,7 +93,7 @@ const OtherOptions = ({rooms}) => {
                     href={room.link}
                     className="flex text-lagoBrown leading-[30px] uppercase font-medium text-[12px] lg:text-[14px] px-[40px] py-[20px] border border-lagoBrown text-center justify-center items-center h-[41px]"
                   >
-                    Learn more
+                  {t("buttonText")}
                   </Link>
                 </div>
               </div>

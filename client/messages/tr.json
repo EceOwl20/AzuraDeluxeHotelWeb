@@ -162,11 +162,11 @@
       "header":"ODALARIMIZ",
       "buttonText1":"Deluxe Oda",
       "buttonText2":"Aile Odası",
-      "buttonText3":" Fantasy Oda",
+      "buttonText3":" Fantazi Oda",
   
       "subtitle":" SİZ VE AİLENİZ İÇİN KONFORLU KONAKLAMA",
       "title":"Lüks Odalarımızda Kendinizi Evde Hissedin",
-      "text":"Azura Deluxe Resort & Spa’nın özenle dekore edilmiş odalarında konfor ve zarafetin tadını çıkarın. Her oda, dinlenme, rahatlık ve lüksü bir arada sunmak üzere özenle tasarlanmıştır. İster etkileyici manzaraya sahip bir Deluxe Oda, ister aileler için ideal geniş bir Aile Odası, ister özel ayrıcalıklarla donatılmış romantik bir Fantasy Oda tercih edin — tüm ihtiyaçlarınıza hitap eden mükemmel bir sığınak sizi bekliyor.",
+      "text":"Azura Deluxe Resort & Spa’nın özenle dekore edilmiş odalarında konfor ve zarafetin tadını çıkarın. Her oda, dinlenme, rahatlık ve lüksü bir arada sunmak üzere özenle tasarlanmıştır. İster etkileyici manzaraya sahip bir Deluxe Oda, ister aileler için ideal geniş bir Aile Odası, ister özel ayrıcalıklarla donatılmış romantik bir Fantazi Oda tercih edin — tüm ihtiyaçlarınıza hitap eden mükemmel bir sığınak sizi bekliyor.",
       "checkin":"GİRİŞ: 14:00",
       "checkout":"ÇIKIŞ: 12:00",
   
@@ -187,8 +187,8 @@
       },
   
       "Room3":{
-        "title":" Fantasy Oda",
-        "text":" Çiftler için özel olarak tasarlanmış Fantasy Odalarımız, 58 m² genişliğindedir ve büyüleyici deniz manzarasına sahiptir. 25 m²’lik özel terasında jakuzi ve şezlonglar bulunan bu odalar, romantik ve ayrıcalıklı bir tatil için idealdir. Şık bir şekilde dekore edilmiş yatak odasında geniş çift kişilik yatak yer almaktadır.",
+        "title":" Fantazi Oda",
+        "text":" Çiftler için özel olarak tasarlanmış Fantazi Odalarımız, 58 m² genişliğindedir ve büyüleyici deniz manzarasına sahiptir. 25 m²’lik özel terasında jakuzi ve şezlonglar bulunan bu odalar, romantik ve ayrıcalıklı bir tatil için idealdir. Şık bir şekilde dekore edilmiş yatak odasında geniş çift kişilik yatak yer almaktadır.",
         "area":" 58 m²",
         "view":"Deniz Manzarası",
         "buttonText":" Keşfet"
@@ -268,10 +268,10 @@
           "person1":"En fazla 4 yetişkin + 1 çocuk",
           "text1":" İç kapı ile ayrılmış iki yatak odası bulunan Aile Odalarımız, ailelerin rahatça konaklayabileceği şekilde tasarlanmıştır. Deniz veya kara manzarası seçenekleriyle unutulmaz aile anıları için idealdir.",
           "span2":"Odanızdan Ayrılmadan Yenilenin",
-          "title2":" Fantasy Oda",
+          "title2":" Fantazi Oda",
           "area2":" 50 m²",
           "person2":"2 yetişkin (yalnızca çiftler)",
-          "text2":"Özel tasarımlı Fantasy Odalar, muhteşem deniz manzaraları ve jakuzili 25 m² özel teras ile çiftlere romantik ve huzurlu bir tatil sunar.",
+          "text2":"Özel tasarımlı Fantazi Odalar, muhteşem deniz manzaraları ve jakuzili 25 m² özel teras ile çiftlere romantik ve huzurlu bir tatil sunar.",
           "buttonText":" DAHA FAZLASINI KEŞFET"
          
         }
@@ -280,22 +280,22 @@
 
     "FantasyRoom":{
       "subtitle":"ÖZEL VE ROMANTİK KAÇAMAK",
-        "title":" Fantasy Oda",
-        "text":"Özel jakuzili 25 m² terası ve konforlu şezlonglarıyla unutulmaz bir romantik tatil için Fantasy Odalarımıza davetlisiniz. Her biri özenle tasarlanmış bu odalar, muhteşem deniz manzarasına sahip olup çiftlerin mahremiyet ve lüks içinde konaklaması için ideal bir ortam sunmaktadır.",
+        "title":" Fantazi Oda",
+        "text":"Özel jakuzili 25 m² terası ve konforlu şezlonglarıyla unutulmaz bir romantik tatil için Fantazi Odalarımıza davetlisiniz. Her biri özenle tasarlanmış bu odalar, muhteşem deniz manzarasına sahip olup çiftlerin mahremiyet ve lüks içinde konaklaması için ideal bir ortam sunmaktadır.",
         "span1":"Deniz Manzaralı ",
         "span2":"2 Yetişkin (Sadece Çiftler)",
         "span3":"1 Yatak Odası / 1 King Size Yatak",
   
         "RoomFeatures":{
           "subtitle":"ÖZEL VE ROMANTİK KAÇAMAK",
-          "title":"Fantasy Room",
-          "text":" Ana binamızda yer alan Fantasy Odalar, 58 m² genişliğinde romantizm ve mahremiyet arayan çiftler için özel olarak tasarlanmıştır. Her odada lüks bir çift kişilik yatak bulunan zarif bir yatak odası ve 25 m²'lik özel bir teras yer almakta; terasta ise jakuzili ve şezlonglu eşsiz bir manzara sunulmaktadır. Bu odalar yalnızca 2 yetişkini ağırlamakta olup, romantik bir deneyim için mükemmel bir seçenektir.",
+          "title":"Fantazi Room",
+          "text":" Ana binamızda yer alan Fantazi Odalar, 58 m² genişliğinde romantizm ve mahremiyet arayan çiftler için özel olarak tasarlanmıştır. Her odada lüks bir çift kişilik yatak bulunan zarif bir yatak odası ve 25 m²'lik özel bir teras yer almakta; terasta ise jakuzili ve şezlonglu eşsiz bir manzara sunulmaktadır. Bu odalar yalnızca 2 yetişkini ağırlamakta olup, romantik bir deneyim için mükemmel bir seçenektir.",
           "subtitle2":"Özel Romantik Olanaklar",
           "span1": "Özellikle Çiftler İçin Tasarlandı",
           "span2": "1 King Size Yatak",
           "span3": "Jakuzili Özel Teras",        
           "subtitle3":"Oda Özellikleri",
-          "text2":"Tüm Fantasy Odalarda Elektronik Kartlı Giriş Sistemi, günlük minibar yenilemesi, lüks banyo kozmetikleri, çay-kahve seti, konforlu terlikler ve ücretsiz Wi-Fi mevcuttur. Bu odalar yalnızca romantik çift konaklamaları için tasarlanmıştır. Oda 58 m² genişliğindedir ve 25 m² özel jakuzili terasa sahiptir. Not: Fantasy Odalar sadece 2 yetişkin (çift) için uygundur. Bu oda tipinde ilave yatak, bebek yatağı veya özel havuz bulunmamaktadır.",
+          "text2":"Tüm Fantazi Odalarda Elektronik Kartlı Giriş Sistemi, günlük minibar yenilemesi, lüks banyo kozmetikleri, çay-kahve seti, konforlu terlikler ve ücretsiz Wi-Fi mevcuttur. Bu odalar yalnızca romantik çift konaklamaları için tasarlanmıştır. Oda 58 m² genişliğindedir ve 25 m² özel jakuzili terasa sahiptir. Not: Fantasy Odalar sadece 2 yetişkin (çift) için uygundur. Bu oda tipinde ilave yatak, bebek yatağı veya özel havuz bulunmamaktadır.",
           "feature1":"58 m2",
           "feature2":"Makyaj Masası",
           "feature3":"Sigara İçilmez",
@@ -311,8 +311,8 @@
   
         "BackgroundSection":{
           "subtitle":"  AYRICALIKLI HİZMETLER",
-          "title":" Fantasy Odası Avantajları",
-          "text":" Fantasy Odalarımızda konaklayan misafirler, yatak odasının sunduğu konfor ve etkileyici deniz manzaralarının tadını çıkarır.",
+          "title":" Fantazi Odası Avantajları",
+          "text":" Fantazi Odalarımızda konaklayan misafirler, yatak odasının sunduğu konfor ve etkileyici deniz manzaralarının tadını çıkarır.",
           "list1":"  A’la Carte Yemek: 7 gece ve üzeri konaklamalarda bir defaya mahsus ücretsiz A’la Carte akşam yemeği.",
           "list2":"Spa & Wellness: Türk hamamı, sauna, buhar odası ve fitness merkezi kullanımı ücretsizdir.",
           "buttonText":" DAHA FAZLASINI KEŞFET"
@@ -320,8 +320,8 @@
 
         "RoomTour": {
           "span": "360° Sanal Oda Turu",
-          "title": "Fantasy Oda – Deniz Manzarası 360°",
-          "text": "Romantik Fantasy odamızın eşsiz deniz manzarasını ve şık iç mekanını, sadece deniz manzarasına odaklanan 360° sanal tur ile keşfedin."
+          "title": "Fantazi Oda – Deniz Manzarası 360°",
+          "text": "Romantik Fantazi odamızın eşsiz deniz manzarasını ve şık iç mekanını, sadece deniz manzarasına odaklanan 360° sanal tur ile keşfedin."
         },
   
         "OtherOptions":{
@@ -333,10 +333,10 @@
           "person1":"En fazla 4 yetişkin + 1 çocuk",
           "text1":" İç kapı ile ayrılmış iki yatak odası bulunan Aile Odalarımız, ailelerin rahatça konaklayabileceği şekilde tasarlanmıştır. Deniz veya kara manzarası seçenekleriyle unutulmaz aile anıları için idealdir.",
           "span2":"Odanızdan Ayrılmadan Yenilenin",
-          "title2":" Fantasy Oda",
+          "title2":" Fantazi Oda",
           "area2":" 58 m²",
           "person2":"2 yetişkin (yalnızca çiftler)",
-          "text2":"Özel tasarımlı Fantasy Odalar, muhteşem deniz manzaraları ve jakuzili 25 m² özel teras ile çiftlere romantik ve huzurlu bir tatil sunar.",
+          "text2":"Özel tasarımlı Fantazi Odalar, muhteşem deniz manzaraları ve jakuzili 25 m² özel teras ile çiftlere romantik ve huzurlu bir tatil sunar.",
           "buttonText":" DAHA FAZLASINI KEŞFET"
          
         }
@@ -369,7 +369,8 @@
           "feature8":"Çay-Kahve Seti ",
           "feature9":"LED TV ve Wi-Fi",
           "feature10":"Balkon",
-          "feature11":"Duş"
+          "feature11":"Duş",
+           "sofa":"1 Sofa"
         },
   
         "BackgroundSection":{
@@ -402,10 +403,10 @@
           "person1":"En fazla 4 yetişkin + 1 çocuk",
           "text1":" İç kapı ile ayrılmış iki yatak odası bulunan Aile Odalarımız, ailelerin rahatça konaklayabileceği şekilde tasarlanmıştır. Deniz veya kara manzarası seçenekleriyle unutulmaz aile anıları için idealdir.",
           "span2":"Odanızdan Ayrılmadan Yenilenin",
-          "title2":" Fantasy Oda",
+          "title2":" Fantazi Oda",
           "area2":" 58 m²",
           "person2":"2 yetişkin (yalnızca çiftler)",
-          "text2":"Özel tasarımlı Fantasy Odalar, muhteşem deniz manzaraları ve jakuzili 25 m² özel teras ile çiftlere romantik ve huzurlu bir tatil sunar.",
+          "text2":"Özel tasarımlı Fantazi Odalar, muhteşem deniz manzaraları ve jakuzili 25 m² özel teras ile çiftlere romantik ve huzurlu bir tatil sunar.",
           "buttonText":" DAHA FAZLASINI KEŞFET"
          
         }

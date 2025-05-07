@@ -118,12 +118,12 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, 
     </div>
 
     {/* Yatak */}
-    <div className="flex items-center justify-start text-center w-[100%] sm:w-[32.5%] gap-[0px] lg:gap-[10px] bg-[#4B4E4F14] h-[70px] md:h-[60px]">
+    <div className="flex items-center justify-start text-center w-[100%] sm:w-[32.5%] gap-[0px] lg:-gap-[1px] bg-[#4B4E4F14] h-[70px] md:h-[60px]">
       <div className="flex py-[10px] px-[3px] lg:px-[6px]">
         <SinglebedSvg className="flex" width={32} height={35} />
         
       </div>
-      <p className="text-[14px] lg:text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px] whitespace-nowrap">
+      <p className="text-[14px] lg:text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px] whitespace-nowrap ">
         {iconsTexts[1]}
       </p>
     </div>
@@ -403,7 +403,7 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, 
           <h4 className="text-[28px] font-marcellus font-normal text-lagoBlack leading-[120%] -tracking-[0.56px] leading-trim-both">{t("contactUs")}</h4>
           <div className="flex gap-[11px] items-center justify-center w-full">
             <DarkPhoneSvg className="flex" width={20} height={20} />
-          <p className="text-[16px] text-lagoBlack font-medium font-jost leading-[120%] -tracking-[0.32px]">+90 242 517 12 34</p>
+          <a href="tel:+902425171234" className="text-[16px] text-lagoBlack font-medium font-jost leading-[120%] -tracking-[0.32px]">+90 242 517 12 34</a>
           </div>
         </div>
         </div>
