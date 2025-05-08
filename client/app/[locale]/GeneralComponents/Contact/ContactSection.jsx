@@ -3,7 +3,7 @@ import React,{ useEffect, useRef } from "react";
 import Image from 'next/image'
 import imgBackground from "./images/darkgallerybg.png"
 import LeafSvg from '../Header/Icons/LeafSvg'
-import minigallery from "./images/azuragallery.webp"
+import minigallery from "./images/azuragallerynew.webp"
 import Link from 'next/link'
 import { PiInstagramLogoLight,PiFacebookLogoLight, PiYoutubeLogoLight} from "react-icons/pi";
 import {useTranslations} from 'next-intl';
