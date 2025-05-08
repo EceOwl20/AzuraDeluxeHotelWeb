@@ -59,6 +59,12 @@
   },
 
   "Footer": {
+    "ourAddress": "Unsere Adresse:",
+    "phoneNumber": "Telefonnummer:",
+    "emailAddress": "E-Mail:",
+    
+    "phoneColon": "Telefon:",
+    "callCenter": "Call Center",
     "category1": "Unterkunft",
     "gallery": "Galerie",
     "entertainment": "Unterhaltung",
@@ -456,7 +462,7 @@
       "depth2": "140 cm",
       "area2": "100 m²",
       "span2": "Beheizt (saisonal)",
-      "subtitle3": "Kids Club",
+      "subtitle3": "Kinderclub",
       "title3": "Kinderpool",
       "text3": "Unser speziell gestalteter beheizter Kinderpool bietet unseren kleinen Gästen eine sichere und unterhaltsame Umgebung. Mit flachem Wasser und einer Mini-Rutsche können Kinder sicher spielen und unvergessliche Erinnerungen sammeln.",
       "depth3": "40 cm",
@@ -611,7 +617,7 @@
       "text": "Das Azura Deluxe Resort & Spa lädt Sie zu einer Vielzahl von Aktivitäten ein – von Live‑Shows und speziellen Abendveranstaltungen über Discos, Boccia und Beachvolleyball bis hin zu Tischtennis, Dart, Pool‑Spielen, Aerobic und Wassergymnastik. Erleben Sie unvergessliche Unterhaltungs‑ und Sporterlebnisse.",
       "title1": "Sport & Fitness",
       "text1": "Bleiben Sie während Ihres Urlaubs aktiv und voller Energie. Nutzen Sie unser komplett ausgestattetes Fitnesscenter, nehmen Sie an belebenden Aerobic‑Einheiten, Wassergymnastik, Beachvolleyball‑Matches, Boccia‑Spielen, Dart und diversen Pool‑Aktivitäten teil – alles für ein bereicherndes Urlaubserlebnis.",
-      "title2": "Kids‑ & Teen‑Club",
+      "title2": "Kinder- & Jugendclub",
       "text2": "Spaß und Unterhaltung für unsere jungen Gäste! Unser speziell gestalteter Kids‑Club bietet betreute Tagesaktivitäten, Spiele, Spielplätze, Mini‑Discos und kreative Events für 4‑ bis 12‑Jährige. Teens genießen soziale Aktivitäten, Spiele und neue Freundschaften in sicherer, einladender Umgebung.",
       "title3": "Wassersport",
       "text3": "Erleben Sie aufregende Wassersportarten im Azura Deluxe Resort & Spa. Von abenteuerlichen Jetski‑Fahrten über Parasailing und Bananenboot bis hin zu vielem mehr – unvergesslicher Spaß auf den kristallklaren Gewässern des Mittelmeers.",
@@ -634,21 +640,21 @@
 
   "KidsClub": {
     "subtitle": "Spaßige Zeit für Kinder",
-    "title": "Mini Club",
-    "text": "Im Mini Club des Azura Deluxe Resort & Spa erwarten unsere kleinen Gäste im Alter von 4 bis 12 Jahren Spaß und Spannung. Mit beaufsichtigten Aktivitäten, kreativen Workshops, spannenden Spielplätzen und lebhaften Mini-Discos bietet unser Kids Club sichere Unterhaltung und unvergessliche Momente den ganzen Tag.",
+    "title": "Mini-Disco",
+    "text": "Im Mini-Disco des Azura Deluxe Resort & Spa erwarten unsere kleinen Gäste im Alter von 4 bis 12 Jahren Spaß und Spannung. Mit beaufsichtigten Aktivitäten, kreativen Workshops, spannenden Spielplätzen und lebhaften Mini-Discos bietet unser Kinderclub sichere Unterhaltung und unvergessliche Momente den ganzen Tag.",
     "TwoImageSection": {
       "subtitle": "Spaß & Vergnügen für die Kleinen",
-      "title": "Mini Club",
-      "text": "Im Mini Club des Azura Deluxe Resort & Spa erleben Ihre Kinder im Alter von 4 bis 12 Jahren endlosen Spaß mit beaufsichtigten täglichen Aktivitäten, kreativen Spielen, Mini-Discos, Spielplätzen und vielem mehr. Unser fürsorgliches und erfahrenes Personal sorgt dafür, dass Ihre Kleinen eine fröhliche, sichere und unvergessliche Urlaubserfahrung genießen können, während Sie Ihren Urlaub entspannt genießen."
+      "title": "Mini-Disco",
+      "text": "Im Mini-Disco des Azura Deluxe Resort & Spa erleben Ihre Kinder im Alter von 4 bis 12 Jahren endlosen Spaß mit beaufsichtigten täglichen Aktivitäten, kreativen Spielen, Mini-Discos, Spielplätzen und vielem mehr. Unser fürsorgliches und erfahrenes Personal sorgt dafür, dass Ihre Kleinen eine fröhliche, sichere und unvergessliche Urlaubserfahrung genießen können, während Sie Ihren Urlaub entspannt genießen."
     },
     "iconsText1": "Sichere Umgebung",
     "iconsText2": "Altersgerechte Aktivitäten",
     "iconsText3": "Soziale Interaktion",
     "iconsText4": "Professionelles Personal",
     "CarouselSection": {
-      "subtitle": "Willkommen im Kids Club",
+      "subtitle": "Willkommen im Kinderclub",
       "title": "Wo Spaß und Bildung aufeinandertreffen",
-      "text": "Unser Kids Club bietet altersgerechte pädagogische und unterhaltsame Aktivitäten. Wir haben eine lebendige Umgebung geschaffen, die Kreativität fördert, die Fantasie anregt und Träume zum Leben erweckt – für unvergessliche Urlaubsmomente Ihrer Kinder.",
+      "text": "Unser Kinderclub bietet altersgerechte pädagogische und unterhaltsame Aktivitäten. Wir haben eine lebendige Umgebung geschaffen, die Kreativität fördert, die Fantasie anregt und Träume zum Leben erweckt – für unvergessliche Urlaubsmomente Ihrer Kinder.",
       "title1": "Kinderaktivitäten",
       "title2": "Mini-Disco",
       "title3": "Kino für Kids",
@@ -656,16 +662,16 @@
       "title5": "Spielplatz"
     },
     "OtherOptions": {
-      "subtitle": "Mini Club",
+      "subtitle": "Mini-Disco",
       "title": "Kinderpools",
       "text": "Unsere speziellen Kinderpools im Azura Deluxe Resort & Spa bieten eine sichere und spaßige Umgebung, in der die Kleinen planschen, spielen und endlosen Spaß haben können. Mit flachem Wasser, einer Mini-Rutsche und einer komfortablen Atmosphäre sind diese Pools perfekt auf die Bedürfnisse und das Vergnügen unserer jüngsten Gäste abgestimmt.",
-      "subtitle1": "Mini Club",
+      "subtitle1": "Mini-Disco",
       "title1": "Kinder‑Rutschpool",
       "text1": "Der beheizte Kinder-Rutschenpool im Azura Deluxe Resort & Spa bietet unseren jungen Gästen eine aufregende und sichere Umgebung. Mit seinem flachen Becken und der Mini-Rutsche können Kinder während ihres Urlaubs Wasseraktivitäten, wilde Sprünge und grenzenlosen Spaß genießen.",
-      "subtitle2": "Mini Club",
+      "subtitle2": "Mini-Disco",
       "title2": "Kinderpools",
      "text2": "Der speziell gestaltete beheizte Kinderpool im Azura Deluxe Resort & Spa bietet unseren kleinen Gästen eine sichere, angenehme und entspannende Umgebung. Mit flachem Wasser und der Mini-Rutsche können Kinder unter Aufsicht sicher spielen und jeden Moment des Urlaubs in Freude und unvergessliche Erinnerungen verwandeln.",
-      "subtitle3": "Mini Club",
+      "subtitle3": "Mini-Disco",
       "title3": "Innenpool für Kinder",
       "text3": "Unser Indoor‑Kinderpool bietet eine warme, sichere und komfortable Wasserumgebung für junge Gäste. Mit flachem und beheiztem Wasser ist er ideal für unterhaltsames und beaufsichtigtes Spielen, sodass Ihre Kinder unabhängig vom Wetter endlosen Spaß haben."
     },
@@ -676,6 +682,11 @@
     "subtitle": "ENTSPANNEN SIE IN UNSEREM SYMPHONY SPA & WELLNESS CENTER",
     "title": "Spa & Wellness",
     "text": "Entspannen, regenerieren und auftanken im Symphony Spa & Wellness Center des Azura Deluxe Resort & Spa. Genießen Sie hochwertige professionelle Massagen und Behandlungen für völlige körperliche und geistige Entspannung – für einen ruhigen und unvergesslichen Urlaub.",
+    "title1": "Aromatherapie-Massage",
+  "title2": "Orientalische Massage",
+  "title3": "Klassische Massage",
+  "title4": "Spezial-Gesichtsmassage",
+  "time":"DAUER: 60 MIN",
 
     "InfoSection": {
       "subtitle1": "Erneuern Sie Körper und Geist",
@@ -763,7 +774,7 @@
     "subtitle":" Azura Deluxe Resort & Spa",
     "title":" Ihr Idealer Urlaubsort",
     "text":"  Genießen Sie ein unvergessliches Urlaubserlebnis im Azura Deluxe Resort & Spa, wo Komfort und Eleganz in stilvoll eingerichteten Zimmern aufeinandertreffen. Dank der einzigartigen Lage unseres Hotels bieten unsere Zimmer herrliche Ausblicke auf das Meer, den Pool oder die grüne Umgebung. Zusätzlich verfügen wir über beheizte Innenpools, einen für Erwachsene und einen speziell für Kinder.",
-    "buttonText":"MORE ABOUT"
+    "buttonText":"Mehr über"
   },
     "MissinonVision":{
       "subtitle":" Azura Deluxe Resort & Spa",
@@ -775,7 +786,7 @@
       "clubsubtitle2":" Azura Deluxe Resort & Spa",
       "clubtitle2":" Ein Außergewöhnliches Urlaubserlebnis",
       "clubtext2":"  Eingebettet zwischen dem ruhigen Mittelmeer und dem imposanten Taurusgebirge vereint das Azura Deluxe Resort & Spa unvergleichlichen Luxus mit persönlicher Gastfreundschaft. Von eleganten Zimmern über exklusive kulinarische Erlebnisse bis hin zu unserem erholsamen Spa und abwechslungsreicher Unterhaltung gestalten wir jeden Moment einzigartig. Unsere hervorragende Lage ermöglicht bequemen Zugang zum historischen Alanya und den umliegenden Flughäfen.",
-       "buttonText":"MORE ABOUT"
+       "buttonText":"Mehr über"
     }
   },
 
@@ -789,7 +800,7 @@
     "flavours": "Aromen",
     "spa": "Spa & Wellness",
     "kidsclub": "Kinderclub",
-    "entertainment": "Entertainment",
+    "entertainment": "Unterhaltung",
     "bar":"Bar",
     "lobby":"Lobby"
   }

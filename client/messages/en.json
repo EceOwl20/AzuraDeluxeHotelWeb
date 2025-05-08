@@ -64,6 +64,12 @@
 
 
 "Footer":{
+  "ourAddress": "Our Address:",
+  "phoneNumber": "Phone Number:",
+  "emailAddress": "Email :",
+
+  "phoneColon": "Phone:",
+  "callCenter": "Call Center",
 "category1":"Accomodation",
 "gallery":"Gallery",
 "entertainment":"Entertainment",
@@ -712,6 +718,11 @@
     "subtitle":" RELAX AT OUR SYMPHONY SPA & WELLNESS CENTER",
     "title": " Spa & Wellness",
     "text":"Relax, rejuvenate, and recharge at Azura Deluxe Resort & Spa’s Symphony Spa & Wellness Center. Indulge in high-quality professional massages and treatments, designed to provide complete physical and mental relaxation, ensuring your holiday is peaceful and unforgettable.",
+    "title1": "Aromatherapy Massage",
+    "title2": "Oriental Massage",
+    "title3": "Classic Massage",
+    "title4": "Facial Special Massage",
+    "time":"DURATION: 60 MIN",
 
     "InfoSection":{
       "subtitle1":" Renew Your Body and Mind",

@@ -60,6 +60,12 @@
   },
 
   "Footer": {
+    "ourAddress": "Adresimiz:",
+    "phoneNumber": "Telefon Numarası:",
+    "emailAddress": "E-posta:",
+    
+    "phoneColon": "Telefon:",
+    "callCenter": "Çağrı Merkezi",
     "category1": "Konaklama",
      "contact": "İLETİŞİM",
      "gallery": "Galeri",
@@ -459,7 +465,7 @@
     "depth2": "140 cm",
     "area2": "100 m²",
     "span2": "Mevsimsel Isıtmalı",
-    "subtitle3": "Kids Club",
+    "subtitle3": "Çocuk Kulübü",
     "title3": "Çocuk Havuzu",
     "text3": "Özel tasarlanmış ısıtmalı çocuk havuzumuz, küçük misafirlerimiz için güvenli ve eğlenceli bir ortam sunar. Sığ su ve mini kaydırakla çocuklar güvenle oynayıp unutulmaz anılar biriktirir.",
     "depth3": "40 cm",
@@ -616,7 +622,7 @@
       "title1": "Sport & Fitness",
       "text1": "Azura Deluxe Resort & Spa’da tatiliniz boyunca formda ve enerjik kalın. Tam donanımlı fitness merkezimizden yararlanın, canlandırıcı aerobik seanslarına, su jimnastiğine, plaj voleybolu maçlarına, boccia oyunlarına, dart ve havuz aktivitelerine katılarak tatilinizi zenginleştirin.",
       "title2": "Çocuk & Genç Kulübü",
-      "text2": "Azura Deluxe Resort & Spa, küçük misafirlerimiz için sonsuz eğlence sunar! Özel tasarlanmış Kids Club’ımızda denetimli günlük aktiviteler, oyun alanları, mini diskolar ve 4–12 yaş çocuklara yönelik yaratıcı etkinlikler sizi bekliyor. Gençler de güvenli ve samimi ortamda oyunlar ve sosyal aktivitelerle yeni arkadaşlar edinebilir.",
+      "text2": "Azura Deluxe Resort & Spa, küçük misafirlerimiz için sonsuz eğlence sunar! Özel tasarlanmış Çocuk Kulübü’ımızda denetimli günlük aktiviteler, oyun alanları, mini diskolar ve 4–12 yaş çocuklara yönelik yaratıcı etkinlikler sizi bekliyor. Gençler de güvenli ve samimi ortamda oyunlar ve sosyal aktivitelerle yeni arkadaşlar edinebilir.",
       "title3": "Su Sporları",
       "text3": "Azura Deluxe Resort & Spa’da heyecan dolu su sporları deneyimi yaşayın. Maceralı jet ski turlarından parasailing, muz botu gezilerine kadar çeşit çeşit aktiviteyle Akdeniz’in masmavi sularında unutulmaz anlar sizi bekliyor.",
       "title4": "Plaj Aktiviteleri",
@@ -680,6 +686,11 @@
     "subtitle": "SENFONY SPA & WELLNESS MERKEZİMİZDE RAHATLAYIN",
     "title": "Spa & Wellness",
     "text": "Azura Deluxe Resort & Spa’nın Symphony Spa & Wellness Merkezi'nde rahatlayın, yenilenin ve enerjinizi tazeleyin. Yüksek kalitede profesyonel masajlar ve bakımlarla hem bedensel hem zihinsel tam rahatlama sağlayın; tatiliniz huzurlu ve unutulmaz geçsin.",
+    "title1": "Aromaterapi Masajı",
+  "title2": "Oryantal Masaj",
+  "title3": "Klasik Masaj",
+  "title4": "Özel Yüz Masajı",
+  "time":"SÜRE: 60 DAK",
 
     "InfoSection": {
       "subtitle1": "Bedeninizi ve Zihninizi Yenileyin",
@@ -793,7 +804,7 @@
     "pool": "Havuz & Plaj",
     "flavours": "Lezzetler",
     "spa": "Spa & Wellness",
-    "kidsclub": "Kids Club",
+    "kidsclub": "Çocuk Kulübü",
     "entertainment": "Eğlence",
     "bar":"Barlar",
     "lobby":"Lobi"

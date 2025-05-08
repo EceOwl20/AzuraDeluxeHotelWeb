@@ -5,9 +5,11 @@ import Link from "next/link";
 import CookieSvg from "./CookieSvg";
 import PhoneSvg from "./Header/Icons/Phone";
 import CookiePopup from "./CookiePopup"; // CookiePopup'u import et
+import {useTranslations} from 'next-intl';
 
 const BookNow = () => {
   const [isOpen, setIsOpen] = useState(false); // Popup açık mı?
+  const t = useTranslations('Header');
 
   return (
     <div className="fixed flex bottom-0 left-0 right-0 z-[980] w-full md:hidden bg-[rgba(29,29,27,0.80)] backdrop-blur-[2px] py-[17px] items-center justify-center">
@@ -28,7 +30,7 @@ const BookNow = () => {
         <Link   href="https://lagohotel.orsmod.com/"
                rel="norefferer nofollower"
                   target="_blank" className="flex whitespace-nowrap text-white py-[14px] px-[28px] h-[39px] border border-white text-[16px] leading-[24px] uppercase font-medium font-jost items-center justify-center text-center">
-          Book Now
+          {t("booknow")}
         </Link>
       </div>
 

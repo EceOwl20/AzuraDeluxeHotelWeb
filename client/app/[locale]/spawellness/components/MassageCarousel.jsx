@@ -4,8 +4,10 @@ import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
 import { MdArrowBackIosNew,MdArrowForwardIos } from "react-icons/md";
+import {useTranslations} from 'next-intl';
 
 const MassageCarousel = ({ span, header, text, headers = [], images = [] }) => {
+  const t = useTranslations("Spa");
   const imagesOriginal = images || DEFAULT_SLIDES;
   const imagesCombined = [...imagesOriginal, ...imagesOriginal];
   const [emblaRef, emblaApi] = useEmblaCarousel(
@@ -88,7 +90,7 @@ const MassageCarousel = ({ span, header, text, headers = [], images = [] }) => {
                     </h3>
                     <div className="flex w-[50%] h-[1px] bg-white"></div>
                     <p className="text-[12px] font-medium leading-[14px] uppercase tracking-[0.48px] font-jost text-white mt-[10px]">
-                      DURATION: 60 MIN
+                      {t("time")}
                     </p>
                   </div>
                 </div>
