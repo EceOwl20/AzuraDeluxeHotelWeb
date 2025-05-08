@@ -151,7 +151,7 @@ export default function HomePage3() {
                 </div>
 
                 {/* Buton */}
-                <span className="text-white font-marcellus underline underline-offset-[6px] text-[14px]  ml-6 font-normal md:leading-[19.88px] flex uppercase lg:hidden">DISCOVER</span>
+                <span className="text-white font-marcellus underline underline-offset-[6px] text-[14px]  ml-6 font-normal md:leading-[19.88px] flex uppercase lg:hidden">  {t("buttonText")}</span>
                 <Link href={img.link}
                   className="
                     hidden

@@ -22,6 +22,13 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Azura Deluxe Hotel",
   description: "Azura Deluxe Hotel",
+
+  icons: {
+    icon: '/logowhite.png',      
+    shortcut: '/logowhite.png',  
+    apple: '/logowhite.png'     
+  }
+
 };
 
 
