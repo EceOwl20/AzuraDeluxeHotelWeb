@@ -5,7 +5,7 @@ import imgBackground from "./images/darkgallerybg.png"
 import LeafSvg from '../Header/Icons/LeafSvg'
 import minigallery from "./images/azuragallery.webp"
 import Link from 'next/link'
-import { PiInstagramLogoLight,PiMetaLogoLight,PiFacebookLogoLight, PiYoutubeLogoLight} from "react-icons/pi";
+import { PiInstagramLogoLight,PiFacebookLogoLight, PiYoutubeLogoLight} from "react-icons/pi";
 import {useTranslations} from 'next-intl';
 
 const ContactSection = () => {

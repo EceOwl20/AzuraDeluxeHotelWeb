@@ -96,11 +96,11 @@ const GalleryScrollSection = () => {
 
   // Kategorilere göre resimler
 const imageCategories = {
-  [t("general")]: [img4,img9,img25,img6, img28, img19, img22, img11, img13, img5, img1, img7, img16, img10, img20, img23, img26, img12, img14, img27, img2, img8, img18, img3, img21, img24, img29, img15, img17],
+  [t("general")]: [img4,img25,img6, img28, img19, img22, img11, img13, img5, img1, img7, img16, img10, img20, img23, img26, img12, img14, img27, img2, img8, img18, img3, img21, img24, img29, img15, img17],
   [t("rooms")]: [img2,img3,img6,img11,img12,img23,img27],
   [t("flavours")]: [img13,img17,img30,img31,img32,img33,img34,img35,img36,img37,img38,img40],
   [t("bar")]: [img39,img41,img42,img43,img44,img45],
-  [t("pool")]: [img8,img9,img16,img21,img22,img24,img28],
+  [t("pool")]: [img8,img16,img21,img22,img24,img28],
   [t("entertainment")]: [img46,img47,img48,img49,img50,img51,img52,img53,img54,img55,img56,img57],
   [t("kidsclub")]: [img83,img71,img72,img73,img75,img76,img77,img78,img79,img80,img81],
   [t("spa")]: [img10,img20,img26,img58,img59,img60,img63,img64,img65,img66,img67,img68,img70],

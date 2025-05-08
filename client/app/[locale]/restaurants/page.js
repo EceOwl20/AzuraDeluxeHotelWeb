@@ -66,7 +66,7 @@ const page = () => {
       id: 1,
       img: patisserie,
       title: t4("title1"),
-      description: t4("subtitle3"),
+      description: t4("subtitle1"),
       text:t4("text1"),
       link:"/restaurants/patisserie"
     },
