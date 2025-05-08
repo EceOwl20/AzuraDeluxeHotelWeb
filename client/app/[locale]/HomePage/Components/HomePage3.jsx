@@ -21,12 +21,12 @@ export default function HomePage3() {
       desc: t("roomText1"),
              area:t("area1"),
              span:t("view1"),
-             link:"/rooms/familyroom"
+             link:"/rooms/deluxeroom"
     },
     {
       src: Fantasy,
       title: t("roomTitle2"),
-      desc: t("roomText3"),
+      desc: t("roomText2"),
              area:t("area2"),
              span:t("view2"),
              link:"/rooms/fantasyroom"

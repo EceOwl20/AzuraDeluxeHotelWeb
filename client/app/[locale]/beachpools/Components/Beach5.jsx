@@ -88,7 +88,7 @@ const Beach5 = ({span,header,text,poolItems, showLink,links=[]}) => {
         </p>
         {showLink && (
           <Link href={links[index]} className="flex w-[147px] py-[14px] whitespace-nowrap px-[28px] font-jost text-[14px] text-lagoBrown font-medium leading-[30px] max-h-[41px] items-center justify-center border border-lagoBrown shadow-buttonCustom uppercase">
-            MORE ABOUT
+           
           </Link>
         )}
       </div>
@@ -135,7 +135,7 @@ const Beach5 = ({span,header,text,poolItems, showLink,links=[]}) => {
         </p>
         {showLink && (
           <Link href={links[index + 2]} className="flex w-[147px] py-[14px] whitespace-nowrap px-[28px] font-jost text-[14px] text-lagoBrown font-medium leading-[30px] max-h-[41px] items-center justify-center border border-lagoBrown shadow-buttonCustom uppercase">
-            MORE ABOUT
+           
           </Link>
         )}
       </div>

@@ -131,9 +131,9 @@ export default function Footer() {
                 {t("phoneNumber")}
                 </span>
                 <div className="flex h-[1px] w-full bg-[#D9D9D9]/50"></div>
-                <p className="text-[#FBFBFB] leading-[32.53px] capsizedText6">
-                  + 90 242 756 99 00
-                </p>
+                <a href="tel:+902425171234" className="text-[#FBFBFB] leading-[32.53px] capsizedText6">
+                +90 242 517 12 34
+                </a>
               </div>
             </div>
 
@@ -144,9 +144,9 @@ export default function Footer() {
                  {t("callCenter")}
                 </span>
                 <div className="flex h-[1px] w-full bg-[#D9D9D9]/50"></div>
-                <p className="text-[#FBFBFB] leading-[32.53px] capsizedText6">
-                  + 90 242 524 57 87
-                </p>
+                <a href="tel:+902422771143" className="text-[#FBFBFB] leading-[32.53px] capsizedText6">
+                +90 242 277 11 43
+                </a>
               </div>
             </div>
 
@@ -257,9 +257,9 @@ export default function Footer() {
                  {t("phoneNumber")}
                 </span>
                 <div className="flex h-[1px] w-full bg-[#D9D9D9]/50"></div>
-                <p className="text-[#FBFBFB] leading-[32.53px] capsizedText6">
-                  + 90 242 756 99 00
-                </p>
+                <a href="tel:+902425171234" className="text-[#FBFBFB] leading-[32.53px] capsizedText6">
+                +90 242 517 12 34
+                </a>
               </div>
             </div>
 
@@ -267,12 +267,12 @@ export default function Footer() {
               <Phone className="flex" width={25} height={25} color="#A6A6A6" />
               <div className="flex flex-col gap-[10px] items-start justify-start">
                 <span className="text-[#A6A6A6] leading-[32.53px] capsizedText6 tracking-[0.3px]">
-                {t("ourAddress")}
+                {t("callCenter")}
                 </span>
                 <div className="flex h-[1px] w-full bg-[#D9D9D9]/50"></div>
-                <p className="text-[#FBFBFB] leading-[32.53px] capsizedText6">
-                  + 90 242 524 57 87
-                </p>
+                <a href="tel:+902422771143" className="text-[#FBFBFB] leading-[32.53px] capsizedText6">
+                +90 242 277 11 43
+                </a>
               </div>
             </div>
 
@@ -289,7 +289,7 @@ export default function Footer() {
                 </span>
                 <div className="flex h-[1px] w-full bg-[#D9D9D9]/50"></div>
                 <p className="text-[#FBFBFB] leading-[32.53px] capsizedText6 tracking-[0.3px] whitespace-nowrap">
-                  Manavgat/Antalya, TR
+                  Manavgat/Antalya, TR 
                 </p>
               </div>
             </div>

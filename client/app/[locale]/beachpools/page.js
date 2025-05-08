@@ -1,6 +1,4 @@
 import React from 'react'
-import Beach1 from './Components/Beach1'
-import Beach2 from './Components/Beach2'
 import Beach3 from './Components/Beach3'
 import Beach4 from './Components/Beach4'
 import Beach5 from './Components/Beach5'
@@ -102,7 +100,7 @@ const page = () => {
             texts={texts}
           />
    
-     {/* <Beach2 /> */}
+   
       <Beach3 />
       <Beach4 />
    

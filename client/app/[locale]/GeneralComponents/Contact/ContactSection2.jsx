@@ -15,7 +15,7 @@ const ContactDetails = () => {
   const t = useTranslations('ContactPage');
 
   return (
-    <div className="flex flex-col justify-center items-center w-full md:w-[40%] md:pl-0">
+    <div className="flex flex-col justify-center items-center w-full md:w-[35%] lg:w-[40%] md:pl-0">
       <div className="flex flex-col w-full max-w-[350px] items-center md:items-start justify-center gap-[20px] md:gap-[30px]">
         <span className="font-jost text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
           {t("contactForMore")}
@@ -29,20 +29,20 @@ const ContactDetails = () => {
             Avsallar Mah. İncekum Cad. No:76 Alanya / Turkey
           </span>
           <span className="capsizedText4 lg:hidden">
-          {t("phoneColon")}:{" "}
-            <Link href="" className="underline">
+          {t("phoneColon")}{" "}
+            <Link href="tel:+902425171234" className="underline">
             +90 242 517 12 34
             </Link>
           </span>
           <span className="capsizedText4 lg:hidden">
-          {t("callCenter")}{" "}
-            <Link href="" className="underline">
+          {t("callCenter")}:{" "}
+            <Link href="tel:+902422771143" className="underline">
             +90 242 277 11 43
             </Link>
           </span>
           <span className="capsizedText4 lg:hidden">
-          {t("emailAddress")}:{" "}
-            <Link href="" className="underline">
+          {t("emailAddress")}{" "}
+            <Link href="mailto:info@azuradeluxe.com" className="underline">
               info@azuradeluxe.com
             </Link>
           </span>
@@ -52,19 +52,19 @@ const ContactDetails = () => {
             Avsallar Mah. İncekum Cad. No:76 Alanya / Turkey
           </span>
           <span className="hidden lg:block">
-          {t("phoneColon")}:{" "}
+          {t("phoneColon")}{" "}
             <Link href="" className="underline">
             +90 242 517 12 34
             </Link>
           </span>
           <span className="hidden lg:block">
-          {t("callCenter")}{" "}
+          {t("callCenter")}:{" "}
             <Link href="" className="underline">
             +90 242 277 11 43
             </Link>
           </span>
           <span className="hidden lg:block">
-            {t("emailAddress")}:{" "}
+            {t("emailAddress")}{" "}
             <Link href="" className="underline">
               info@azuradeluxe.com
             </Link>
@@ -100,7 +100,7 @@ const ContactDetails = () => {
           </div>
           <div className="flex bg-black h-[20px] w-[1px] self-center"></div>
           <Link href="https://azuradeluxehotel.orsmod.com/"  target="_blank"
-              rel="norefferer nofollower" className="text-lagoBrown font-marcellus underline underline-offset-[6px] text-[16px] font-normal leading-[30px] uppercase">
+              rel="norefferer nofollower" className="text-lagoBrown font-marcellus underline underline-offset-[6px] text-[14px] lg:text-[16px] font-normal leading-[30px] uppercase">
           {t("bookNow")}
           </Link>
         </div>
@@ -139,7 +139,7 @@ const GallerySection = () => {
   }, []);
 
   return (
-    <div className="flex justify-center md:justify-end items-center w-[90%] md:w-[60%] h-full">
+    <div className="flex justify-center md:justify-end items-center w-[90%] md:w-[55%] lg:w-[60%] h-full">
       <div
         style={{ scrollBehavior: "smooth" }}
         ref={scrollRef}
