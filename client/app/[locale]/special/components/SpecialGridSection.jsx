@@ -85,13 +85,13 @@ const SpecialGridSection = () => {
         {/* Başlık Alanı */}
         <div className="flex flex-col w-full md:w-[70%] items-center justify-center text-center text-black font-jost gap-[15px] md:gap-[25px] lg:gap-[34px]">
           <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
-            Crafting Timeless Memories at LAGO Hotel
+            Crafting Timeless Memories at Azura Deluxe Hotel
           </span>
           <h3 className="text-[28px] lg:text-[36px] font-normal font-marcellus capitalize leading-[120%] lg:leading-[57.6px] lg:capsizedText3">
             Celebrate Life’s Precious Moments
           </h3>
           <p className="text-[14px] lg:text-[16px] font-normal leading-[24px] lg:capsizedText4 lg:max-w-[527px]">
-            At LAGO Hotel, we specialize in turning life’s milestones into extraordinary experiences. From personalized
+            At Azura Deluxe Hotel, we specialize in turning life’s milestones into extraordinary experiences. From personalized
             services to tailored celebrations, every detail is crafted to perfection for a memory that lasts forever.
           </p>
         </div>

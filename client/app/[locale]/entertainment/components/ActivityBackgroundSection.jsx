@@ -93,7 +93,7 @@ const ActivityBackgroundSection = () => {
         </div>
       </div>
       <div className='flex w-[87.79%] md:w-[91.4%] lg:w-[42%] items-center text-center justify-center -mt-[25px]'>
-          <span className='text-[12px] lg:text-[14px] font-jost text-lagoGray font-normal leading-normal lg:w-[43%] lg:min-w-[608px]'>* LAGO Hotel Ultra All Inclusive concept, activities and services may vary depending on the season and weather conditions, without prior notice. All rights of LAGO HOTEL in this regard are reserved.</span>
+         
         </div>
     </div>
   )

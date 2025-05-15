@@ -261,7 +261,7 @@ const CookiePopup = () => {
       <p className="text-[13px] font-normal leading-[19.5px] pr-[3.5%] lg:pr-[7.5%]">
         Veri Sorumlusunun Kimliği: Cebeci Global Turizm Ticaret Anonim Şirketi –
         Adres: (Sorgun mah. Titreyengöl mevkii No:26 Manavgat Antalya) ve
-        bünyesinde bulunan Lago Hotel olarak, ulusal veri koruma kanunumuz 6698
+        bünyesinde bulunan Azura Deluxe Hotel olarak, ulusal veri koruma kanunumuz 6698
         Sayılı Kişisel Verilerin Korunması Kanunu madde 10 gereğince, doğan
         aydınlatma yükümlülüğümüzü yerine getirmek için kişisel verileriniz
         hakkında yerinde bilgilendirme yapmak isteriz. İnternet sitemizin
@@ -280,7 +280,7 @@ const CookiePopup = () => {
         internet sitesinin bazı işlevleri tam olarak etkilerini göstermeyebilir.
         Çerezler hakkında daha fazla bilgi için, “www.allaboutcookies.org”
         adresini ziyaret edebilirsiniz. Veri Sorumlusu: Cebeci Global Turizm
-        Ticaret Anonim Şirketi bünyesinde bulunan Lago Hotel veri sorumlusudur.
+        Ticaret Anonim Şirketi bünyesinde bulunan Azura Deluxe Hotel veri sorumlusudur.
         Siz değerli kullanıcılarımız dilediğiniz zaman cihazlarınızdaki program
         ve/veya işletim sistemi ve/veya internet tarayıcısının ayarlarından
         çerezleri düzenleyip kaldırabilirsiniz buna ek olarak anlık bildirimleri
@@ -382,7 +382,7 @@ const CookiePopup = () => {
           <tbody>
             <tr className="color-[#233038] font-medium">
               <th className="border p-[2px] text-left leading-normal  font-medium">
-                .lagohotel.com
+                .AzuraDeluxeResort.com
               </th>
               <th className="border p-[2px] text-left leading-normal  font-medium">
                 _gcl_au
@@ -403,7 +403,7 @@ const CookiePopup = () => {
             </tr>
             <tr className=" color-[#233038] font-medium">
               <th className="border p-[2px] text-left leading-normal  font-medium">
-                www.lagohotel.com
+                www.AzuraDeluxeResort.com
               </th>
               <th className="border p-[2px] text-left leading-normal  font-medium">
                 wp-wpml_current_language
@@ -472,7 +472,7 @@ const CookiePopup = () => {
 
             <tr className="color-[#233038] font-medium">
               <th className="border p-[2px] text-left leading-normal  font-medium">
-                .lagohotel.com
+                .azuradeluxeresort.com
               </th>
               <th className="border p-[2px] text-left leading-normal  font-medium">
                 _ga
@@ -494,7 +494,7 @@ const CookiePopup = () => {
 
             <tr className=" color-[#233038] font-medium">
               <th className="border p-[2px] text-left leading-normal  font-medium">
-                .lagohotel.com
+                .azuradeluxeresort.com
               </th>
               <th className="border p-[2px] text-left leading-normal  font-medium">
                 _ga_*
@@ -539,7 +539,7 @@ const CookiePopup = () => {
 
             <tr className=" color-[#233038] font-medium">
               <th className="border p-[2px] text-left leading-normal  font-medium">
-                .lagohotel.com
+                .azuradeluxeresort.com
               </th>
               <th className="border p-[2px] text-left leading-normal  font-medium">
                 _ga_KXPQT1BLP9
@@ -561,7 +561,7 @@ const CookiePopup = () => {
 
             <tr className=" color-[#233038] font-medium">
               <th className="border p-[2px] text-left leading-normal  font-medium">
-                .lagohotel.com
+                .azuradeluxeresort.com
               </th>
               <th className="border p-[2px] text-left leading-normal  font-medium">
                 _ga_R5Y8HBEP1H
@@ -623,7 +623,7 @@ const CookiePopup = () => {
           <tbody>
             <tr className="color-[#233038] font-medium">
               <th className="border p-[2px] text-left leading-normal  font-medium">
-                .lagohotel.com
+                .azuradeluxeresort.com
               </th>
               <th className="border p-[2px] text-left leading-normal  font-medium">
                 _fbp
@@ -687,7 +687,7 @@ const CookiePopup = () => {
           <tbody>
             <tr className="color-[#233038] font-medium">
               <th className="border p-[2px] text-left leading-normal  font-medium">
-                .lagohotel.com
+                .azuradeluxeresort.com
               </th>
               <th className="border p-[2px] text-left leading-normal  font-medium">
                 _gid
@@ -714,27 +714,27 @@ const CookiePopup = () => {
         <ul className="text-[12px] font-normal leading-[21px] my-2 list-disc capsizedText4 pl-5 marker:text-xs marker:text-white ">
           Web sitemizden yapılan üçüncü taraf yönlendirmeler aşağıda
           belirtilmiştir:
-          <li> Lago Hotel rezarvasyon linkimiz”  lagohotel.hotelagent.com</li>
+          <li> Azura Deluxe Hotel rezarvasyon linkimiz”  azuradeluxeresort.hotelagent.com</li>
           <li>
-            Lago Hotel için TripAdvisor yorum sayfası
+            Azura Deluxe Hotel için TripAdvisor yorum sayfası
             https://www.tripadvisor.com.tr/Hotel_Review-g1192102-d545626-Reviews-Lago_Hotel-Sorgun_Manavgat_Turkish_Mediterranean_Coast.html
           </li>
           <li>
-            Lago Hotel için Holidaycheck yorum sayfası
+            Azura Deluxe Hotel için Holidaycheck yorum sayfası
             https://www.holidaycheck.de/hi/lago-hotel/2e44d958-7e5e-4423-92b2-84bb298826b0
           </li>
           <li>
-            Lago Hotel için TopHotels yorum sayfası
+            Azura Deluxe Hotel için TopHotels yorum sayfası
             https://tophotels.ru/hotel/al24898
           </li>
           <li>
-            Lago Hotel Facebook sayfası https://www.facebook.com/lagohotels
+            Azura Deluxe Hotel Facebook sayfası https://www.facebook.com/azuradeluxeresort
           </li>
           <li>
-            Lago Hotel İnstagram sayfası https://www.instagram.com/lagohotels/
+            Azura Deluxe Hotel İnstagram sayfası https://www.instagram.com/azuradeluxeresort/
           </li>
           <li>
-            Lago Hotel Youtube sayfası
+            Azura Deluxe Hotel Youtube sayfası
             https://www.youtube.com/channel/UCjbL19l36uYQEdy2EEw1nLQ{" "}
           </li>
         </ul>
@@ -749,7 +749,7 @@ const CookiePopup = () => {
         İşlem Güvenliği
         <br />
         Kişisel verilerin korunması ve yetkisiz erişimin önlenmesi Cebeci Global
-        Turizm Ticaret Anonim Şirketi bünyesinde bulunan Lago Hotel tarafından
+        Turizm Ticaret Anonim Şirketi bünyesinde bulunan Azura Deluxe Hotel tarafından
         son derece ciddi bir şekilde ele alınmaktadır. Misafirlerimizin ve
         potansiyel misafir  mağduriyet yaşamaması için gerekli teknik ve idari
         tedbirler titizlikle uygulanmaktadır. Bu tedbirler, yazılımların

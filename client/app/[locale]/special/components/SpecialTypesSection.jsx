@@ -61,7 +61,7 @@ const SpecialTypesSection = () => {
           Our Exclusive Services
         </h3>
         <p className="text-[14px] lg:text-[16px] font-normal leading-[24px] w-[90%] md:w-[55%] lg:w-[598px] lg:capsizedText4 font-jost">
-          At LAGO Hotel, we offer a wide range of options to make your special days truly unique. With our carefully
+          At Azura Deluxe Hotel, we offer a wide range of options to make your special days truly unique. With our carefully
           designed services, we help you create unforgettable memories.
         </p>
       </div>

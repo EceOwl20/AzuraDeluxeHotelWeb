@@ -23,11 +23,11 @@ const BookNow = () => {
           <CookieSvg className="flex" width={25} height={25} />
         </button>
 
-        <Link href="/" className="flex items-center justify-center w-[45px] h-[38px] border border-white">
+        <Link href="tel:+902425171234" className="flex items-center justify-center w-[45px] h-[38px] border border-white">
           <PhoneSvg className="flex" width={25} height={25} color="white" />
         </Link>
 
-        <Link   href="https://lagohotel.orsmod.com/"
+        <Link   href="https://azuradeluxehotel.orsmod.com/"
                rel="norefferer nofollower"
                   target="_blank" className="flex whitespace-nowrap text-white py-[14px] px-[28px] h-[39px] border border-white text-[16px] leading-[24px] uppercase font-medium font-jost items-center justify-center text-center">
           {t("booknow")}

@@ -235,7 +235,7 @@ const Cookie2 = ({ isOpen, onClose }) => {
       <p className="text-[13px] font-normal leading-[19.5px] pr-[4%] lg:pr-[7.5%]">
         Veri Sorumlusunun Kimliği: Cebeci Global Turizm Ticaret Anonim Şirketi –
         Adres: (Sorgun mah. Titreyengöl mevkii No:26 Manavgat Antalya) ve
-        bünyesinde bulunan Lago Hotel olarak, ulusal veri koruma kanunumuz 6698
+        bünyesinde bulunan Azura Deluxe Hotel olarak, ulusal veri koruma kanunumuz 6698
         Sayılı Kişisel Verilerin Korunması Kanunu madde 10 gereğince, doğan
         aydınlatma yükümlülüğümüzü yerine getirmek için kişisel verileriniz
         hakkında yerinde bilgilendirme yapmak isteriz. İnternet sitemizin
@@ -254,7 +254,7 @@ const Cookie2 = ({ isOpen, onClose }) => {
         internet sitesinin bazı işlevleri tam olarak etkilerini göstermeyebilir.
         Çerezler hakkında daha fazla bilgi için, “www.allaboutcookies.org”
         adresini ziyaret edebilirsiniz. Veri Sorumlusu: Cebeci Global Turizm
-        Ticaret Anonim Şirketi bünyesinde bulunan Lago Hotel veri sorumlusudur.
+        Ticaret Anonim Şirketi bünyesinde bulunan Azura Deluxe Hotel veri sorumlusudur.
         Siz değerli kullanıcılarımız dilediğiniz zaman cihazlarınızdaki program
         ve/veya işletim sistemi ve/veya internet tarayıcısının ayarlarından
         çerezleri düzenleyip kaldırabilirsiniz buna ek olarak anlık bildirimleri
@@ -357,15 +357,15 @@ const Cookie2 = ({ isOpen, onClose }) => {
         sağlayıcıları ve kullanım amaçları aşağıda belirtilmiştir: Fonksiyonel
         Çerezler İnternet sitemizdeki sistemlerin düzgün işleyişine yardımcı
         olmak adına kullanılan çerezlerdir. Web sitemizden yapılan üçüncü taraf
-        yönlendirmeler aşağıda belirtilmiştir: Lago Hotel rezarvasyon linkimiz” 
-        lagohotel.hotelagent.com Lago Hotel için TripAdvisor yorum sayfası 
+        yönlendirmeler aşağıda belirtilmiştir: Azura Deluxe Hotel rezarvasyon linkimiz” 
+        AzuraDeluxeResort.hotelagent.com Azura Deluxe Hotel için TripAdvisor yorum sayfası 
         https://www.tripadvisor.com.tr/Hotel_Review-g1192102-d545626-Reviews-Lago_Hotel-Sorgun_Manavgat_Turkish_Mediterranean_Coast.html
-        Lago Hotel için Holidaycheck yorum sayfası 
+        Azura Deluxe Hotel için Holidaycheck yorum sayfası 
         https://www.holidaycheck.de/hi/lago-hotel/2e44d958-7e5e-4423-92b2-84bb298826b0
-        Lago Hotel için TopHotels yorum sayfası 
-        https://tophotels.ru/hotel/al24898 Lago Hotel Facebook sayfası 
-        https://www.facebook.com/lagohotels Lago Hotel İnstagram sayfası 
-        https://www.instagram.com/lagohotels/ Lago Hotel Youtube
+        Azura Deluxe Hotel için TopHotels yorum sayfası 
+        https://tophotels.ru/hotel/al24898 Azura Deluxe Hotel Facebook sayfası 
+        https://www.facebook.com/AzuraDeluxeResort Azura Deluxe Hotel İnstagram sayfası 
+        https://www.instagram.com/AzuraDeluxeResort/ Azura Deluxe Hotel Youtube
         sayfası https://www.youtube.com/channel/UCjbL19l36uYQEdy2EEw1nLQ  Diğer
         internet sitelerine bağlantılar İnternet sitemizdeki içerikler üçüncü
         taraflara ait internet sitelerine bağlantılar içerebilir ve bu internet
@@ -376,7 +376,7 @@ const Cookie2 = ({ isOpen, onClose }) => {
         paylaşmadan önce onların veri koruma düzenlemelerine ilişkin yasal
         dökümanları okumalısınız. İşlem Güvenliği Kişisel verilerin korunması ve
         yetkisiz erişimin önlenmesi Cebeci Global Turizm Ticaret Anonim
-        Şirketi bünyesinde bulunan Lago Hotel tarafından son derece ciddi bir
+        Şirketi bünyesinde bulunan Azura Deluxe Hotel tarafından son derece ciddi bir
         şekilde ele alınmaktadır. Misafirlerimizin ve potansiyel misafir 
         mağduriyet yaşamaması için gerekli teknik ve idari tedbirler titizlikle
         uygulanmaktadır. Bu tedbirler, yazılımların endüstri standartlarına
