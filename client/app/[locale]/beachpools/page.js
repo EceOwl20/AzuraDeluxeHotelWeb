@@ -16,7 +16,7 @@ import hover5 from "./Images/hover/beach1.jpg"
 import Form from '../GeneralComponents/Form'
 import ClinaryInfoSection from '../restaurants/components/ClinaryInfoSection'
 import BannerDark from '../GeneralComponents/BannerDark'
-import mainimage from "./images/banner.webp"
+import mainimage from "./Images/banner.webp"
 import blok1 from "../HomePage/Components/Images/blok2.jpg"
 import blok2 from "../HomePage/Components/Images/blok1.jpg"
 import {useTranslations} from 'next-intl';
