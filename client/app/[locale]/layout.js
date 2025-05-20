@@ -5,9 +5,10 @@ import Footer from "./GeneralComponents/Footer/Footer";
 import HeaderWhite from "./GeneralComponents/Header/HeaderWhite";
 import BookNow from "./GeneralComponents/BookNow";
 import CookiePopup from "./GeneralComponents/CookiePopup";
-import {NextIntlClientProvider, Locale, hasLocale} from 'next-intl';
+import {NextIntlClientProvider, hasLocale} from 'next-intl';
 import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
+import { getMessages, setRequestLocale } from 'next-intl/server' 
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,21 +32,31 @@ export const metadata = {
 
 };
 
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
 
 
 export default async function RootLayout({ children, params }) {
-  const {locale} = await params;
-  if (!hasLocale(routing.locales, locale)) {
+  const { locale } = await params;
+
+  if (!routing.locales.includes(locale)) {
     notFound();
   }
 
+   // 1) Gelen locale bilgisini Next Intl’in store’una yazıyoruz
+   setRequestLocale(locale)
+  
+    // 2) Ardından mesajları yükleyip client’a iletebiliriz
+    const messages = await getMessages()
+
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
           <meta name="theme-color" content="#FBFBFBCC" />
-          <NextIntlClientProvider>
+          <NextIntlClientProvider locale={locale} messages={messages}>
         <Header />
         <HeaderWhite/>
        

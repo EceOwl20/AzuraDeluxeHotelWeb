@@ -5,7 +5,7 @@ import options1 from "../../deluxeroom/images/deluxe4.jpg";
 import options2 from "../../fantasyroom/images/fantasy4.jpg";
 import user from "../images/user1.png";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 import AreaSvg2 from "../../components/svg/AreaSvg2";
 import UserSvg from "../../components/svg/UserSvg";
 import { BiArea, BiGroup } from "react-icons/bi";
