@@ -29,7 +29,7 @@ const page = () => {
   const texts3=[t2("subtitle3"),t2("title3"),t2("text3"),t2("list1"),t2("list2"),t2("list3"),t2("list4")]
 
   return (
-    <div className='flex flex-col items-center justify-center gap-[100px] bg-[#fbfbfb]'>
+    <div className='flex flex-col items-center justify-center gap-[100px] bg-[#fbfbfb] overflow-x-hidden'>
       <BannerDark img={mainImg} span={t("subtitle")} header={t("title")} text={t("text")}/>
       <SpaInfoSection img1={infoImg} img2={infoImg2} texts={texts} texts2={texts2} texts3={texts3}/>
       <SpaHeaderSection span={t3("subtitle")} header={t3("title")} text={t3("text")} images={galleryImages}/>

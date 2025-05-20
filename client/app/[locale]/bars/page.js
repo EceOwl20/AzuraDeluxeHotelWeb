@@ -63,7 +63,7 @@ const otherOptions = [
 
   
   return (
-    <div className='flex flex-col items-center justify-center gap-[60px] md:gap-[80px] lg:gap-[100px] bg-[#fbfbfb]'>
+    <div className='flex flex-col items-center justify-center gap-[60px] md:gap-[80px] lg:gap-[100px] bg-[#fbfbfb] overflow-x-hidden'>
       <BannerDark  img={imgBanner} span={t("subtitle")} header={t("title")}  text={t("text")} />
       <ClinaryInfoSection img1={cafebar1} img2={cafebar2} span={t2("subtitle")} header={t2("title")} texts={clinaryTexts}/>
       <BackgroundSection span={t3("subtitle")} header={t3("title")} texts={backgroundTexts} link="/" img={backgroundImg2}/>
