@@ -3,7 +3,7 @@ import React, { useEffect, useState, useRef } from "react";
 import Image from "next/image";
 import img1 from "./Images/blok2.jpg";
 import img2 from "./Images/blok1.jpg";
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 import {useTranslations} from 'next-intl';
 
 const TwoAnimationImage = ({ span, header, text1, text2 }) => {
