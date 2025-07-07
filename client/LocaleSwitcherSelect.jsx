@@ -36,7 +36,6 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }) 
         onClick={() => setIsOpen(!isOpen)}
         className="flex flex-row items-center justify-center gap-2 rounded-md px-[10px] py-[10px] lg:py-4 font-medium mix-blend-difference bg-darkB uppercase w-full text-[16px]">
         {label}
-      
       </button>
       {isOpen && (
         <div className="absolute z-50 mt-0 rounded bg-irenicBlack shadow-lg left-0 w-full ">

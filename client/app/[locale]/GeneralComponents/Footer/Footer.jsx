@@ -37,7 +37,7 @@ export default function Footer() {
                 {t("phone")}
                 </p>
                 <a href="mailto:info@azuradeluxe.com" className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px]">
-                {t("emailAddress")}
+                {t("emailAddress")} info@azuradeluxe.com
                 </a>
                 <p className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] ">
                   {t("ourAddress")}   Avsallar Mah.  
