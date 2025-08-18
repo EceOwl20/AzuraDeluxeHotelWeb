@@ -93,7 +93,7 @@ export default function Footer() {
 
           {/* Alt linkler */}
           <div className="grid grid-cols-2 items-center gap-6 whitespace-nowrap text-lagoGray2">
-            <a href="#" className="hover:underline">
+            <a href="/terms-of-use" className="hover:underline">
             {t("termsuse")}
             </a>
             <a href="#" className="hover:underline">
