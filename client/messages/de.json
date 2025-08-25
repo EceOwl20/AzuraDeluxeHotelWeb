@@ -94,7 +94,9 @@
     "notice": "Datenschutzhinweis",
     "sustainability": "Nachhaltigkeit",
     "kvkk": "KVKK",
-    "covid": "COVID-19"
+    "covid": "COVID-19",
+    "certificates": "Zertifikate",
+    "ourpolicies": "Unsere Richtlinien"
   },
 
     "Homepage":{
@@ -803,5 +805,49 @@
     "entertainment": "Unterhaltung",
     "bar":"Bar",
     "lobby":"Lobby"
+  },
+
+
+  "ExploreAlanya":{
+    "title1": "Dim-Höhle",
+  "description1": "Östlich von Alanya beeindruckt die Dim‑Höhle mit reichen Stalaktiten und Stalagmiten. Ihr kühles Klima bietet im Sommer wohltuende Erfrischung.",
+  "title2": "Alanya-Seilbahn",
+  "description2": "Von Damlataş hinauf zur Burg von Alanya eröffnet die Fahrt weite Ausblicke auf Stadt und Meer. Besonders zum Sonnenuntergang ein Erlebnis.",
+  "title3": "Sapadere-Schlucht",
+  "description3": "Ein Naturparadies mit Stegen und Wasserfällen. Ideal für einen Spaziergang und eine kurze Abkühlung.",
+  "title4": "Historische Seldschukische Werft Alanya",
+  "description4": "Die Werft aus dem 13. Jahrhundert zählt zu den best erhaltenen am Mittelmeer. Ihre zum Meer geöffneten Bögen schaffen eine eindrucksvolle Kulisse.",
+  "title5": "Atatürk-Hausmuseum",
+  "description5": "Das Haus, in dem Mustafa Kemal Atatürk wohnte, ist heute Museum. Fotos und Exponate erzählen von seinem Besuch.",
+  "title6": "Kleopatra-Strand",
+  "description6": "Berühmt für goldenen Sand und klares Wasser – ein Wahrzeichen Alanyas. Der Name geht der Legende nach auf Königin Kleopatra zurück.",
+  "title7": "Leuchtturm von Alanya",
+  "description7": "Am Hafeneingang gelegen und Mittelpunkt einer schönen Promenade. Ein beliebter Ort für Fotos und Meeresbrise.",
+  "title8": "Damlataş-Strand",
+  "description8": "Direkt neben der Damlataş-Höhle, bekannt für ruhiges Wasser. Dank zentraler Lage leicht erreichbar.",
+  "title9": "Burg von Alanya",
+  "description9": "Die Festungsmauern umspannen die Halbinsel und prägen die Silhouette. Oben warten Panoramaausblicke auf Stadt und Mittelmeer.",
+  "title10": "Roter Turm (Kızılkule)",
+  "description10": "Achteckiges seldschukisches Meisterwerk aus roten Ziegeln. Ein kleines Museum im Inneren beleuchtet die maritime Geschichte.",
+  "title11": "Damlataş-Höhle",
+  "description11": "Ihr warm-feuchtes Klima soll Asthmabeschwerden lindern. Dichte Tropfsteinformationen schaffen eine dramatische Szenerie.",
+  "title12": "Archäologisches Museum Alanya",
+  "description12": "Zeigt Funde von der hellenistischen bis zur byzantinischen Epoche. Sorgfältig kuratierte Exponate betonen die regionale Geschichte.",
+  "title13": "Antike Stadt Syedra",
+  "description13": "Ruhige Ruinen im Pinienwald mit Resten von Säulenstraßen und Bädern. Perfekt für eine entschleunigte Erkundung.",
+  "title14": "Portakal-Strand",
+  "description14": "Breiter Sandstrand, bekannt für lebhafte Wellen. Die Uferpromenade eignet sich zum Spazieren und Radfahren.",
+  "title15": "Süleymaniye-Moschee Alanya",
+  "description15": "Schlichte Moschee innerhalb der Burgmauern mit stillem Hof. Behutsam restauriert im Einklang mit dem historischen Umfeld.",
+  "title16": "Deja Vu Bar",
+  "description16": "Beliebte Bar mit Livemusik und freundlicher Atmosphäre. Gut für einen Abend rund um die Burg.",
+  "title17": "Green Body",
+  "description17": "Wellness-Ort mit Fokus auf natürliche Pflege und Entspannung. Ideal zum Abschalten nach dem Sightseeing.",
+  "title18": "Liebesgrotte",
+  "description18": "Kleine Höhle, die von Bootstouren angesteuert wird, umrankt von romantischen Legenden. Ein kurzer, reizvoller Stopp an der Küste.",
+  "title19": "Benlidere-Wasserfall Alanya",
+  "description19": "Kleiner, versteckter Wasserfall nahe dem Zentrum. Im Sommer beliebt zum Picknick und Abkühlen.",
+  "title20": "Katzenpark der Gemeinde Alanya",
+  "description20": "Ein liebevoll angelegter Park für Straßenkatzen. Familienfreundlicher Ort zum Ausruhen und Streicheln."
   }
 }

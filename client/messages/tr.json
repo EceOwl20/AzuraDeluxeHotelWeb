@@ -95,7 +95,9 @@
     "notice": "Gizlilik Bildirimi",
     "sustainability": "Sürdürülebilirlik",
     "kvkk": "KVKK",
-    "covid": "COVID-19"
+    "covid": "COVID-19",
+    "certificates": "Sertifikalar",
+    "ourpolicies": "Politikalarımız"
   },
 
     "Homepage":{
@@ -808,6 +810,49 @@
     "entertainment": "Eğlence",
     "bar":"Barlar",
     "lobby":"Lobi"
+  },
+
+  "ExploreAlanya":{
+    "title1": "Dim Mağarası",
+  "description1": "Alanya’nın doğusunda yer alan Dim Mağarası, zengin sarkıt ve dikitleriyle büyüleyici bir oluşuma sahiptir. Serin havası yaz aylarında ferahlatıcı bir kaçış sunar.",
+  "title2": "Alanya Teleferik",
+  "description2": "Damlataş’tan Alanya Kalesi’ne çıkan teleferik hattı boyunca şehir ve deniz manzarası izlenir. Gün batımında özellikle etkileyicidir.",
+  "title3": "Sapadere Kanyonu",
+  "description3": "Yürüyüş platformları ve şelaleleriyle ünlü doğal bir cennettir. Serin sularında kısa bir mola verip doğanın sesini dinleyebilirsiniz.",
+  "title4": "Tarihi Alanya Selçuklu Tersanesi",
+  "description4": "13. yüzyıldan kalma bu tersane, Akdeniz’in en iyi korunmuş yapılarından biridir. Tarihi dokusu ve denize açılan kemerleriyle etkileyici bir atmosfer sunar.",
+  "title5": "Atatürk Evi Müzesi",
+  "description5": "Mustafa Kemal Atatürk’ün Alanya ziyaretinde konakladığı ev müze olarak düzenlenmiştir. Döneme ait fotoğraflar ve kişisel eşyalar sergilenir.",
+  "title6": "Kleopatra Plajı",
+  "description6": "Altın renkli kumu ve berrak deniziyle Alanya’nın en popüler plajıdır. Efsaneye göre adını Kraliçe Kleopatra’dan alır.",
+  "title7": "Alanya Deniz Feneri",
+  "description7": "Liman girişindeki fener, sahil yürüyüşleri için keyifli bir rotanın odak noktasıdır. Fotoğraf çekimi için ideal bir duraktır.",
+  "title8": "Damlataş Plajı",
+  "description8": "Damlataş Mağarası’nın hemen yanında yer alan plaj sakin suları ile bilinir. Şehir merkezine yakınlığıyla tercih edilir.",
+  "title9": "Alanya Kalesi",
+  "description9": "Yarımadayı çevreleyen surlarıyla kentin simgesidir. Zirveden panoramik Alanya ve Akdeniz manzarası görülür.",
+  "title10": "Kızılkule",
+  "description10": "Kırmızı tuğlalarıyla dikkat çeken sekizgen kule Selçuklu dönemi mimarisinin başyapıtıdır. İçindeki müze ile tarihe ışık tutar.",
+  "title11": "Damlataş Mağarası",
+  "description11": "Nemli ve sıcak havasıyla astım hastalarına iyi geldiği söylenen bir mağaradır. Sarkıt ve dikit oluşumları oldukça yoğundur.",
+  "title12": "Alanya Arkeoloji Müzesi",
+  "description12": "Bölgenin zengin tarihini yansıtan eserler sergilenir. Helenistik, Roma ve Bizans dönemlerine ait koleksiyonlar öne çıkar.",
+  "title13": "Syedra Antik Kenti",
+  "description13": "Orman içinde saklı kalan antik kent, sütunlu caddeleri ve hamam kalıntılarıyla etkiler. Sessiz atmosferiyle keşif için idealdir.",
+  "title14": "Portakal Plajı",
+  "description14": "Geniş kumsalı ve dalga yapısıyla tanınır. Sahil boyunca yürüyüş ve bisiklet için uygun bir hattı vardır.",
+  "title15": "Alanya Süleymaniye Camii",
+  "description15": "Kale içinde yer alan cami, sade mimarisi ve huzurlu avlusuyla dikkat çeker. Tarihi dokuya saygılı bir restorasyon geçirmiştir.",
+  "title16": "Deja Vu Bar",
+  "description16": "Canlı müzik ve samimi atmosferiyle popüler bir gece mekânıdır. Kale çevresinde keyifli bir akşam için tercih edilir.",
+  "title17": "Green Body",
+  "description17": "Doğal bakım ve rahatlama odaklı hizmetler sunan bir wellness noktasıdır. Şehir gezisi sonrası yenilenmek için idealdir.",
+  "title18": "Aşıklar Mağarası",
+  "description18": "Tekne turlarının uğradığı küçük bir mağaradır. Efsanelere konu olan romantik hikâyesiyle bilinir.",
+  "title19": "Alanya Benlidere Şelalesi",
+  "description19": "Şehir merkezine yakın saklı bir doğa köşesidir. Yaz sıcağında serinlemek ve piknik yapmak için uygundur.",
+  "title20": "Alanya Belediyesi Kedi Parkı",
+  "description20": "Sokak kedileri için düzenlenmiş sevimli bir parktır. Ailece kısa bir mola verip hayvanlarla vakit geçirilebilir."
   }
     
 }

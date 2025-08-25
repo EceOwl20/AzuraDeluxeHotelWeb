@@ -101,7 +101,9 @@
   "notice":"Privacy Notice",
   "sustainability":"Sustainability",
   "kvkk":"KVKK",
- "covid":"COVID-19"
+ "covid":"COVID-19",
+ "certificates": "Certificates",
+ "ourpolicies": "Our Policies"
   
   },
 
@@ -837,5 +839,49 @@
     "entertainment":"Entertainment",
     "bar":"Bars",
     "lobby":"Lobby"
+  },
+
+
+  "ExploreAlanya":{
+     "title1": "Dim Cave",
+  "description1": "Located east of Alanya, Dim Cave features impressive stalactites and stalagmites. Its cool interior offers a refreshing escape on hot days.",
+  "title2": "Alanya Cable Car",
+  "description2": "The cable car runs from Damlataş up to Alanya Castle, revealing sweeping views of the city and sea. Sunset rides are especially memorable.",
+  "title3": "Sapadere Canyon",
+  "description3": "A natural retreat with wooden walkways and waterfalls. Perfect for a brisk walk and a quick, cooling break in nature.",
+  "title4": "Historic Alanya Seljuk Shipyard",
+  "description4": "This 13th‑century dockyard is among the best‑preserved on the Mediterranean. Its vaulted bays opening to the sea create a striking scene.",
+  "title5": "Atatürk House Museum",
+  "description5": "The house where Mustafa Kemal Atatürk stayed is now a museum. Archival photos and period items tell the story of his visit.",
+  "title6": "Kleopatra Beach",
+  "description6": "Famed for its golden sand and clear water, it’s one of Alanya’s icons. Legend says it is named after Queen Cleopatra.",
+  "title7": "Alanya Lighthouse",
+  "description7": "At the harbor entrance, the lighthouse anchors a scenic promenade. A favorite stop for photos and sea breezes.",
+  "title8": "Damlataş Beach",
+  "description8": "Set beside Damlataş Cave, this beach is known for calm waters. Its central location makes it easy to reach.",
+  "title9": "Alanya Castle",
+  "description9": "The walled fortress crowns the peninsula and defines the skyline. Panoramic views over Alanya and the Mediterranean await at the top.",
+  "title10": "Red Tower (Kızılkule)",
+  "description10": "An octagonal Seljuk masterpiece built of red bricks. Inside, a small museum sheds light on the town’s maritime past.",
+  "title11": "Damlataş Cave",
+  "description11": "Warm and humid air here is believed to ease asthma symptoms. Dense formations of stalactites and stalagmites create a dramatic interior.",
+  "title12": "Alanya Archaeology Museum",
+  "description12": "Showcases the region’s rich past, from Hellenistic to Byzantine eras. Curated displays highlight local finds and artistry.",
+  "title13": "Syedra Ancient City",
+  "description13": "A quiet ruin hidden among pines, with remnants of colonnaded streets and baths. Ideal for unhurried exploration.",
+  "title14": "Portakal Beach",
+  "description14": "A wide sandy stretch known for lively waves. The seafront path suits long walks and cycling.",
+  "title15": "Alanya Süleymaniye Mosque",
+  "description15": "A modest mosque within the castle walls, offering a tranquil courtyard. Carefully restored to respect its historic setting.",
+  "title16": "Deja Vu Bar",
+  "description16": "A cozy night spot known for live music and friendly vibes. Great for an evening out near the castle area.",
+  "title17": "Green Body",
+  "description17": "A wellness stop focused on natural care and relaxation. Ideal to unwind after a day of sightseeing.",
+  "title18": "Lovers’ Cave",
+  "description18": "A small cave visited by boat tours, wrapped in romantic legends. A brief yet charming pause along the coast.",
+  "title19": "Alanya Benlidere Waterfall",
+  "description19": "A small hidden cascade close to town. Popular for picnics and cooling off in summer.",
+  "title20": "Alanya Municipality Cat Park",
+  "description20": "A sweet park dedicated to community cats. A family‑friendly stop to rest and meet furry residents."
   }
 }
