@@ -2,12 +2,6 @@
 
 import Image from 'next/image';
 import {useTranslations} from 'next-intl';
-import side from "../images/side.jpg"
-import aspendos from "../images/aspendos.jpg"
-import oymapinar from "../images/oymapinar.jpg"
-import waterfall from "../images/manavgatwaterfall.webp"
-import seleukeia from "../images/Seleukeia.jpg"
-import koprulukanyon from "../images/koprulukanyon.jpg"
 
 export default function GeziRehberiPage() {
     const t = useTranslations('Explore');
