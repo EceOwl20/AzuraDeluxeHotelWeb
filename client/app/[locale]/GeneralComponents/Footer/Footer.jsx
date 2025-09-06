@@ -105,12 +105,12 @@ export default function Footer() {
             <a href="/covid-19" className="hover:underline">
             {t("covid")}
             </a>
-            {/* <a href="/sustainability" target="_blank"  rel="noopener noreferrer" className="hover:underline">
-            {t("sustainability")}
-            </a> */}
-            <a href="/documents/Azura Hotel Sürdürülebilirlik Raporu 2023-2024.pdf" target="_blank"  rel="noopener noreferrer" className="hover:underline">
+            <a href="/sustainability"  className="hover:underline">
             {t("sustainability")}
             </a>
+            {/* <a href="/documents/Azura Hotel Sürdürülebilirlik Raporu 2023-2024.pdf" target="_blank"  rel="noopener noreferrer" className="hover:underline">
+            {t("sustainability")}
+            </a> */}
 
              <a href="/ourpolicies"  className="hover:underline">
             {t("ourpolicies")}
