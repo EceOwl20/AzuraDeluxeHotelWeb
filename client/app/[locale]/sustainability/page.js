@@ -5,6 +5,7 @@ import mainImg2 from "../gallery/images/Banner.jpg";
 import Image from "next/image";
 import ExploreAlanya from "./components/ExploreAlanya";
 import { useTranslations } from "next-intl";
+import IconSection from "./components/IconSection";
 
 const Page = () => {
   const t = useTranslations("Footer");
@@ -30,6 +31,7 @@ const Page = () => {
         Sürdürülebilirlik Raporu 2024-2025
       </a>
       <ExploreAlanya />
+      <IconSection/>
     </div>
   );
 };

@@ -884,5 +884,46 @@
   "description19": "A small hidden cascade close to town. Popular for picnics and cooling off in summer.",
   "title20": "Alanya Municipality Cat Park",
   "description20": "A sweet park dedicated to community cats. A family‑friendly stop to rest and meet furry residents."
+  },
+
+  "IconSection": {
+    "Dikkat": "IMPORTANT POINTS TO CONSIDER",
+  "Icon1": {
+    "header1": "PLACES OF WORSHIP",
+    "list1": "It is important for visitors to dress appropriately, usually covering shoulders and knees.",
+    "list2": "Women should cover their heads before entering.",
+    "list3": "Shoes should not be worn inside.",
+    "list4": "Avoid speaking loudly and do not disturb people who are worshipping.",
+    "list5": "Although photography is generally not prohibited, proper permissions should be obtained."
+  },
+  "Icon2": {
+    "header1": "MUSEUMS",
+    "list1": "Remain quiet so as not to disturb other visitors.",
+    "list2": "Check the museum’s photography rules at the entrance. Some exhibits may be prohibited from being photographed.",
+    "list3": "Do not touch the artifacts.",
+    "list4": "Eating and drinking are not allowed.",
+    "list5": "Keep your children under control."
+  },
+  "Icon3": {
+    "header1": "NATURAL AREAS",
+    "list1": "Act with environmental awareness to avoid harming plants and wildlife.",
+    "list2": "Collect your trash and do not leave anything harmful to nature behind.",
+    "list3": "Do not light fires unless it is explicitly permitted.",
+    "list4": "Use designated camping areas for camping."
+  },
+  "Icon4": {
+    "header1": "HUNTING",
+    "list1": "Obtain the necessary licenses and permits for hunting.",
+    "list2": "Follow the hunting season regulations.",
+    "list3": "Do not exceed the daily hunting limits.",
+    "list4": "Do not hunt protected species."
+  },
+  "Icon5": {
+    "header1": "PROTECT YOURSELF FROM THE SUN",
+    "list1": "You must protect your body from Antalya’s high temperatures.",
+    "list2": "Use sunscreen with at least SPF 50 to protect against UV rays.",
+    "list3": "Not using sunscreen may cause serious health issues."
   }
+}
+
 }
