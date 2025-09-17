@@ -22,6 +22,7 @@
   "deluxe":"Deluxe Room",
    "family":"Family Room",
     "fantasy":"Fantasy Room",
+    "handicap": "Disable Room",
     "spor":"Spor"
 
 },
@@ -425,6 +426,67 @@
         "buttonText":" LEARN MORE"
        
       }
+  },
+
+  "HandicapRoom": {
+    "title": "Accessible Room",
+    "subtitle": "Comfortable accommodation designed to meet accessibility standards",
+    "span1": "Step-free entrance",
+    "span2": "Roll-in shower with grab bars",
+    "span3": "Spacious maneuvering area",
+
+    "RoomFeatures": {
+      "title": "Room Features",
+      "subtitle": "Accessibility",
+      "text": "Our room is optimized for wheelchair users and guests with limited mobility.",
+      "subtitle2": "Accessible Bathroom",
+      "subtitle3": "Safety and Comfort",
+      "text2": "Equipped with visual/audible alarms and an emergency call system.",
+      "span1": "Wheelchair access",
+      "span2": "Low-level sockets and switches",
+      "sofa": "Sofa bed available on request",
+      "feature1": "Wide doors (≥90 cm), step-free access",
+      "feature2": "Roll-in (step-free) shower",
+      "feature3": "Grab bars in shower and toilet",
+      "feature4": "Lowered sink, counters, and sockets",
+      "feature5": "Emergency pull cord in bathroom",
+      "feature6": "Visual/audible alarm system",
+      "feature7": "Bed transfer space",
+      "feature8": "Completely step-free circulation",
+      "feature9": "Close to accessible parking",
+      "feature10": "Ample space for wheelchair maneuvering",
+      "feature11": "Balcony/terrace with low threshold (if available)"
+    },
+
+    "BackgroundSection": {
+      "title": "Comfort and Independence",
+      "subtitle": "Accessible design in every detail",
+      "text": "From door widths to furniture layout, every detail has been considered for a safe and independent stay."
+    },
+
+    "RoomTour": {
+      "span": "360° Room Tour",
+      "title": "Explore the Room",
+      "text": "Discover all the details of our accessible room with a 360° virtual tour.",
+      "span2": "Bathroom Tour",
+      "title2": "Accessible Bathroom",
+      "text2": "Take a closer look at the roll-in shower and grab bars.",
+      "span3": "Hallway Tour",
+      "title3": "Accessible Routes",
+      "text3": "View access to the elevator and corridors."
+    },
+
+    "OtherOptions": {
+      "subtitle": "Other Options",
+      "title1": "Family Room",
+      "area1": "45 m²",
+      "person1": "4 guests",
+      "text1": "Spacious layout for families.",
+      "title2": "Fantasy Room",
+      "area2": "35 m²",
+      "person2": "2 guests",
+      "text2": "A unique and thematic experience."
+    }
   },
 
   "BeachPools":{

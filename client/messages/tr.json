@@ -22,6 +22,7 @@
     "deluxe": "Deluxe Oda",
     "family": "Aile Odası",
     "fantasy": "Fantazi Odası",
+    "handicap": "Engelli Odası",
      "spor":"Spor"
   },
 
@@ -418,6 +419,67 @@
           "buttonText":" DAHA FAZLASINI KEŞFET"
          
         }
+    },
+
+    "HandicapRoom": {
+      "title": "Engelli Dostu Oda",
+      "subtitle": "Erişilebilirlik standartlarına uygun, konforlu konaklama",
+      "span1": "Adım/eşik olmayan giriş",
+      "span2": "Roll-in duş ve tutunma barları",
+      "span3": "Geniş manevra alanı",
+  
+      "RoomFeatures": {
+        "title": "Oda Özellikleri",
+        "subtitle": "Erişilebilirlik",
+        "text": "Odamız tekerlekli sandalye kullanıcıları ve sınırlı hareket kabiliyeti olan misafirler için optimize edilmiştir.",
+        "subtitle2": "Banyoda Erişilebilirlik",
+        "subtitle3": "Güvenlik ve Konfor",
+        "text2": "Görsel/işitsel alarm ve acil çağrı sistemleri mevcuttur.",
+        "span1": "Tekerlekli sandalye erişimi",
+        "span2": "Düşük seviyede anahtar/priz",
+        "sofa": "İsteğe bağlı açılır koltuk",
+        "feature1": "Adım/eşik yok, geniş kapılar (≥90 cm)",
+        "feature2": "Roll-in (engel’siz) duş alanı",
+        "feature3": "Duş ve WC'de tutunma barları",
+        "feature4": "Alçaltılmış lavabo, tezgâh ve prizler",
+        "feature5": "Banyoda acil durum çekme ipi",
+        "feature6": "Görsel/işitsel alarm sistemi",
+        "feature7": "Yatak çevresinde transfer alanı",
+        "feature8": "Tüm odada step-free dolaşım",
+        "feature9": "Engelli park alanına yakın",
+        "feature10": "Tekerlekli sandalye manevra alanı",
+        "feature11": "Düşük eşikli balkon/teras (varsa)"
+      },
+  
+      "BackgroundSection": {
+        "title": "Konfor ve Bağımsızlık",
+        "subtitle": "Detaylarda erişilebilir tasarım",
+        "text": "Kapı genişliklerinden mobilya yerleşimine kadar her detay, bağımsız ve güvenli bir konaklama için düşünülmüştür."
+      },
+  
+      "RoomTour": {
+        "span": "360° Oda Turu",
+        "title": "Odayı Keşfet",
+        "text": "Engelli dostu odanın tüm detaylarını 360° tur ile inceleyin.",
+        "span2": "Banyo Turu",
+        "title2": "Erişilebilir Banyo",
+        "text2": "Roll-in duş ve tutunma barlarını yakından görün.",
+        "span3": "Kat Koridoru",
+        "title3": "Erişilebilir Rotalar",
+        "text3": "Asansör ve koridor erişimini görüntüleyin."
+      },
+  
+      "OtherOptions": {
+        "subtitle": "Diğer Seçenekler",
+        "title1": "Aile Odası",
+        "area1": "45 m²",
+        "person1": "4 kişi",
+        "text1": "Geniş aileler için konforlu düzen.",
+        "title2": "Fantasy Oda",
+        "area2": "35 m²",
+        "person2": "2 kişi",
+        "text2": "Tematik ve sıra dışı deneyim."
+      }
     },
 
     "BeachPools": {

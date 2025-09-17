@@ -268,6 +268,12 @@ export default function Header() {
                   >
                       {t("fantasy")}
                   </Link>
+                  <Link
+                    href="/rooms/handicaproom"
+                    className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase"
+                  >
+                      {t("handicap")}
+                  </Link>
                   
                  
                 </div>

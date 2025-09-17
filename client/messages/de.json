@@ -22,6 +22,7 @@
     "deluxe": "Deluxe Zimmer",
     "family": "Familienzimmer",
     "fantasy": "Fantasy Zimmer",
+    "handicap": "Behindertenzimmer",
      "spor":"Sport"
   },
   "Reservation": {
@@ -415,6 +416,67 @@
         "buttonText":" MEHR ENTDECKEN"
        
       }
+  },
+
+  "HandicapRoom": {
+    "title": "Barrierefreies Zimmer",
+    "subtitle": "Komfortables Wohnen nach Barrierefreiheitsstandards",
+    "span1": "Stufenloser Eingang",
+    "span2": "Bodengleiche Dusche mit Haltegriffen",
+    "span3": "Großzügige Bewegungsflächen",
+
+    "RoomFeatures": {
+      "title": "Zimmerausstattung",
+      "subtitle": "Barrierefreiheit",
+      "text": "Unser Zimmer ist für Rollstuhlnutzer und Gäste mit eingeschränkter Mobilität optimiert.",
+      "subtitle2": "Barrierefreies Bad",
+      "subtitle3": "Sicherheit und Komfort",
+      "text2": "Visuelle/akustische Alarme und Notrufsystem sind vorhanden.",
+      "span1": "Rollstuhlgerechter Zugang",
+      "span2": "Steckdosen und Schalter in niedriger Höhe",
+      "sofa": "Ausziehsofa auf Anfrage",
+      "feature1": "Breite Türen (≥90 cm), keine Stufen",
+      "feature2": "Bodengleiche Dusche (roll-in)",
+      "feature3": "Haltegriffe in Dusche und WC",
+      "feature4": "Abgesenktes Waschbecken, Steckdosen und Ablagen",
+      "feature5": "Notrufleine im Bad",
+      "feature6": "Visuelle/akustische Alarmsysteme",
+      "feature7": "Transferfläche am Bett",
+      "feature8": "Komplett stufenlose Bewegungsflächen",
+      "feature9": "Nahe beim Behindertenparkplatz",
+      "feature10": "Ausreichend Platz für Rollstuhlmanöver",
+      "feature11": "Balkon/Terrasse mit niedriger Schwelle (falls vorhanden)"
+    },
+
+    "BackgroundSection": {
+      "title": "Komfort und Selbstständigkeit",
+      "subtitle": "Barrierefreiheit in jedem Detail",
+      "text": "Von Türbreiten bis zur Möbelanordnung – alles ist für ein sicheres und unabhängiges Wohnen gestaltet."
+    },
+
+    "RoomTour": {
+      "span": "360° Rundgang",
+      "title": "Zimmer entdecken",
+      "text": "Erkunden Sie alle Details des barrierefreien Zimmers in einer 360°-Tour.",
+      "span2": "Badrundgang",
+      "title2": "Barrierefreies Bad",
+      "text2": "Sehen Sie sich die bodengleiche Dusche und Haltegriffe an.",
+      "span3": "Flur und Etage",
+      "title3": "Barrierefreie Wege",
+      "text3": "Sehen Sie den Zugang zum Aufzug und den Fluren."
+    },
+
+    "OtherOptions": {
+      "subtitle": "Weitere Optionen",
+      "title1": "Familienzimmer",
+      "area1": "45 m²",
+      "person1": "4 Personen",
+      "text1": "Komfortable Unterkunft für große Familien.",
+      "title2": "Fantasy-Zimmer",
+      "area2": "35 m²",
+      "person2": "2 Personen",
+      "text2": "Thematisches und außergewöhnliches Erlebnis."
+    }
   },
 
   "BeachPools": {
