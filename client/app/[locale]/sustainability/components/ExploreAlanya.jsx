@@ -17,18 +17,16 @@ import img12 from "../images/alanyamuzesi.jpg"
 import img13 from "../images/syedra-antik.webp"
 import img14 from "../images/portakalplaji.webp"
 import img15 from "../images/suleymaniyecamii.webp"
-import img16 from "../images/dejavubar.jpeg"
-import img17 from "../images/greenbody.webp"
-import img18 from "../images/asiklarmagarasi.jpg"
-import img19 from "../images/benlidere.webp"
-import img20 from "../images/kediparki.jpeg"
+import img16 from "../images/asiklarmagarasi.jpg"
+import img17 from "../images/benlidere.webp"
+import img18 from "../images/kediparki.jpeg"
 
-const resimler = [img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14,img15,img16,img17,img18,img19,img20]
+const resimler = [img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14,img15,img16,img17,img18]
 
 export default function GeziRehberiPage() {
     const t = useTranslations('ExploreAlanya');
 
-  const geziVerileri = Array.from({ length: 20 }, (_, i) => ({
+  const geziVerileri = Array.from({ length: 18 }, (_, i) => ({
   baslik: t(`title${i + 1}`),
   aciklama: t(`description${i + 1}`),
   resim: resimler[i],
