@@ -11,6 +11,7 @@ import people2Img from "./images/dezavantajlisagligipolitik.webp";
 import people3Img from "./images/istismarvetacizpol.webp";
 import qualityImg from "./images/kalitepolitikası.webp";
 import uyumImg from "./images/toplumauyumpolit.webp";
+import entegre from "./images/entegreyonetimsistemleri.png"
 import InfoSection from "./components/InfoSection";
 import PolicySection from "./components/PolicySection";
 import SustainabilityPolicyText from "./components/SustainabilityPolicyText";
@@ -210,6 +211,29 @@ Misafirler ve çalışanlarımızla düzenli plaj temizliği yaparak, plajlarım
 Çeşitli yerel hayır kurumlarına yıllık mali katkılarda bulunuyoruz.
 "
         img={uyumImg}
+      />
+
+      <InfoSection
+        isImageLeft={true}
+        showLink={false}
+        span=""
+        header="ENTEGRE YÖNETİM SİSTEMLERİ POLİTİKAMIZ"
+        text={<>
+        Misafir Şartları, Yasal Şartlar, Kurumsal Gereklilikler ve Standartlarla ilgili <strong className="font-bold"> uygunluk yükümlülüklerine bağlı kalmak, </strong>{" "}
+Yönetim sistemleri proseslerini ve hizmet kalitesini, beklentiler doğrultusunda <strong className="font-bold">sürekli iyileştirmek,
+Gıda güvenliği</strong> standartlarına uygun yiyecek, içecek hazırlamak ve sunmak,
+Hizmetlerimizde  <strong className="font-bold">Çevresel kirliliği önlemek, </strong> iklim değişikliğini azaltmak, biyo çeşitliliği korumak, sürdürebilir kaynak kullanımını desteklemek ve iklim değişikliğini önlemek,
+Misafirlerimizin şikâyet ve taleplerine hızlı çözümler üreterek <strong className="font-bold">memnuniyeti arttırmak,</strong> şikayetlerin tekrarını önleyecek aksiyonlar uygulamak,
+        </>}
+        
+text2={<>
+Hizmet konseptimiz dahilinde Geleneksel Türk konukseverliğini en iyi şekilde sunarak<strong className="font-bold"> misafir beklentilerini yerine getirmek,</strong>
+Tesisimizin çalışanlarımız açısından cazibe merkezi olmasını sağlayarak, <strong className="font-bold">eğitim ve gelişimlerini sağlanmak, </strong>
+İş arkadaşlarımızın çalışma koşullarını <strong className="font-bold">öneri ve beklentilerini değerlendirerek</strong> sürekli iyileştirmek, Tehlikeleri ortadan kaldırarak İSG risklerini azaltarak güvenli ve sağlıklı bir iş ortamı sağlamak, 
+Teknoloji ve dijital dönüşüme önem vererek tesisin, misafirlerin ve paydaşların <strong className="font-bold"> bilgi ve verilerinin güvenliğini sağlamak, </strong>
+Azura Deluxe Ailesi üyelerinin sorumluluğundadır.
+</>}
+        img={entegre}
       />
 
    
