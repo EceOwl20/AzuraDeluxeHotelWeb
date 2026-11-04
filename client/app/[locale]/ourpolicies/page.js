@@ -217,7 +217,7 @@ Misafirler ve çalışanlarımızla düzenli plaj temizliği yaparak, plajlarım
         isImageLeft={true}
         showLink={false}
         span=""
-        header="ENTEGRE YÖNETİM SİSTEMLERİ POLİTİKAMIZ"
+        header="ENTEGRE YÖNETİM SİSTEMLERİ POLİTİKAMIZ "
         text={<>
         Misafir Şartları, Yasal Şartlar, Kurumsal Gereklilikler ve Standartlarla ilgili <strong className="font-bold"> uygunluk yükümlülüklerine bağlı kalmak, </strong>{" "}
 Yönetim sistemleri proseslerini ve hizmet kalitesini, beklentiler doğrultusunda <strong className="font-bold">sürekli iyileştirmek,
@@ -225,7 +225,6 @@ Gıda güvenliği</strong> standartlarına uygun yiyecek, içecek hazırlamak ve
 Hizmetlerimizde  <strong className="font-bold">Çevresel kirliliği önlemek, </strong> iklim değişikliğini azaltmak, biyo çeşitliliği korumak, sürdürebilir kaynak kullanımını desteklemek ve iklim değişikliğini önlemek,
 Misafirlerimizin şikâyet ve taleplerine hızlı çözümler üreterek <strong className="font-bold">memnuniyeti arttırmak,</strong> şikayetlerin tekrarını önleyecek aksiyonlar uygulamak,
         </>}
-        
 text2={<>
 Hizmet konseptimiz dahilinde Geleneksel Türk konukseverliğini en iyi şekilde sunarak<strong className="font-bold"> misafir beklentilerini yerine getirmek,</strong>
 Tesisimizin çalışanlarımız açısından cazibe merkezi olmasını sağlayarak, <strong className="font-bold">eğitim ve gelişimlerini sağlanmak, </strong>
