@@ -9,8 +9,10 @@ import img3 from "../images/certificate2.png"
 import img4 from "../images/ISO9001.png"
 import img5 from "../images/ISO10002.png"
 import img6 from "../images/ISO14001.png"
+import img7 from "../images/certificate3en.png"
+import img8 from "../images/certificate3tr.png"
 
-const images = [img1,img2,img3,img4,img5,img6];
+const images = [img1,img2,img3,img4,img5,img6,img7,img8];
 
 const Certificate = () => {
   const [modalImage, setModalImage] = useState(null) 
